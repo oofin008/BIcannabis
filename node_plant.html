@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cannabis</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+ 
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Prompt|Sarabun&display=swap" rel="stylesheet">
+  <!--Jvector MAP -->
+  <link rel="stylesheet" href="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="plugins/paginationjs/pagination.css" type="text/css" />
+
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark ">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">หน้าแรก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_import.html" class="nav-link">นำเข้ากัญชา</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_plant.html" class="nav-link bg-info">การผลิตปลูก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell3.html" class="nav-link ">จำหน่ายพืช</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell.html?sortselected=SAS" class="nav-link">การจำหน่ายบำบัด</a>
+      </li>
+      
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
+      </li>
+      
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary" >
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-white" style="font-family: 'Sarabun', sans-serif;">การผลิตปลูก</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item">
+                <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: </h3>
+              </li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Main row -->
+        <div class="row">
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+          <section class="col-lg-6">
+            <!--Test Map-->
+            <div class="card bg-gradient-dark">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  ภาพรวม
+                </h3>
+
+                <div class="card-tools">
+                  <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div id ="timeFrameSelect"class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" value="012020" class="dropdown-item">Jan/2020</a>
+                      <a href="#" value="122019" class="dropdown-item">Dec/2019</a>
+                      <a href="#" value="112019"class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" value="102019"class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+          
+              <div class="card-body">
+                <div class="row">
+                  <!--Thai map Vector Div-->
+                  <div class="col-sm-12">
+                    <div id="thaimapjvector" style="height: 775px; width: 100%;"></div>
+                  </div>
+                  <!--./End thai map vector div-->
+                </div>
+              </div>
+            </div>
+            <!--./End Test Map-->
+          </section>
+          <!-- right col -->
+          <section class="col-lg-6">
+            <div class="card bg-gradient-dark">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  พื้นที่ปลูกที่ได้รับอนุญาต
+                </h3>
+              </div>
+              <div class="card-body table-responsive p-0" style="height: 350px; overflow: auto;">
+                <table class="table table-striped table-valign-middle">
+                  <thead>
+                    <tr>
+                      <th>จังหวัดที่ปลูก</th>
+                      <th>สถานที่ปลูก</th>
+                      <th>พื้นที่เพาะปลูก</th>
+                      <th>วิธีการปลูก</th>
+                    </tr>
+                  </thead>
+                  <tbody id="table_body"></tbody>
+                </table>
+              </div>
+              <div id="pagination-container" class="card-footer float-right"></div>
+            </div>
+
+            <div class="card bg-gradient-dark">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  ผลผลิต
+                </h3>
+              </div>
+              <div class="card-body table-responsive" style="height: 350px;">
+                <div class="chart-container">
+                  <canvas id="plant_pieChart"></canvas>
+                </div>
+              </div>
+            </div><!--./END CARD-->
+
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h5 class="card-title">จำหน่ายพืชแยกตามชิ้นส่วน</h5>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      <strong id="paChart_header">ข้อมูลสะสมถึง กุมภาพันธ์ - 2563</strong>
+                    </p>
+
+                    <div class="chart">
+                      <!-- Sales Chart Canvas -->
+                      <canvas id="plant_lineChart" style="height: 500px;"></canvas>
+                    </div>
+                    <!-- /.chart-responsive -->
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- ./card-body -->
+            </div>
+            <!-- /.card -->
+          </section>
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+
+
+  <footer class="main-footer">
+    อ้างอิงจากไฟล์ ข้อมูลรายงานกัญชา_4_มี.ค.63 rev2
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- Jvector Map javascript-->
+<script src="plugins/jquery/jquery.js"></script>
+<script src="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="./dist/js/jquery-javectormap-th_mill.js"></script>
+<script src="plugins/paginationjs/pagination.min.js"></script>
+<script src="plugins/paginationjs/pagination.js"></script>
+
+
+<script>
+  $(function(){
+    //Document Ready
+    let myDate = new Date();
+    month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+    document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+
+    //cannibisFake should get data from API
+    //This is for mockup purpose
+    cannabisFake = {
+      "TH-37": 0,
+      "TH-15": 0,
+      "TH-10": 36,
+      "TH-38": 0,
+      "TH-31": 8,
+      "TH-24": 0,
+      "TH-18": 0,
+      "TH-36": 0,
+      "TH-22": 0,
+      "TH-50": 0,
+      "TH-57": 0,
+      "TH-20": 0,
+      "TH-86": 0,
+      "TH-46": 0,
+      "TH-62": 0,
+      "TH-71": 0,
+      "TH-40": 0,
+      "TH-81": 0,
+      "TH-52": 7,
+      "TH-51": 0,
+      "TH-42": 0,
+      "TH-16": 0,
+      "TH-58": 28,
+      "TH-44": 21,
+      "TH-49": 0,
+      "TH-26": 0,
+      "TH-73": 0,
+      "TH-48": 0,
+      "TH-30": 0,
+      "TH-60": 0,
+      "TH-80": 0,
+      "TH-55": 0,
+      "TH-96": 0,
+      "TH-39": 0,
+      "TH-43": 0,
+      "TH-12": 0,
+      "TH-13": 39,
+      "TH-94": 0,
+      "TH-82": 0,
+      "TH-93": 0,
+      "TH-56": 0,
+      "TH-67": 0,
+      "TH-76": 0,
+      "TH-66": 0,
+      "TH-65": 0,
+      "TH-14": 0,
+      "TH-54": 0,
+      "TH-83": 0,
+      "TH-25": 13,
+      "TH-77": 0,
+      "TH-85": 0,
+      "TH-70": 0,
+      "TH-21": 0,
+      "TH-45": 0,
+      "TH-27": 0,
+      "TH-47": 23,
+      "TH-11": 0,
+      "TH-74": 0,
+      "TH-75": 0,
+      "TH-19": 0,
+      "TH-91": 0,
+      "TH-33": 0,
+      "TH-17": 0,
+      "TH-90": 0,
+      "TH-64": 0,
+      "TH-72": 0,
+      "TH-84": 0,
+      "TH-32": 0,
+      "TH-63": 0,
+      "TH-92": 0,
+      "TH-23": 0,
+      "TH-34": 0,
+      "TH-41": 0,
+      "TH-61": 0,
+      "TH-53": 0,
+      "TH-95": 0,
+      "TH-35": 0
+    }
+    //-------------
+    //- DONUT CHART -
+    //-------------
+    // Get context with jQuery - using jQuery's .get() method.
+    var donutChartCanvas = $('#plant_pieChart').get(0).getContext('2d')
+      var donutData        = {
+        labels: [
+            'gap', 
+            'Green House ลงดิน',
+            'Green House ไฮโดรโปรนิกส์', 
+            'กลางแจ้ง', 
+            'ปลูกในกระถาง', 
+            'ปลูกลงดิน',
+            'ปักชำ',
+            'ระบบน้ำ',
+            'รากลอย',
+            'โรงเรือนแบบปิด',
+            'วัสดุปลูก', 
+        ],
+        datasets: [
+          {
+            data: [100,160,160,240,35.2,601,26.4,15,229.81,85,26.6],
+            backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#F9690E','#26A65B','#5D8CAE','#89729E','#8F1D21','#d2d6de', ],
+          }
+        ]
+      }
+      var donutOptions     = {
+        legend: {
+          display: true,
+          responsive: true,
+          position: 'right',
+          labels: {
+            fontColor: "#faf7f7",
+          }
+        }
+      }
+      //Create pie or douhnut chart
+      // You can switch between pie and douhnut using the method below.
+      var donutChart = new Chart(donutChartCanvas, {
+        type: 'pie',
+        data: donutData,
+        options: donutOptions      
+      })
+
+    //-----------------
+    //- END DONUT CHART -
+    //-----------------
+
+    //GET JSON data
+    var plant_data;
+    var total_plantArea = 0;
+    $.getJSON('./dist/js/jsondata/plantData.json', function(data){
+      console.log(data.Sheet1[0]);
+      plant_data = data.Sheet1;
+      $.each(data.Sheet1, function(index, value){
+        total_plantArea += (value.PLANT_AREA? parseFloat(value.PLANT_AREA): 0);
+      })
+      console.log('total plant area:' + total_plantArea);
+      $("#pagination-container").pagination({
+        dataSource: data.Sheet1,
+        pageSize: 10,
+        ulClassName: "pagination float-right",
+        callback: function(data, pagination){
+          var html = simpleTemplating(data, "all");
+          $("#table_body").html(html);
+        }
+      })
+    });
+
+    function simpleTemplating(data, sort_sel){
+      var html ="";
+      $.each(data, function(index, item){
+        html += "<tr>";
+        html += "<td>" + item["จังหวัด"] + "</td>";
+        html += "<td>" + item.NAMEPLACE + "</td>";
+        html += "<td>" + (item.PLANT_AREA? parseFloat(item.PLANT_AREA).toFixed(2): 0) + " ตร.ม. </td>";
+        html += "<td>" + (item.PLANT_METHOD? item.PLANT_METHOD: "ไม่ระบุ") + "</td>";
+        html += "</tr>";
+      })
+      return html;
+    }
+
+    //build new map to display overall data
+    var palette = ['#66C2A5', '#FC8D62', '#8DA0CB', '#E78AC3', '#A6D854'];
+    map = new jvm.Map({
+      map: 'th_mill',
+      backgroundColor: '',
+      container: $('#thaimapjvector'),
+      regionsSelectable: false,
+      zoomOnScroll: false,
+      series: {
+        regions: [{
+          values: cannabisFake,
+          scale: ['#ffffff', '#004d1a'],
+          normalizeFunction: 'linear',
+          attribute: 'fill',
+          legend: {
+            vertical: true,
+            title: 'Color'
+          }
+        }]
+      },
+      onRegionTipShow: function(e, el, code){
+        el.html(el.html()+' (จำนวนสถานที่ปลูก - ' + cannabisFake[code]+ ' แห่ง.)');
+      },
+      onRegionClick: function(event, code){
+        console.log(code);
+
+        $("#pagination-container").pagination({
+          dataSource: plant_data,
+          pageSize: 10,
+          ulClassName: "pagination float-right",
+          callback: function(data, pagination){
+            var html = simpleTemplating(data, "all");
+            $("#table_body").html(html);
+          }
+        });
+        return 0;
+      }
+    });
+
+    //Test Select time frame
+    $('#timeFrameSelect a').click(function(){
+      var select_opt= $(this).attr("value");
+      //console.log(select_opt);
+      if(select_opt == "012020"){
+        //map.series.regions[0].setScale(['#ffffff', '#009933'])//green
+        randomJson(cannabisFake);
+        map.series.regions[0].setValues(cannabisFake);        
+        console.log(cannabisFake);
+      }
+      if(select_opt == "122019"){
+        //map.series.regions[0].setScale(['#f9ecf2', '#73264d'])//purple
+        randomJson(cannabisFake);
+        map.series.regions[0].setValues(cannabisFake);        
+        console.log(cannabisFake);
+      }
+      if(select_opt == "112019"){
+        //map.series.regions[0].setScale(['#ffffcc', '#cccc00'])//yellow 
+        randomJson(cannabisFake);
+        map.series.regions[0].setValues(cannabisFake);        
+        console.log(cannabisFake);
+      }
+      if(select_opt == "102019"){
+        //map.series.regions[0].setScale(['#ffb3b3','#990000'])//red
+        randomJson(cannabisFake);
+        map.series.regions[0].setValues(cannabisFake);        
+        console.log(cannabisFake);
+      }
+    });
+
+    function randomJson(inputObj){
+      const objkey = Object.keys(cannabisFake);
+      for (const key of objkey) {
+        inputObj[key] = Math.floor(Math.random() * (300 - 1)) + 1; 
+      }
+    }
+    var tickStyle = {
+      fontColor: 'white',
+      fontStyle: 'bold'
+    }
+    var mode = 'index';
+    var intersect = false;
+    var lineChartOptions = {
+      maintainAspectRatio: false,
+      responsive: true,
+      legend: {
+        display: false,
+        labels: {
+          fontColor: "white",
+        }
+      },
+      tooltips: {
+        mode: 'index',
+        intersect: false
+      },
+      hover: {
+        mode: 'nearest',
+        intersect: true
+      },
+      scales:{
+        yAxes: [{
+          display: true,
+          scaleLabel:{
+            display: true,
+            labelString: 'จำนวน',
+            fontColor: 'white',
+          },
+          gridLines: {
+            display: true,
+            lineWidth: '4px',
+            color: 'rgba(0,0,0,0.2)',
+            zeroLineColor: 'transparent'
+          },
+          ticks: $.extend({
+            beginAtZero: true,
+
+          }, tickStyle)
+        }],
+        xAxes: [{
+          display: true,
+          scaleLabel:{
+            display: true,
+            labelString: 'เดือน',
+            fontColor: 'white'
+          },
+          gridLines: {
+            display: false
+          },
+          ticks: tickStyle
+        }]
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, barChartData){
+            var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+            if (label){
+              label += ': ';
+            }
+            label += Math.round(tooltipItem.yLabel * 100) / 100;
+            label += ' unit';
+            return label;
+          }
+        }
+      }
+    }
+    var sell3_chart_canvas = $('#plant_lineChart').get(0).getContext('2d');
+  
+    var sell3_chart_data = {
+      labels: ['ธันวาคม 2652','มกราคม 2563','กุมภาพันธ์ 2563'],
+      datasets:[
+        {
+          label: 'กัญชาสด',
+          fill: false,
+          lineTension: 0,
+          data: [39468,83098,20],
+          backgroundColor : '#f39c12',
+          borderColor: '#f39c12',
+        },
+        {
+          label: 'กัญชาแห้ง',
+          fill: false,
+          lineTension: 0,
+          data: [9380,20310,4],
+          backgroundColor : '#00c0ef',
+          borderColor: '#00c0ef',
+        },
+      ]
+    }
+
+    var sell3_chart = new Chart(sell3_chart_canvas,{
+      type: 'line',
+      data: sell3_chart_data,
+      options:lineChartOptions
+    })
+  })
+</script>
+</body>
+</html>

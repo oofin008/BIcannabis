@@ -1,0 +1,3412 @@
+﻿{
+    "Sheet1": [
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00000101-GAA00000415",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลระยอง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00000416-GAA00000730",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลราชบุรี "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00000731-GAA00001045",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลสวรรค์ประชารักษ์ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00001046-GAA00001360",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลหาดใหญ่ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00001361-GAA00001675",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลสรรพสิทธิประสงค์ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00001676-GAA00001990",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลบุรีรัมย์ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00001991-GAA00002305",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00002306-GAA00002620",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลอุดรธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00002621-GAA00002935",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลขอนแก่น "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00002936-GAA00003250",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลสระบุรี "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003251-GAA00003565",
+            "quantity": "315",
+            "hospital_name": "โรงพยาบาลลำปาง "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003566-GAA00003586",
+            "quantity": "21",
+            "hospital_name": "โรงพยาบาลสุราษฎร์ธานี  "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003592-GAA00003596",
+            "quantity": "5",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003597-GAA00003606",
+            "quantity": "10",
+            "hospital_name": "กวีคลินิคเวชกรรม กทม."
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003607-GAA00003611",
+            "quantity": "5",
+            "hospital_name": "โรงพยาบาลพหลพลพยุหเสนา "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003612-GAA00003628",
+            "quantity": "17",
+            "hospital_name": "โรงพยาบาลพระจอมเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003629-GAA00003631",
+            "quantity": "3",
+            "hospital_name": "โรงพยาบาลพระจอมเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003632-GAA00003651",
+            "quantity": "20",
+            "hospital_name": "โรงพยาบาลสตูล"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003652-GAA00003653",
+            "quantity": "2",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003654-GAA00003656",
+            "quantity": "3",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003657-GAA00003659",
+            "quantity": "3",
+            "hospital_name": "โรงพยาบาลศีขรภูมิ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003660-GAA00003663",
+            "quantity": "4",
+            "hospital_name": "โรงพยาบาลทั่วไปขนาดใหญ่จุฬารัตน์ 3 อินเตอร์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003664-GAA00003665",
+            "quantity": "2",
+            "hospital_name": "โรงพยาบาลศีขรภูมิ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003666",
+            "quantity": "1",
+            "hospital_name": "โรงพยาบาลมะการักษ์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003667-GAA00003670",
+            "quantity": "4",
+            "hospital_name": "โรงพยาบาลทั่วไปขนาดใหญ่จุฬารัตน์ 3 อินเตอร์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003671-GAA00003674",
+            "quantity": "4",
+            "hospital_name": "โรงพยาบาลมะการักษ์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003713-GAA00003754",
+            "quantity": "42",
+            "hospital_name": "โรงพยาบาลทั่วไปขนาดใหญ่จุฬารัตน์ 3 อินเตอร์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00004091-GAA00004216",
+            "quantity": "126",
+            "hospital_name": "โรงพยาบาลสุราษฎร์ธานี  "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00004259-GAA00004426",
+            "quantity": "168",
+            "hospital_name": "โรงพยาบาลสุราษฎร์ธานี  "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003696-GAA00003705",
+            "quantity": "10",
+            "hospital_name": "โรงพยาบาลปากช่องนานา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003706-GAA00003712",
+            "quantity": "7",
+            "hospital_name": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003839-GAA00003881",
+            "quantity": "43",
+            "hospital_name": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003882-GAA00003921",
+            "quantity": "40",
+            "hospital_name": "โรงพยาบาลสกลนคร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003922-GAA00003924",
+            "quantity": "3",
+            "hospital_name": "โรงพยาบาลชัยภูมิ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003925-GAA00003929",
+            "quantity": "5",
+            "hospital_name": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโข"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620029",
+            "serial_number": "GAA00003930-GAA00003949",
+            "quantity": "20",
+            "hospital_name": "บริษัท ออรีจีน เซ็นเตอร์ แคร์ จำกัด"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010001-GAA00010010",
+            "quantity": "10",
+            "hospital_name": "โรงพยาบาลพัทลุง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010011",
+            "quantity": "1",
+            "hospital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010012-GAA00010021",
+            "quantity": "10",
+            "hospital_name": "บริษัท ออรีจีน เซ็นเตอร์ แคร์ จำกัด "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010022-GAA00010023",
+            "quantity": "2",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010024-GAA00010040",
+            "quantity": "17",
+            "hospital_name": "โรงพยาบาลมะเร็งอุบลราชธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010041-GAA00010043",
+            "quantity": "3",
+            "hospital_name": "สวัสดีคลินิกเวชกรรม"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010044-GAA00010053",
+            "quantity": "10",
+            "hospital_name": "โรงพยาบาลพหลพลพยุหเสนา "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010054-GAA00010252",
+            "quantity": "199",
+            "hospital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010253-GAA00010265",
+            "quantity": "13",
+            "hospital_name": "โรงพยาบาลมะเร็งอุบลราชธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010266-GAA00010267",
+            "quantity": "2",
+            "hospital_name": "เดอะริชสหคลินิก"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010268-GAA00010272",
+            "quantity": "5",
+            "hospital_name": "คณิตาคลินิกเวชกรรม"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00010273-GAA00010302",
+            "quantity": "30",
+            "hospital_name": "โรงพยาบาลหนองคาย"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC",
+            "lot_number": "R620034",
+            "serial_number": "GAA00013361-GAA00013370",
+            "quantity": "10",
+            "hospital_name": "โรงพยาบาลพัทลุง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000001-GAC00000028",
+            "quantity": " 28 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000029-GAC00000058",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลมะเร็งลำปาง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000059-GAC00000088",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลมะเร็งชลบุรี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000089-GAC00000118",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลมะเร็งอุบลราชธานี "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000119-GAC00000141 ",
+            "quantity": " 23 ",
+            "hospital_name": "โรงพยาบาลมะเร็งลพบุรี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000143-GAC00000149",
+            "quantity": " 7 ",
+            "hospital_name": "โรงพยาบาลมะเร็งลพบุรี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000150-GAC00000159",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลมะเร็งสุราษฏร์ธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000160-GAC00000189",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลมหาวชิราลงกรณธัญบุรี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000190-GAC00000219",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลราชวิถี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000220-GAC00000259",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลประสาทเชียงใหม่"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000260-GAC00000293",
+            "quantity": " 34 ",
+            "hospital_name": "โรงพยาบาลเลิดสิน"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000294-GAC00000318 ",
+            "quantity": " 25 ",
+            "hospital_name": "โรงพยาบาล นพรัตนราชธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000319-GAC00000328",
+            "quantity": " 10 ",
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000329-GAC00000358",
+            "quantity": " 30 ",
+            "hospital_name": "สถาบันโรคผิวหนัง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000359-GAC00000378",
+            "quantity": " 20 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000379-GAC00000380",
+            "quantity": " 2 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000381",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000382-GAC00000383",
+            "quantity": " 2 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000384",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000385-GAC00000387",
+            "quantity": " 3 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000388-GAC00000389",
+            "quantity": " 2 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000390-GAC00000392",
+            "quantity": " 3 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000393",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000394-GAC00000399",
+            "quantity": " 6 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000400",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000401",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000402",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000403-GAC00000406",
+            "quantity": " 4 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000407",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000408-GAC00000409",
+            "quantity": " 2 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000410",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000411-GAC00000413",
+            "quantity": " 3 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000414-GAC00000416",
+            "quantity": " 3 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000417-GAC00000420",
+            "quantity": " 4 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000421 - GAC00000438",
+            "quantity": " 18 ",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000439 - GAC00000443",
+            "quantity": " 5 ",
+            "hospital_name": "สถาบันบำราศนราดูร "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000444 - GAC00000453",
+            "quantity": " 10 ",
+            "hospital_name": "กวีคลินิคเวชกรรม กทม."
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000454 - GAC00000462 ",
+            "quantity": " 9 ",
+            "hospital_name": "โรงพยาบาลพระจอมเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000463 - GAC00000473 ",
+            "quantity": " 11 ",
+            "hospital_name": "โรงพยาบาลพระจอมเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000474 - GAC00000504",
+            "quantity": " 31 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000505 - GAC00000630",
+            "quantity": " 126 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000631 - GAC00000649",
+            "quantity": " 19 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000651 - GAC00000672",
+            "quantity": " 22 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000673 - GAC00000966",
+            "quantity": " 294 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000967 - GAC00000973",
+            "quantity": " 7 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00000974 - GAC00001005",
+            "quantity": " 32 ",
+            "hospital_name": "โรงพยาบาลสวรรค์ประชารักษ์ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001006 - GAC00001008",
+            "quantity": " 3 ",
+            "hospital_name": "โรงพยาบาลสตูล"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001009 - GAC00001176",
+            "quantity": " 168 ",
+            "hospital_name": "โรงพยาบาลสวรรค์ประชารักษ์ "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001177 - GAC00001193",
+            "quantity": " 17 ",
+            "hospital_name": "โรงพยาบาลสตูล"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001194 - GAC00001203",
+            "quantity": " 10 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001204 - GAC00001205",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001206 - GAC00001210",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลพิจิตร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001211 - GAC00001215",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001216 - GAC00001225",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลราชบุรี "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001226 - GAC00001230",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลศีขรภูมิ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001231 - GAC00001260",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลหนองคาย"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001261 - GAC00001270",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลมะการักษ์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001271 - GAC00001280",
+            "quantity": " 10 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001281 - GAC00001290",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001291 - GAC00001310",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลราชบุรี "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001311 - GAC00001314",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชหล่มเก่า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00002395 - GAC00002408",
+            "quantity": " 14 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00002414 - GAC00002425",
+            "quantity": " 12 ",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00002584",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00002585",
+            "quantity": " 1 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001327 - GAC00001331",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001332 - GAC00001351",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลสงฆ์ กรมการแพทย์"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001352 - GAC00001371",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001372 - GAC00001386",
+            "quantity": " 15 ",
+            "hospital_name": "โรงพยาบาลสกลนคร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001387 - GAC00001428",
+            "quantity": " 42 ",
+            "hospital_name": "โรงพยาบาลสกลนคร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001429 - GAC00001431",
+            "quantity": " 3 ",
+            "hospital_name": "โรงพยาบาลสกลนคร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001432 - GAC00001441",
+            "quantity": " 10 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001442 - GAC00001444",
+            "quantity": " 3 ",
+            "hospital_name": "โรงพยาบาลชัยภูมิ"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001445-GAC00001454",
+            "quantity": " 10 ",
+            "hospital_name": "กวีคลินิคเวชกรรม กทม."
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001455-GAC00001474",
+            "quantity": " 20 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001475-GAC00001479",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโข"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001480-GAC00001499",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001500-GAC00001509",
+            "quantity": " 10 ",
+            "hospital_name": "บริษัท ออรีจีน เซ็นเตอร์ แคร์ จำกัด"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001510-GAC00001549",
+            "quantity": " 40 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001550-GAC00001554",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลพัทลุง"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001555-GAC00001584",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลวชิระภูเก็ต"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001585-GAC00001594",
+            "quantity": " 10 ",
+            "hospital_name": "สวัสดีคลินิกเวชกรรม"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001595-GAC00001604",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลพหลพลพยุหเสนา "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001605-GAC00001634",
+            "quantity": " 30 ",
+            "hospital_name": "บริษัท ออรีจีน เซ็นเตอร์ แคร์ จำกัด"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001635-GAC00001644",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลพังงา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001645-GAC00001660",
+            "quantity": " 16 ",
+            "hospital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001661-GAC00001680",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยายมราช"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001681-GAC00001764",
+            "quantity": " 84 ",
+            "hospital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001765-GAC00001774",
+            "quantity": " 10 ",
+            "hospital_name": "บริษัท ออรีจีน เซ็นเตอร์ แคร์ จำกัด"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001775-GAC00001794",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001795-GAC00001802",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลมะเร็งอุบลราชธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001803-GAC00001804",
+            "quantity": " 2 ",
+            "hospital_name": "เดอะริชสหคลินิก"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001805-GAC00001806",
+            "quantity": " 2 ",
+            "hospital_name": "คณิตาคลินิกเวชกรรม"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001807-GAC00001848",
+            "quantity": " 42 ",
+            "hospital_name": "โรงพยาบาลมะเร็งอุบลราชธานี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001849-GAC00001876",
+            "quantity": " 28 ",
+            "hospital_name": "คณิตาคลินิกเวชกรรม"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001877-GAC00001886",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลลำปาง "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001887-GAC00001891",
+            "quantity": " 5 ",
+            "hospital_name": "โรงพยาบาลพระพุทธบาท"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001892",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลดอนตาล"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001893-GAC00001932",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO THC:CBD",
+            "lot_number": "R620032",
+            "serial_number": "GAC00001933-GAC00001936",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลดอนตาล"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620030",
+            "serial_number": " GAD00000601 - GAD00000605 ",
+            "quantity": " 5 ",
+            "hospital_name": "สถาบันบำราศนราดูร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620030",
+            "serial_number": " GAD00000606 - GAD00000607 ",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลพิจิตร"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620030",
+            "serial_number": " GAD00000632 - GAD00000634 ",
+            "quantity": " 3 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620030",
+            "serial_number": " GAD00000635 - GAD00000644 ",
+            "quantity": " 10 ",
+            "hospital_name": "โรงพยาบาลหนองคาย"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620030",
+            "serial_number": " GAD00000650  ",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลกล้วยน้ำไท จำกัด(สำนักงาน)"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000101 - GAD0000228 ",
+            "quantity": " 128 ",
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000229 - GAD0000258 ",
+            "quantity": " 30 ",
+            "hospital_name": "โรงพยาบาลพุทธชินราช "
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000259 - GAD0000266 ",
+            "quantity": " 8 ",
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000267 - GAD0000268 ",
+            "quantity": " 2 ",
+            "hospital_name": "กวีคลินิคเวชกรรม กทม."
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000269 - GAD0000280 ",
+            "quantity": " 12 ",
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000281 - GAD0000310 ",
+            "quantity": " 30 ",
+            "hospital_name": "สถาบันประสาทวิทยา"
+        },
+        {
+            "ผู้ผลิต": "องค์การเภสัช",
+            "ตำรับ": "GPO CBD",
+            "lot_number": "R620036",
+            "serial_number": " GAD0000311 - GAD0000332 ",
+            "quantity": " 22 ",
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000019 - AAA000022",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA0023 - AAA0024",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000025 - AAA000030",
+            "quantity": " 6 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000031 - AAA000032",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000033",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000034",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000035",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000036",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000037",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลน่าน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000038 - AAA000039",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลนครนายก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000043 - AAA000046",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000048",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000050 - AAA000053",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000055",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000057 - AAA000078",
+            "quantity": " 22 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000079 - AAA000086",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลน่าน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000087 - AAA000090",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000091 - AAA000162",
+            "quantity": " 72 ",
+            "hospital_name": "โรงพยาบาลน่าน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000163 - AAA000164",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000167 - AAA000170",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000173",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000175 - AAA000183",
+            "quantity": " 9 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000184 - AAA000187",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000188 - AAA000207",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000208 - AAA000281",
+            "quantity": " 74 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000283 - AAA000285",
+            "quantity": " 3 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000287 - AAA000288",
+            "quantity": " 2 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000290 - AAA000296",
+            "quantity": " 7 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000298 - AAA000322",
+            "quantity": " 25 ",
+            "hospital_name": "โรงพยาบาลแพร่ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000323 - AAA000402",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลลำพูน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000403 - AAA000410",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000412 - AAA000496",
+            "quantity": " 85 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000498 - AAA000522",
+            "quantity": " 25 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000523 - AAA000540",
+            "quantity": " 18 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000542 - AAA000642",
+            "quantity": " 101 ",
+            "hospital_name": "โรงพยาบาลเชียงรายประชานุเคราะห์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000643 - AAA000762",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมุทรปราการ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000763 - AAA000802",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลแกลง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000803 - AAA000882",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลบางพลี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000883 - AAA000962",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลเฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารี ระยอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA000963 - AAA001002",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลแกลง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001003 - AAA001122",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบางละมุง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001123 - AAA001160",
+            "quantity": " 38 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001162 - AAA001188",
+            "quantity": " 27 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001189",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001190 - AAA001196",
+            "quantity": " 7 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001197",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001198 - AAA001203",
+            "quantity": " 6 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001204 - AAA001212",
+            "quantity": " 9 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001213",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001214 - AAA001217",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001218",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลปทุมธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001219 - AAA001242",
+            "quantity": " 24 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001243 - AAA001362",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารี ระยอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001363 - AAA001482",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพุทธโสธร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001483 - AAA001602",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชสระแก้ว "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001603 - AAA001662",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลสมุทรปราการ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001663 - AAA001722",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลพระปกเกล้า "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001723 - AAA001842",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบางละมุง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001843 - AAA001962",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพระปกเกล้า "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA001963 - AAA002082",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลตราด "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002083 - AAA002113",
+            "quantity": " 31 ",
+            "hospital_name": "โรงพยาบาลแพร่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002115 - AAA002202",
+            "quantity": " 88 ",
+            "hospital_name": "โรงพยาบาลแพร่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002203-AAA002242",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002243-AAA002262",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลสุรินทร์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002263 - AAA002322",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลตราด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002323-AAA002402",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลพระนครศรีอยุธยา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002403-AAA002442",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลสุรินทร์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002443 - AAA002562",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลแกลง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002563 - AAA002645",
+            "quantity": " 83 ",
+            "hospital_name": "โรงพยาบาลน่าน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002647-AAA002682",
+            "quantity": " 36 ",
+            "hospital_name": "โรงพยาบาลน่าน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002683 - AAA002802",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพุทธโสธร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002803 - AAA002862",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลบางละมุง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002863 - AAA002922",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลชลบุรี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA002923 - AAA003042",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมุทรปราการ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003043 - AAA003162",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพระปกเกล้า "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003163 - AAA003246",
+            "quantity": " 84 ",
+            "hospital_name": "โรงพยาบาลนครนายก "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003249 - AAA003282",
+            "quantity": " 34 ",
+            "hospital_name": "โรงพยาบาลนครนายก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003283 - AAA003402",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยาอภัยภูเบศร (จ่ายเพื่อขายเอง)"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003403 - AAA003462",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลพุทธโสธร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003463 - AAA003522",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชสระแก้ว"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003523 - AAA003642",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชลบุรี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003643 - AAA003762",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชสระแก้ว "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003763 - AAA003882",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลตราด "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003883-AAA003962",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลมหาสารคาม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA003963-AAA004002",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA004003 - AAA004122",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบางพลี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA004123 - AAA004242",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชลบุรี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119001",
+            "serial_number": "AAA004243 - AAA004295",
+            "quantity": " 53 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยาอภัยภูเบศร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005909 - AAA006028",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลตรัง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006149 - AAA006268",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลวชิระภูเก็ต"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006989 - AAA007108",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมุทรสาคร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007829 - AAA007900",
+            "quantity": " 72 ",
+            "hospital_name": "โรงพยาบาลวชิระภูเก็ต"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007901 - AAA007904",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลระนอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007905 - AAA007912",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลวชิระภูเก็ต"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007913 - AAA007948",
+            "quantity": " 36 ",
+            "hospital_name": "โรงพยาบาลระนอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008429 - AAA008508",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสมุทรสาคร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009629 - AAA009748",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลระนอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011309 - AAA011344",
+            "quantity": " 36 ",
+            "hospital_name": "โรงพยาบาลระนอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011345 - AAA011352",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลตรัง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011353 - AAA011356",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลระนอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011357 - AAA011428",
+            "quantity": " 72 ",
+            "hospital_name": "โรงพยาบาลตรัง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018629 - AAA018748",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพิจิตร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018869 - AAA018988",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชัยนาทนเรนทร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019109 - AAA019188",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลยโสธร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019189 - AAA019228",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลมุกดาหาร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019589 - AAA019668",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลแม่สอด "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019669 - AAA019708",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเพชรบูรณ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020429 - AAA020548",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเพชรบูรณ์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020789 - AAA020908",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลมุกดาหาร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021149 - AAA021220",
+            "quantity": " 72 ",
+            "hospital_name": "โรงพยาบาลอุทัยธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021221 - AAA021224",
+            "quantity": " 4 ",
+            "hospital_name": "โรงพยาบาลพิจิตร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021225 - AAA021232",
+            "quantity": " 8 ",
+            "hospital_name": "โรงพยาบาลอุทัยธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021233 - AAA021308",
+            "quantity": " 76 ",
+            "hospital_name": "โรงพยาบาลพิจิตร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021309 - AAA021388",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลอ่างทอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021509 - AAA021628",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลอ่างทอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021869 - AAA021988",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลแม่สอด "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021989 - AAA022108",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลยโสธร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022469-AAA022588",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลอุทัยธานี "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022709 - AAA022748",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเพชรบูรณ์ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022749 - AAA022828",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลชัยนาทนเรนทร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022829 - AAA022948",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลลำพูน "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA023309-AAA023428",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลศรีสะเกษ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA023549 - AAA023588",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลมุกดาหาร "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA023589 - AAA023668",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลศรีสะเกษ "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005189 - AAA005228",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเชียงคำ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005229-AAA005308",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลอุตรดิตถ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005309-AAA005428",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลโพธาราม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005429-AAA005508",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลปะคำ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005509-AAA005548",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลชำนิ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005549-AAA005588",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลพุทไธสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005589-AAA005647",
+            "quantity": " 59 ",
+            "hospital_name": "โรงพยาบาลหนองกี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005649-AAA005668",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลหนองกี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA005669-AAA005788",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบ้านกรวด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006029 - AAA006148",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลมหาสารคาม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006269-AAA006388",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลลำปลายมาศ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006389-AAA006508",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลประโคนชัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006749-AAA006788",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลชำนิ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006789-AAA006868",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลบ้านใหม่ไชยพจน์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA006869-AAA006988",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลศรีสังวรสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007109-AAA007228",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพระนครศรีอยุธยา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007229 - AAA007348",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเชียงคำ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007349-AAA007468",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลละหานทราย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007469-AAA007588",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพลับพลาชัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007589-AAA007708",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลนาโพธิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA007949-AAA008068",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008069-AAA008188",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลแคนดง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008189-AAA008268",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสตึก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008269-AAA008308",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารี ระยอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008309-AAA008348",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลห้วยราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008349-AAA008428",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลละหานทราย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008509-AAA008548",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลดงเจริญ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008549-AAA008568",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลสุรินทร์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008569-AAA008628",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลปราสาท"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008630-AAA008648",
+            "quantity": " 19 ",
+            "hospital_name": "โรงพยาบาลปราสาท"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA008909-AAA009028",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารี ระยอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009149-AAA009228",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลนางรอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009229-AAA009268",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลประโคนชัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009269-AAA009388",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลโนนสุวรรณ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009389-AAA009428",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลประโคนชัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009429-AAA009508",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลลำปลายมาศ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009509-AAA009628",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลนครพิงค์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009869-AAA009948",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลหนองหงส์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009949-AAA009988",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลห้วยราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA009989-AAA010068",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระพุทธเลิศหล้า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010069-AAA010108",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลโพธาราม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010109-AAA010188",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลกำแพงเพชร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010189-AAA010228",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเชียงคำ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010229-AAA010308",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระสังฆราชองค์ที่ 17"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010349-AAA010428",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลเสนา พระนครศรีอยุธยา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010589-AAA010628",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลโพธาราม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010629-AAA010708",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยายมราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010709-AAA010828",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชัยภูมิ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA010949-AAA011068",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชุมพรเขตรอุดมศักดิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011069-AAA011188",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสุรินทร์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011189-AAA011308",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสตึก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011429-AAA011468",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลเฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารี ระยอง "
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011469-AAA011548",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลกระสัง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011549-AAA011668",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลนางรอง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011669-AAA011748",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชตะพานหิน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011749-AAA011788",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลบางมูลนาก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011789-AAA011848",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลตะกั่วป่า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011849-AAA011908",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลชุมพรเขตรอุดมศักดิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA011909-AAA012028",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระสังฆราชองค์ที่ 17"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012029-AAA012148",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบ้านด่าน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012149-AAA012268",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบึงนาราง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012269-AAA012388",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลห้วยราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012389-AAA012508",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลอรัญประเทศ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012509-AAA012628",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลปะคำ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012629-AAA012748",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลวชิรบารมี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012749-AAA012868",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลหนองกี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012869-AAA012908",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012909-AAA012988",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลศรีสังวรสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA012989-AAA013108",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลกำแพงเพชร"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013229-AAA013268",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลบ้านกรวด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013269-AAA013348",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลบ้านด่าน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013349-AAA013468",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลชำนิ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013469-AAA013588",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบ้านใหม่ไชยพจน์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013609-AAA013688",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครศรีธรรมราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA013689-AAA013708",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลทุ่งสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014069-AAA014128",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลทุ่งสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014129-AAA014188",
+            "quantity": " 60 ",
+            "hospital_name": "โรงพยาบาลกระบี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014189-AAA014308",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยายมราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014309-AAA014428",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014429-AAA014548",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลร้อยเอ็ด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014669-AAA014788",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเสนา พระนครศรีอยุธยา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA014909-AAA015028",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลอุตรดิตถ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015029-AAA015148",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลโนนดินแดง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015149-AAA015228",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลโนนสุวรรณ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015229-AAA015268",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลบ้านกรวด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015389-AAA015428",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลนาโพธิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015429-AAA015508",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลโนนดินแดง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015509-AAA015628",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระพุทธเลิศหล้า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA015629-AAA015748",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016109-AAA016228",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลปราสาท"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016229-AAA016348",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลวังทรายพูน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016349-AAA016428",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลพลับพลาชัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016429-AAA016468",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลพุทไธสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016469-AAA016548",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลแคนดง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016549-AAA016588",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลนาโพธิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016589-AAA016708",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลหนองหงส์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016709-AAA016828",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครราชสีมา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA016829-AAA016948",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลกบินทร์บุรี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017069-AAA017188",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระยุพราชตะพานหิน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017309-AAA017428",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลบางมูลนาก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017429-AAA017548",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพุทไธสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017549-AAA017628",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017629-AAA017668",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลสุโขทัย"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017669-AAA017748",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลกบินทร์บุรี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017749-AAA017788",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลอรัญประเทศ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA017829-AAA017908",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลชัยภูมิ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018029-AAA018148",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลกระสัง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018269-AAA018388",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลโพทะเล"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018389-AAA018508",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลโพธิ์ประทับช้าง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018509-AAA018588",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลพระนั่งเกล้า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA018749-AAA018868",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลพังงา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019229-AAA019348",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลทุ่งสง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019349-AAA019468",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลกระบี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019709-AAA019788",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลโพธิ์ประทับช้าง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019789-AAA019828",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลทับคล้อ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019829-AAA019948",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลตะกั่วป่า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA019969-AAA020048",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลนครพิงค์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020069-AAA020188",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลมหาราชนครศรีธรรมราช"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020309-AAA020328",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลชุมพรเขตรอุดมศักดิ์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020549-AAA020588",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลอรัญประเทศ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020589-AAA020668",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลร้อยเอ็ด"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020669-AAA020788",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลเจ้าพระยาอภัยภูเบศร์"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA020909-AAA021028",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสากเหล็ก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021029-AAA021148",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลสามง่าม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021389-AAA021468",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสากเหล็ก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021469-AAA021508",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลวังทรายพูน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021629-AAA021708",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลบึงนาราง"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021709-AAA021748",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลดงเจริญ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA021749-AAA021868",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลทับคล้อ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022349-AAA022388",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลบางมูลนาก"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022389-AAA022468",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลโพทะเล"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA022589-AAA022708",
+            "quantity": " 120 ",
+            "hospital_name": "โรงพยาบาลดงเจริญ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA023909-AAA023948",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลวังทรายพูน"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA023949-AAA024028",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลวชิรบารมี"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024509-AAA024548",
+            "quantity": " 40 ",
+            "hospital_name": "โรงพยาบาลทับคล้อ"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024549-AAA024628",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลสามง่าม"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024629-AAA024648",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลกระบี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024649-AAA024728",
+            "quantity": " 80 ",
+            "hospital_name": "โรงพยาบาลพังงา"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024729-AAA024748",
+            "quantity": " 20 ",
+            "hospital_name": "โรงพยาบาลตะกั่วป่า"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024869",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลหนองกี่"
+        },
+        {
+            "ผู้ผลิต": "รพ. เจ้าพระยาอภัยภูเบศ",
+            "ตำรับ": "น้ำมันกัญชาหยอดใต้ลิ้น",
+            "lot_number": "MI00119002",
+            "serial_number": "AAA024870",
+            "quantity": " 1 ",
+            "hospital_name": "โรงพยาบาลปราสาท"
+        }
+    ]
+}

@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Cannabis</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper sidebar-dark-primary">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-left">
+                            <li class="breadcrumb-item">
+                                <h3 class="m-0 text-white">รายละเอียดผลิตภัณฑ์จากกัญชา</h3>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <button onclick="window.history.back();" class="btn btn-info">
+                                    BACK <i class="fas fa-arrow-circle-left"></i>
+                                </button>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                          <li class="breadcrumb-item">
+                            <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: </h3>
+                          </li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+                <div class="row mb-2 text-white">
+                  <div class="col-sm-12">
+                    <h5 style="text-align: center;">จำนวนตำรับทั้งหมด 12 ตำรับ</h5>
+                  </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <!-- Main row -->
+        <div class="row">
+          <!-- Left col -->
+          <div class="col-md-6">
+            <!-- MAP & BOX PANE -->
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">สัดส่วนการแปรรูป</h3>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" class="dropdown-item">Jan/2020</a>
+                      <a href="#" class="dropdown-item">Dec/2019</a>
+                      <a href="#" class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+                <div class="d-md-flex">
+                  <div class="p-1 flex-fill" style="overflow: hidden">
+                    <p class="text-center">
+                      <strong>unit: %</strong>
+                    </p>
+                    <!-- Map will be created here -->
+                    <div class="chart">
+                      <canvas id="medDistribute" style="height: 400px; overflow: hidden"></canvas>
+                    </div>
+                  </div>
+                </div><!-- /.d-md-flex -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col-md-6">
+
+            <!--CARD-->
+            <div class="card collapsed-card">
+              <div class="card-header border-0 bg-gradient-warning">
+                <h3 class="card-title">ตำรับยากัญชาแผนปัจจุบัน</h3>
+                <div class="card-tools">
+                  4 ตำรับ
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <h4 class="card-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">องค์การเภสัชกรรม</a></h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse in collapse">
+                      <ul>
+                        <li>
+                          <a data-toggle="modal" href="#modal_GPO_CBD">GPO CBD  (CBD 100 mg/ml)</a>
+                        </li>
+                        <li>
+                          <a data-toggle="modal" href="#modal_GPO_THC_CBD">GPO THC:CBD (1:1)  (THC 27 mg/ml)</a>
+                        </li>
+                        <li>
+                          <a data-toggle="modal" href="#modal_GPO_THC">GPO THC:CBD (THC 0.5 mg/drop)</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!--END card-->
+
+                  <div class="card">
+                    <div class="card-header">
+                      <h4 class="card-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">รพ. เจ้าพระยาอภัยภูเบศ</a></h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse in collapse">
+                      <ul>
+                        <li>
+                          <a data-toggle="modal" href="#modal_tongue">น้ำมันกัญชาหยอดใต้ลิ้น (THC 1.7%)</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div><!--END card-->
+                </div><!--END ACCORDION-->
+              </div>
+            </div>
+            <!--END CARD-->
+
+            <!--CARD-->
+            <div class="card collapsed-card">
+              <div class="card-header border-0 bg-gradient-info">
+                <h3 class="card-title">ตำรับยากัญชาแผนไทย</h3>
+                <div class="card-tools">
+                  7 ตำรับ
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_1">ยาศุขไสยาศน์ อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_2">ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_3">ยาไฟอาวุธ อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_4">ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_5">ยาอไภยสาลี อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_6">ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ</a>
+                  </li>
+                  <li>
+                    <a data-toggle="modal" href="#modal_aur_7">ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--END CARD-->
+
+            <!--CARD-->
+            <div class="card collapsed-card">
+              <div class="card-header border-0 ">
+                <h3 class="card-title">ตำรับยากัญชาจ่ายภายใต้โครงการวิจัย</h3>
+                <div class="card-tools">
+                  1 ตำรับ
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body ">
+                <ul>
+                  <li>
+                    <a data-toggle="modal" href="#modal_deja" >น้ำมันกัญชา (ตำรับหมอเดชา)</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--END CARD-->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <!--GPO CBD Modal-->
+        <div id="modal_GPO_CBD" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="./dist/img/cannabis_product/gpo_cbd.png" alt class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>GPO CBD</td>
+                    </tr>
+                    <tr>
+                      <th>ขนาดบรรจุ</th>
+                      <td>10 ml</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>CBD 100 mg/ml</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--GPO CBD THC Modal-->
+        <div id="modal_GPO_THC_CBD" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="./dist/img/cannabis_product/gpo_thc_cbd.png" alt class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>GPO THC:CBD (1:1) (5 ml)</td>
+                    </tr>
+                    <tr>
+                      <th>ขนาดบรรจุ</th>
+                      <td>5 ml</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>THC 27 mg/ml, CBD 25 mg/ml</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--GPO THC Modal-->
+        <div id="modal_GPO_THC" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="./dist/img/cannabis_product/gpo_thc.png" alt class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>GPO THC</td>
+                    </tr>
+                    <tr>
+                      <th>ขนาดบรรจุ</th>
+                      <td>5 ml</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>THC 0.5 mg/ml</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--น้ำมันกัญชาหยอดใต้ลิ้น Modal-->
+        <div id="modal_tongue" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="./dist/img/cannabis_product/tongue.png" alt class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>น้ำมันกัญชาหยอดใต้ลิ้น</td>
+                    </tr>
+                    <tr>
+                      <th>ขนาดบรรจุ</th>
+                      <td>5 ml</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>THC 1.7% W/V (THC 0.5 mg/drop)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาศุขไสยาศ Modal-->
+        <div id="modal_aur_1" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาศุขไสยาศน์</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>กัญชา 12 กรัมในผงยา 78 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาทำลายพระสุเมรุ Modal-->
+        <div id="modal_aur_2" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาทำลายพระสุเมรุ</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>กัญชา 30 กรัมในผงยา 1388.75 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาไฟอาวุธ Modal-->
+        <div id="modal_aur_3" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาไฟอาวุธ</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>กัญชา 1 กรัมในผงยา 104 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาอัมฤตย์โอสถ Modal-->
+        <div id="modal_aur_4" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาอัมฤตย์โอสถ</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>กัญชา 10 กรัมในผงยา 76 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาศุขไสยาศ Modal-->
+        <div id="modal_aur_5" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาอไภยสาลี</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>กัญชา 56.25 กรัมในผงยา 757.50 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาศุขไสยาศ Modal-->
+        <div id="modal_aur_6" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาแก้ลมแก้เส้น</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>ใบกัญชา 20 กรัมในผงยา 75 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--ยาศุขไสยาศ Modal-->
+        <div id="modal_aur_7" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>ยาทาริดสีดวงทวารหนักและโรคผิวหนัง</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>ใบกัญชา 15 กรัมในผงยา 60 กรัม</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--DEJA Modal-->
+        <div id="modal_deja" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">ข้อมูลผลิตภัณฑ์</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center"><img src="./dist/img/cannabis_product/deja.png" alt="รอรูปส่งจากทาง อ.ย." class="img-square img-fluid"></div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>ชื่อผลิตภัณฑ์</th>
+                      <td>น้ำมันกัญชา (ตำรับหมอเดชา) DTAM GANJA OIL (DEJA FORMULA)</td>
+                    </tr>
+                    <tr>
+                      <th>ขนาดบรรจุ</th>
+                      <td>5 ml</td>
+                    </tr>
+                    <tr>
+                      <th>ส่วนประกอบ</th>
+                      <td>สารสกัดกัญชาในน้ำมันมะพร้าว 10% ของน้ำมันกัญชาแห้ง</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+        <!--Pie Chart Modal-->
+        <div id="modal_pieChart" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 id="modal_pieChart_title" class="modal-title">รายละเอียดสัดส่วนการแปรรูป</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <div id="modal_pieChart_div" class="chart">
+                  <canvas id="modal_pieChart_canvas"></canvas>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+     ข้อมูลอ้างอิงจาก  สรุปตำรับกัญชาจากผู้ผลิต Update 18 Feb 2020เก่า.xlsx
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+
+<!-- PAGE PLUGINS -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/sweetalert2/sweetalert2.min.js"></script>
+<script src="plugins/toastr/toastr.min.js"></script>
+<script src="dist/js/adminlte.min.js"></script>
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!-- PAGE SCRIPTS -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script>
+  //Document Ready
+  $(function(){
+    let myDate = new Date();
+    month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+    document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+
+  });
+
+
+  //------------
+  //BAR CHART OPTIONS
+  var tickStyle = {
+    fontColor: 'black',
+    fontStyle: 'bold'
+  }
+  var mode = 'index';
+  var intersect = true;
+  var barChartOptions = {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: false,
+      labels: {
+        fontColor: "black",
+      }
+    },
+    tooltips: {
+      mode: mode,
+      intersect: intersect
+    },
+    hover: {
+      mode: mode,
+      intersect: intersect
+    },
+    scales:{
+      yAxes: [{
+        gridLines: {
+          display: true,
+          lineWidth: '4px',
+          color: 'rgba(0,0,0,1)',
+          zeroLineColor: 'transparent'
+        },
+        ticks: $.extend({
+          beginAtZero: true,
+
+        }, tickStyle)
+      }],
+      xAxes: [{
+        display: true,
+        gridLines: {
+          display: false
+        },
+        ticks: tickStyle
+      }]
+    },
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, barChartData){
+          var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(tooltipItem.yLabel * 100) / 100;
+          label += ' unit';
+          return label;
+        }
+      }
+    }
+  }
+  //END BAR CHART OPTIONS
+  //-------------------
+
+
+  //-------------
+  //- PIE CHART -
+  //-------------
+  // Get context with jQuery - using jQuery's .get() method.
+  var pieChartCanvas1 = $('#medDistribute').get(0).getContext('2d')
+  var pieData1        = {
+    labels: [
+    'แผนปัจจุบัน','แผนไทย','ตำรับเดชา',
+    ],
+    datasets: [
+      {
+        data: [19.51, 53.46, 27],
+        backgroundColor : ['#f39c12', '#00c0ef', '#ffffff', '#cc66ff','#00ffcc','#99ff33'],
+      }
+    ]
+  }
+  var pieOptions1     = {
+    legend: {
+      display: true,
+      position: 'right',
+      labels: {
+        fontColor: "#faf7f7",
+      }
+    },
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, Data){
+          var label = Data.labels[tooltipItem.index] || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(Data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] * 100) / 100;
+          label += ' %';
+          return label;
+        }
+      }
+    },
+    onClick: function(evt){
+      var activePoints = this.getElementsAtEvent(evt);
+      if(activePoints[0]){
+        var chartData = activePoints[0]['_chart'].config.data;
+        var idx = activePoints[0]['_index'];
+        var label = chartData.labels[idx];
+        var value = chartData.datasets[0].data[idx];
+        var url = "label= " + label + " value= " + value;
+        console.log(url);
+        var modal_pieChart;
+        
+        $("#modal_pieChart").modal();
+        $("#modal_pieChart").on('shown.bs.modal', function(e){
+          $("#modal_pieChart_title").text("รายละเอียดสัดส่วนการแปรรูป" + label);
+
+          $("#modal_pieChart_canvas").remove();
+          $("#modal_pieChart_div").append('<canvas id="modal_pieChart_canvas"></canvas>');
+
+          var canvas = document.querySelector('#modal_pieChart_canvas');
+          var modal_pieChart_canvas = canvas.getContext('2d');
+          if(label == "แผนปัจจุบัน"){
+            var modal_data = {
+              labels: ['GPO THC', 'GPO THC:CBD(1:1)', 'GPO CBD', 'น้ำมันกัญชาหยอดใต้ลิ้น'],
+              datasets: [{
+                data: [7796,2599,282,24090],
+                backgroundColor : ['#f39c12', '#00c0ef', '#ff4d4d', '#cc66ff','#00ffcc','#99ff33'],
+              }]
+            }
+          }
+          else if(label == "แผนไทย"){
+            var modal_data = {
+              labels: ['ยาศุขไสยาศน์ อาจาโร เฮิร์บ','ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ','ยาไฟอาวุธ อาจาโร เฮิร์บ','ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ','ยาอไภยสาลี อาจาโร เฮิร์บ','ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ', 'ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ',],
+              datasets: [{
+                data: [22970,22740,17100,1650,4230,11250,8310,],
+                backgroundColor : ['#f39c12', '#00c0ef', '#f56954', '#cc66ff','#00ffcc','#99ff33','#f8ca9d','#8ec9bb'],
+              }]
+            }
+          }
+          else if(label == "ตำรับเดชา"){
+            var modal_data = {
+              labels: ['น้ำมันกัญชา ตำรับหมอเดชา',],
+              datasets: [{
+                data: [48150],
+                backgroundColor : ['#ff8eff', '#00c0ef', '#f56954', '#cc66ff','#00ffcc','#99ff33','#f8ca9d','#8ec9bb'],
+              }]
+            }
+          }
+          modal_pieChart = new Chart(modal_pieChart_canvas, {
+            type: 'bar',
+            data: modal_data,
+            options: barChartOptions
+          })
+        });
+      }
+    }
+  }
+  //Create pie or douhnut chart
+  // You can switch between pie and douhnut using the method below.
+  var pieChart1 = new Chart(pieChartCanvas1, {
+    type: 'pie',
+    data: pieData1,
+    options: pieOptions1      
+  })
+
+  //-----------------
+  //- END PIE CHART -
+  //-----------------
+</script>
+</body>
+</html>

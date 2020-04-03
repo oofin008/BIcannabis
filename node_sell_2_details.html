@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cannabis</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--Jvector MAP -->
+  <link rel="stylesheet" href="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="plugins/paginationjs/pagination.css" type="text/css" />
+  
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="overlay-wrapper" id="loading_state" style="display: none;">
+  <!--Loading state-->
+  <div class="overlay">
+    <i class="fa fa-refresh fa-spin"></i>
+    <h3>Loading...</h3>
+  </div>
+  <!--Loading state-->
+</div>
+<div class="wrapper">
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+                <li class="breadcrumb-item">
+                    <h3 class="m-0 text-white">รายละเอียดการจำหน่ายผลิตภัณฑ์</h3>
+                </li>
+                <li class="breadcrumb-item">
+                    <button onclick="window.history.back();" class="btn btn-info">
+                        BACK <i class="fas fa-arrow-circle-left"></i>
+                    </button>
+                </li>
+            </ol>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item">
+                    <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: </h3>
+                </li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section id="main_content" class="content" style="display: none;">
+      <div class="container-fluid">
+        <!-- Main row -->
+        <div class="row">
+          <section class="col-lg-6">
+            <!--Test Map-->
+            <div class="card bg-gradient-dark">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  ภาพรวม
+                </h3>
+              </div>
+          
+              <div class="card-body">
+                <div class="row">
+                  <!--Thai map Vector Div-->
+                  <div class="col-sm-12">
+                    <div id="thaimapjvector" style="height: 700px; width: 100%;"></div>
+                    <!-- <div id="testanothermap" style="height: 700px; width: 100%;"></div> -->
+                  </div>
+                  <!--./End thai map vector div-->
+                </div>
+              </div>
+            </div>
+            <!--./End Test Map-->
+          </section>
+          <!-- right col -->
+          <section class="col-lg-6">
+            <!--CARD-->
+            <div class="card">
+                <div class="card-header border-0">
+                  <h3 class="card-title" id="table_title">รายละเอียดผู้ผ่านการอบรม</h3>
+                  <div class="card-tools">
+                    
+                    <div class="btn-group" id="card_tool_text"> 
+                      
+                      <button id="sort_sel_text" type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-calendar-alt"></i>
+                        ทั้งหมด
+                      </button>
+                      <div id = "sort_sel" class="dropdown-menu dropdown-menu-right" role="menu">
+                        <a href="#" value="all" class="dropdown-item">ทั้งหมด</a>
+                        
+                        <a href="#" value="doctor" class="dropdown-item">แพทย์</a>
+                        <a href="#" value="pharmacy" class="dropdown-item">เภสัชกร</a>
+                        <a href="#" value="dentist" class="dropdown-item">ทันตแพทย์</a>
+                        <a href="#" value="veterinary" class="dropdown-item">สัตวแพทย์</a>
+                        <a href="#" value="nurse" class="dropdown-item">พยาบาล</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card-body table-responsive p-0" style="height: 700px; overflow: auto;">
+                    <table class="table table-striped table-valign-middle">
+                        <thead>
+                        <tr>
+                          <th>ชื่อตำรับ</th>
+                          <th>ชื่อผู้ผลิต</th>
+                          <th>จำนวน (ขวด/ซอง)</th>
+                          <th>ชื่อโรงพยาบาลผู้รับ</th>
+                        </tr>
+                        </thead>
+                        <tbody id="table_body">
+                            
+                        </tbody>
+                        <tfoot>
+                          <td colspan="5" style="text-align: right;" ></td>
+                          <td></td>
+                        </tfoot>
+                    </table>
+                    <div id="data-container"></div>
+                    
+                </div>
+                
+                
+                <div id="pagination-container" class="card-footer">
+                  
+                </div>
+                
+              </div>
+              <!--END CARD-->
+          </section>
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  
+
+  <footer class="main-footer">
+    ข้อมูลอ้างอิงจากไฟล์ ข้อมูลแพทย์_27Feb2020.xlsx, certData.json
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- Jvector Map javascript-->
+<script src="plugins/jquery/jquery.js"></script>
+<script src="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="./dist/js/jquery-javectormap-th_mill.js"></script>
+<script src="plugins/paginationjs/pagination.min.js"></script>
+<script src="plugins/paginationjs/pagination.js"></script>
+<script>
+  $(function(){
+
+    let myDate = new Date();
+    month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+    document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+
+    //cannibisFake should get data from API
+    //This is for mockup purpose
+    cannabisFake = {
+      "TH-57": 15,
+      "TH-56": 17,
+      "TH-55": 7,
+      "TH-54": 23,
+      "TH-53": 18,
+      "TH-52": 14,
+      "TH-51": 36,
+      "TH-50": 23,
+      "TH-93": 9,
+      "TH-92": 14,
+      "TH-91": 2,
+      "TH-90": 27,
+      "TH-96": 22,
+      "TH-95": 16,
+      "TH-58": 28,
+      "TH-13": 0,
+      "TH-12": 2,
+      "TH-11": 7,
+      "TH-10": 8,
+      "TH-17": 5,
+      "TH-16": 12,
+      "TH-15": 2,
+      "TH-14": 17,
+      "TH-71": 10,
+      "TH-70": 7,
+      "TH-19": 13,
+      "TH-72": 4,
+      "TH-75": 0,
+      "TH-73": 2,
+      "TH-77": 17,
+      "TH-76": 3,
+      "TH-18": 5,
+      "TH-39": 21,
+      "TH-": 12,
+      "TH-74": 19,
+      "TH-84": 0,
+      "TH-85": 9,
+      "TH-86": 7,
+      "TH-80": 6,
+      "TH-81": 27,
+      "TH-82": 27,
+      "TH-83": 9,
+      "TH-32": 11,
+      "TH-40": 27,
+      "TH-41": 8,
+      "TH-42": 29,
+      "TH-43": 7,
+      "TH-44": 3,
+      "TH-45": 16,
+      "TH-46": 23,
+      "TH-47": 6,
+      "TH-48": 21,
+      "TH-49": 1,
+      "TH-26": 4,
+      "TH-27": 3,
+      "TH-24": 13,
+      "TH-25": 23,
+      "TH-22": 14,
+      "TH-23": 5,
+      "TH-20": 3,
+      "TH-21": 2,
+      "TH-62": 0,
+      "TH-63": 7,
+      "TH-60": 1,
+      "TH-61": 3,
+      "TH-66": 19,
+      "TH-67": 21,
+      "TH-64": 6,
+      "TH-65": 7,
+      "TH-35": 0,
+      "TH-34": 9,
+      "TH-37": 1,
+      "TH-33": 23,
+      "TH-38": 14,
+      "TH-36": 17,
+      "TH-31": 16,
+      "TH-94": 6,
+      "TH-30": 1
+    }
+
+    //build new map to display overall data
+    var map;
+    console.log(map);
+
+    //Get data from JSON
+    var cert_data;
+    var cert_sas = new Array;
+    var cert_aur = new Array;
+    
+
+    //When first Enter page
+    //Get Parameter
+    var getReq = getUrlParameter("sortselected");
+    if(getReq == undefined){
+      getReq = "SAS";
+    }
+    
+    if(getReq == 'SAS'){
+
+      $("#loading_state").show();
+      $.getJSON('./dist/js/jsondata/node_sell2_details_sas.json', function(data){
+        cert_sas = data.Sheet1;
+        $("#main_content").show(function(){
+          $("#table_title").text("รายละเอียดการจำหน่ายผลิตภัณฑ์: แผนปัจจุบัน");
+
+          if(map != undefined){
+            map.remove();
+          }
+          map = new jvm.Map({
+            map: 'th_mill',
+            backgroundColor: '',
+            container: $('#thaimapjvector'),
+            regionsSelectable: true,
+            series: {
+              regions: [{
+                values: cannabisFake,
+                scale: ['#ffffff', '#009933'],
+                normalizeFunction: 'linear',
+                attribute: 'fill',
+                
+              }]
+            },
+            onRegionTipShow: function(e, el, code){
+              el.html(el.html()+' (' + cannabisFake[code]+ ' )');
+            },
+            onRegionSelected: function(){
+              //regionSelected contain array of region selected
+              var regionSelected = map.getSelectedRegions();
+              console.log(regionSelected);
+              window.location.href = "./provinceDetail.html?regionselected=" + regionSelected[0];
+              return 0
+            }
+          });
+
+          //Right column table
+          $("#pagination-container").pagination({
+            dataSource: cert_sas,
+            pageSize: 20,
+            ulClassName: "pagination pull-right",
+            callback: function(data, pagination){
+              var html = simpleTemplating(data, "all");
+              $("#table_body").html(html);
+            }
+          });
+          $("#loading_state").hide();
+        });
+      })
+      //.always(function(){ $("#loading_state").hide(); });
+    }
+
+    else if(getReq == 'AUR'){
+      $("#loading_state").show();
+      $.getJSON('./dist/js/jsondata/node_sell2_details_aur.json', function(data){
+        cert_aur = data.Sheet1;
+      })
+      .done(function(){
+        
+        $("#main_content").show(function(){
+          $("#table_title").text("รายละเอียดการจำหน่ายผลิตภัณฑ์: แผนไทย");
+
+          if(map != undefined){
+            map.remove();
+          }
+          map = new jvm.Map({
+            map: 'th_mill',
+            backgroundColor: '',
+            container: $('#thaimapjvector'),
+            regionsSelectable: true,
+            series: {
+              regions: [{
+                values: cannabisFake,
+                scale: ['#ffffff', '#009933'],
+                normalizeFunction: 'linear',
+                attribute: 'fill',
+                
+              }]
+            },
+            onRegionTipShow: function(e, el, code){
+              el.html(el.html()+' (' + cannabisFake[code]+ ' )');
+            },
+            onRegionSelected: function(){
+              //regionSelected contain array of region selected
+              var regionSelected = map.getSelectedRegions();
+              console.log(regionSelected);
+              window.location.href = "./provinceDetail.html?regionselected=" + regionSelected[0];
+              return 0
+            }
+          });
+
+          //Right column table
+          $("#pagination-container").pagination({
+            dataSource: cert_aur,
+            pageSize: 20,
+            ulClassName: "pagination pull-right",
+            callback: function(data, pagination){
+              var html = simpleTemplating(data, "all");
+              $("#table_body").html(html);
+            }
+          });
+          $("#loading_state").hide();
+        });
+      })
+      //.always(function(){ $("#loading_state").hide(); });
+    }
+
+    else if(getReq == 'DEJA'){
+      $("#loading_state").show();
+      $.getJSON('./dist/js/jsondata/node_sell2_details_deja.json', function(data){
+        cert_aur = data.Sheet1;
+      })
+      .done(function(){
+        
+        $("#main_content").show(function(){
+          $("#table_title").text("รายละเอียดการจำหน่ายผลิตภัณฑ์: กัญชาน้ำมันเดชา");
+
+          if(map != undefined){
+            map.remove();
+          }
+          map = new jvm.Map({
+            map: 'th_mill',
+            backgroundColor: '',
+            container: $('#thaimapjvector'),
+            regionsSelectable: true,
+            series: {
+              regions: [{
+                values: cannabisFake,
+                scale: ['#ffffff', '#009933'],
+                normalizeFunction: 'linear',
+                attribute: 'fill',
+                
+              }]
+            },
+            onRegionTipShow: function(e, el, code){
+              el.html(el.html()+' (' + cannabisFake[code]+ ' )');
+            },
+            onRegionSelected: function(){
+              //regionSelected contain array of region selected
+              var regionSelected = map.getSelectedRegions();
+              console.log(regionSelected);
+              window.location.href = "./provinceDetail.html?regionselected=" + regionSelected[0];
+              return 0
+            }
+          });
+
+          //Right column table
+          $("#pagination-container").pagination({
+            dataSource: cert_aur,
+            pageSize: 20,
+            ulClassName: "pagination pull-right",
+            callback: function(data, pagination){
+              var html = simpleTemplating(data, "all");
+              $("#table_body").html(html);
+            }
+          });
+          $("#loading_state").hide();
+        });
+      })
+      //.always(function(){ $("#loading_state").hide(); });
+    } 
+
+    function simpleTemplating(data, sort_sel){
+      var html = "";
+      var sort_thai = "";
+      var col_to_get = "";
+      if(sort_sel == "all"){
+        col_to_get = "none";
+        sort_thai = "";
+      }
+      else if(sort_sel == "sas"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข"
+      }
+      else if(sort_sel == "aur"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์แผนไทยและการแพทย์ทางเลือก กระทรวงสาธารณสุข";
+      }
+      //มีปัญหา ชื่ออาชีพไม่ได้จัดกลุ่มเดียวกัน
+      else if(sort_sel == "doctor"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข";
+      }
+      else if(sort_sel == "pharmacy"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข";
+      }
+      else if(sort_sel == "dentist"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข";
+      }
+      else if(sort_sel == "veterinary"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข";
+      }
+      else if(sort_sel == "nurse"){
+        col_to_get = "ผู้รับรอง";
+        sort_thai = "กรมการแพทย์ กระทรวงสาธารณสุข";
+      }
+
+      $.each(data, function(index, item){
+        if(col_to_get == "none"){
+          html += "<tr>";
+          html += "<td>" + item["ตำรับ"] + "</td>";
+          html += "<td>" + item["ผู้ผลิต"] + "</td>";
+          html += "<td>" + item["quantity"] + "</td>";
+          html += "<td>" + item["hospital_name"] + "</td>";
+          html += "</tr>";
+        }
+        else if(col_to_get == "ผู้รับรอง"){
+          if(item[col_to_get] == sort_thai){
+            html += "<tr>";
+            html += "<td>" + item["เลขรับรอง"] + "</td>";
+            html += "<td>" + item["ชื่อแพทย์"] + "</td>";
+            html += "<td>" + item["ที่ทำงาน"] + "</td>";
+            html += "</tr>";
+          }
+        }
+      });
+      ;
+      return html;
+    }
+
+    //Check for sort select
+    $("#sort_sel a").click(function(){
+      $("#sort_sel_text").text($(this).text());
+      var sort_sel = $(this).attr("value");
+
+      $("#pagination-container").pagination({
+        dataSource: cert_data,
+        pageSize: 20,
+        ulClassName: "",
+        callback: function(data, pagination){
+          var html = simpleTemplating(data, sort_sel);
+          $("#table_body").html(html);
+        }
+      })
+    })
+
+    //Get Param from url function
+    function getUrlParameter(sParam){
+      var sPageURL = window.location.search.substring(1);
+      var sURLVariables = sPageURL.split('&');
+      var sParameterName;
+      for(var i=0; i< sURLVariables.length; i++){
+        sParameterName = sURLVariables[i].split('=');
+        if(sParameterName[0] === sParam){
+          return sParameterName[1] === undefined? true : decodeURIComponent(sParameterName[1]);
+        }
+      }
+    }
+  })
+</script>
+</body>
+</html>

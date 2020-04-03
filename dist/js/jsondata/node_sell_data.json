@@ -1,0 +1,4414 @@
+﻿{
+    "Sheet1": [
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "11001",
+            "RCV": "21650",
+            "PAY": "22446",
+            "TOTAL": "-796",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "280",
+            "RCV": "7500",
+            "PAY": "4932",
+            "TOTAL": "2568",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศรีประจันต์",
+            "ผู้ป่วย(ตามเลขบัตร)": "776",
+            "RCV": "5000",
+            "PAY": "4341",
+            "TOTAL": "659",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ดอนตูม",
+            "ผู้ป่วย(ตามเลขบัตร)": "528",
+            "RCV": "2950",
+            "PAY": "2119",
+            "TOTAL": "831",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "93",
+            "RCV": "2280",
+            "PAY": "1229",
+            "TOTAL": "1051",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำปาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "11",
+            "RCV": "960",
+            "PAY": "1130",
+            "TOTAL": "-170",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "345",
+            "RCV": "1450",
+            "PAY": "1045",
+            "TOTAL": "405",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชเด่นชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "28",
+            "RCV": "1050",
+            "PAY": "1008",
+            "TOTAL": "42",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ดอนตูม",
+            "ผู้ป่วย(ตามเลขบัตร)": "95",
+            "RCV": "1050",
+            "PAY": "805",
+            "TOTAL": "245",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ดอนตูม",
+            "ผู้ป่วย(ตามเลขบัตร)": "50",
+            "RCV": "960",
+            "PAY": "705",
+            "TOTAL": "255",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "37",
+            "RCV": "700",
+            "PAY": "649",
+            "TOTAL": "51",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ป่าบอน",
+            "ผู้ป่วย(ตามเลขบัตร)": "244",
+            "RCV": "950",
+            "PAY": "621",
+            "TOTAL": "329",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา",
+            "ผู้ป่วย(ตามเลขบัตร)": "24",
+            "RCV": "1369",
+            "PAY": "617",
+            "TOTAL": "752",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "36",
+            "RCV": "1200",
+            "PAY": "592",
+            "TOTAL": "608",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ป่าบอน",
+            "ผู้ป่วย(ตามเลขบัตร)": "23",
+            "RCV": "660",
+            "PAY": "577",
+            "TOTAL": "83",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ห้วยเกิ้ง",
+            "ผู้ป่วย(ตามเลขบัตร)": "283",
+            "RCV": "950",
+            "PAY": "570",
+            "TOTAL": "380",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "260",
+            "RCV": "950",
+            "PAY": "570",
+            "TOTAL": "380",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "58",
+            "RCV": "583",
+            "PAY": "556",
+            "TOTAL": "27",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ป่าบอน",
+            "ผู้ป่วย(ตามเลขบัตร)": "22",
+            "RCV": "540",
+            "PAY": "535",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำปาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "23",
+            "RCV": "750",
+            "PAY": "523",
+            "TOTAL": "227",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชเดชอุดม",
+            "ผู้ป่วย(ตามเลขบัตร)": "100",
+            "RCV": "950",
+            "PAY": "514",
+            "TOTAL": "436",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "16",
+            "RCV": "600",
+            "PAY": "478",
+            "TOTAL": "122",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พล",
+            "ผู้ป่วย(ตามเลขบัตร)": "110",
+            "RCV": "950",
+            "PAY": "471",
+            "TOTAL": "479",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชเด่นชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "660",
+            "PAY": "471",
+            "TOTAL": "189",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา",
+            "ผู้ป่วย(ตามเลขบัตร)": "7",
+            "RCV": "1260",
+            "PAY": "432",
+            "TOTAL": "828",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยาอภัยภูเบศร",
+            "ผู้ป่วย(ตามเลขบัตร)": "31",
+            "RCV": "1050",
+            "PAY": "378",
+            "TOTAL": "672",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชเด่นชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "116",
+            "RCV": "950",
+            "PAY": "354",
+            "TOTAL": "596",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "810",
+            "PAY": "323",
+            "TOTAL": "487",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "17",
+            "RCV": "451",
+            "PAY": "311",
+            "TOTAL": "140",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หาดใหญ่",
+            "ผู้ป่วย(ตามเลขบัตร)": "26",
+            "RCV": "300",
+            "PAY": "299",
+            "TOTAL": "1",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสมเด็จพระยุพราชสว่างแดนดิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "77",
+            "RCV": "950",
+            "PAY": "268",
+            "TOTAL": "682",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยาอภัยภูเบศร",
+            "ผู้ป่วย(ตามเลขบัตร)": "94",
+            "RCV": "293",
+            "PAY": "227",
+            "TOTAL": "66",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางกระทุ่ม",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "330",
+            "PAY": "215",
+            "TOTAL": "115",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลคูเมือง",
+            "ผู้ป่วย(ตามเลขบัตร)": "113",
+            "RCV": "950",
+            "PAY": "203",
+            "TOTAL": "747",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "ผู้ป่วย(ตามเลขบัตร)": "8",
+            "RCV": "200",
+            "PAY": "200",
+            "TOTAL": "0",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "Donate1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา LOVE HEMP "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "22",
+            "RCV": "450",
+            "PAY": "191",
+            "TOTAL": "259",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบุรีรัมย์",
+            "ผู้ป่วย(ตามเลขบัตร)": "12",
+            "RCV": "390",
+            "PAY": "190",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "82",
+            "RCV": "950",
+            "PAY": "183",
+            "TOTAL": "767",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธชินราช พิษณุโลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "96",
+            "RCV": "315",
+            "PAY": "183",
+            "TOTAL": "132",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หาดใหญ่",
+            "ผู้ป่วย(ตามเลขบัตร)": "76",
+            "RCV": "315",
+            "PAY": "165",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หาดใหญ่",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "360",
+            "PAY": "157",
+            "TOTAL": "203",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ  สยามบรมราชกุมารี  ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "49",
+            "RCV": "1000",
+            "PAY": "150",
+            "TOTAL": "850",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "12",
+            "RCV": "750",
+            "PAY": "149",
+            "TOTAL": "601",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพหลพลพยุหเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "150",
+            "PAY": "148",
+            "TOTAL": "2",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันประสาทวิทยา",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "200",
+            "PAY": "147",
+            "TOTAL": "53",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "Donate1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา LOVE HEMP "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ขอนแก่น",
+            "ผู้ป่วย(ตามเลขบัตร)": "73",
+            "RCV": "315",
+            "PAY": "133",
+            "TOTAL": "182",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลคูเมือง",
+            "ผู้ป่วย(ตามเลขบัตร)": "7",
+            "RCV": "150",
+            "PAY": "128",
+            "TOTAL": "22",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สวรรค์ประชารักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "29",
+            "RCV": "317",
+            "PAY": "125",
+            "TOTAL": "192",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำปาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "48",
+            "RCV": "315",
+            "PAY": "118",
+            "TOTAL": "197",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สรรพสิทธิประสงค์",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "360",
+            "PAY": "113",
+            "TOTAL": "247",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพหลพลพยุหเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "7",
+            "RCV": "150",
+            "PAY": "113",
+            "TOTAL": "37",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ท่าฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "83",
+            "RCV": "950",
+            "PAY": "111",
+            "TOTAL": "839",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "ผู้ป่วย(ตามเลขบัตร)": "8",
+            "RCV": "171",
+            "PAY": "111",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เถิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "46",
+            "RCV": "950",
+            "PAY": "103",
+            "TOTAL": "847",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พล",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "360",
+            "PAY": "101",
+            "TOTAL": "259",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยาอภัยภูเบศร",
+            "ผู้ป่วย(ตามเลขบัตร)": "45",
+            "RCV": "100",
+            "PAY": "96",
+            "TOTAL": "4",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "Donate1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา LOVE HEMP "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "40",
+            "RCV": "315",
+            "PAY": "95",
+            "TOTAL": "220",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สวรรค์ประชารักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "761",
+            "PAY": "89",
+            "TOTAL": "672",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธชินราช พิษณุโลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "450",
+            "PAY": "85",
+            "TOTAL": "365",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลาดบัวหลวง",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "76",
+            "TOTAL": "74",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันบำราศนราดูร",
+            "ผู้ป่วย(ตามเลขบัตร)": "33",
+            "RCV": "100",
+            "PAY": "75",
+            "TOTAL": "25",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางกระทุ่ม",
+            "ผู้ป่วย(ตามเลขบัตร)": "39",
+            "RCV": "950",
+            "PAY": "72",
+            "TOTAL": "878",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางละมุง",
+            "ผู้ป่วย(ตามเลขบัตร)": "35",
+            "RCV": "300",
+            "PAY": "66",
+            "TOTAL": "234",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "150",
+            "PAY": "66",
+            "TOTAL": "84",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สรรพสิทธิประสงค์",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "150",
+            "PAY": "66",
+            "TOTAL": "84",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ขอนแก่น",
+            "ผู้ป่วย(ตามเลขบัตร)": "11",
+            "RCV": "150",
+            "PAY": "59",
+            "TOTAL": "91",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ท่าฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "11",
+            "RCV": "450",
+            "PAY": "59",
+            "TOTAL": "391",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุดรธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "44",
+            "RCV": "315",
+            "PAY": "59",
+            "TOTAL": "256",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบุรีรัมย์",
+            "ผู้ป่วย(ตามเลขบัตร)": "34",
+            "RCV": "315",
+            "PAY": "58",
+            "TOTAL": "257",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบุรีรัมย์",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "360",
+            "PAY": "57",
+            "TOTAL": "303",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เชียงรายประชานุเคราะห์",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "150",
+            "PAY": "56",
+            "TOTAL": "94",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ตรัง",
+            "ผู้ป่วย(ตามเลขบัตร)": "27",
+            "RCV": "200",
+            "PAY": "56",
+            "TOTAL": "144",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สระบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "30",
+            "RCV": "315",
+            "PAY": "55",
+            "TOTAL": "260",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สรรพสิทธิประสงค์",
+            "ผู้ป่วย(ตามเลขบัตร)": "30",
+            "RCV": "315",
+            "PAY": "54",
+            "TOTAL": "261",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลวานรนิวาส",
+            "ผู้ป่วย(ตามเลขบัตร)": "23",
+            "RCV": "950",
+            "PAY": "54",
+            "TOTAL": "896",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สระบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "8",
+            "RCV": "150",
+            "PAY": "50",
+            "TOTAL": "100",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "360",
+            "PAY": "48",
+            "TOTAL": "312",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ตราด",
+            "ผู้ป่วย(ตามเลขบัตร)": "27",
+            "RCV": "300",
+            "PAY": "47",
+            "TOTAL": "253",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "19",
+            "RCV": "200",
+            "PAY": "47",
+            "TOTAL": "153",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ตากฟ้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "34",
+            "RCV": "950",
+            "PAY": "46",
+            "TOTAL": "904",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "150",
+            "PAY": "46",
+            "TOTAL": "104",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "600",
+            "PAY": "40",
+            "TOTAL": "560",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP9",
+            "REGISTER_TRADER_NAME": "ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลคูเมือง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "40",
+            "TOTAL": "320",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "ออรีจีน สหคลินิก",
+            "ผู้ป่วย(ตามเลขบัตร)": "35",
+            "RCV": "50",
+            "PAY": "39",
+            "TOTAL": "11",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เชียงรายประชานุเคราะห์",
+            "ผู้ป่วย(ตามเลขบัตร)": "24",
+            "RCV": "200",
+            "PAY": "38",
+            "TOTAL": "162",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "13",
+            "RCV": "315",
+            "PAY": "38",
+            "TOTAL": "277",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธชินราช พิษณุโลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "28",
+            "RCV": "120",
+            "PAY": "37",
+            "TOTAL": "83",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุทัยธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "26",
+            "RCV": "200",
+            "PAY": "37",
+            "TOTAL": "163",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนางรอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "150",
+            "PAY": "37",
+            "TOTAL": "113",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธชินราช พิษณุโลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "32",
+            "TOTAL": "328",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนางรอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "90",
+            "PAY": "31",
+            "TOTAL": "59",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันประสาทวิทยา",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "500",
+            "PAY": "31",
+            "TOTAL": "469",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สวรรค์ประชารักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "365",
+            "PAY": "30",
+            "TOTAL": "335",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "160",
+            "PAY": "30",
+            "TOTAL": "130",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ขอนแก่น",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "360",
+            "PAY": "28",
+            "TOTAL": "332",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยาอภัยภูเบศร",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "28",
+            "TOTAL": "332",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระสังฆราชองค์ที่ 17",
+            "ผู้ป่วย(ตามเลขบัตร)": "28",
+            "RCV": "200",
+            "PAY": "28",
+            "TOTAL": "172",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "450",
+            "PAY": "28",
+            "TOTAL": "422",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พล",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "150",
+            "PAY": "27",
+            "TOTAL": "123",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "24",
+            "TOTAL": "126",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนางรอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "12",
+            "RCV": "200",
+            "PAY": "24",
+            "TOTAL": "176",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วชิระภูเก็ต",
+            "ผู้ป่วย(ตามเลขบัตร)": "13",
+            "RCV": "200",
+            "PAY": "23",
+            "TOTAL": "177",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาสารคาม",
+            "ผู้ป่วย(ตามเลขบัตร)": "21",
+            "RCV": "200",
+            "PAY": "23",
+            "TOTAL": "177",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "ออรีจีน สหคลินิก",
+            "ผู้ป่วย(ตามเลขบัตร)": "16",
+            "RCV": "30",
+            "PAY": "23",
+            "TOTAL": "7",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "660",
+            "PAY": "22",
+            "TOTAL": "638",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลน่าน",
+            "ผู้ป่วย(ตามเลขบัตร)": "17",
+            "RCV": "200",
+            "PAY": "22",
+            "TOTAL": "178",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เพชรบูรณ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "16",
+            "RCV": "200",
+            "PAY": "20",
+            "TOTAL": "180",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สตูล",
+            "ผู้ป่วย(ตามเลขบัตร)": "12",
+            "RCV": "20",
+            "PAY": "20",
+            "TOTAL": "0",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธโสธร",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "150",
+            "PAY": "19",
+            "TOTAL": "131",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเทพรัตน์นครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "19",
+            "TOTAL": "131",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมุทรสาคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "150",
+            "PAY": "17",
+            "TOTAL": "133",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลทุ่งสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "16",
+            "TOTAL": "134",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันมะเร็งแห่งชาติ",
+            "ผู้ป่วย(ตามเลขบัตร)": "12",
+            "RCV": "434",
+            "PAY": "15",
+            "TOTAL": "419",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "กวีคลินิกเวชกรรม",
+            "ผู้ป่วย(ตามเลขบัตร)": "11",
+            "RCV": "20",
+            "PAY": "14",
+            "TOTAL": "6",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "14",
+            "TOTAL": "136",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "8",
+            "RCV": "200",
+            "PAY": "13",
+            "TOTAL": "187",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สวรรค์ประชารักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "8",
+            "RCV": "200",
+            "PAY": "13",
+            "TOTAL": "187",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล กบินทร์บุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "10",
+            "RCV": "200",
+            "PAY": "12",
+            "TOTAL": "188",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชลบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "9",
+            "RCV": "300",
+            "PAY": "12",
+            "TOTAL": "288",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นครพิงค์",
+            "ผู้ป่วย(ตามเลขบัตร)": "11",
+            "RCV": "200",
+            "PAY": "12",
+            "TOTAL": "188",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แพร่",
+            "ผู้ป่วย(ตามเลขบัตร)": "9",
+            "RCV": "200",
+            "PAY": "12",
+            "TOTAL": "188",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สตูล",
+            "ผู้ป่วย(ตามเลขบัตร)": "9",
+            "RCV": "20",
+            "PAY": "12",
+            "TOTAL": "8",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สวนผึ้ง",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "950",
+            "PAY": "12",
+            "TOTAL": "938",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุดรธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "11",
+            "TOTAL": "139",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "7",
+            "RCV": "12",
+            "PAY": "10",
+            "TOTAL": "2",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "10",
+            "TOTAL": "140",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชสระแก้ว",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "150",
+            "PAY": "10",
+            "TOTAL": "140",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธโสธร",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "300",
+            "PAY": "9",
+            "TOTAL": "291",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชสระแก้ว",
+            "ผู้ป่วย(ตามเลขบัตร)": "7",
+            "RCV": "300",
+            "PAY": "9",
+            "TOTAL": "291",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลทุ่งสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "200",
+            "PAY": "9",
+            "TOTAL": "191",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นราธิวาสราชนครินทร์",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "150",
+            "PAY": "8",
+            "TOTAL": "142",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "8",
+            "TOTAL": "352",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุราษฎร์ธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "150",
+            "PAY": "8",
+            "TOTAL": "142",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ท่าฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "7",
+            "TOTAL": "353",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "30",
+            "PAY": "7",
+            "TOTAL": "23",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุดรธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "7",
+            "TOTAL": "353",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมุกดาหาร",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "200",
+            "PAY": "7",
+            "TOTAL": "193",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ตะกั่วป่า",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "200",
+            "PAY": "6",
+            "TOTAL": "194",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นครนายก",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "200",
+            "PAY": "6",
+            "TOTAL": "194",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ปทุมธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "200",
+            "PAY": "6",
+            "TOTAL": "194",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพธาราม",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "150",
+            "PAY": "6",
+            "TOTAL": "144",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนาโพธิ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "200",
+            "PAY": "6",
+            "TOTAL": "194",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพังโคน",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "90",
+            "PAY": "6",
+            "TOTAL": "84",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพังโคน",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "90",
+            "PAY": "6",
+            "TOTAL": "84",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "6",
+            "RCV": "200",
+            "PAY": "6",
+            "TOTAL": "194",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุราษฎร์ธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "315",
+            "PAY": "6",
+            "TOTAL": "309",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพธาราม",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "200",
+            "PAY": "5",
+            "TOTAL": "195",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศรีสะเกษ",
+            "ผู้ป่วย(ตามเลขบัตร)": "5",
+            "RCV": "200",
+            "PAY": "5",
+            "TOTAL": "195",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชัยนาทนเรนทร",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "200",
+            "PAY": "4",
+            "TOTAL": "196",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โนนสุวรรณ",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "200",
+            "PAY": "4",
+            "TOTAL": "196",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านด่าน",
+            "ผู้ป่วย(ตามเลขบัตร)": "4",
+            "RCV": "200",
+            "PAY": "4",
+            "TOTAL": "196",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมุทรปราการ",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "300",
+            "PAY": "4",
+            "TOTAL": "296",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "150",
+            "PAY": "4",
+            "TOTAL": "146",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันประสาทวิทยา",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "30",
+            "PAY": "4",
+            "TOTAL": "26",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "กวีคลินิกเวชกรรม",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "10",
+            "PAY": "3",
+            "TOTAL": "7",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธชินราช พิษณุโลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "60",
+            "PAY": "3",
+            "TOTAL": "57",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะการักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "10",
+            "PAY": "3",
+            "TOTAL": "7",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แม่สอด",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "200",
+            "PAY": "3",
+            "TOTAL": "197",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศรีสังวรสุโขทัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "200",
+            "PAY": "3",
+            "TOTAL": "197",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สระบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "360",
+            "PAY": "3",
+            "TOTAL": "357",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อ่างทอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "200",
+            "PAY": "3",
+            "TOTAL": "197",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "3",
+            "RCV": "3",
+            "PAY": "3",
+            "TOTAL": "0",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลวาริชภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "90",
+            "PAY": "3",
+            "TOTAL": "87",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล กระบี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "200",
+            "PAY": "2",
+            "TOTAL": "198",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ  สยามบรมราชกุมารี  ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "400",
+            "PAY": "2",
+            "TOTAL": "398",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางพลี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "200",
+            "PAY": "2",
+            "TOTAL": "198",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนครศรีอยุธยา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "200",
+            "PAY": "2",
+            "TOTAL": "198",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเชียงคำ",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "400",
+            "PAY": "2",
+            "TOTAL": "398",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโข",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "5",
+            "PAY": "2",
+            "TOTAL": "3",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพหลพลพยุหเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "15",
+            "PAY": "2",
+            "TOTAL": "13",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "3",
+            "PAY": "2",
+            "TOTAL": "1",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "สถาบันบำราศนราดูร",
+            "ผู้ป่วย(ตามเลขบัตร)": "2",
+            "RCV": "10",
+            "PAY": "2",
+            "TOTAL": "8",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "กวีคลินิกเวชกรรม",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "2",
+            "PAY": "1",
+            "TOTAL": "1",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ประสาท เชียงใหม่",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "40",
+            "PAY": "1",
+            "TOTAL": "39",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระนั่งเกล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "4",
+            "PAY": "1",
+            "TOTAL": "3",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พัทลุง",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "20",
+            "PAY": "1",
+            "TOTAL": "19",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พิจิตร",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "200",
+            "PAY": "1",
+            "TOTAL": "199",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พิจิตร",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "2",
+            "PAY": "1",
+            "TOTAL": "1",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มหาราชนครศรีธรรมราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "200",
+            "PAY": "1",
+            "TOTAL": "199",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระเจ้าตากสินมหาราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "200",
+            "PAY": "1",
+            "TOTAL": "199",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองหงส์",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "200",
+            "PAY": "1",
+            "TOTAL": "199",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปากช่องนานา",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "10",
+            "PAY": "1",
+            "TOTAL": "9",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพหลพลพยุหเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "10",
+            "PAY": "1",
+            "TOTAL": "9",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาราชนครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "5",
+            "PAY": "1",
+            "TOTAL": "4",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาวชิราลงกรณธัญบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "1",
+            "RCV": "30",
+            "PAY": "1",
+            "TOTAL": "29",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล กระบี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล กระบี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล กล้วยน้ำไท",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "1",
+            "PAY": "0",
+            "TOTAL": "1",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เกาะคา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แกลง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แกลง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แกลง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล งาว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยายมราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยายมราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยายมราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เจ้าพระยายมราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แจ้ห่ม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชัยภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชัยภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "3",
+            "PAY": "0",
+            "TOTAL": "3",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชัยภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "3",
+            "PAY": "0",
+            "TOTAL": "3",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชำนิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชำนิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ชุมพรเขตรอุดมศักดิ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เถิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ทับคล้อ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ทับคล้อ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นครพนม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "120",
+            "PAY": "0",
+            "TOTAL": "120",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นพรัตนราชธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "25",
+            "PAY": "0",
+            "TOTAL": "25",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นราธิวาสราชนครินทร์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล นราธิวาสราชนครินทร์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โนนสุวรรณ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โนนสุวรรณ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางกระทุ่ม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "360",
+            "PAY": "0",
+            "TOTAL": "360",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางซ้าย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางซ้าย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางมูลนาก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บางมูลนาก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านกรวด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านกรวด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านกรวด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านด่าน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านด่าน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านใหม่ไชยพจน์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านใหม่ไชยพจน์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บ้านใหม่ไชยพจน์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บึงนาราง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บึงนาราง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บึงสามพัน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล บึงสามพัน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ประโคนชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ประโคนชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ประโคนชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ปราสาท",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ปัตตานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ปากชม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "450",
+            "PAY": "0",
+            "TOTAL": "450",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ปากชม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "450",
+            "PAY": "0",
+            "TOTAL": "450",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระปกเกล้า จังหวัดจันทบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พระพุทธบาท",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พัทลุง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พิจิตร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พิจิตร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล พุทธโสธร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เพชรบูรณ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เพชรบูรณ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แพร่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพทะเล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพทะเล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพธาราม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพธิ์ประทับช้าง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพนพิสัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล โพนพิสัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะการักษ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะเร็ง ชลบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะเร็ง ลพบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะเร็ง ลำปาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะเร็ง อุบลราชธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "80",
+            "PAY": "0",
+            "TOTAL": "80",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล มะเร็ง อุบลราชธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เมืองปาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แม่ทะ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แม่พริก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แม่เมาะ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล แม่สอด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ยโสธร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ร้อยเอ็ด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ร้อยเอ็ด",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระนอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระนอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระนอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ระยอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชวิถี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชสาส์น",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ราชสาส์น",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ละงู",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ละงู",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลาดบัวหลวง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำปาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "60",
+            "PAY": "0",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "120",
+            "PAY": "0",
+            "TOTAL": "120",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ลำพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "120",
+            "PAY": "0",
+            "TOTAL": "120",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เลย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "600",
+            "PAY": "0",
+            "TOTAL": "600",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เลย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "600",
+            "PAY": "0",
+            "TOTAL": "600",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เลิดสิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "34",
+            "PAY": "0",
+            "TOTAL": "34",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วชิรบารมี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วชิรบารมี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วชิระภูเก็ต",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วังทรายพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วังทรายพูน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล วังเหนือ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "100",
+            "PAY": "0",
+            "TOTAL": "100",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศีขรภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ศีขรภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สงฆ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สตูล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สตูล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สตูล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สบปราบ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระเจ้าตากสินมหาราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระพุทธเลิศหล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระพุทธเลิศหล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระพุทธเลิศหล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชตะพานหิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชนครไทย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "950",
+            "PAY": "0",
+            "TOTAL": "950",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชสระแก้ว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชสายบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชสายบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชหล่มเก่า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "4",
+            "PAY": "0",
+            "TOTAL": "4",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชหล่มเก่า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระยุพราชหล่มเก่า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระสังฆราชองค์ที่ 17",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระสังฆราชองค์ที่ 17",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมเด็จพระสังฆราชองค์ที่ 17",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมุทรสาคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สมุทรสาคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สอง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "60",
+            "PAY": "0",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สามง่าม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สามง่าม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "60",
+            "PAY": "0",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สุรินทร์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สุไหงโก-ลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล สุไหงโก-ลก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล เสริมงาม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองคาย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS2",
+            "REGISTER_TRADER_NAME": "GPO CBD "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองคาย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองคาย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองคาย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองคาย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองฉาง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "360",
+            "PAY": "0",
+            "TOTAL": "360",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองหงส์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล หนองหงส์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ห้วยพลู",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ห้วยพลู",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "240",
+            "PAY": "0",
+            "TOTAL": "240",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล ห้างฉัตร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อรัญประเทศ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุตรดิตถ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุตรดิตถ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุตรดิตถ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาล อุตรดิตถ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลกระสัง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลกระสัง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลกระสัง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "50",
+            "PAY": "0",
+            "TOTAL": "50",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "600",
+            "PAY": "0",
+            "TOTAL": "600",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP10",
+            "REGISTER_TRADER_NAME": "ยาอไภยสาลี อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "1200",
+            "PAY": "0",
+            "TOTAL": "1200",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP6",
+            "REGISTER_TRADER_NAME": "ยาไฟอาวุธ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลการแพทย์แผนไทยสกลนคร หลวงปู่แฟ๊บ สุภัทโท มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลกำแพงเพชร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลคำตากล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลคำตากล้า",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "270",
+            "PAY": "0",
+            "TOTAL": "270",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลแคนดง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลโคกศรีสุพรรณ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลโคกศรีสุพรรณ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลจิตเวชนครราชสีมาราชนครินทร์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเจริญศิลป์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเจริญศิลป์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเฉลิมพระเกียรติ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเฉลิมพระเกียรติ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลดงเจริญ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลดอนตาล",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเต่างอย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเต่างอย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโข",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลทุ่งสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเทพรัตน์นครราชสีมา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลน่าน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "60",
+            "PAY": "0",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนาโพธิ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลนาโพธิ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลโนนดินแดง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบรบือ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบ้านม่วง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลบ้านม่วง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปะคำ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปะคำ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปะคำ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปากช่องนานา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลปากช่องนานา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระจอมเกล้าจังหวัดเพชรบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระจอมเกล้าจังหวัดเพชรบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระจอมเกล้าจังหวัดเพชรบุรี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระศรีมหาโพธิ์",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "300",
+            "PAY": "0",
+            "TOTAL": "300",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์แบน ธนากโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "20",
+            "PAY": "0",
+            "TOTAL": "20",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์แบน ธนากโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์แบน ธนากโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "160",
+            "PAY": "0",
+            "TOTAL": "160",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP10",
+            "REGISTER_TRADER_NAME": "ยาอไภยสาลี อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP14",
+            "REGISTER_TRADER_NAME": "ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "160",
+            "PAY": "0",
+            "TOTAL": "160",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP6",
+            "REGISTER_TRADER_NAME": "ยาไฟอาวุธ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพระอาจารย์ฝั้น อาจาโร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "160",
+            "PAY": "0",
+            "TOTAL": "160",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP9",
+            "REGISTER_TRADER_NAME": "ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพลับพลาชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพลับพลาชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพลับพลาชัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพังงา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพังงา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพุทไธสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพุทไธสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลพุทไธสง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลโพนนาแก้ว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลโพนนาแก้ว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมหาสารคาม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลมะเร็งสุราษฏร์ธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลละหานทราย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลละหานทราย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลละหานทราย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลลำปลายมาศ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลลำปลายมาศ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลลำปลายมาศ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลวานรนิวาส",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลวานรนิวาส",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลวาริชภูมิ",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลศูนย์สกลนคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "60",
+            "PAY": "0",
+            "TOTAL": "60",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลศูนย์สกลนคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "40",
+            "PAY": "0",
+            "TOTAL": "40",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลศูนย์สกลนคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลศูนย์สกลนคร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสตึก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสตึก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสตึก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสมเด็จพระยุพราชสว่างแดนดิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสมเด็จพระยุพราชสว่างแดนดิน",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลส่องดาว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลส่องดาว",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสากเหล็ก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสากเหล็ก",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุโขทัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุโขทัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุโขทัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุโขทัย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลสุราษฎร์ธานี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "360",
+            "PAY": "0",
+            "TOTAL": "360",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลเสนา",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลหนองกี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลหนองกี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลหนองกี่",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลหนองบัวลำภู",
+            "ผู้ป่วย(ตามเลขบัตร)": "88",
+            "RCV": "950",
+            "PAY": "0",
+            "TOTAL": "950",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "RES1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชา ( ตำรับหมอเดชา ) DTAM GANJA OIL  (DEJA FORMULA)"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลห้วยราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "200",
+            "PAY": "0",
+            "TOTAL": "200",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS1",
+            "REGISTER_TRADER_NAME": "น้ำมันกัญชาหยอดใต้ลิ้น   "
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลห้วยราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "150",
+            "PAY": "0",
+            "TOTAL": "150",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP15",
+            "REGISTER_TRADER_NAME": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลห้วยราช",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลอากาศอำนวย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP11",
+            "REGISTER_TRADER_NAME": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "โรงพยาบาลอากาศอำนวย",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "90",
+            "PAY": "0",
+            "TOTAL": "90",
+            "MAR_QTY_UNIT": "ซอง",
+            "REGISTER_CODE": "TP2",
+            "REGISTER_TRADER_NAME": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันบำราศนราดูร",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "5",
+            "PAY": "0",
+            "TOTAL": "5",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันโรคผิวหนัง",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "30",
+            "PAY": "0",
+            "TOTAL": "30",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "สวัสดีคลินิกเวชกรรม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "10",
+            "PAY": "0",
+            "TOTAL": "10",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS3",
+            "REGISTER_TRADER_NAME": "GPO THC:CBD(1:1)"
+        },
+        {
+            "LICENSE_PLACE": "สวัสดีคลินิกเวชกรรม",
+            "ผู้ป่วย(ตามเลขบัตร)": "0",
+            "RCV": "3",
+            "PAY": "0",
+            "TOTAL": "3",
+            "MAR_QTY_UNIT": "ขวด",
+            "REGISTER_CODE": "SAS4",
+            "REGISTER_TRADER_NAME": "GPO THC"
+        }
+    ]
+}

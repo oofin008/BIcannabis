@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Cannabis</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark ">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">หน้าแรก</a>
+      </li>
+      <!-- <li class="nav-item d-none d-sm-inline-block">
+        <a href="index2.html" class="nav-link">จำหน่ายบำบัด</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index4.html" class="nav-link">สรุปข้อมูลยาและผลิตภัณฑ์</a>
+      </li> -->
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_import.html" class="nav-link">นำเข้ากัญชา</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell.html" class="nav-link">การจำหน่าย</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_export.html" class="nav-link  bg-info">การส่งออก</a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-white">ข้อมูลการจำหน่าย</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h5 class="card-title">Top 5 Hospitals distributing cannabis</h5>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" class="dropdown-item">Jan/2020</a>
+                      <a href="#" class="dropdown-item">Dec/2019</a>
+                      <a href="#" class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-8">
+                    <p class="text-center">
+                      <strong>January - 2020</strong>
+                    </p>
+
+                    <div class="chart">
+                      <!-- Sales Chart Canvas -->
+                      <canvas id="paChart" style="height: 400px;"></canvas>
+                    </div>
+                    <!-- /.chart-responsive -->
+                  </div>
+                  <!-- /.col -->
+                  <div class="col-md-4">
+                    <p class="text-center">
+                      <strong>Age</strong>
+                    </p>
+
+                    <div class="progress-group">
+                      Under 25
+                      <span class="float-right"><b>18.563%</b></span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-primary" style="width: 18.563%"></div>
+                      </div>
+                    </div>
+                    <!-- /.progress-group -->
+
+                    <div class="progress-group">
+                      25 - 35
+                      <span class="float-right"><b>20.359%</b></span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-danger" style="width: 20.359%"></div>
+                      </div>
+                    </div>
+
+                    <!-- /.progress-group -->
+                    <div class="progress-group">
+                      <span class="progress-text">36 - 50</span>
+                      <span class="float-right"><b>20.958%</b></span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-success" style="width: 20.958%"></div>
+                      </div>
+                    </div>
+
+                    <!-- /.progress-group -->
+                    <div class="progress-group">
+                      51 - 65
+                      <span class="float-right"><b>18.563%</b></span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-warning" style="width: 18.563%"></div>
+                      </div>
+                    </div>
+
+                    <!-- /.progress-group -->
+                    <div class="progress-group">
+                      65+
+                      <span class="float-right"><b>21.557%</b></span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-info" style="width: 21.557%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- ./card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <!-- Main row -->
+        <div class="row">
+          <!-- Left col -->
+          <div class="col-md-6">
+            <!-- MAP & BOX PANE -->
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">การจ่ายยาให้ผู้ป่วยแบ่งตามเพศ</h3>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" class="dropdown-item">Jan/2020</a>
+                      <a href="#" class="dropdown-item">Dec/2019</a>
+                      <a href="#" class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+                <div class="d-md-flex">
+                  <div class="p-1 flex-fill" style="overflow: hidden">
+                    <p class="text-center">
+                      <strong>ปี 2015 - 2020 (ราย)</strong>
+                    </p>
+                    <!-- Map will be created here -->
+                    <div class="chart">
+                      <canvas id="medDistribute" style="height: 400px; overflow: hidden"></canvas>
+                    </div>
+                  </div>
+                </div><!-- /.d-md-flex -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+  
+
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col-md-6">
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">จำนวนผู้ป่วยในแต่ละช่วงอายุ</h3>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" class="dropdown-item">Jan/2020</a>
+                      <a href="#" class="dropdown-item">Dec/2019</a>
+                      <a href="#" class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="chart">
+                    <canvas id="barChart"style="height: 400px; overflow: hidden"></canvas>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+              <div class="card-footer  p-0">
+                <p class="text-center"><b>จำนวนผู้ป่วยรวม 995 คน</b></p>
+              </div>
+            </div>
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">นับจำนวนโรคตามยาที่ใช้</h3>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" class="dropdown-item">Jan/2020</a>
+                      <a href="#" class="dropdown-item">Dec/2019</a>
+                      <a href="#" class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="chart-responsive">
+                      <canvas id="donutChart" height="150"></canvas>
+                    </div>
+                    <!-- ./chart-responsive -->
+                  </div>
+                  <!-- /.col -->
+                  <div class="col-md-4">
+                    <ul class="chart-legend clearfix">
+                      <li><i class="far fa-circle text-danger"></i> ผู้ป่วยมะเร็ง</li>
+                      <li><i class="far fa-circle text-success"></i> ภาวะกล้ามเนื้อหดเกร็ง</li>
+                      <li><i class="far fa-circle text-warning"></i> ภาวะคลื่นไส้อาเจียน</li>
+                      <li><i class="far fa-circle text-info"></i> ภาวะปวดประสาท</li>
+                      <li><i class="far fa-circle text-primary"></i> โรคพาร์กินสัน</li>
+                      <li><i class="far fa-circle text-secondary"></i> อื่นๆ</li>
+                    </ul>
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+              <div class="card-footer p-0">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                      ผู้ป่วยมะเร็ง
+                      <span class="float-right text-danger">
+                        <i class="fas fa-arrow-down text-sm"></i>
+                        12%</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                      ภาวะกล้ามเนื้อหดเกร็ง
+                      <span class="float-right text-success">
+                        <i class="fas fa-arrow-up text-sm"></i> 4%
+                      </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                      ภาวะปวดประสาท
+                      <span class="float-right text-warning">
+                        <i class="fas fa-arrow-left text-sm"></i> 0%
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.footer -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!-- PAGE SCRIPTS -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!--Plugins to show number on Chart-->
+<script src="https://cdn.rawgit.com/emn178/Chart.PieceLabel.js/master/build/Chart.PieceLabel.min.js"></script>
+<script>
+var patientChartCanvas = $('#paChart').get(0).getContext('2d')
+
+var patientChartData = {
+  labels  : ['โรงพยาบาลแกลง', 'โรงพยาบาลขอนแก่น', 'โรงพยาบาลคูเมือง', 'โรงพยาบาลเจ้าพระยา', 'โรงพยาบาลเฉลิมพระเกียรติ', 'โรงพยาบาลท่าฉาง', 'โรงพระยาบาลบางกรวย','โรงพยาบาลบุรีรัมย์', 'โรงพยาบาลระยอง'],
+  datasets: [
+    {
+      type                : 'line',
+      label               : '% of Total Distribution',
+      yAxesID: 'A',
+      borderColor         : 'rgba(60,141,188,0.8)',
+      borderWidth         : 2,
+      fill                : false,
+      data                : [500, 1700, 1600, 1100, 1300, 2500, 700, 1200, 500]
+    },
+    {
+      type                : 'bar',
+      label               : 'จำนวนจ่าย',
+      yAxesID: 'B',
+      backgroundColor     : '#ff4d4d',
+      fill                : false,
+      data                : [500, 1700, 1600, 1100, 1300, 2500, 700, 1200, 500]
+    }
+  ]
+}
+
+var patientChartOptions = {
+  maintainAspectRatio : false,
+  responsive : true,
+  elements: {
+    line: {
+      tension: 0, //disables bezier curves
+    },
+  },
+  legend: {
+    display: true,
+    labels: {
+        fontColor: "#faf7f7",
+      }
+  },
+  scales: {
+    xAxes: [{
+      gridLines : {
+        display : false,
+      },
+      ticks: {
+        fontColor: "#faf7f7",
+      }
+    }],
+    yAxes: [{
+      id: 'A',
+      position: 'left',
+      gridLines : {
+        display : false,
+      },
+      ticks: {
+        min: 0,
+        fontColor: "#faf7f7",
+      }
+    },{
+      id: 'B',
+      position: 'right',
+      ticks: {
+        min: 0,
+        max: 100,
+        fontColor: "#faf7f7",
+      }
+    }]
+  }
+}
+
+// This will get the first returned node in the jQuery collection.
+var patientChart = new Chart(patientChartCanvas, { 
+    type: 'line', 
+    data: patientChartData, 
+    options: patientChartOptions
+  }
+)
+
+
+
+//การจ่ายยาให้ผู้ป่วยแบ่งตามเพศ Chart
+var medDistributeCanvas = $('#medDistribute').get(0).getContext('2d');
+
+var medDistributeData = {
+  labels: [2015, 2016, 2017, 2018, 2019, 2020],
+  datasets: [
+    {
+      label: 'Men patients',
+      backgroundColor: '#33ccff',
+      borderColor: '#33ccff',
+      data: [2000, 10000, 1500, 1200, 3000, 600, 8000, 3500, 1600]
+    },
+    {
+      label: 'Female patients',
+      backgroundColor: '#ff80aa',
+      borderColor    : '#ff80aa',
+      data           : [700, 1700, 2700, 2000, 1800, 1500, 2000]
+    }
+  ]
+}
+var ticksStyle = {
+    fontColor: '#faf7f7',
+    fontStyle: 'bold'
+  };
+
+var mode      = 'index';
+var intersect = true;
+var medDistributeChart = new Chart(medDistributeCanvas, {
+  type: 'bar',
+  data: medDistributeData,
+  options: {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: true,
+      labels: {
+        fontColor: "#faf7f7",
+      }
+    },
+    tooltips  : {
+      mode      : mode,
+      intersect : intersect,
+      callbacks: {
+        label: function(tooltipItem, Data){
+          var label = Data.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(Data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] * 100) / 100;
+          label += ' ราย';
+          return label;
+        }
+      }
+    },
+    hover     :{
+      mode      : mode,
+      intersect : intersect
+    },
+    scales:{
+      yAxes: [{
+        gridLines:{
+          display: true,
+          lineWidth: '4px',
+          color: 'rgba(0, 0, 0, .2',
+          zeroLineColor: 'transparent'
+        },
+        ticks    : $.extend({
+            beginAtZero: true,
+
+            // Include a dollar sign in the ticks
+            callback: function (value, index, values) {
+              if (value >= 1000) {
+                value /= 1000
+                value += 'k'
+              }
+              return value + 'ราย'
+            }
+          }, ticksStyle)
+      }],
+      xAxes: [{
+        display  : true,
+          gridLines: {
+            display: false
+          },
+          ticks    : ticksStyle
+      }]
+    }
+  }
+})
+
+  //-------------
+  //- DONUT CHART -
+  //-------------
+  // Get context with jQuery - using jQuery's .get() method.
+  var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+    var donutData        = {
+      labels: [
+          'ผู้ป่วยมะเร็ง', 
+          'ภาวะกล้ามเนื้อหดเกร็ง',
+          'ภาวะคลื่นไส้อาเจียน', 
+          'ภาวะปวดประสาท', 
+          'โรคพาร์กินสัน', 
+          'อื่นๆ', 
+      ],
+      datasets: [
+        {
+          data: [700,500,400,600,300,100],
+          backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
+        }
+      ]
+    }
+    var donutOptions     = {
+      legend: {
+        display: false
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, Data){
+            var label = Data.labels[tooltipItem.datasetIndex] || '';
+            if (label){
+              label += ': ';
+            }
+            label += Math.round(Data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] * 100) / 100;
+            label += ' ราย';
+            return label;
+          }
+        }
+      }
+    }
+    //Create pie or douhnut chart
+    // You can switch between pie and douhnut using the method below.
+    var donutChart = new Chart(donutChartCanvas, {
+      type: 'doughnut',
+      data: donutData,
+      options: donutOptions      
+    })
+
+  //-----------------
+  //- END DONUT CHART -
+  //-----------------
+
+  var barChartCanvas = $('#barChart').get(0).getContext('2d')
+  var barChartData = {
+  labels  : ['0 - 10', '10 - 20', '20 - 30', '30 - 40', '40 - 50', '50 - 60', '60 - 70', '70 - 80', '80 - 90', '90 - 100'],
+  datasets: [
+    {
+      label: 'จำนวนผู้ป่วย',
+      backgroundColor: '#1a53ff',
+      borderColor: '#1a53ff',
+      barPercentage: 0.5,
+      data                : [0, 4, 19, 69, 156, 288, 292, 130, 32, 4]
+    },
+  ]
+  }
+    var barChartOptions = {
+      legend: {
+        display: false
+      },
+      responsive              : true,
+      maintainAspectRatio     : false,
+      datasetFill             : true,
+      scales: {
+        yAxes: [{
+          ticks:{
+            fontColor: "#faf7f7",
+          }
+        }],
+        xAxes: [{
+          ticks:{
+            fontColor: "#faf7f7",
+          }
+        }]
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, barChartData){
+            var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+            if (label){
+              label += ': ';
+            }
+            label += Math.round(tooltipItem.yLabel * 100) / 100;
+            label += ' ราย';
+            return label;
+          }
+        }
+      }
+    }
+
+    var barChart = new Chart(barChartCanvas, {
+      type: 'bar', 
+      data: barChartData,
+      options: barChartOptions
+    })
+    console.log(barChart)
+</script>
+</body>
+</html>

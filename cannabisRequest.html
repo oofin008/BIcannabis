@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cannabis</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--Jvector MAP -->
+  <link rel="stylesheet" href="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="plugins/paginationjs/pagination.css" type="text/css" />
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+                <li class="breadcrumb-item">
+                    <h3 class="m-0 text-white">การขออนุญาตเกี่ยวกับกัญชา</h3>
+                </li>
+                <li class="breadcrumb-item">
+                    <button onclick="location.href='./index.html';" class="btn btn-info">
+                        BACK <i class="fas fa-arrow-circle-left"></i>
+                    </button>
+                </li>
+            </ol>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item">
+                  <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: </h3>
+                </li>
+              </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Main row -->
+        <div class="row">
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+          <section class="col-lg-6">
+            <!--Test Map-->
+            <div class="card bg-gradient-dark">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  ภาพรวม
+                </h3>
+
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-calendar-alt"></i>
+                      Time Frame select
+                    </button>
+                    <div id ="timeFrameSelect"class="dropdown-menu dropdown-menu-right" role="menu">
+                      <a href="#" value="012020" class="dropdown-item">Jan/2020</a>
+                      <a href="#" value="122019" class="dropdown-item">Dec/2019</a>
+                      <a href="#" value="112019"class="dropdown-item">Nov/2019</a>
+                      <a class="dropdown-divider"></a>
+                      <a href="#" value="102019"class="dropdown-item">Oct/2019</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="card-body">
+                <div class="row">
+                  <!--Thai map Vector Div-->
+                  <div class="col-sm-12">
+                    <div id="thaimapjvector" style="height: 700px; width: 100%;"></div>
+                    <!-- <div id="testanothermap" style="height: 700px; width: 100%;"></div> -->
+                  </div>
+                  <!--./End thai map vector div-->
+                </div>
+              </div>
+            </div>
+            <!--./End Test Map-->
+          </section>
+          <!-- right col -->
+          <section class="col-lg-6">
+            <!--CARD-->
+            <div class="card">
+                <div class="card-header border-0">
+                  <h3 class="card-title" id="table_title">รายละเอียดใบอนุญาตนำเข้า (3 ใบ)</h3>
+                  <div class="card-tools">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-calendar-alt"></i>
+                        เลือกประเภท
+                      </button>
+                      <div id ="sortSelect"class="dropdown-menu dropdown-menu-right" role="menu">
+                        <a href="#" value="import" class="dropdown-item">ใบอนุญาตนำเข้า</a>
+                        <a href="#" value="plant" class="dropdown-item">ใบอนุญาตผลิตปลูก</a>
+                        <a href="#" value="convert"class="dropdown-item">ใบอนุญาตผลิตแปรรูป</a>
+                        <a href="#" value="sell_old"class="dropdown-item">ใบอนุญาตจำหน่าย</a>
+                        <a href="#" value="own_study"class="dropdown-item">ใบอนุญาตครอบครอง</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body table-responsive p-0"  style="height: 700px; overflow: auto;">
+                    <table class="table table-striped table-valign-middle" >
+                        <thead>
+                        <!-- <tr>
+                          <th>เลขที่ใบอนุญาต</th>
+                          <th>ชื่อผู้รับอนุญาต</th>
+                          <th>วันที่ยื่น</th>
+                          <th>วันที่อนุมัติ</th>
+                        </tr> -->
+                        </thead>
+                        <tbody id="table_body">
+
+                        <!--DATA is fetched from js function-->
+                        
+                        </tbody>
+                        <tfoot>
+                          <td colspan="5" style="text-align: right;" ></td>
+                          <td></td>
+                        </tfoot>
+                    </table>
+                </div>
+              </div>
+              <!--END CARD-->
+          </section>
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+
+
+  <footer class="main-footer">
+    อ้างอิงข้อมูลจาก ข้อมูลใบอนุญาต_เพิ่มจังหวัด 27 กพ. 63
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- Jvector Map javascript-->
+<script src="plugins/jquery/jquery.js"></script>
+<script src="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="./dist/js/jquery-javectormap-th_mill.js"></script>
+<script src="plugins/paginationjs/pagination.min.js"></script>
+<script src="plugins/paginationjs/pagination.js"></script>
+<script>
+  $(function(){
+
+    //Document Ready
+    let myDate = new Date();
+    month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+    document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+
+    cannabisFake = {
+      "TH-57": 150, //Comment
+      "TH-56": 178,
+      "TH-55": 7,
+      "TH-54": 223,
+      "TH-53": 168,
+      "TH-52": 14,
+      "TH-51": 36,
+      "TH-50": 233,
+      "TH-93": 91,
+      "TH-92": 148,
+      "TH-91": 20,
+      "TH-90": 297,
+      "TH-96": 272,
+      "TH-95": 186,
+      "TH-58": 248,
+      "TH-13": 2,
+      "TH-12": 32,
+      "TH-11": 67,
+      "TH-10": 288,
+      "TH-17": 35,
+      "TH-16": 152,
+      "TH-15": 62,
+      "TH-14": 147,
+      "TH-71": 170,
+      "TH-70": 97,
+      "TH-19": 113,
+      "TH-72": 54,
+      "TH-75": 120,
+      "TH-73": 72,
+      "TH-77": 197,
+      "TH-76": 133,
+      "TH-18": 75,
+      "TH-39": 281,
+      "TH-": 132,
+      "TH-74": 159,
+      "TH-84": 150,
+      "TH-85": 49,
+      "TH-86": 197,
+      "TH-80": 86,
+      "TH-81": 287,
+      "TH-82": 287,
+      "TH-83": 97,
+      "TH-32": 171,
+      "TH-40": 270,
+      "TH-41": 8,
+      "TH-42": 229,
+      "TH-43": 57,
+      "TH-44": 3,
+      "TH-45": 156,
+      "TH-46": 233,
+      "TH-47": 76,
+      "TH-48": 261,
+      "TH-49": 131,
+      "TH-26": 264,
+      "TH-27": 83,
+      "TH-24": 123,
+      "TH-25": 203,
+      "TH-22": 154,
+      "TH-23": 215,
+      "TH-20": 93,
+      "TH-21": 62,
+      "TH-62": 140,
+      "TH-63": 227,
+      "TH-60": 51,
+      "TH-61": 43,
+      "TH-66": 159,
+      "TH-67": 221,
+      "TH-64": 36,
+      "TH-65": 17,
+      "TH-35": 10,
+      "TH-34": 49,
+      "TH-37": 61,
+      "TH-33": 263,
+      "TH-38": 184,
+      "TH-36": 107,
+      "TH-31": 196,
+      "TH-94": 61,
+      "TH-30": 12
+    }
+    //ใบอนุญาตนำเข้ายาเสพติดประเภท5
+    cannabisImport = {
+      "test": [100,200],
+      "TH-81" : 0,
+      "TH-10" : 2,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 0,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 2,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 1,
+      "TH-48" : 0,
+      "TH-30" : 2,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 1,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 1,
+      "TH-13" : 1,
+      "TH-77" : 0,
+      "TH-25" : 1,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 0,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 2,
+      "TH-49" : 0,
+      "TH-58" : 1,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 1,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 2,
+      "TH-90" : 0,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 0,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    
+    //ใบอนุญาตผลิต [จำนวนใบ, พื้นที่รวม]
+    cannabisPlant = {
+      "TH-81" : [0,0],
+      "TH-10" : [2, 97.5],
+      "TH-71" : [0,0],
+      "TH-46" : [0,0],
+      "TH-62" : [0,0],
+      "TH-40" : [0,0],
+      "TH-22" : [0,0],
+      "TH-24" : [0,0],
+      "TH-20" : [0,0],
+      "TH-18" : [0,0],
+      "TH-36" : [0,0],
+      "TH-86" : [0,0],
+      "TH-57" : [0,0],
+      "TH-50" : [2, 4484],
+      "TH-92" : [0,0],
+      "TH-23" : [0,0],
+      "TH-63" : [0,0],
+      "TH-26" : [0,0],
+      "TH-73" : [1,0],
+      "TH-48" : [0,0],
+      "TH-30" : [2,1737.5],
+      "TH-80" : [0,0],
+      "TH-60" : [0,0],
+      "TH-12" : [1,0],
+      "TH-96" : [0,0],
+      "TH-55" : [0,0],
+      "TH-38" : [0,0],
+      "TH-31" : [1, 110],
+      "TH-13" : [1,132],
+      "TH-77" : [0,0],
+      "TH-25" : [1,560.24],
+      "TH-94" : [0,0],
+      "TH-14" : [0,0],
+      "TH-56" : [0,0],
+      "TH-82" : [0,0],
+      "TH-93" : [0,0],
+      "TH-66" : [0,0],
+      "TH-65" : [0,0],
+      "TH-76" : [0,0],
+      "TH-67" : [0,0],
+      "TH-54" : [0,96],
+      "TH-83" : [0,0],
+      "TH-44" : [2,112],
+      "TH-49" : [0,0],
+      "TH-58" : [1,1000],
+      "TH-35" : [0,0],
+      "TH-95" : [0,0],
+      "TH-45" : [0,0],
+      "TH-85" : [0,0],
+      "TH-21" : [0,0],
+      "TH-70" : [0,0],
+      "TH-16" : [0,0],
+      "TH-52" : [1,3908],
+      "TH-51" : [0,0],
+      "TH-42" : [0,0],
+      "TH-33" : [0,0],
+      "TH-47" : [2,900],
+      "TH-90" : [0,0],
+      "TH-91" : [0,0],
+      "TH-11" : [0,0],
+      "TH-75" : [0,0],
+      "TH-74" : [0,0],
+      "TH-27" : [0,0],
+      "TH-19" : [0,0],
+      "TH-17" : [0,0],
+      "TH-64" : [0,0],
+      "TH-72" : [0,0],
+      "TH-84" : [0,0],
+      "TH-32" : [0,0],
+      "TH-43" : [0,0],
+      "TH-39" : [0,0],
+      "TH-15" : [0,0],
+      "TH-37" : [0,0],
+      "TH-41" : [0,0],
+      "TH-53" : [0,0],
+      "TH-61" : [0,0],
+      "TH-34" : [0,0],
+    }
+    //ใบอนุญาตผลิตแปรรูปหรือสกัด
+    cannabisConvert = {
+      "TH-81" : 0,
+      "TH-10" : 1,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 0,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 0,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 0,
+      "TH-48" : 0,
+      "TH-30" : 0,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 0,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 0,
+      "TH-13" : 0,
+      "TH-77" : 0,
+      "TH-25" : 0,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 0,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 0,
+      "TH-49" : 0,
+      "TH-58" : 0,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 0,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 0,
+      "TH-90" : 0,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 0,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    //ใบอนุญาตจำหน่าย กฏหมายเก่า
+    cannabisSell_old = {
+      "TH-81" : 4,
+      "TH-10" : 30,
+      "TH-71" : 2,
+      "TH-46" : 5,
+      "TH-62" : 9,
+      "TH-40" : 6,
+      "TH-22" : 3,
+      "TH-24" : 2,
+      "TH-20" : 7,
+      "TH-18" : 6,
+      "TH-36" : 7,
+      "TH-86" : 2,
+      "TH-57" : 5,
+      "TH-50" : 6,
+      "TH-92" : 2,
+      "TH-23" : 1,
+      "TH-63" : 6,
+      "TH-26" : 2,
+      "TH-73" : 7,
+      "TH-48" : 3,
+      "TH-30" : 5,
+      "TH-80" : 4,
+      "TH-60" : 13,
+      "TH-12" : 9,
+      "TH-96" : 2,
+      "TH-55" : 1,
+      "TH-38" : 1,
+      "TH-31" : 18,
+      "TH-13" : 4,
+      "TH-77" : 0,
+      "TH-25" : 1,
+      "TH-94" : 7,
+      "TH-14" : 3,
+      "TH-56" : 5,
+      "TH-82" : 2,
+      "TH-93" : 3,
+      "TH-66" : 22,
+      "TH-65" : 3,
+      "TH-76" : 1,
+      "TH-67" : 4,
+      "TH-54" : 8,
+      "TH-83" : 3,
+      "TH-44" : 2,
+      "TH-49" : 5,
+      "TH-58" : 8,
+      "TH-35" : 7,
+      "TH-95" : 6,
+      "TH-45" : 2,
+      "TH-85" : 3,
+      "TH-21" : 4,
+      "TH-70" : 4,
+      "TH-16" : 3,
+      "TH-52" : 15,
+      "TH-51" : 7,
+      "TH-42" : 2,
+      "TH-33" : 17,
+      "TH-47" : 17,
+      "TH-90" : 13,
+      "TH-91" : 5,
+      "TH-11" : 4,
+      "TH-75" : 1,
+      "TH-74" : 3,
+      "TH-27" : 4,
+      "TH-19" : 4,
+      "TH-17" : 1,
+      "TH-64" : 2,
+      "TH-72" : 4,
+      "TH-84" : 17,
+      "TH-32" : 6,
+      "TH-43" : 4,
+      "TH-39" : 1,
+      "TH-15" : 1,
+      "TH-37" : 5,
+      "TH-41" : 19,
+      "TH-53" : 3,
+      "TH-61" : 9,
+      "TH-34" : 22
+    }
+    //ใบอนุญาตจำหน่ายเพื่อรักษา
+    cannabisSell_heal = {
+      "TH-81" : 0,
+      "TH-10" : 2,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 0,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 1,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 0,
+      "TH-48" : 0,
+      "TH-30" : 0,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 1,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 0,
+      "TH-13" : 0,
+      "TH-77" : 0,
+      "TH-25" : 1,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 1,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 0,
+      "TH-49" : 0,
+      "TH-58" : 0,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 0,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 2,
+      "TH-90" : 0,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 0,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    //ใบอนูยาตจำหน่ายยาเสพติดประเภท5
+    cannabisSell_type5 = {
+      "TH-81" : 0,
+      "TH-10" : 2,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 0,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 0,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 0,
+      "TH-48" : 0,
+      "TH-30" : 0,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 1,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 0,
+      "TH-13" : 0,
+      "TH-77" : 0,
+      "TH-25" : 0,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 0,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 0,
+      "TH-49" : 0,
+      "TH-58" : 0,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 0,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 0,
+      "TH-90" : 0,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 0,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    //ใบอนุญาตครอบครองเพื่อศึกษา
+    cannabisOwn_study = {
+      "TH-81" : 0,
+      "TH-10" : 10,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 1,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 2,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 3,
+      "TH-48" : 0,
+      "TH-30" : 0,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 3,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 1,
+      "TH-13" : 3,
+      "TH-77" : 0,
+      "TH-25" : 1,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 1,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 1,
+      "TH-49" : 0,
+      "TH-58" : 0,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 2,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 3,
+      "TH-90" : 2,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 1,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    //ใบอนุญาตครอบครองยาเสพติดประเภท5
+    cannabisOwn_type5 = {
+      "TH-81" : 0,
+      "TH-10" : 10,
+      "TH-71" : 0,
+      "TH-46" : 0,
+      "TH-62" : 0,
+      "TH-40" : 1,
+      "TH-22" : 0,
+      "TH-24" : 0,
+      "TH-20" : 0,
+      "TH-18" : 0,
+      "TH-36" : 0,
+      "TH-86" : 0,
+      "TH-57" : 0,
+      "TH-50" : 2,
+      "TH-92" : 0,
+      "TH-23" : 0,
+      "TH-63" : 0,
+      "TH-26" : 0,
+      "TH-73" : 3,
+      "TH-48" : 0,
+      "TH-30" : 0,
+      "TH-80" : 0,
+      "TH-60" : 0,
+      "TH-12" : 3,
+      "TH-96" : 0,
+      "TH-55" : 0,
+      "TH-38" : 0,
+      "TH-31" : 1,
+      "TH-13" : 3,
+      "TH-77" : 0,
+      "TH-25" : 1,
+      "TH-94" : 0,
+      "TH-14" : 0,
+      "TH-56" : 0,
+      "TH-82" : 0,
+      "TH-93" : 0,
+      "TH-66" : 0,
+      "TH-65" : 1,
+      "TH-76" : 0,
+      "TH-67" : 0,
+      "TH-54" : 0,
+      "TH-83" : 0,
+      "TH-44" : 1,
+      "TH-49" : 0,
+      "TH-58" : 0,
+      "TH-35" : 0,
+      "TH-95" : 0,
+      "TH-45" : 0,
+      "TH-85" : 0,
+      "TH-21" : 0,
+      "TH-70" : 0,
+      "TH-16" : 0,
+      "TH-52" : 2,
+      "TH-51" : 0,
+      "TH-42" : 0,
+      "TH-33" : 0,
+      "TH-47" : 3,
+      "TH-90" : 2,
+      "TH-91" : 0,
+      "TH-11" : 0,
+      "TH-75" : 0,
+      "TH-74" : 0,
+      "TH-27" : 0,
+      "TH-19" : 0,
+      "TH-17" : 0,
+      "TH-64" : 0,
+      "TH-72" : 0,
+      "TH-84" : 1,
+      "TH-32" : 0,
+      "TH-43" : 0,
+      "TH-39" : 0,
+      "TH-15" : 0,
+      "TH-37" : 0,
+      "TH-41" : 0,
+      "TH-53" : 0,
+      "TH-61" : 0,
+      "TH-34" : 0
+    }
+    cannabisFake = cannabisImport;
+    //build new map to display overall data
+    map = new jvm.Map({
+      map: 'th_mill',
+      backgroundColor: '',
+      container: $('#thaimapjvector'),
+      regionsSelectable: true,
+      zoomOnScroll: false,
+      series: {
+        regions: [{
+          values: cannabisFake,
+          scale: ['#ffffff', '#605ca8'],
+          normalizeFunction: 'linear',
+          attribute: 'fill',
+          min: 0,
+          max: 10,
+        }]
+      },
+      onRegionTipShow: function(e, el, code){
+        (select_opt=="plant")?
+        el.html(el.html()+' (ใบอนุญาต - ' + cannabisFake[code][0]+ ' ใบ, พื้นที่ปลูก - ' + cannabisFake[code][1] + ' ตร.ม.)' )
+        :el.html(el.html()+' (ใบอนุญาต - ' + cannabisFake[code]+ ' ใบ)');
+      },
+      onRegionSelected: function(){
+        //regionSelected contain array of region selected
+        var regionSelected = map.getSelectedRegions();
+        console.log(regionSelected);
+        window.location.href = "./provinceDetail.html?regionselected=" + regionSelected[0];
+        return 0
+      }
+    });
+    console.log(map);
+    
+    //Get data from JSON
+    var request_data;
+    $.getJSON('./dist/js/jsondata/requestData3.json', function(data){
+      request_data = data.Sheet1;
+      console.log(data.Sheet1[0]);
+      
+      //Initial table_body when page first load
+      renderTableData("import", "table_body", request_data);
+    })
+
+    
+    var select_opt = "import";
+
+    //Sort select for right col
+    $('#sortSelect a').click(function(){
+        select_opt = $(this).attr("value");
+        if(select_opt == "import"){
+            cannabisFake = cannabisImport;
+            map.series.regions[0].setValues(cannabisFake);
+            map.series.regions[0].setScale(['#ffffff', '#605ca8'])//bg-purple
+            document.getElementById("table_title").innerText = "รายละเอียดใบอนุญาตนำเข้า (3 ใบ)";
+            renderTableData("import", "table_body", request_data);
+        }
+        if(select_opt == "plant"){
+            cannabisFake = cannabisPlant;
+            map.series.regions[0].setValues(cannabisFake);
+            map.series.regions[0].setScale(['#ffffff', '#39cccc'])//bg-teal
+            document.getElementById("table_title").innerText = "รายละเอียดใบอนุญาตผลิตปลูก (17 ใบ)";
+            renderTableData("plant", "table_body", request_data);
+        }
+        if(select_opt == "convert"){
+            cannabisFake = cannabisConvert;
+            map.series.regions[0].setValues(cannabisFake);
+            map.series.regions[0].setScale(['#ffffff','#dc3545'])//bg-danger 
+            console.log(cannabisFake);
+            document.getElementById("table_title").innerText = "รายละเอียดใบอนุญาตผลิตแปรรูปหรือสกัด (19 ใบ)";
+            renderTableData("convert", "table_body", request_data); 
+        }
+        if(select_opt == "sell_old"){
+            cannabisFake = cannabisSell_old;
+            map.series.regions[0].setValues(cannabisFake);
+            map.series.regions[0].setScale(['#ffffff', '#e83e8c'])//bg-pink
+            document.getElementById("table_title").innerText = "รายละเอียดใบอนุญาตจำหน่าย (474 ใบ)";
+            renderTableData("sell", "table_body", request_data);
+        }
+        if(select_opt == "own_study"){
+            cannabisFake = cannabisOwn_study;
+            console.log(map);
+            map.series.regions[0].setValues(cannabisFake);
+            map.series.regions[0].setScale(['#ffffff', '#ffc107'])//bg-warning
+            document.getElementById("table_title").innerText = "รายละเอียดใบอนุญาตครอบครอง (55 ใบ)";
+            renderTableData("own", "table_body",request_data);
+        }
+    });
+
+    
+    //Random value for Thaimap
+    // function randomJson(inputObj){
+    //   const objkey = Object.keys(cannabisFake);
+    //   for (const key of objkey) {
+    //     inputObj[key] = Math.floor(Math.random() * (100 - 1)) + 1; 
+    //   }
+    // }
+
+    // function randomName(){
+    //     var nameList = ["กรมการแพทย์","สำนักงานปลัดกระทรวงสาธารณสุข","มหาวิทยาลัยนเรศวร","มหาวิทยาลัยรังสิต","องค์การเภสัชกรรม","จุฬาลงกรณ์มหาวิทยาลัย","มหาวิทยาลัยราชมงคลอีสาน","กรมวิทยาศาสตร์การแพทย์","มหาวิทยาลัยมหาสารคาม","มหาวิทยาลัยศิลปากร" ];
+    //     return nameList[Math.floor(Math.random() * nameList.length)];
+    // }
+
+    // function randomDate(start, end) {
+    //     let myDate2 = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+    //     return (myDate2.getDate() + '/' + (myDate.getMonth()+1) + '/' + myDate.getFullYear());
+    // }
+
+    //Color match function for table header
+    var colorMatch = new Map();
+    colorMatch.set("import", "<tr><td COLSPAN=2 class='bg-purple'>ลำดับที่: ");
+    colorMatch.set("plant", "<tr><td COLSPAN=2 class='bg-teal'>ลำดับที่: ");
+    colorMatch.set("convert", "<tr><td COLSPAN=2 class='bg-danger'>ลำดับที่: ");
+    colorMatch.set("sell", "<tr><td COLSPAN=2 class='bg-pink'>ลำดับที่: ");
+    colorMatch.set("own", "<tr><td COLSPAN=2 class='bg-warning'>ลำดับที่: ");
+
+    //Convert Date to Thai format
+    function month_thai_convert(in_format, in_date_str){
+      var month_map = new Map();
+      month_map.set("Jan", "มกราคม");
+      month_map.set("Feb", "กุมภาพันธ์");
+      month_map.set("Mar", "มีนาคม");
+      month_map.set("Apr", "เมษายน");
+      month_map.set("May", "พฤษภาคม");
+      month_map.set("Jun", "มิถุนายน");
+      month_map.set("Jul", "กรกฎาคม");
+      month_map.set("Aug", "สิงหาคม");
+      month_map.set("Sep", "กันยายน");
+      month_map.set("Oct", "ตุลาคม");
+      month_map.set("Nov", "พฤศจิกายน");
+      month_map.set("Dec", "ธันวาคม");
+      
+      var str_parse = in_date_str.split("-");
+      if(in_format == "D-M-YYYY"){
+        return (str_parse[0] + month_map.get(str_parse[1]) + (parseInt(str_parse[2]) + 543).toString());
+      }
+      if(in_format == "D-M-YY"){
+        return (str_parse[0] + month_map.get(str_parse[1]) + str_parse[2]);
+      }
+    }
+
+    //render table data function
+    function renderTableData(inputType, targetID, data){
+      var targetDiv = document.getElementById(targetID);
+      while (targetDiv.firstChild){
+          targetDiv.removeChild(targetDiv.firstChild);
+      }
+      var count = 1;
+      $.each(data, function(index, item){
+        if(item["request_type"] == inputType){
+          //row header
+          $("#table_body").append((colorMatch.get(inputType) + (count).toString() + "<td></tr>"));
+          //row1
+          $("#table_body").append(("<tr><td>ชื่อผู้รับอนุญาต: " + item["ชื่อผู้รับอนุญาต"] + "</td><td>เลขที่ใบอนุญาต: " + item["เลขที่ใบอนุญาต"] + "</td></tr>"));
+          //row2
+          $("#table_body").append(("<tr><td>ชื่อผู้ดำเนิน: " + item["ชื่อผู้ดำเนิน"]+ "</td><td>วันที่อนุมัติ " + month_thai_convert('D-M-YY', item["วันที่อนุมัติ"])  + "</td></tr>"));
+          //row3
+          $("#table_body").append(("<tr><td>ประเภทคำขอ: " + item["ประเภทคำขอ"] + "</td><td>สถานะ: " + item["สถานะ"] + "</td></tr>"));
+          //row4
+          $("#table_body").append(("<tr><td>ชื่อสถานที่: " + item["ชื่อสถานที่"] + "</td><td><i class='fas fa-map-marker-alt mr-1'></i>" + (item["ละติจูด"]? ("<a href='https://www.google.com/maps?q=" + item["ละติจูด"] +","+ item["ลองจิจูด"] + "' target='_blank'>ดูแผนที่</a>"): "ไม่ระบุ") +  "</td></tr>"));
+          //row5 : Check if inputType = plant
+          if(inputType == "plant"){
+            $("#table_body").append(("<tr><td COLSPAN=2>พื้นที่ปลูก: " + item["plant_area"] + item["area_unit"]+"</td></tr>"));
+          }
+          console.log(item);
+          count++;
+        }
+      });
+    }
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿{
+    "children": [
+        {
+            "name": "แยกตามประเภทชิ้นส่วน",
+            "children": [
+                {
+                    "name": "กัญชาอัดแท่ง",
+                    "group": "A",
+                    "value": 1988158,
+                    "colname": "level3"
+                },
+                {
+                    "name": "กิ่งชำ",
+                    "group": "A",
+                    "value": 240,
+                    "colname": "level3"
+                },
+                {
+                    "name": "ช่อดอก",
+                    "group": "C",
+                    "value": 247408,
+                    "colname": "level3"
+                },
+                {
+                    "name": "ใบ",
+                    "group": "C",
+                    "value": 67510,
+                    "colname": "level3"
+                },
+                {
+                    "name": "เมล็ด",
+                    "group": "C",
+                    "value": 360000,
+                    "colname": "level3"
+                },
+                {
+                    "name": "ราก",
+                    "group": "C",
+                    "value": 19130,
+                    "colname": "level3"
+                },
+                {
+                    "name": "ลำต้น",
+                    "group": "C",
+                    "value": 27000,
+                    "colname": "level3"
+                }
+                ,
+                {
+                    "name": "สารสกัด",
+                    "group": "C",
+                    "value": 16297369,
+                    "colname": "level3"
+                }
+            ],
+            "colname": "level2"
+        },
+    ],
+    "name": "CEO"
+}

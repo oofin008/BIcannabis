@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Cannabis</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark ">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">หน้าแรก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_import.html" class="nav-link">นำเข้ากัญชา</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell3.html" class="nav-link ">จำหน่ายพืช</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell.html?sortselected=SAS" class="nav-link">การจำหน่ายบำบัด</a>
+      </li>
+      
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_occupy.html" class="nav-link bg-info">การครอบครอง</a>
+      </li>
+      
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-white">การครอบครอง</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h5 class="card-title">จำหน่ายพืชแยกตามวัตถุประสงค์</h5>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      <strong id="paChart_header">ข้อมูลสะสมถึง กุมภาพันธ์ - 2563</strong>
+                    </p>
+
+                    <div class="chart">
+                      <!-- Sales Chart Canvas -->
+                      <canvas id="sell3_purpose" style="height: 500px;"></canvas>
+                    </div>
+                    <!-- /.chart-responsive -->
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- ./card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--End Col-->
+        </div>
+        <!--End Row #1-->
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h5 class="card-title">จำหน่ายพืชแยกตามชิ้นส่วน</h5>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      <strong id="paChart_header">ข้อมูลสะสมถึง กุมภาพันธ์ - 2563</strong>
+                    </p>
+
+                    <div class="chart">
+                      <!-- Sales Chart Canvas -->
+                      <canvas id="sell3_chart" style="height: 500px;"></canvas>
+                    </div>
+                    <!-- /.chart-responsive -->
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- ./card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--End Col-->
+        </div>
+        <!--End Row #2-->
+      </div>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    ข้อมูลอ้างอิงจาก ข้อมูลรายงานกัญชา_4 มี.ค.63
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!-- PAGE SCRIPTS -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<script>
+  var tickStyle = {
+    fontColor: 'white',
+    fontStyle: 'bold'
+  }
+  var mode = 'index';
+  var intersect = false;
+  var lineChartOptions = {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: false,
+      labels: {
+        fontColor: "white",
+      }
+    },
+    tooltips: {
+      mode: 'index',
+      intersect: false
+    },
+    hover: {
+      mode: 'nearest',
+      intersect: true
+    },
+    scales:{
+      yAxes: [{
+        display: true,
+        scaleLabel:{
+          display: true,
+          labelString: 'จำนวน',
+          fontColor: 'white',
+        },
+        gridLines: {
+          display: true,
+          lineWidth: '4px',
+          color: 'rgba(0,0,0,0.2)',
+          zeroLineColor: 'transparent'
+        },
+        ticks: $.extend({
+          beginAtZero: true,
+
+        }, tickStyle)
+      }],
+      xAxes: [{
+        display: true,
+        scaleLabel:{
+          display: true,
+          labelString: 'เดือน',
+          fontColor: 'white'
+        },
+        gridLines: {
+          display: false
+        },
+        ticks: tickStyle
+      }]
+    },
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, barChartData){
+          var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(tooltipItem.yLabel * 100) / 100;
+          label += ' unit';
+          return label;
+        }
+      }
+    }
+  }
+  var sell3_chart_canvas = $('#sell3_chart').get(0).getContext('2d');
+  
+  var sell3_chart_data = {
+    labels: ['มิถุนายน 2562','กรกฎาคม 2562','สิงหาคม 2062','กันยายน 2562','ตุลาคม 2562','พฤษจิกายน','ธันวาคม 2652','มกราคม 2563','กุมภาพันธ์ 2563'],
+    datasets:[
+      {
+        label: 'กัญชาอัดแท่ง',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,0,0,0,0],
+        backgroundColor : '#f39c12',
+        borderColor: '#f39c12',
+      },
+      {
+        label: 'กิ่งชำ',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,0,0,240,0],
+        backgroundColor : '#00c0ef',
+        borderColor: '#00c0ef',
+      },
+      {
+        label: 'ช่อดอก',
+        fill: false,
+        lineTension: 0,
+        data: [8943,2809,11248,0,240910,243250,392660,43197,5933],
+        backgroundColor : '#ff4d4d',
+        borderColor: '#ff4d4d',
+      },
+      {
+        label: 'ใบ',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,198415,1152975,826455,41365,198415],
+        backgroundColor : '#cc66ff',
+        borderColor: '#cc66ff',
+      },
+      {
+        label: 'เมล็ด',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,0,542,570,0],
+        backgroundColor : '#00ffcc',
+        borderColor:'#00ffcc',
+      },
+      {
+        label: 'ราก',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,19130,0,19130,0],
+        backgroundColor : '#99ff33',
+        borderColor: '#99ff33',
+      },
+      {
+        label: 'ลำต้น',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,23990,28380,30970,0],
+        backgroundColor : '#12ef34',
+        borderColor: '#12ef34',
+      },
+      {
+        label: 'สารสกัด',
+        fill: false,
+        lineTension: 0,
+        data: [0,0,0,0,0,0,0,0,0,],
+        backgroundColor :  '#5d6e86',
+        borderColor: '#5d6e86',
+      },
+    ]
+  }
+
+  var sell3_chart = new Chart(sell3_chart_canvas,{
+    type: 'line',
+    data: sell3_chart_data,
+    options:lineChartOptions
+  })
+
+  //Sell Purpose Chart
+  var sell3PurposeCanvas = $('#sell3_purpose').get(0).getContext('2d')
+    var sell3PurposeData = {
+      labels  : ['คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร','คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น','คณะเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย','คณะเภสัชศาสตร์ มหาวิทยาลัยนเรศวร','โรงพยาบาล เจ้าพระยาอภัยภูเบศร'],
+      datasets: [
+        {
+          label: "เมล็ด",
+          backgroundColor: '#8db255',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [106202,0,0,0,12607,]
+        },
+        {
+          label: 'ต้น',
+          backgroundColor: '#66ccff',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [4,0,0,0,10,]
+        },
+        {
+          label: 'กัญชาแห้ง',
+          backgroundColor: '#f47983',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,300000,10000,348390,30000,]
+        },
+        {
+          label: 'สารสกัด',
+          backgroundColor: '#f47100',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,8051,0,72,1000,]
+        },
+        {
+          label: 'ดอกกัฐชาแห้ง',
+          backgroundColor: '#f41983',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,0,0,0,0,508,]
+        },
+      ]
+    }
+
+    var sell3PurposeChart = new Chart(sell3PurposeCanvas, {
+      type: 'bar', 
+      data: sell3PurposeData,
+      options: {
+        legend:{
+          display: true,
+          labels: { fontColor: 'white'}
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+        },
+        responsive: true,
+        scales:{
+          xAxes: [{
+            stacked: true,
+            ticks:{
+              fontColor: 'white'
+            }
+          }],
+          yAxes: [{
+            stacked: true,
+            ticks: {
+              fontColor: 'white'
+            }
+          }]
+        }
+      }
+    })
+
+</script>
+    
+</body>
+</html>

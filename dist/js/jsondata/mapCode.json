@@ -1,0 +1,466 @@
+﻿{
+    "Sheet1": [
+        {
+            "CHANGWAT_E": "Bangkok",
+            "LAT": "13.753",
+            "LONG": "100.500",
+            "MAP_CODE": "TH-10"
+        },
+        {
+            "CHANGWAT_E": "Samut Prakarn",
+            "LAT": "13.623",
+            "LONG": "100.565",
+            "MAP_CODE": "TH-11"
+        },
+        {
+            "CHANGWAT_E": "Nonthaburi",
+            "LAT": "13.842",
+            "LONG": "100.494",
+            "MAP_CODE": "TH-12"
+        },
+        {
+            "CHANGWAT_E": "Pathum Thani",
+            "LAT": "14.031",
+            "LONG": "100.552",
+            "MAP_CODE": "TH-13"
+        },
+        {
+            "CHANGWAT_E": "Phra Nakhon Si Ayutthaya",
+            "LAT": "14.368",
+            "LONG": "100.578",
+            "MAP_CODE": "TH-14"
+        },
+        {
+            "CHANGWAT_E": "Ang Thong",
+            "LAT": "14.588",
+            "LONG": "100.459",
+            "MAP_CODE": "TH-15"
+        },
+        {
+            "CHANGWAT_E": "Lop Buri",
+            "LAT": "14.802",
+            "LONG": "100.611",
+            "MAP_CODE": "TH-16"
+        },
+        {
+            "CHANGWAT_E": "Sing Buri",
+            "LAT": "14.890",
+            "LONG": "100.404",
+            "MAP_CODE": "TH-17"
+        },
+        {
+            "CHANGWAT_E": "Chai Nat",
+            "LAT": "15.181",
+            "LONG": "100.127",
+            "MAP_CODE": "TH-18"
+        },
+        {
+            "CHANGWAT_E": "Saraburi",
+            "LAT": "14.529",
+            "LONG": "100.886",
+            "MAP_CODE": "TH-19"
+        },
+        {
+            "CHANGWAT_E": "Chon Buri",
+            "LAT": "12.611",
+            "LONG": "100.889",
+            "MAP_CODE": "TH-20"
+        },
+        {
+            "CHANGWAT_E": "Rayong",
+            "LAT": "12.646",
+            "LONG": "101.171",
+            "MAP_CODE": "TH-21"
+        },
+        {
+            "CHANGWAT_E": "Chanthaburi",
+            "LAT": "12.591",
+            "LONG": "102.087",
+            "MAP_CODE": "TH-22"
+        },
+        {
+            "CHANGWAT_E": "Trat",
+            "LAT": "12.078",
+            "LONG": "102.562",
+            "MAP_CODE": "TH-23"
+        },
+        {
+            "CHANGWAT_E": "Chachoengsao",
+            "LAT": "13.707",
+            "LONG": "101.100",
+            "MAP_CODE": "TH-24"
+        },
+        {
+            "CHANGWAT_E": "Prachin Buri",
+            "LAT": "14.057",
+            "LONG": "101.374",
+            "MAP_CODE": "TH-25"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Nayok",
+            "LAT": "14.204",
+            "LONG": "101.219",
+            "MAP_CODE": "TH-26"
+        },
+        {
+            "CHANGWAT_E": "Sa kaeo",
+            "LAT": "13.803",
+            "LONG": "102.077",
+            "MAP_CODE": "TH-27"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Ratchasima",
+            "LAT": "15.009",
+            "LONG": "102.086",
+            "MAP_CODE": "TH-30"
+        },
+        {
+            "CHANGWAT_E": "Buri Ram",
+            "LAT": "14.999",
+            "LONG": "103.104",
+            "MAP_CODE": "TH-31"
+        },
+        {
+            "CHANGWAT_E": "Surin",
+            "LAT": "14.884",
+            "LONG": "103.490",
+            "MAP_CODE": "TH-32"
+        },
+        {
+            "CHANGWAT_E": "Si Sa Ket",
+            "LAT": "15.015",
+            "LONG": "104.369",
+            "MAP_CODE": "TH-33"
+        },
+        {
+            "CHANGWAT_E": "Ubon Ratchathani",
+            "LAT": "15.244",
+            "LONG": "104.894",
+            "MAP_CODE": "TH-34"
+        },
+        {
+            "CHANGWAT_E": "Yasothon",
+            "LAT": "15.799",
+            "LONG": "104.148",
+            "MAP_CODE": "TH-35"
+        },
+        {
+            "CHANGWAT_E": "Chaiyaphum",
+            "LAT": "15.742",
+            "LONG": "102.022",
+            "MAP_CODE": "TH-36"
+        },
+        {
+            "CHANGWAT_E": "Amnat Charoen",
+            "LAT": "15.823",
+            "LONG": "104.562",
+            "MAP_CODE": "TH-37"
+        },
+        {
+            "CHANGWAT_E": "Bueng Kan",
+            "LAT": "18.031",
+            "LONG": "103.711",
+            "MAP_CODE": "TH-38"
+        },
+        {
+            "CHANGWAT_E": "Nong Bua Lam Phu",
+            "LAT": "17.243",
+            "LONG": "102.440",
+            "MAP_CODE": "TH-39"
+        },
+        {
+            "CHANGWAT_E": "Khon Kaen",
+            "LAT": "16.516",
+            "LONG": "102.931",
+            "MAP_CODE": "TH-40"
+        },
+        {
+            "CHANGWAT_E": "Udon Thani",
+            "LAT": "17.411",
+            "LONG": "102.792",
+            "MAP_CODE": "TH-41"
+        },
+        {
+            "CHANGWAT_E": "Loei",
+            "LAT": "17.493",
+            "LONG": "101.732",
+            "MAP_CODE": "TH-42"
+        },
+        {
+            "CHANGWAT_E": "Nong Khai",
+            "LAT": "17.890",
+            "LONG": "102.761",
+            "MAP_CODE": "TH-43"
+        },
+        {
+            "CHANGWAT_E": "Maha Sarakham",
+            "LAT": "16.162",
+            "LONG": "103.484",
+            "MAP_CODE": "TH-44"
+        },
+        {
+            "CHANGWAT_E": "Roi Et",
+            "LAT": "15.600",
+            "LONG": "104.139",
+            "MAP_CODE": "TH-45"
+        },
+        {
+            "CHANGWAT_E": "Kalasin",
+            "LAT": "16.587",
+            "LONG": "103.450",
+            "MAP_CODE": "TH-46"
+        },
+        {
+            "CHANGWAT_E": "Sakon Nakhon",
+            "LAT": "17.125",
+            "LONG": "104.260",
+            "MAP_CODE": "TH-47"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Phanom",
+            "LAT": "17.157",
+            "LONG": "104.784",
+            "MAP_CODE": "TH-48"
+        },
+        {
+            "CHANGWAT_E": "Mukdahan",
+            "LAT": "16.530",
+            "LONG": "104.724",
+            "MAP_CODE": "TH-49"
+        },
+        {
+            "CHANGWAT_E": "Chiang Mai",
+            "LAT": "18.785",
+            "LONG": "98.985",
+            "MAP_CODE": "TH-50"
+        },
+        {
+            "CHANGWAT_E": "Lamphun",
+            "LAT": "18.656",
+            "LONG": "99.013",
+            "MAP_CODE": "TH-51"
+        },
+        {
+            "CHANGWAT_E": "Lampang",
+            "LAT": "18.290",
+            "LONG": "99.492",
+            "MAP_CODE": "TH-52"
+        },
+        {
+            "CHANGWAT_E": "Uttaradit",
+            "LAT": "17.684",
+            "LONG": "100.132",
+            "MAP_CODE": "TH-53"
+        },
+        {
+            "CHANGWAT_E": "Phrae",
+            "LAT": "18.140",
+            "LONG": "100.142",
+            "MAP_CODE": "TH-54"
+        },
+        {
+            "CHANGWAT_E": "Nan",
+            "LAT": "18.793",
+            "LONG": "100.786",
+            "MAP_CODE": "TH-55"
+        },
+        {
+            "CHANGWAT_E": "Phayao",
+            "LAT": "19.172",
+            "LONG": "99.894",
+            "MAP_CODE": "TH-56"
+        },
+        {
+            "CHANGWAT_E": "Chiang Rai",
+            "LAT": "19.907",
+            "LONG": "99.832",
+            "MAP_CODE": "TH-57"
+        },
+        {
+            "CHANGWAT_E": "Mae Hong Son",
+            "LAT": "19.302",
+            "LONG": "97.970",
+            "MAP_CODE": "TH-58"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Sawan",
+            "LAT": "15.712",
+            "LONG": "100.174",
+            "MAP_CODE": "TH-60"
+        },
+        {
+            "CHANGWAT_E": "Uthai Thani",
+            "LAT": "15.350",
+            "LONG": "100.088",
+            "MAP_CODE": "TH-61"
+        },
+        {
+            "CHANGWAT_E": "Kamphaeng Phet",
+            "LAT": "16.473",
+            "LONG": "99.528",
+            "MAP_CODE": "TH-62"
+        },
+        {
+            "CHANGWAT_E": "Tak",
+            "LAT": "16.862",
+            "LONG": "99.129",
+            "MAP_CODE": "TH-63"
+        },
+        {
+            "CHANGWAT_E": "Sukhothai",
+            "LAT": "17.012",
+            "LONG": "99.822",
+            "MAP_CODE": "TH-64"
+        },
+        {
+            "CHANGWAT_E": "Phitsanulok",
+            "LAT": "16.789",
+            "LONG": "100.250",
+            "MAP_CODE": "TH-65"
+        },
+        {
+            "CHANGWAT_E": "Phichit",
+            "LAT": "16.443",
+            "LONG": "100.343",
+            "MAP_CODE": "TH-66"
+        },
+        {
+            "CHANGWAT_E": "Phetchabun",
+            "LAT": "16.420",
+            "LONG": "101.156",
+            "MAP_CODE": "TH-67"
+        },
+        {
+            "CHANGWAT_E": "Ratchaburi",
+            "LAT": "13.593",
+            "LONG": "99.796",
+            "MAP_CODE": "TH-70"
+        },
+        {
+            "CHANGWAT_E": "Kanchanaburi",
+            "LAT": "14.035",
+            "LONG": "99.503",
+            "MAP_CODE": "TH-71"
+        },
+        {
+            "CHANGWAT_E": "Suphan Buri",
+            "LAT": "14.471",
+            "LONG": "100.116",
+            "MAP_CODE": "TH-72"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Pathom",
+            "LAT": "13.819",
+            "LONG": "100.050",
+            "MAP_CODE": "TH-73"
+        },
+        {
+            "CHANGWAT_E": "Samut Sakhon",
+            "LAT": "13.533",
+            "LONG": "100.276",
+            "MAP_CODE": "TH-74"
+        },
+        {
+            "CHANGWAT_E": "Samut Songkhram",
+            "LAT": "13.399",
+            "LONG": "99.976",
+            "MAP_CODE": "TH-75"
+        },
+        {
+            "CHANGWAT_E": "Phetchaburi",
+            "LAT": "13.121",
+            "LONG": "99.900",
+            "MAP_CODE": "TH-76"
+        },
+        {
+            "CHANGWAT_E": "Prachuap Khiri Khan",
+            "LAT": "11.805",
+            "LONG": "99.784",
+            "MAP_CODE": "TH-77"
+        },
+        {
+            "CHANGWAT_E": "Nakhon Si Thammarat",
+            "LAT": "8.449",
+            "LONG": "99.961",
+            "MAP_CODE": "TH-80"
+        },
+        {
+            "CHANGWAT_E": "Krabi",
+            "LAT": "8.049",
+            "LONG": "98.676",
+            "MAP_CODE": "TH-81"
+        },
+        {
+            "CHANGWAT_E": "Phang-nga",
+            "LAT": "8.446",
+            "LONG": "98.524",
+            "MAP_CODE": "TH-82"
+        },
+        {
+            "CHANGWAT_E": "Phuket",
+            "LAT": "7.924",
+            "LONG": "98.455",
+            "MAP_CODE": "TH-83"
+        },
+        {
+            "CHANGWAT_E": "Surat Thani",
+            "LAT": "9.137",
+            "LONG": "99.320",
+            "MAP_CODE": "TH-84"
+        },
+        {
+            "CHANGWAT_E": "Ranong",
+            "LAT": "9.779",
+            "LONG": "98.477",
+            "MAP_CODE": "TH-85"
+        },
+        {
+            "CHANGWAT_E": "Chumphon",
+            "LAT": "10.459",
+            "LONG": "99.403",
+            "MAP_CODE": "TH-86"
+        },
+        {
+            "CHANGWAT_E": "Songkhla",
+            "LAT": "7.198",
+            "LONG": "100.596",
+            "MAP_CODE": "TH-90"
+        },
+        {
+            "CHANGWAT_E": "Satun",
+            "LAT": "6.546",
+            "LONG": "99.706",
+            "MAP_CODE": "TH-91"
+        },
+        {
+            "CHANGWAT_E": "Trang",
+            "LAT": "7.599",
+            "LONG": "99.664",
+            "MAP_CODE": "TH-92"
+        },
+        {
+            "CHANGWAT_E": "Phatthalung",
+            "LAT": "7.589",
+            "LONG": "100.050",
+            "MAP_CODE": "TH-93"
+        },
+        {
+            "CHANGWAT_E": "Pattani",
+            "LAT": "6.870",
+            "LONG": "101.256",
+            "MAP_CODE": "TH-94"
+        },
+        {
+            "CHANGWAT_E": "Yala",
+            "LAT": "6.525",
+            "LONG": "101.225",
+            "MAP_CODE": "TH-95"
+        },
+        {
+            "CHANGWAT_E": "Narathiwat",
+            "LAT": "6.424",
+            "LONG": "101.820",
+            "MAP_CODE": "TH-96"
+        }
+    ]
+}

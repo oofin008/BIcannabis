@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Cannabis</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- IonIcons -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--Leftlet map style-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-left">
+                    <li class="breadcrumb-item">
+                        <h1 class="m-0 text-white">รายละเอียดแต่ละจังหวัด</h1>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <button onclick="goBack()" class="btn btn-info">
+                            BACK <i class="fas fa-arrow-circle-left"></i>
+                        </button>
+                    </li>
+                </ol>
+            </div>
+            <!-- /.col -->
+            <div class="col-sm-6">
+              
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card bg-gradient-info">
+                <div class="card-header border-0">
+                    <h3 class="card-title">
+                        <i class="fas fa-th mr-1"></i>
+                        รายละเอียด
+                    </h3>
+                    <div class="card-tools">
+                      <select id="provinceSelect" style="width: 100%;">
+                        <option value="">Test</option>
+                        <option value="Bangkok">Bangkok</option>
+                        <option value="Chiang Mai">Chiang Mai</option>
+                        <option value="Lam pang">Lam Pang</option>
+                      </select>
+                    </div>
+                </div>
+                <!--./card body-->
+                <div class="card-body">
+                  <div id="mapid" style="height: 500px;"></div>
+                </div>
+                <!--./card-footer-->
+                <div class="card-footer bg-transparent">
+
+                </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header border-0">
+                <h3 class="card-title">ตารางข้อมูลจำนวนผู้ใช้ในแต่ละรุ่นการผลิต</h3>
+              </div>
+              <div class="card-body table-responsive p-0">
+                <table class="table table-striped table-valign-middle">
+                  <thead>
+                  <tr>
+                    <th>ชื่อผลิตภัณฑ์</th>
+                    <th>รูปแบบอื่น</th>
+                    <th>รุ่นการผลิต</th>
+                    <th>จำนวนผู้ใช้(คน)</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>ตำรับยาศุขไสยาศน์</td>
+                    <td>ยาผง</td>
+                    <td>SY01070862</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>น้ำมันกัญชา (ตำรับหมอเดชา)</td>
+                    <td>ขวด</td>
+                    <td>29-65/61</td>
+                    <td>763</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ</td>
+                    <td rowspan="2">ซอง</td>
+                    <td>TM01140862</td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>TM02290862</td>
+                    <td>51</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">ยาศุขไสยาศน์ อาจาโร เฮิร์บ</td>
+                    <td rowspan="3">ซอง</td>
+                    <td>SY0107062</td>
+                    <td>114</td>
+                  </tr>
+                  <tr>
+                    <td>SY02280862</td>
+                    <td>95</td>
+                  </tr>
+                  <tr>
+                    <td>TM01140862</td>
+                    <td>1</td>
+                  </tr>
+                  </tbody>
+                  <tfoot>
+                    <td colspan="5" style="text-align: right;" >รวม</td>
+                    <td>1036</td>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">ปริมาณการใช้ของยาทำลายพระสุเมรุาจาโร เฮิร์บ(ซอง)</h3>
+
+                <div class="card-tools">
+                  
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="chart">
+                  <canvas id="daychaChart" style="min-height: 250px; height: 250px; max-height: 400px; max-width: 100%;"></canvas>
+                </div>
+                <div>
+                  <table style="width: 100%;">
+                    <colgroup>
+                      <col span="1" style="width: 75%;">
+                      <col span="1" style="width: 25%;">
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; border: 1px solid black;">รับประทาน</td>
+                        <td style="text-align: center; border: 1px solid black;">หยอดใต้ลิ้น</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">ปริมาณการใช้ของยาศุขไสยาศน์ อาจาโร เฮิร์บ(ซอง)</h3>
+
+                <div class="card-tools">
+                  
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="chart">
+                  <canvas id="suksaiyadChart" style="min-height: 250px; height: 250px; max-height: 400px; max-width: 100%;"></canvas>
+                </div>
+                <div>
+                  <table style="width: 100%;">
+                    <colgroup>
+                      <col span="1" style="width: 44%;">
+                      <col span="1" style="width: 35%;">
+                      <col span="1" style="width: 21%;">
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; border: 1px solid black;">รับประทาน</td>
+                        <td style="text-align: center; border: 1px solid black;">หยอดใต้ลิ้น</td>
+                        <td style="text-align: center; border: 1px solid black;">อื่นๆ</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">จำนวนเหตุการณ์ไม่พึงประสงค์</h3>
+
+                <div class="card-tools">
+                  
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="chart">
+                  <canvas id="abnormalChart" style="min-height: 250px; height: 250px; max-height: 400px; max-width: 100%;"></canvas>
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+          </div>
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- OPTIONAL SCRIPTS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!--SELECT OPTION with SEARCH-->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script>
+  //Select province with search option
+  var regionSelectedtest = getUrlParameter('regionselected');
+  $('#provinceSelect').select2({
+    placeholder: regionSelectedtest,
+    allowClear: true
+  });
+
+  //map lat long
+  var provinceLatLong = {
+    "TH-57": [19.907,99.832],
+    "TH-56": [19.172,99.894],
+    "TH-55": [18.793,100.786],
+    "TH-54": [18.140,100.142],
+    "TH-53": [17.684,100.132],
+    "TH-52": [18.290,99.492],
+    "TH-51": [18.656,99.013],
+    "TH-50": [18.785,99.985],
+    "TH-93": [7.589,100.050],
+    "TH-92": [7.599,99.664],
+    "TH-91": [6.546,99.706],
+    "TH-90": [7.198,100.596],
+    "TH-96": [6.424,101.820],
+    "TH-95": [6.525,101.225],
+    "TH-58": [19.302,97.970],
+    "TH-13": [14.031,100.552],
+    "TH-12": [13.842,100.494],
+    "TH-11": [13.623,100.565],
+    "TH-10": [13.753,100.500],
+    "TH-17": [14.890,100.404],
+    "TH-16": [14.802,100.611],
+    "TH-15": [14.588,100.459],
+    "TH-14": [14.368,100.578],
+    "TH-71": [14.035,99.503],
+    "TH-70": [13.593,99.796],
+    "TH-19": [14.529,100.886],
+    "TH-72": [14.471,100.116],
+    "TH-75": [13.399,99.976],
+    "TH-73": [13.819,100.050],
+    "TH-77": [11.805,99.784],
+    "TH-76": [13.121,99.900],
+    "TH-18": [15.181,100.127],
+    "TH-39": [17.243,102.440],
+    "TH-": [],
+    "TH-74": [13.533,100.276],
+    "TH-84": [9.137,99.320],
+    "TH-85": [9.779,98.477],
+    "TH-86": [10.459,99.403],
+    "TH-80": [8.449,99.961],
+    "TH-81": [8.049,98.676],
+    "TH-82": [8.446,98.524],
+    "TH-83": [7.924,98.455],
+    "TH-32": [14.884,103.490],
+    "TH-40": [16.516,102.931],
+    "TH-41": [17.411,102.792],
+    "TH-42": [17.493,101.732],
+    "TH-43": [17.890,102.761],
+    "TH-44": [16.162,103.484],
+    "TH-45": [15.600,104.139],
+    "TH-46": [16.587,103.450],
+    "TH-47": [17.125,104.260],
+    "TH-48": [17.157,104.784],
+    "TH-49": [16.530,104.724],
+    "TH-26": [14.204,101.219],
+    "TH-27": [13.803,102.077],
+    "TH-24": [13.707,101.100],
+    "TH-25": [14.057,101.374],
+    "TH-22": [12.591,102.087],
+    "TH-23": [12.078,102.562],
+    "TH-20": [12.611,100.889],
+    "TH-21": [12.646,101.171],
+    "TH-62": [16.473,99.528],
+    "TH-63": [16.862,99.129],
+    "TH-60": [15.712,100.174],
+    "TH-61": [15.350,100.088],
+    "TH-66": [16.443,100.343],
+    "TH-67": [16.420,101.156],
+    "TH-64": [17.012,99.822],
+    "TH-65": [16.789,100.250],
+    "TH-35": [15.799,104.148],
+    "TH-34": [15.244,104.894],
+    "TH-37": [15.823,104.562],
+    "TH-33": [15.015,104.369],
+    "TH-38": [18.031,103.711],
+    "TH-36": [15.742,102.022],
+    "TH-31": [14.999,103.104],
+    "TH-94": [6.870,101.256],
+    "TH-30": [15.009,102.086]
+  };
+
+  $(function(){
+    //When document ready run alert for test param from URL
+    var regionSelected = getUrlParameter('regionselected');
+
+    //Create Leaflet map here
+    var mymap = L.map('mapid', {
+      minZoom: 8,
+    }).setView(provinceLatLong[regionSelected], 8);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(mymap);
+    //Pin marker here
+    //Custom marker
+    var LeafIcon = L.Icon.extend({
+      options: {
+        iconUrl: './dist/img/cannabis_logo.png',
+        iconSize: [95, 95],
+        iconAnchor: [22, 94],
+        popupAnchor: [-3, -76]
+      }
+    });
+    //var CannabisIcon = new LeafIcon();
+    //L.marker([18.785, 98.990], {icon: CannabisIcon}).bindPopup("ชื่อโรงปลูกกัญชา: ABC").addTo(mymap);
+    //L.marker([18.880, 99], {icon: CannabisIcon}).bindPopup("ชื่อโรงปลูกกัญชา: CMU").addTo(mymap);
+
+    //Yield marker
+    L.circle([18.785, 98.990], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 8000,
+    }).addTo(mymap).bindPopup("%yield: 80");
+
+    L.circle([18.720, 98.700], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 5000,
+    }).addTo(mymap).bindPopup("%yield: 60");
+
+    L.circle([18.620, 98.900], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 4000,
+    }).addTo(mymap).bindPopup("%yield: 50");
+
+    L.circle([18.550, 98.500], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 7000,
+    }).addTo(mymap).bindPopup("%yield: 80");
+
+    L.circle([18.850, 98.700], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 5000,
+    }).addTo(mymap).bindPopup("%yield: 60");
+
+  });
+  //END Leaflet map here
+
+
+  function goBack(){
+    window.history.back();
+  }
+  
+  var daychaCanvas = $('#daychaChart').get(0).getContext('2d')
+  var daychaData = {
+    labels  : ['0.5 กรัม', '1 กรัม', '1 - 2 กรัม', '2 กรัม', '4 กรัม', 'ไม่ระบุ', '1 - 2 กรัม', '4 กรัม'],
+    datasets: [
+      {
+        label: 'จำนวนผู้ใช้ (คน)',
+        backgroundColor: '#1a53ff',
+        borderColor: '#1a53ff',
+        data                : [20, 16, 21, 11, 3, 1, 2, 1]
+      },
+    ]
+  }
+  var daychaOptions = {
+    legend: {
+      display: true
+    },
+    responsive              : true,
+    maintainAspectRatio     : false,
+    datasetFill             : true,
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, daychaData){
+          var label = daychaData.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(tooltipItem.yLabel * 100) / 100;
+          return label;
+        }
+      }
+    }
+  }
+
+  var daychaChart = new Chart(daychaCanvas, {
+    type: 'bar', 
+    data: daychaData,
+    options: daychaOptions
+  })
+
+  var suksaiyadCanvas = $('#suksaiyadChart').get(0).getContext('2d')
+  var suksaiyadData = {
+    labels  : ['0.5 กรัม', '0.7 กรัม','1 กรัม', '1 - 2 กรัม', '2 กรัม', '4 กรัม', 'ไม่ระบุ', '0.5 กรัม', '1 กรัม', '1 - 2 กรัม', '2 กรัม',  '0.5 กรัม', '1 กรัม', '2 กรัม'],
+    datasets: [
+      {
+        label: 'จำนวนผู้ใช้ (คน)',
+        backgroundColor: '#1a53ff',
+        borderColor: '#1a53ff',
+        data                : [53, 1, 51, 53, 52, 4, 2, 4, 1, 4, 1, 1, 1, 1]
+      },
+    ]
+  }
+  var suksaiyadOptions = {
+    legend: {
+      display: true
+    },
+    responsive              : true,
+    maintainAspectRatio     : false,
+    datasetFill             : true,
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, suksaiyadData){
+          var label = suksaiyadData.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(tooltipItem.yLabel * 100) / 100;
+          return label;
+        }
+      }
+    }
+  }
+
+  var suksaiyadChart = new Chart(suksaiyadCanvas, {
+    type: 'bar', 
+    data: suksaiyadData,
+    options: suksaiyadOptions
+  })
+
+  //horizon bar chart
+  var abnormalCanvas = $('#abnormalChart').get(0).getContext('2d');
+  var abnormalChartData = {
+    labels: 
+    [
+      'THOROAT DRY', 
+      'DIZZINESS', 
+      'NAUSEA', 
+      'MOUTH DRY', 
+      'HEARTBURN', 
+      'PALPITATIONS', 
+      'WOOZINESS', 
+      'SOMNOLENCE', 
+      'BELLY ACHE',
+      'VOMITING',
+      'SWEATING INCREASED',
+      'SLEEPINESS',
+      'ORAL DRYNESS',
+      'FULLNESS ABDOMINAL',
+      'DROWSINESS',
+      'CEPHALALGIE',
+      'ABDOMINAL DISCOMFORT'
+  
+  ],
+    datasets: [{
+      label: 'จำนวน (คน)',
+      backgroundColor: '#1a53ff',
+      borderColor: '#1a53ff',
+      borderWidth: 1,
+      data: [
+        18, 16, 5, 5, 4, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1
+      ]
+    }]
+  };
+  var abnormalChart = new Chart(abnormalCanvas, {
+  type: 'horizontalBar', 
+  data: abnormalChartData,
+  options: {
+    elements: {
+      rectangle: {
+        borderWidth: 2,
+      }
+    },
+    responsive: true,
+    legend: {
+      position: 'bottom',
+    }
+  }
+  })
+
+  //Get Param from url function
+  function getUrlParameter(sParam){
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    var sParameterName;
+    for(var i=0; i< sURLVariables.length; i++){
+      sParameterName = sURLVariables[i].split('=');
+      if(sParameterName[0] === sParam){
+        return sParameterName[1] === undefined? true : decodeURIComponent(sParameterName[1]);
+      }
+    }
+  }
+  
+</script>
+</body>
+</html>

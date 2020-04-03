@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Cannabis</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark ">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">หน้าแรก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_import.html" class="nav-link">นำเข้ากัญชา</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell3.html" class="nav-link ">จำหน่ายพืช</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_convert.html" class="nav-link bg-info">การผลิตแปรรูป</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_sell.html?sortselected=SAS" class="nav-link">การจำหน่ายบำบัด</a>
+      </li>
+      
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
+      </li>
+      
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper sidebar-dark-primary">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-white">การผลิตแปรรูป</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <div class=" card bg-gradient-dark">
+          <div class="card-header">
+            <h3 class="card-title">ตำรับ</h3>
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <!-- Main row -->
+            <div class="row" style="display: none;">
+              <!-- Left col -->
+              <div class="col-md-6">
+                <!-- MAP & BOX PANE -->
+                <div class="card bg-gradient-dark">
+                  <div class="card-header bg-gradient-info">
+                    <h3 class="card-title">สัดส่วนการแปรรูปแผนไทย</h3>
+
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a href="#" class="dropdown-item">Jan/2020</a>
+                          <a href="#" class="dropdown-item">Dec/2019</a>
+                          <a href="#" class="dropdown-item">Nov/2019</a>
+                          <a class="dropdown-divider"></a>
+                          <a href="#" class="dropdown-item">Oct/2019</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas id="medDistribute" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+
+              <div class="col-md-6">
+                <div class="card ">
+                  <div class="card-header bg-gradient-warning">
+                    <h3 class="card-title">สัดส่วนการแปรรูปแผนปัจจุบัน</h3>
+
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a href="#" class="dropdown-item">Jan/2020</a>
+                          <a href="#" class="dropdown-item">Dec/2019</a>
+                          <a href="#" class="dropdown-item">Nov/2019</a>
+                          <a class="dropdown-divider"></a>
+                          <a href="#" class="dropdown-item">Oct/2019</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0 bg-gradient-dark">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <div class="chart">
+                          <canvas id="pieChart" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+              <!--Left col-->
+              <div class="col-md-6">
+                <!-- MAP & BOX PANE -->
+                <div class="card bg-gradient-dark">
+                  <div class="card-header">
+                    <h3 class="card-title">สัดส่วนการแปรรูปรวมสามตำรับ</h3>
+
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <div id="all_Convert" style="height: 400px; width: 100%; margin: 0; padding: 0;"></div>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+
+              <!-- Right col -->
+              <div class="col-md-6" style="display: none;">
+                <!-- MAP & BOX PANE -->
+                <div class="card bg-gradient-dark">
+                  <div class="card-header bg-white">
+                    <h3 class="card-title">สัดส่วนการแปรรูปผลิตภัณฑ์กัญชาน้ำมันเดชา</h3>
+
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a href="#" class="dropdown-item">Jan/2020</a>
+                          <a href="#" class="dropdown-item">Dec/2019</a>
+                          <a href="#" class="dropdown-item">Nov/2019</a>
+                          <a class="dropdown-divider"></a>
+                          <a href="#" class="dropdown-item">Oct/2019</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas id="deja_Convert" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-gradient-dark">
+          <div class="card-header ">
+            <h3 class="card-title">สัดส่วนการแปรรูปแยกตามผู้ผลิต</h3>
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+            </div>
+          </div>
+
+          <!--Row 2 card body-->
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header bg-gradient-info">
+                    <h3 class="card-title">สัดส่วนการแปรรูปแผนไทย</h3>
+                  </div>
+                  <div class="card-body p-0 bg-gradient-dark">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <div class="chart">
+                          <canvas id="barChart3" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header bg-gradient-warning">
+                    <h3 class="card-title">สัดส่วนการแปรรูปแผนปัจจุบัน</h3>
+                  </div>
+                  <div class="card-body p-0 bg-gradient-dark">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <div class="chart">
+                          <canvas id="barChart4" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                </div>
+              </div>
+            </div><!--END row-->
+
+            <div class="row">
+              <!-- Left col -->
+              <div class="col-md-6">
+                <!-- MAP & BOX PANE -->
+                <div class="card bg-gradient-dark">
+                  <div class="card-header bg-white">
+                    <h3 class="card-title">สัดส่วนการแปรรูปผลิตภัณฑ์กัญชาน้ำมันเดชา</h3>
+
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden">
+                        <p class="text-center">
+                          <strong>unit: (ซอง/ขวด)</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas id="deja_Convert2" style="height: 400px; overflow: hidden"></canvas>
+                        </div>
+                      </div>
+                    </div><!-- /.d-md-flex -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+            </div><!--END row-->
+          </div>
+        </div>
+
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    อ้างอิงข้อมูลจาก สรุปตำรับกัญชาจากผู้ผลิต Update 18  Feb 2020เก่า
+    <div class="float-right d-none d-sm-inline-block">
+      
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+
+<!-- PAGE PLUGINS -->
+<!--AnyChart for Treemap chart-->
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-treemap.min.js"></script>
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!-- PAGE SCRIPTS -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script>
+  //------------
+  //--Tree Map--
+  //------------
+  anychart.onDocumentReady(function(){
+    var all_Convert_data= [
+      {name: "ภาพรวม", children: [
+        {name: "แผนไทย", children: [
+          {name: "ยาศุขไสยาศน์", value: 22970},
+          {name: "ยาทำลายพระสุเมรุ", value: 22740},
+          {name: "ยาไฟอาวุธ", value: 17100},
+          {name: "ยาอัมฤตย์โอสถ", value: 1650},
+          {name: "ยาอไกยสาลี", value: 4230},
+          {name: "ยาแก้ลมแก้เส้น", value: 11250},
+          {name: "ยาทาริดสีดวงทวารหนักและโรคผิวหนัง", value: 8310},
+        ]},
+        {name: "แผนปัจจุบัน", children: [
+          {name: "GPO THC", value: 7796},
+          {name: "GPO THC:CBD(1:1)", value: 2599},
+          {name: "GPO CBD", value: 282},
+          {name: "น้ำมันกัญชาหยอดใต้ลิ้น", value: 24090}
+        ]},
+        {name: "ผลิตภัณฑ์กัญชาน้ำมันเดชา", children: [
+          {name: "น้ำมันกัญชาตำรับหมอเดชา", value: 48150},
+        ]}
+      ]}
+    ];
+
+    //Create Data tree
+    var treeData = anychart.data.tree(all_Convert_data, "as-tree");
+    //Create treemap chart visualizing the data tree
+    var all_Convert_chart =  anychart.treeMap(treeData);
+    //Add a title 
+    //all_Convert_chart.title("Hello world");
+    all_Convert_chart.container("all_Convert");
+    all_Convert_chart.draw();
+  });//End AnyChart ready function
+
+  //-------------
+  //- BAR CHART -
+  //-------------
+  var tickStyle = {
+    fontColor: 'white',
+    fontStyle: 'bold'
+  }
+  var mode = 'index';
+  var intersect = true;
+  var barChartOptions = {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: false,
+      labels: {
+        fontColor: "white",
+      }
+    },
+    tooltips: {
+      mode: mode,
+      intersect: intersect
+    },
+    hover: {
+      mode: mode,
+      intersect: intersect
+    },
+    scales:{
+      yAxes: [{
+        gridLines: {
+          display: true,
+          lineWidth: '4px',
+          color: 'rgba(0,0,0,0.2)',
+          zeroLineColor: 'transparent'
+        },
+        ticks: $.extend({
+          beginAtZero: true,
+
+        }, tickStyle)
+      }],
+      xAxes: [{
+        display: true,
+        gridLines: {
+          display: false
+        },
+        ticks: tickStyle
+      }]
+    },
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItem, barChartData){
+          var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+          if (label){
+            label += ': ';
+          }
+          label += Math.round(tooltipItem.yLabel * 100) / 100;
+          label += ' unit';
+          return label;
+        }
+      }
+    }
+  }
+
+  var medDistribute_canvas = $('#medDistribute').get(0).getContext('2d')
+
+  var medDistribute_data   = {
+    labels: [
+    'ยาศุขไสยาศน์ อาจาโร เฮิร์บ','ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ','ยาไฟอาวุธ อาจาโร เฮิร์บ','ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ','ยาอไภยสาลี อาจาโร เฮิร์บ','ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ', 'ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ',  
+    ],
+    datasets: [
+      {
+        data: [22970,22740,17100,1650,4230,11250,8310,],
+        backgroundColor : ['#f39c12', '#00c0ef', '#f56954', '#cc66ff','#00ffcc','#99ff33','#f8ca9d','#8ec9bb'],
+      }
+    ]
+  }
+
+  var medDistribute_chart = new Chart(medDistribute_canvas, {
+    type: 'bar',
+    data: medDistribute_data,
+    options: barChartOptions 
+  })
+
+  //Update 13/03/20 ตัด น้ำมันกัญชาLOVE HEMP ออก
+  var pieChartCanvas2 = $('#pieChart').get(0).getContext('2d')
+  var pieData2        = {
+    labels: [
+     'GPO THC', 'GPO THC:CBD(1:1)', 'GPO CBD', 'น้ำมันกัญชาหยอดใต้ลิ้น',  
+    ],
+    datasets: [
+      {
+        data: [7796,2599,282,24090],
+        backgroundColor : ['#f39c12', '#00c0ef', '#ff4d4d', '#cc66ff','#00ffcc','#99ff33'],
+      }
+    ]
+  }
+  
+  var pieChart2 = new Chart(pieChartCanvas2, {
+    type: 'bar',
+    data: pieData2,
+    options: barChartOptions      
+  })
+
+  var deja_Convert_canvas = $('#deja_Convert').get(0).getContext('2d')
+
+  var deja_Convert_data   = {
+    labels: ['น้ำมันกัญชา ตำรับหมอเดชา',],
+    datasets: [
+      {
+        data: [48150],
+        backgroundColor : ['#ffffff', '#00c0ef', '#f56954', '#cc66ff','#00ffcc','#99ff33','#f8ca9d','#8ec9bb'],
+      }
+    ]
+  }
+
+  var deja_Convert_chart = new Chart(deja_Convert_canvas, {
+    type: 'bar',
+    data: deja_Convert_data,
+    options: barChartOptions 
+  })
+  //-----------------
+  //- END row1 CHART -
+  //-----------------
+  //- row2 CHART -
+  //--------------
+
+  var barChart3_canvas = $('#barChart3').get(0).getContext('2d')
+  var barChart3_data       = {
+    labels: [
+      'รพ. พระอาจารย์ฝั้น อาจาโร', 
+    ],
+    datasets: [
+      {
+        data: [95250,],
+        backgroundColor : ['#f39c12', '#00c0ef', '#ff4d4d', '#cc66ff','#00ffcc','#99ff33'],
+      }
+    ]
+  }
+  
+  var barChart3 = new Chart(barChart3_canvas, {
+    type: 'bar',
+    data: barChart3_data,
+    options: barChartOptions      
+  })
+  //-----------
+  //BAR CHART 4
+  //-----------
+  var barChart4_canvas = $('#barChart4').get(0).getContext('2d')
+  var barChart4_data       = {
+    labels: [
+      'สำนักงานคณะกรรมการอาหารและยา','องค์การเภสัชกรรม','รพ. เจ้าพระยาอภัยภูเบศร'
+    ],
+    datasets: [
+      {
+        data: [500,10677,24090],
+        backgroundColor : ['#f39c12', '#00c0ef', '#ff4d4d', '#cc66ff','#00ffcc','#99ff33'],
+      }
+    ]
+  }
+  
+  var barChart4 = new Chart(barChart4_canvas, {
+    type: 'bar',
+    data: barChart4_data,
+    options: barChartOptions      
+  })
+
+  //-----------
+  //Deja Chart2
+  //-----------
+  var deja_Convert2_canvas = $('#deja_Convert2').get(0).getContext('2d')
+  var deja_Convert2_data       = {
+    labels: [
+    'กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก'
+    ],
+    datasets: [
+      {
+        data: [48150],
+        backgroundColor : ['#ffffff', '#00c0ef', '#ff4d4d', '#cc66ff','#00ffcc','#99ff33'],
+      }
+    ]
+  }
+  
+  var deja_Convert2_Chart = new Chart(deja_Convert2_canvas, {
+    type: 'bar',
+    data: deja_Convert2_data,
+    options: barChartOptions      
+  })
+</script>
+</body>
+</html>
