@@ -1,0 +1,13 @@
+.cannabis_inventory {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inventory_carousel {
+      max-width: 100%;
+      max-height: 100%;
+  }
