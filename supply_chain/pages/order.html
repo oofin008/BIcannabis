@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Supply Chain | Template</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="../../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="../../plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="../../plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--ADMIN LTE-->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition layout-navbar-fixed sidebar-collapse">
+<div class="wrapper">
+
+	<!-- Navbar -->
+	<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+		<!-- Left navbar links -->
+		<ul class="nav navbar-nav">
+			<li class="navbar-item d-none d-sm-inline-block">
+				<a href="../index.html" class="nav-link"><b>Supply Chain </b><i class="fas fa-caret-right "></i></a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./order.html" class="nav-link">Order</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="#" class="nav-link">Production</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="#" class="nav-link">Inventory</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="#" class="nav-link">Shipment</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="#" class="nav-link">Patients</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Dashboard</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container">
+
+        <!-- CONTENT GO HERE-->
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <canvas id="order_canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--./container-fluid-->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="../../plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../../plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="../../plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="../../plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+<!-- daterangepicker -->
+<script src="../../plugins/moment/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="../../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.js"></script>
+
+<script>
+  var MONTHS = ['กุมภาพันธ์/2562','มีนาคม/2562','เมษายน/2562','พฤษภาคม/2562','มิถุนายน/2562','กรกฏาคม/2562','สิงหาคม/2562','กันยายน/2562','ตุลาคม/2562','พฤศจิกายน/2562','ธันวาคม/2562','มกราคม/2563','กุมภาพันธ์/2563'];
+  var config = {
+    type: 'line',
+    data: {
+      labels: MONTHS,
+      datasets: [
+        {
+          label: 'กวีคลินิคเวชากรรม',
+          backgroundColor: 'red',
+          borderColor: 'red',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,36,0,20,0
+          ],
+        },
+        {
+          label: 'คณิตาคลินิกเวชกรรม',
+          backgroundColor: 'blue',
+          borderColor: 'blue',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,65,0
+          ],
+        },
+        {
+          label: 'เดอะริชสหคลินิก',
+          backgroundColor: 'yellow',
+          borderColor: 'yellow',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,6,0
+          ],
+        },
+        {
+          label: 'บริษัท ออรีจีน เซ็นเคอร์ แคร์',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,100,30
+          ],
+        },
+        {
+          label: 'โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,400,00
+          ],
+        },
+        {
+          label: 'โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,90,00
+          ],
+        },
+        {
+          label: 'โรงพยาบาลเจ้าพระยายมราช',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,0,40
+          ],
+        },
+        {
+          label: 'โรงพยาบาลชัยภูมิ',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,0,9
+          ],
+        },
+        {
+          label: 'โรงพยาบาลดอนตาล',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,0,0,10
+          ],
+        },
+        {
+          label: 'สถาบันบำราศนราดูร',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,15,20,20,0,140
+          ],
+        },
+        {
+          label: 'สถาบันสุขเด็กแห่งชาติมหาราชินี',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,450,60,0,0,20
+          ],
+        },
+        {
+          label: 'โรงพยาบาลกล้วยน้ำไท',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,1,0,0,0,0,0,0,0,0,2,0,0
+          ],
+        },
+        {
+          label: 'โรงพยาบาลมหาราชนครราชสีมา',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            0,0,0,0,0,0,0,0,0,0,19,0,0
+          ],
+        },
+        {
+          label: 'โรงพยาบาลราชวิถี',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            6,0,0,0,0,0,0,0,0,0,0,0,0
+          ],
+        },
+        {
+          label: 'โรงพยาบาลหนองคาย',
+          backgroundColor: 'pink',
+          borderColor: 'pink',
+          lineTension: 0,
+          fill: false,
+          data: [
+            10,0,0,0,0,0,0,0,0,0,80,0,30
+          ],
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      title: {
+        display: true,
+        text: 'Order chart'
+      },
+      tooltips:{
+        mode: 'index',
+        intersect: false,
+      },
+      hover: {
+        mode: 'nearest',
+        intersect: false,
+      },
+      scales:{
+        xAxes: [{
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Month/Year'
+          }
+        }],
+        yAxes: [{
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Value'
+          }
+        }]
+      }
+    }
+  };
+
+  //Main script to run put in here
+  $(function(){
+    var order_canvas = $('#order_canvas').get(0).getContext('2d');
+    var order_chart = new Chart(order_canvas, config);
+  });//END MAIN SCRIPT
+
+
+</script>
+</body>
+</html>

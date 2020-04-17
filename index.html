@@ -28,6 +28,46 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <!--Jvector MAP -->
   <link rel="stylesheet" href="plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <style>
+    .supply_chain_button {
+      border-radius: 4px;
+      background-color: #2ABB9B;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: auto;
+    }
+
+    .supply_chain_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .supply_chain_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .supply_chain_button:hover span {
+      padding-right: 25px;
+    }
+
+    .supply_chain_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  </style>
 </head>
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
@@ -251,6 +291,12 @@
                         <span class="info-box-text">
                           ผลิตแปรรูปหรือสกัด
                         </span>
+                      </a>
+                    </div>
+
+                    <div class="info-box info-box-content">
+                      <a href="./supply_chain/index.html" class="supply_chain_button">
+                        <span>SUPPLY CHAIN</span>
                       </a>
                     </div>
                   
