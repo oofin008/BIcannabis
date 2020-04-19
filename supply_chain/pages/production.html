@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Supply Chain | Order</title>
+  <title>Supply Chain | Production</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -41,10 +41,10 @@
 				<a href="../index.html" class="nav-link"><b>Supply Chain </b><i class="fas fa-caret-right "></i></a>
 			</li>
 			<li class="nav-item d-none d-sm-inline-block">
-				<a href="./order.html" class="nav-link bg-secondary">Order</a>
+				<a href="./order.html" class="nav-link">Order</a>
 			</li>
 			<li class="nav-item d-none d-sm-inline-block">
-				<a href="./production.html" class="nav-link">Production</a>
+				<a href="./production.html" class="nav-link bg-secondary">Production</a>
 			</li>
 			<li class="nav-item d-none d-sm-inline-block">
 				<a href="./inventory.html" class="nav-link">Inventory</a>
@@ -66,7 +66,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            <h1 class="m-0 text-dark">Production</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             
@@ -85,7 +85,17 @@
           <div class="col-lg-12 col-12">
             <div class="card">
               <div class="card-body">
-                <canvas id="order_canvas"></canvas>
+                <canvas id="production_plant_canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <canvas id="production_convert_canvas"></canvas>
               </div>
             </div>
           </div>
@@ -135,169 +145,37 @@
 <script src="../../dist/js/adminlte.js"></script>
 
 <script>
-  var MONTHS = ['กุมภาพันธ์/2562','มีนาคม/2562','เมษายน/2562','พฤษภาคม/2562','มิถุนายน/2562','กรกฏาคม/2562','สิงหาคม/2562','กันยายน/2562','ตุลาคม/2562','พฤศจิกายน/2562','ธันวาคม/2562','มกราคม/2563','กุมภาพันธ์/2563'];
+  var MONTHS = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฏาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
   var config = {
-    type: 'line',
+    type: 'bar',
     data: {
       labels: MONTHS,
       datasets: [
         {
-          label: 'กวีคลินิคเวชากรรม',
+          label: 'My first data',
           backgroundColor: 'red',
           borderColor: 'red',
-          lineTension: 0,
           fill: false,
           data: [
-            0,0,0,0,0,0,0,0,0,36,0,20,0
+            1,2,3,4,5,6,2,25,4,2,5,4,3,5,4,3,,25,4,2,5,4,3,5,4,3
           ],
         },
         {
-          label: 'คณิตาคลินิกเวชกรรม',
+          label: 'My second data',
           backgroundColor: 'blue',
           borderColor: 'blue',
-          lineTension: 0,
           fill: false,
           data: [
-            0,0,0,0,0,0,0,0,0,0,0,65,0
+            7,8,9,10,11,25,4,2,5,4,3,5,4,3,25,4,2,5,4,3,5,4,3
           ],
-        },
-        {
-          label: 'เดอะริชสหคลินิก',
-          backgroundColor: 'yellow',
-          borderColor: 'yellow',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,6,0
-          ],
-        },
-        {
-          label: 'บริษัท ออรีจีน เซ็นเคอร์ แคร์',
-          backgroundColor: '#F9690E',
-          borderColor: '#F9690E',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,100,30
-          ],
-        },
-        {
-          label: 'โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น',
-          backgroundColor: '#FFB94E',
-          borderColor: '#FFB94E',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,400,00
-          ],
-        },
-        {
-          label: 'โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน',
-          backgroundColor: '#A17917',
-          borderColor: '#A17917',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,90,00
-          ],
-        },
-        {
-          label: 'โรงพยาบาลเจ้าพระยายมราช',
-          backgroundColor: '#D9B611',
-          borderColor: '#D9B611',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,0,40
-          ],
-        },
-        {
-          label: 'โรงพยาบาลชัยภูมิ',
-          backgroundColor: '#16A085',
-          borderColor: '#16A085',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,0,9
-          ],
-        },
-        {
-          label: 'โรงพยาบาลดอนตาล',
-          backgroundColor: '#006442',
-          borderColor: '#006442',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,0,0,10
-          ],
-        },
-        {
-          label: 'สถาบันบำราศนราดูร',
-          backgroundColor: '#4B77BE',
-          borderColor: '#4B77BE',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,15,20,20,0,140
-          ],
-        },
-        {
-          label: 'สถาบันสุขเด็กแห่งชาติมหาราชินี',
-          backgroundColor: '#4D8FAC',
-          borderColor: '#4D8FAC',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,450,60,0,0,20
-          ],
-        },
-        {
-          label: 'โรงพยาบาลกล้วยน้ำไท',
-          backgroundColor: '#89729E',
-          borderColor: '#89729E',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,1,0,0,0,0,0,0,0,0,2,0,0
-          ],
-        },
-        {
-          label: 'โรงพยาบาลมหาราชนครราชสีมา',
-          backgroundColor: '#5B3256',
-          borderColor: '#5B3256',
-          lineTension: 0,
-          fill: false,
-          data: [
-            0,0,0,0,0,0,0,0,0,0,19,0,0
-          ],
-        },
-        {
-          label: 'โรงพยาบาลราชวิถี',
-          backgroundColor: '#875F9A',
-          borderColor: '#875F9A',
-          lineTension: 0,
-          fill: false,
-          data: [
-            6,0,0,0,0,0,0,0,0,0,0,0,0
-          ],
-        },
-        {
-          label: 'โรงพยาบาลหนองคาย',
-          backgroundColor: '#F62459',
-          borderColor: '#F62459',
-          lineTension: 0,
-          fill: false,
-          data: [
-            10,0,0,0,0,0,0,0,0,0,80,0,30
-          ],
-        },
+        }
       ]
     },
     options: {
       responsive: true,
       title: {
         display: true,
-        text: 'Order chart'
+        text: 'Production chart'
       },
       tooltips:{
         mode: 'index',
@@ -310,13 +188,15 @@
       scales:{
         xAxes: [{
           display: true,
+          stacked:true,
           scaleLabel: {
             display: true,
-            labelString: 'Month/Year'
+            labelString: 'Month'
           }
         }],
         yAxes: [{
           display: true,
+          stacked: true,
           scaleLabel: {
             display: true,
             labelString: 'Value'
@@ -328,10 +208,12 @@
 
   //Main script to run put in here
   $(function(){
-    var order_canvas = $('#order_canvas').get(0).getContext('2d');
-    var order_chart = new Chart(order_canvas, config);
-  });//END MAIN SCRIPT
+    var production_plant_canvas = $('#production_plant_canvas').get(0).getContext('2d');
+    var production_plant_chart = new Chart(production_plant_canvas, config);
 
+    var production_convert_canvas = $('#production_convert_canvas').get(0).getContext('2d');
+    var production_convert_chart = new Chart(production_convert_canvas, config);
+  });//END MAIN SCRIPT
 
 </script>
 </body>
