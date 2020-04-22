@@ -1,0 +1,4132 @@
+﻿{
+    "Sheet1": [
+        {
+            "rec_hospital": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "rec_product": "น้ำมันกัญชา LOVE HEMP",
+            "manufacture": "สำนักงานคณะกรรมการอาหารและยา",
+            "manu_code": "4",
+            "quantity": "200",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "128",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "22",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "8",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "12",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "น้ำมันกัญชา LOVE HEMP",
+            "manufacture": "สำนักงานคณะกรรมการอาหารและยา",
+            "manu_code": "4",
+            "quantity": "200",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "30",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "31",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "126",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "19",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "22",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "294",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "7",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันประสาท",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "480",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "600",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "1650",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "7200",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "3550",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "7800",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "60",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "540",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "rec_product": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "600",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กรมการแพทย์แผนไทยและแพทย์ทางเลือก",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "7",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กรมการแพทย์แผนไทยและแพทย์ทางเลือก",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "43",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กรมการแพทย์แผนไทยและแพทย์ทางเลือก",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "20",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.สงฆ์ ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "20",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันมะเร็งแห่งชาติ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "141",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันมะเร็งแห่งชาติ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "278",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันมะเร็งแห่งชาติ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "14",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "สถาบันมะเร็งแห่งชาติ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กวีคลินิคเวชกรรม",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กวีคลินิคเวชกรรม",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "2",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กวีคลินิคเวชกรรม",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.ตากสิน",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "กวีคลินิคเวชกรรม",
+            "rec_product": "GPO THC:CBD(1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.กล้วยน้ำไทย  (สำนักงาน) ",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "กรุงเทพมหานคร"
+        },
+        {
+            "rec_hospital": "รพ.พหลพยุหเสนา",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พหลพยุหเสนา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พหลพยุหเสนา",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.มะการักษ์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "4",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.มะการักษ์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.มะการักษ์",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "กาญจนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเด่นชัย ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "31",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "88",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "6",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "2",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "9",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "3",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "2",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "7",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.แพร่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "25",
+            "province": "แพร่"
+        },
+        {
+            "rec_hospital": "รพ.บางกระทุ่ม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.บางกระทุ่ม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "180",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.บางกระทุ่ม",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.บางกระทุ่ม",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.บางกระทุ่ม",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "18",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "12",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.พุทธชินราช",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "30",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชนครไทย\r\n",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชนครไทย\r\n",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "พิษณุโลก"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.หนองฉาง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุทัยธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุทัยธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "72",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุทัยธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "8",
+            "province": "อุทัยธานี"
+        },
+        {
+            "rec_hospital": "รพ.ป่าบอน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พัทลุง"
+        },
+        {
+            "rec_hospital": "รพ.ป่าบอน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "210",
+            "province": "พัทลุง"
+        },
+        {
+            "rec_hospital": "รพ.ป่าบอน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "พัทลุง"
+        },
+        {
+            "rec_hospital": "รพ.ป่าบอน",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "พัทลุง"
+        },
+        {
+            "rec_hospital": "รพ.ป่าบอน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "พัทลุง"
+        },
+        {
+            "rec_hospital": "รพ.คูเมือง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.คูเมือง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.คูเมือง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.คูเมือง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บุรีรัมย์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บุรีรัมย์",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บุรีรัมย์",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "240",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บุรีรัมย์",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.กระสัง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.กระสัง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.แคนดง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.แคนดง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ชำนิ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ชำนิ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ชำนิ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.นางรอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.นางรอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.นาโพธิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.นาโพธิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.นาโพธิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.โนนดินแดง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.โนนดินแดง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.โนนสุวรรณ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.โนนสุวรรณ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านกรวด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านกรวด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านกรวด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านด่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านด่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านใหม่ไชยพจน์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.บ้านใหม่ไชยพจน์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ประโคนชัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ประโคนชัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ประโคนชัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ปะคำ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ปะคำ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พลับพลาชัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พลับพลาชัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พุทไธสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พุทไธสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พุทไธสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ละหานทราย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ละหานทราย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ลำปลายมาศ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ลำปลายมาศ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.สตึก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.สตึก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองกี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "59",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองกี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองกี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองกี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองหงส์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.หนองหงส์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "บุรีรัมย์"
+        },
+        {
+            "rec_hospital": "รพ.พนา",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อำนาจเจริญ"
+        },
+        {
+            "rec_hospital": "รพ.พนา",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "อำนาจเจริญ"
+        },
+        {
+            "rec_hospital": "รพ.พนา",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "อำนาจเจริญ"
+        },
+        {
+            "rec_hospital": "รพ.พนา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "อำนาจเจริญ"
+        },
+        {
+            "rec_hospital": "รพ.ท่าฉาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.ท่าฉาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "210",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.ท่าฉาง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.ท่าฉาง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.ท่าฉาง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.สุราษฎร์ธานี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "21",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.สุราษฎร์ธานี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "126",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.สุราษฎร์ธานี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "168",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.สุราษฎร์ธานี",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.สุราษฎร์ธานี",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "สุราษฎร์ธานี"
+        },
+        {
+            "rec_hospital": "รพ.ระยอง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.ระยอง",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.ระยอง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.แกลง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.แกลง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.แกลง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.แกลง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.แกลง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ระยอง"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "180",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "180",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สระบุรี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สระบุรี",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สระบุรี",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "สระบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พล",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.พล",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.พล",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.พล",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.ขอนแก่น",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.ขอนแก่น",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.ขอนแก่น",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ขอนแก่น"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "20",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ราชบุรี",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.โพธาราม",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.โพธาราม",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.โพธาราม",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "ราชบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สวรรค์ประชารักษ์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.สวรรค์ประชารักษ์",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "32",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.สวรรค์ประชารักษ์",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "168",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.สวรรค์ประชารักษ์",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.สวรรค์ประชารักษ์",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.ตากฟ้า",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.ตากฟ้า",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "นครสวรรค์"
+        },
+        {
+            "rec_hospital": "รพ.หาดใหญ่",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "สงขลา"
+        },
+        {
+            "rec_hospital": "รพ.หาดใหญ่",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สงขลา"
+        },
+        {
+            "rec_hospital": "รพ.หาดใหญ่",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สงขลา"
+        },
+        {
+            "rec_hospital": "รพ.หาดใหญ่",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "สงขลา"
+        },
+        {
+            "rec_hospital": "รพ.สรรพสิทธิประสงค์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "อุบลราชธานี"
+        },
+        {
+            "rec_hospital": "รพ.สรรพสิทธิประสงค์",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อุบลราชธานี"
+        },
+        {
+            "rec_hospital": "รพ.สรรพสิทธิประสงค์",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "อุบลราชธานี"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเดชอุดม\r\n",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "อุบลราชธานี"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชเดชอุดม\r\n",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "อุบลราชธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุดรธานี",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "อุดรธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุดรธานี",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "อุดรธานี"
+        },
+        {
+            "rec_hospital": "รพ.อุดรธานี",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "อุดรธานี"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยเกิ้ง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "อุดรธานี"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยเกิ้ง",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "อุดรธานี"
+        },
+        {
+            "rec_hospital": "รพ.ลำปาง",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "315",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.ลำปาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.ลำปาง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "240",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.ลำปาง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.เถิน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.เถิน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "ลำปาง"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "2000",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "600",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ดอนตูม",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "600",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยพลู",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.ห้วยพลู ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครปฐม"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "90",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "210",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "น้ำมันกัญชา LOVE HEMP ",
+            "manufacture": "สำนักงานคณะกรรมการอาหารและยา",
+            "manu_code": "4",
+            "quantity": "100",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "53",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.กบินทร์บุรี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.กบินทร์บุรี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ปราจีนบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "270",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "390",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสว่างแดนดิน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสว่างแดนดิน",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.วานรนิวาส",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.วานรนิวาส",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สกลนคร",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "40",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สกลนคร",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "15",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สกลนคร",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "42",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.สกลนคร",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "สกลนคร"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "360",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนคราชสีมา",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.เทพรัตน์นครราชสีมา",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.เทพรัตน์นครราชสีมา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนครราชสีมา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนครราชสีมา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนครราชสีมา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.ปากช่องนานา",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "นครราชสีมา"
+        },
+        {
+            "rec_hospital": "รพ.ทุ่งสง",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.ทุ่งสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.ทุ่งสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.ทุ่งสง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนครศรีธรรมราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.มหาราชนครศรีธรรมราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "นครศรีธรรมราช"
+        },
+        {
+            "rec_hospital": "รพ.ชลบุรี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ชลบุรี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ชลบุรี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.บางละมุง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.บางละมุง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.บางละมุง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "ชลบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ตราด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ตราด"
+        },
+        {
+            "rec_hospital": "รพ.ตราด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ตราด"
+        },
+        {
+            "rec_hospital": "รพ.ตราด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "ตราด"
+        },
+        {
+            "rec_hospital": "รพ.พระปกเกล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "จันทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระปกเกล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "จันทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระปกเกล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "จันทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรปราการ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรปราการ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรปราการ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.บางพลี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.บางพลี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.จุฬารัตน์ 3 อินเตอร์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "42",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.จุฬารัตน์ 3 อินเตอร์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "4",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.จุฬารัตน์ 3 อินเตอร์",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "4",
+            "province": "สมุทรปราการ"
+        },
+        {
+            "rec_hospital": "รพ.พุทธโสธร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.พุทธโสธร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.พุทธโสธร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.พุทธโสธร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.พุทธโสธร",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.ราชสาส์น",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.ราชสาส์น",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ฉะเชิงเทรา"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.อรัญประเทศ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.อรัญประเทศ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.อรัญประเทศ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.อรัญประเทศ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "สระแก้ว"
+        },
+        {
+            "rec_hospital": "รพ.ชัยนาทนเรนทร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชัยนาท"
+        },
+        {
+            "rec_hospital": "รพ.ชัยนาทนเรนทร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ชัยนาท"
+        },
+        {
+            "rec_hospital": "รพ.หนองบัวลำพู",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "450",
+            "province": "หนองบัวลำภู"
+        },
+        {
+            "rec_hospital": "รพ.หนองบัวลำพู",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "500",
+            "province": "หนองบัวลำภู"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "2",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "84",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "34",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "22",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "9",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.นครนายก",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "24",
+            "province": "นครนายก"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "2",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "8",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "85",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "25",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "38",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "27",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "7",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "6",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.ปทุมธานี",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "ปทุมธานี"
+        },
+        {
+            "rec_hospital": "รพ.น่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "น่าน"
+        },
+        {
+            "rec_hospital": "รพ.น่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "83",
+            "province": "น่าน"
+        },
+        {
+            "rec_hospital": "รพ.น่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "36",
+            "province": "น่าน"
+        },
+        {
+            "rec_hospital": "รพ.น่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "8",
+            "province": "น่าน"
+        },
+        {
+            "rec_hospital": "รพ.น่าน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "72",
+            "province": "น่าน"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "18",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "101",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "2",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.เชียงรายประชานุเคราะห์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "74",
+            "province": "เชียงราย"
+        },
+        {
+            "rec_hospital": "รพ.ลำพูน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ลำพูน"
+        },
+        {
+            "rec_hospital": "รพ.ลำพูน",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ลำพูน"
+        },
+        {
+            "rec_hospital": "รพ.แม่สอด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ตาก"
+        },
+        {
+            "rec_hospital": "รพ.แม่สอด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ตาก"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระเจ้าตากสินมหาราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ตาก"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระเจ้าตากสินมหาราช",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ตาก"
+        },
+        {
+            "rec_hospital": "รพ.เพชรบูรณ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.เพชรบูรณ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.เพชรบูรณ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "4",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.บึงสามพัน",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.บึงสามพัน",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.เพชรบูรณ์ ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.เพชรบูรณ์ ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "เพชรบูรณ์"
+        },
+        {
+            "rec_hospital": "รพ.พิจิตร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "พิจิตร"
+        },
+        {
+            "rec_hospital": "รพ.พิจิตร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "พิจิตร"
+        },
+        {
+            "rec_hospital": "รพ.พิจิตร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "76",
+            "province": "พิจิตร"
+        },
+        {
+            "rec_hospital": "รพ.พิจิตร",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "2",
+            "province": "พิจิตร"
+        },
+        {
+            "rec_hospital": "รพ.พิจิตร",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "พิจิตร"
+        },
+        {
+            "rec_hospital": "รพ.อ่างทอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "อ่างทอง"
+        },
+        {
+            "rec_hospital": "รพ.อ่างทอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "อ่างทอง"
+        },
+        {
+            "rec_hospital": "รพ.มุกดาหาร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "มุกดาหาร"
+        },
+        {
+            "rec_hospital": "รพ.มุกดาหาร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "มุกดาหาร"
+        },
+        {
+            "rec_hospital": "รพ.มุกดาหาร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "มุกดาหาร"
+        },
+        {
+            "rec_hospital": "รพ.ยโสธร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ยโสธร"
+        },
+        {
+            "rec_hospital": "รพ.ยโสธร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ยโสธร"
+        },
+        {
+            "rec_hospital": "รพ.ศรีสะเกษ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ศรีสะเกษ"
+        },
+        {
+            "rec_hospital": "รพ.ศรีสะเกษ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ศรีสะเกษ"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรสาคร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สมุทรสาคร"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรสาคร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "สมุทรสาคร"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรสาคร",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สมุทรสาคร"
+        },
+        {
+            "rec_hospital": "รพ.สมุทรสาคร",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สมุทรสาคร"
+        },
+        {
+            "rec_hospital": "รพ.วชิระภูเก็ต",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ภูเก็ต"
+        },
+        {
+            "rec_hospital": "รพ.วชิระภูเก็ต",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "72",
+            "province": "ภูเก็ต"
+        },
+        {
+            "rec_hospital": "รพ.วชิระภูเก็ต",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "8",
+            "province": "ภูเก็ต"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "36",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "36",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "4",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ระนอง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ระนอง"
+        },
+        {
+            "rec_hospital": "รพ.ตรัง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ตรัง"
+        },
+        {
+            "rec_hospital": "รพ.ตรัง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "8",
+            "province": "ตรัง"
+        },
+        {
+            "rec_hospital": "รพ.ตรัง",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "72",
+            "province": "ตรัง"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "20",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "17",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.สตูล",
+            "rec_product": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.ละงู",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "รพ.ละงู",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สตูล"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร ",
+            "rec_product": "GPO CBD",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "สถาบันบำราศนราดูร",
+            "rec_product": "GPO THC:CBD(1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "2",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "2",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "10",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า ",
+            "rec_product": "ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระนั่งเกล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "นนทบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระจอมเกล้า",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "17",
+            "province": "เพชรบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระจอมเกล้า",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "เพชรบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระจอมเกล้า",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "9",
+            "province": "เพชรบุรี"
+        },
+        {
+            "rec_hospital": "รพ.พระจอมเกล้า",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "11",
+            "province": "เพชรบุรี"
+        },
+        {
+            "rec_hospital": "รพ.ศีขรภูมิ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ศีขรภูมิ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ศีขรภูมิ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "1",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ศีขรภูมิ",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ปราสาท",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ปราสาท",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "19",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ปราสาท",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.ปราสาท",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "1",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.สุรินทร์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.สุรินทร์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.สุรินทร์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.สุรินทร์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "สุรินทร์"
+        },
+        {
+            "rec_hospital": "รพ.มหาสารคาม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "มหาสารคาม"
+        },
+        {
+            "rec_hospital": "รพ.มหาสารคาม",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "มหาสารคาม"
+        },
+        {
+            "rec_hospital": "รพ.มหาสารคาม",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "มหาสารคาม"
+        },
+        {
+            "rec_hospital": "รพ.ร้อยเอ็ด",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ร้อยเอ็ด"
+        },
+        {
+            "rec_hospital": "รพ.ร้อยเอ็ด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ร้อยเอ็ด"
+        },
+        {
+            "rec_hospital": "รพ.ร้อยเอ็ด",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "ร้อยเอ็ด"
+        },
+        {
+            "rec_hospital": "รพ.เลย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.เลย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.เลย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "450",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.เลย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.ปากชม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.ปากชม",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.ปากชม",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "300",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.ปากชม",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "เลย"
+        },
+        {
+            "rec_hospital": "รพ.หนองคาย",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "30",
+            "province": "หนองคาย"
+        },
+        {
+            "rec_hospital": "รพ.หนองคาย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "หนองคาย"
+        },
+        {
+            "rec_hospital": "รพ.หนองคาย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "หนองคาย"
+        },
+        {
+            "rec_hospital": "รพ.โพนพิสัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "หนองคาย"
+        },
+        {
+            "rec_hospital": "รพ.โพนพิสัย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "หนองคาย"
+        },
+        {
+            "rec_hospital": "รพ.ศรีประจันต์",
+            "rec_product": "น้ำมันกัญชา (ตำรับหมอเดชา)",
+            "manufacture": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "manu_code": "1",
+            "quantity": "5000",
+            "province": "สุพรรณบุรี"
+        },
+        {
+            "rec_hospital": "รพ.กระบี่",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "กระบี่"
+        },
+        {
+            "rec_hospital": "รพ.กระบี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "กระบี่"
+        },
+        {
+            "rec_hospital": "รพ.กระบี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "กระบี่"
+        },
+        {
+            "rec_hospital": "รพ.กระบี่",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "กระบี่"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสายบุรี ",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ปัตตานี"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระยุพราชสายบุรี ",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "ปัตตานี"
+        },
+        {
+            "rec_hospital": "รพ.บางซ้าย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.บางซ้าย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.ลาดบัวหลวง",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พระนครศรีอยุธยา "
+        },
+        {
+            "rec_hospital": "รพ.เสนา",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "พระนครศรีอยุธยา "
+        },
+        {
+            "rec_hospital": "รพ.พระนครศรีอยุธยา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.พระนครศรีอยุธยา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.เสนา ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.เสนา ",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "พระนครศรีอยุธยา"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สมุทรสงคราม "
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "สมุทรสงคราม"
+        },
+        {
+            "rec_hospital": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สมุทรสงคราม"
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "ยาศุขไสยาศน์ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สุโขทัย "
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ",
+            "manufacture": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "manu_code": "3",
+            "quantity": "150",
+            "province": "สุโขทัย "
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "GPO THC:CBD (1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "5",
+            "province": "สุโขทัย "
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "สุโขทัย"
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สุโขทัย"
+        },
+        {
+            "rec_hospital": "รพ.สุโขทัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "40",
+            "province": "สุโขทัย"
+        },
+        {
+            "rec_hospital": "รพ.ศรีสังวรสุโขทัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "สุโขทัย"
+        },
+        {
+            "rec_hospital": "รพ.ศรีสังวรสุโขทัย",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "สุโขทัย"
+        },
+        {
+            "rec_hospital": "รพ.กำแพงเพชร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "กำแพงเพชร"
+        },
+        {
+            "rec_hospital": "รพ.กำแพงเพชร",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "กำแพงเพชร"
+        },
+        {
+            "rec_hospital": "รพ.ชุมพรเขตรอุดมศักดิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "ชุมพร"
+        },
+        {
+            "rec_hospital": "รพ.ชุมพรเขตรอุดมศักดิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "ชุมพร"
+        },
+        {
+            "rec_hospital": "รพ.ชุมพรเขตรอุดมศักดิ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "ชุมพร"
+        },
+        {
+            "rec_hospital": "รพ.ตะกั่วป่า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "60",
+            "province": "พังงา"
+        },
+        {
+            "rec_hospital": "รพ.ตะกั่วป่า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "พังงา"
+        },
+        {
+            "rec_hospital": "รพ.ตะกั่วป่า",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "20",
+            "province": "พังงา"
+        },
+        {
+            "rec_hospital": "รพ.พังงา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "พังงา"
+        },
+        {
+            "rec_hospital": "รพ.พังงา",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "พังงา"
+        },
+        {
+            "rec_hospital": "รพ.อุตรดิตถ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "อุตรดิตถ์"
+        },
+        {
+            "rec_hospital": "รพ.อุตรดิตถ์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "อุตรดิตถ์"
+        },
+        {
+            "rec_hospital": "รพ.นครพิงค์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "120",
+            "province": "เชียงใหม่"
+        },
+        {
+            "rec_hospital": "รพ.นครพิงค์",
+            "rec_product": "น้ำมันกัญชาหยอดใต้ลิ้น   ",
+            "manufacture": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "manu_code": "2",
+            "quantity": "80",
+            "province": "เชียงใหม่"
+        },
+        {
+            "rec_hospital": "รพ.ชัยภูมิ",
+            "rec_product": "GPO THC",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "ชัยภูมิ"
+        },
+        {
+            "rec_hospital": "รพ.ชัยภูมิ",
+            "rec_product": "GPO THC:CBD(1:1)",
+            "manufacture": "องค์การเภสัชกรรม",
+            "manu_code": "5",
+            "quantity": "3",
+            "province": "ชัยภูมิ"
+        }
+    ]
+}

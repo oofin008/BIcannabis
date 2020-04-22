@@ -673,38 +673,91 @@
   //---------------------//
   //-----SHIPMENT ----------//
   $(function(){
-    var latlngs_polyline=[
-      [13.753,100.500],
-      [16.712,105.500],
-    ];
-    var latlngs_polyline2=[
-      [13.753,100.500],
-      [19.712,98.500],
-    ];
-    var LeafIcon = L.Icon.extend({
-      options: {
-        iconUrl: '../dist/img/cannabis_logo.png',
-        iconSize: [65,65],
-        iconAnchor: [30,45],
-        popupAnchor: [-3, -76]
-      }
-    });
-    var CannabisIcon = new LeafIcon();
     
-    var shipment_map = L.map('shipment_container', {
-      minZoom: 5.5,
-      maxZoom: 0,
-    }).setView([13.753,100.500], 5);
+    var distributor_1 = [13.846728, 100.5294];//กองพัฒนายาแผนไทย
+    var distributor_2 = [14.0543455, 101.3936]; //รพ.เจ้าพระยาอภัยภูเบศร
+    var distributor_3 = [17.3528538, 103.8539]; //รพ.พระอาจารย์ฝั้น อาจาโร
+    var distributor_4 = [13.8464147, 100.5253]; //สำนักงานคณะกรรมการอาหารและยา
+    var distributor_5 = [13.7668463, 100.5262]; //องค์การเภสัชกรรม
+    $.getJSON('./json/supplychain_index_shipment.json', function(data){
+      console.log(data.Sheet1[0]);
+      $.getJSON('./json/supplychain_index_province.json', function(data2){
+        console.log(data2.Sheet1[0]);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-      opacity:0.5
-    }).addTo(shipment_map);
-    
-    L.polyline(latlngs_polyline, {color: 'blue'}).addTo(shipment_map);
-    L.polyline(latlngs_polyline2, {color: 'blue'}).addTo(shipment_map);
-    L.marker([13.753,100.500]).bindPopup("Bangkok").addTo(shipment_map);
-    L.marker([16.712,105.500]).bindPopup("Shipment Destination").addTo(shipment_map);
-    L.marker([19.712,98.500]).bindPopup("Shipment Destination2").addTo(shipment_map);
+        //Add map
+        var latlngs_polyline=[
+          [13.753,100.500],
+          [16.712,105.500],
+        ];
+        var latlngs_polyline2=[
+          [13.753,100.500],
+          [19.712,98.500],
+        ];
+        var LeafIcon = L.Icon.extend({
+          options: {
+            iconUrl: '../dist/img/cannabis_logo.png',
+            iconSize: [65,65],
+            iconAnchor: [30,45],
+            popupAnchor: [-3, -76]
+          }
+        });
+        var CannabisIcon = new LeafIcon();
+        
+        var shipment_map = L.map('shipment_container', {
+          minZoom: 5.5,
+          // maxZoom: 10,
+        }).setView([13.753,100.500], 5);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          opacity:0.5
+        }).addTo(shipment_map);
+        
+        L.marker(distributor_1).bindPopup("กองพัฒนายาแผนไทย").addTo(shipment_map);
+        L.marker(distributor_2).bindPopup("รพ.เจ้าพระยาอภัยภูเบศร").addTo(shipment_map);
+        L.marker(distributor_3).bindPopup("รพ.พระอาจารย์ฝั้น อาจาโร").addTo(shipment_map);
+        L.marker(distributor_4).bindPopup("สำนักงานคณะกรรมการอาหารและยา").addTo(shipment_map);
+        L.marker(distributor_5).bindPopup("องค์การเภสัชกรรม").addTo(shipment_map);
+
+        var check_marker = [];// check if marker already added to map
+        //loop to add polyline
+        $.each(data.Sheet1, function(index1, value1){
+          var found = data2.Sheet1.some(el => {
+            if(el["CHANGWAT_T"] === value1["province"]){
+
+              //Add marker of destination 
+              if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
+                L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])]).bindPopup(value1["rec_hospital"]).addTo(shipment_map);
+                check_marker.push(value1["rec_hospital"]);
+              }
+              //Add polyline
+              if(value1["manu_code"] == "1"){
+                L.polyline([distributor_1, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4D8FAC'}).addTo(shipment_map);
+              }
+              if(value1["manu_code"] == "2"){
+                L.polyline([distributor_2, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#044F67'}).addTo(shipment_map);
+                
+              }
+              if(value1["manu_code"] == "3"){
+                L.polyline([distributor_3, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#D9B611'}).addTo(shipment_map);
+                
+              }
+              if(value1["manu_code"] == "4"){
+                L.polyline([distributor_4, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4DAF7C'}).addTo(shipment_map);
+                console.log(value1["province"])
+                console.log(el["CHANGWAT_E"])
+              }
+              if(value1["manu_code"] == "5"){
+                L.polyline([distributor_5, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#F62459'}).addTo(shipment_map);
+                
+              }
+            }
+          })
+        })
+        console.log(check_marker);
+
+        
+      })
+    })
   });
 
   //-----SHIPMENT END-------//
@@ -727,7 +780,7 @@
   //chart_patient1
   var patient1_canvas = $('#chart_patient1').get(0).getContext('2d');
   var patient1_data = {
-    labels  : ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'],
+    labels  : ['มิ.ย. 2562', 'ก.ค. 2562', 'ส.ค. 2562', 'ก.ย. 2562', 'ต.ค. 2562', 'พ.ย. 2562', 'ธ.ค. 2622', 'ม.ค. 2563', 'ก.พ. 2563'],
       datasets: [
         {
           type: 'line',
@@ -735,14 +788,14 @@
           borderColor: '#8db255',
           borderWidth: 2,
           fill: false,
-          data                : [250, 354,789,159,357,756,852,658,951,951,569,753]
+          data                : [3,4,15,149,440,737,704,593,100]
         },
         {
           label: '',
           backgroundColor: '#66ccff',
           borderColor: '#1a53ff',
           barPercentage: 0.5,
-          data                : [250, 354,789,159,357,756,852,658,951,951,569,753]
+          data                : [3,4,15,149,440,737,704,593,100]
         },
       ]
   }//end patient1_data
@@ -756,19 +809,29 @@
   var patient2_data = {
     datasets: [
       {
-        label: 'Cancer',
-        data: [{x: 400, y: 200, r: 60}],
+        label: 'นอนไม่หลับ',
+        data: [{x: 210, y: 200, r: 31.92}],
         backgroundColor: '#66ccff',
       },
       {
-        label: 'PTSD',
-        data: [{x: 250, y: 310, r: 20}],
+        label: 'BREAST, UNSPECIFIED',
+        data: [{x: 200, y: 110, r: 10.73}],
         backgroundColor: '#4B77BE',
       },
       {
-        label: 'Others',
-        data: [{x: 200, y: 350, r: 30}],
+        label: 'เบื่ออาหาร',
+        data: [{x: 150, y: 250, r: 10.17}],
         backgroundColor: '#48929B',
+      },
+      {
+        label: 'BROUNCHUS OR LUNG, UNSPECIFIED',
+        data: [{x: 130, y: 180, r: 7.06}],
+        backgroundColor: '#C93756',
+      },
+      {
+        label: 'PARKINSON DISEASE',
+        data: [{x: 300, y: 200, r: 5.93}],
+        backgroundColor: '#8DB255',
       },
     ]
   }
@@ -779,7 +842,7 @@
     options: {
       title:{
         display: true,
-        text: 'Patient count by month',
+        text: 'Patient count by condition',
       },
       aspectRatio: 1,
       
@@ -788,14 +851,14 @@
           display: true,
           ticks:{
             suggestedMin:0,
-            suggestedMax:500,
+            suggestedMax:400,
           }
         }],
         yAxes:[{
           display: true,
           ticks:{
             suggestedMin:0,
-            suggestedMax: 500,
+            suggestedMax: 350,
           }
         }]
       },
