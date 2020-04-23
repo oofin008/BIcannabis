@@ -166,58 +166,237 @@
 
 <script>
   var MONTHS = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฏาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
-  var config = {
-    type: 'line',
+  var config_1 = {
+    type: 'bar',
     data: {
-      labels: MONTHS,
+      labels: ['องค์การเภสัชกรรม','โรงพยาบาลเจ้าพระยาอภัยภูเบศร'],
       datasets: [
         {
-          label: 'My first data',
-          backgroundColor: 'red',
-          borderColor: 'red',
+          label: 'เมล็ด',
+          backgroundColor: '#3498db',
+          borderColor: '#3498db',
           fill: false,
           data: [
-            1,2,3,4,5,6,2,25,4,2,5,4,3,5,4,3,,25,4,2,5,4,3,5,4,3
+            540, 120
           ],
         },
         {
-          label: 'My second data',
-          backgroundColor: 'blue',
-          borderColor: 'blue',
+          label: 'สารสกัด',
+          backgroundColor: '#1abc9c',
+          borderColor: '#1abc9c',
           fill: false,
           data: [
-            7,8,9,10,11,25,4,2,5,4,3,5,4,3,25,4,2,5,4,3,5,4,3
+            2000,2500
           ],
         }
       ]
     },
     options: {
       responsive: true,
-      title: {
-        display: true,
-        text: 'Order chart'
+      legend: {
+        position: 'top',
       },
       tooltips:{
         mode: 'index',
-        intersect: false,
+        intersect: false
       },
       hover: {
         mode: 'nearest',
-        intersect: false,
+        intersect: true,
       },
       scales:{
         xAxes: [{
           display: true,
+          stacked:true,
           scaleLabel: {
             display: true,
-            labelString: 'Month'
+            labelString: 'บริษัทที่นำเข้า'
+          },
+          ticks: {
+            callback: function(value, index, values){
+              if(value.length > 40){
+                var temp_val = value.split("",40);
+                value = temp_val.join("") + "...";
+                return value;
+              }
+              else{
+                return value;
+              }
+            }
           }
         }],
         yAxes: [{
           display: true,
+          stacked: true,
           scaleLabel: {
             display: true,
-            labelString: 'Value'
+            labelString: 'ปริมาณ'
+          }
+        }]
+      }
+    }
+  };
+
+  var config_3 = {
+    type: 'bar',
+    data: {
+      labels: ['องค์การเภสัชกรรม','โรงพยาบาลเจ้าพระยาอภัยภูเบศร','โรงพยาบาลพระอาจารย์ฝั้น อาจาโร','กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก'],
+      datasets: [
+        {
+          label: 'GPO THC',
+          backgroundColor: '#1abc9c',
+          borderColor: '#1abc9c',
+          fill: false,
+          data: [
+            7796,0,0,0
+          ],
+        },
+        {
+          label: 'GPO THC:CBD(1:1)',
+          backgroundColor: '#16a085',
+          borderColor: '#16a085',
+          fill: false,
+          data: [
+            2599,0,0,0
+          ],
+        },
+        {
+          label: 'GPO CBD',
+          backgroundColor: '#27ae60',
+          borderColor: '#27ae60',
+          fill: false,
+          data: [
+            282,0,0,0
+          ],
+        },
+        {
+          label: 'น้ำมันกัญชาหยอดใต้ลิ้น',
+          backgroundColor: '#3498db',
+          borderColor: '#3498db',
+          fill: false,
+          data: [
+            0,24090,0,0
+          ],
+        },
+        {
+          label: 'ยาศุขไสยาศน์ อาจาโร เฮิร์บ',
+          backgroundColor: '#875F9A',
+          borderColor: '#875F9A',
+          fill: false,
+          data: [
+            0,0,29970,0
+          ],
+        },
+        {
+          label: 'ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ',
+          backgroundColor: '#5D3F6A',
+          borderColor: '#5D3F6A',
+          fill: false,
+          data: [
+            0,0,22740,0
+          ],
+        },
+        {
+          label: 'ยาไฟอาวุธ อาจาโร เฮิร์บ',
+          backgroundColor: '#89729E',
+          borderColor: '#89729E',
+          fill: false,
+          data: [
+            0,0,17100,0
+          ],
+        },
+        {
+          label: 'ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ',
+          backgroundColor: '#763568',
+          borderColor: '#763568',
+          fill: false,
+          data: [
+            0,0,1650,0
+          ],
+        },
+        {
+          label: 'ยาอไภยสาลี อาจาโร เฮิร์บ',
+          backgroundColor: '#8D608C',
+          borderColor: '#8D608C',
+          fill: false,
+          data: [
+            0,0,4230,0
+          ],
+        },
+        {
+          label: 'ยาแก้ลมแก้เส้น อาจาโร เฮิร์บ',
+          backgroundColor: '#A87CA0',
+          borderColor: '#A87CA0',
+          fill: false,
+          data: [
+            0,0,11250,0
+          ],
+        },
+        {
+          label: 'ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ',
+          backgroundColor: '#5B3256',
+          borderColor: '#5B3256',
+          fill: false,
+          data: [
+            0,0,8310,0
+          ],
+        },
+        {
+          label: 'น้ำมันกัญชา ตำรับหมอเดชา',
+          backgroundColor: '#317589',
+          borderColor: '#317589',
+          fill: false,
+          data: [
+            0,0,0,48150
+          ],
+        },
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'ชนิดแปรรูป'
+      },
+      responsive: true,
+      legend: {
+        position: 'top',
+        align: 'start'
+      },
+      tooltips:{
+        mode: 'index',
+        intersect: false
+      },
+      hover: {
+        mode: 'nearest',
+        intersect: true,
+      },
+      scales:{
+        xAxes: [{
+          display: true,
+          stacked:true,
+          scaleLabel: {
+            display: true,
+            labelString: 'บริษัทที่นำเข้า'
+          },
+          ticks: {
+            callback: function(value, index, values){
+              if(value.length > 40){
+                var temp_val = value.split("",40);
+                value = temp_val.join("") + "...";
+                return value;
+              }
+              else{
+                return value;
+              }
+            }
+          }
+        }],
+        yAxes: [{
+          display: true,
+          stacked: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'ปริมาณ'
           }
         }]
       }
@@ -227,16 +406,16 @@
   //Main script to run put in here
   $(function(){
     var inventory_import_canvas = $('#inventory_import_canvas').get(0).getContext('2d');
-    var inventory_import_chart = new Chart(inventory_import_canvas, config);
+    var inventory_import_chart = new Chart(inventory_import_canvas, config_1);
 
-    var inventory_plant_canvas = $('#inventory_plant_canvas').get(0).getContext('2d');
-    var inventory_plant_chart = new Chart(inventory_plant_canvas, config);
+    // var inventory_plant_canvas = $('#inventory_plant_canvas').get(0).getContext('2d');
+    // var inventory_plant_chart = new Chart(inventory_plant_canvas, config_2);
 
     var inventory_convert_canvas = $('#inventory_convert_canvas').get(0).getContext('2d');
-    var inventory_convert_chart = new Chart(inventory_convert_canvas, config);
+    var inventory_convert_chart = new Chart(inventory_convert_canvas, config_3);
 
-    var inventory_stock_canvas = $('#inventory_stock_canvas').get(0).getContext('2d');
-    var inventory_stock_chart = new Chart(inventory_stock_canvas, config);
+    // var inventory_stock_canvas = $('#inventory_stock_canvas').get(0).getContext('2d');
+    // var inventory_stock_chart = new Chart(inventory_stock_canvas, config);
   });//END MAIN SCRIPT
 
 
