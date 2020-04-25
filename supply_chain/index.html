@@ -76,7 +76,13 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            
+            <h1 class="m-0 text-dark">Dashboard
+              <button onclick="goIndex()" class="btn btn-secondary">
+                BI Cannabis
+              </button>
+            </h1>
+            
           </div><!-- /.col -->
           <div class="col-sm-6">
             
@@ -220,15 +226,15 @@
                           <div class="carousel-inner" style="height: 208px;">
                             <div class="carousel-item active">
                               <img src="../dist/img/supply_chain_demo/plant_1.jpg" class="inventory_carousel">
-                              <div class="carousel-caption">Test</div>
+                              <div class="carousel-caption"></div>
                             </div>
                             <div class="carousel-item">
                               <img src="../dist/img/supply_chain_demo/plant_2.jpg" class="inventory_carousel">
-                              <div class="carousel-caption">Test</div>
+                              <div class="carousel-caption"></div>
                             </div>
                             <div class="carousel-item">
                               <img src="../dist/img/supply_chain_demo/plant_3.jpg" class="inventory_carousel">
-                              <div class="carousel-caption">Test</div>
+                              <div class="carousel-caption"></div>
                             </div>
                           </div>
                           <a class="carousel-control-prev" href="#inventory_carousel2" data-slide="prev" role="button"><span class="fa fa-angle-left"></span></a>
@@ -539,6 +545,10 @@
 <script src="../dist/js/adminlte.js"></script>
 
 <script>
+
+  function goIndex(){
+    window.location.href = "../index.html";
+  }
   //-----------------//
   //-----PRODUCTION-------//
 
