@@ -135,7 +135,7 @@
               <div class="col-lg-6 col-12">
                 <div class="card">
                   <div class="card-header">
-                    <h5 style="text-align: center;">ปลูก</h3>
+                    <a href="./pages/production.html" title="Production details"><h5 style="text-align: center; color: black">ปลูก</h5></a>
                   </div>
                   <div class="card-body">
                     <canvas id="chart_prod1"></canvas>
@@ -150,7 +150,7 @@
               <div class="col-lg-6 col-12">
                 <div class="card">
                   <div class="card-header">
-                    <h5 style="text-align: center;">ผลิตแปรรูป(FG)</h3>
+                    <a href="pages/production.html#id_1" title="Production details"><h5 style="text-align: center; color: black;">ผลิตแปรรูป(FG)</h5></a>
                   </div>
                   <div class="card-body">
                     <canvas id="chart_prod2"></canvas>
@@ -176,7 +176,7 @@
                   <div class="col-lg-3 col-6">
                     <div class="card">
                       <div class="card-header">
-                        <h5 style="text-align: center;">ผู้นำเข้า</h3>
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color: black;">ผู้นำเข้า</h5></a>
                       </div>
                       <div class="card-body">
                         <div id="inventory_carousel1" class="carousel slide" data-ride="carousel">
@@ -208,7 +208,7 @@
                   <div class="col-lg-3 col-6">
                     <div class="card">
                       <div class="card-header">
-                        <h5 style="text-align: center;">ผู้ปลูก</h3>
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color:black;">ผู้ปลูก</h5></a>
                       </div>
                       <div class="card-body">
                         <div id="inventory_carousel2" class="carousel slide" data-ride="carousel">
@@ -240,7 +240,7 @@
                   <div class="col-lg-3 col-6">
                     <div class="card">
                       <div class="card-header">
-                        <h5 style="text-align: center;">ผู้ผลิต</h3>
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color:black;">ผู้ผลิต</h5></a>
                       </div>
                       <div class="card-body">
                         <div id="inventory_carousel3" class="carousel slide" data-ride="carousel">
@@ -280,7 +280,7 @@
                   <div class="col-lg-3 col-6">
                     <div class="card">
                       <div class="card-header">
-                        <h5 style="text-align: center;">โรงพยาบาล/คลินิค</h3>
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color: black;">โรงพยาบาล/คลินิค</h5></a>
                       </div>
                       <div class="card-body">
                         <div id="inventory_carousel4" class="carousel slide" data-ride="carousel">
@@ -359,23 +359,18 @@
 
             <div class="row">
               <div class="col-lg-2 col-12">
-                <div class="small-box bg-info">
-                  <div class="inner">
-                    <h3>1791 </h3>
-    
-                    <p>Total of patients</p>
-                  </div>
-                  <div class="icon">
-                    <i class="fas fa-user"></i>
-                  </div>
-                  
-                  <!-- <a href="#patient_small_box" data-toggle="collapse" class="small-box-footer" aria-expanded="false" area-controls="patient_small_box"> info <i class="fas fa-arrow-circle-right"></i></a>
-                  <div class="collapse" id="patient_small_box">
-                    <div class="card card-body text-dark">
-                      Content Drill down goes here
+                <a href="./pages/patient.html" title="Patients details">
+                  <div class="small-box bg-info">                  
+                    <div class="inner">
+                      <h3>1791 </h3>
+      
+                      <p>Total of patients</p>
                     </div>
-                  </div> -->
-                </div>
+                    <div class="icon">
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                </a>
               </div>
 
               <div class="col-lg-6 col-12">
@@ -570,6 +565,16 @@
       }
       text.push('</ul>');
       return text.join('');
+    },
+    onClick: function(evt){
+      var activePoints = this.getElementsAtEvent(evt);
+      var select_id = activePoints[0]['_chart'].id;
+      if(select_id == 0){
+        window.location.href = "./pages/production.html#id_0";
+      }
+      else{
+        window.location.href = "./pages/production.html#id_1";
+      }
     },
     tooltips: {
       mode: 'index',
@@ -770,7 +775,9 @@
           })
         })
         console.log(check_marker);
-
+        shipment_map.on('click', function(evt){
+          window.location.href = "./pages/shipment.html";
+        });
         
       })
     })

@@ -169,15 +169,22 @@
     var chart_label = [];
     var AUR_data = {
       label: "AUR",
-      backgroundColor: 'red',
-      borderColor: 'red',
+      backgroundColor: '#5bc0de',
+      borderColor: '#5bc0de',
       borderWidth: 1,
       data: [],
     };
     var SAS_data = {
       label: "SAS",
-      backgroundColor: 'blue',
-      borderColor: 'blue',
+      backgroundColor: '#f0ad4e',
+      borderColor: '#f0ad4e',
+      borderWidth: 1,
+      data: [],
+    }
+    var DEJA_data = {
+      label: "DEJA",
+      backgroundColor: '#bdc3c7',
+      borderColor: '#bdc3c7',
       borderWidth: 1,
       data: [],
     }
@@ -190,6 +197,7 @@
         chart_label.push(value["hospital_name"]);
         AUR_data.data.push(parseInt(value["AUR"]));
         SAS_data.data.push(parseInt(value["SAS"]));
+        DEJA_data.data.push(parseInt(value["DEJA"]));
       })
       console.log(chart_label);
       console.log(AUR_data);
@@ -199,7 +207,7 @@
         type: 'bar',
         data: {
           labels: chart_label,
-          datasets: [AUR_data, SAS_data],
+          datasets: [AUR_data, SAS_data, DEJA_data],
         },
         options: {
           responsive: true,
