@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
   <!--PAGINATION-->
   <link rel="stylesheet" href="../../plugins/paginationjs/pagination.css" type="text/css" />
+  <!--Jvector MAP -->
+  <link rel="stylesheet" href="../../plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
 </head>
 <body class="hold-transition layout-navbar-fixed sidebar-collapse">
 <div class="wrapper">
@@ -83,6 +85,11 @@
       <div class="container">
 
         <!-- CONTENT GO HERE-->
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div id="thaimapjvector" style="height: 775px; width: 100%;"></div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-12 col-12">
             <div class="card">
@@ -148,8 +155,43 @@
 <script src="../../dist/js/adminlte.js"></script>
 <script src="../../plugins/paginationjs/pagination.min.js"></script>
 <script src="../../plugins/paginationjs/pagination.js"></script>
+<!--Jvector Map Javascript-->
+<script src="../../plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="../../dist/js/jquery-javectormap-th_mill.js"></script>
 <script>
   $(function(){
+
+    //=========ROW 1=======
+    var thaimap_value;
+    $.getJSON('./json/supply_chain_shipment_data2.json', function(data){
+      thaimap_value = data;
+      console.log(thaimap_value["TH-37"]);
+      map = new jvm.Map({
+      map: 'th_mill',
+      backgroundColor: '',
+      container: $('#thaimapjvector'),
+      regionsSelectable: false,
+      zoomOnScroll: false,
+      series: {
+        regions: [{
+          values: thaimap_value,
+          scale: ['#ffffff', '#004d1a'],
+          normalizeFunction: 'linear',
+          attribute: 'fill',
+          legend: {
+            vertical: true,
+            title: 'Color'
+          }
+        }]
+      },
+      onRegionTipShow: function(e, el, code){
+        el.html(el.html()+' (total shipment - ' + thaimap_value[code]+ ' units.)');
+      },
+    });
+    })
+
+    
+    //=========ROW 2========
     //GET JSON data
     var shipment_data;
     var total_shipment = 0;
