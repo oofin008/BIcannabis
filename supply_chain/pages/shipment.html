@@ -33,6 +33,14 @@
   <link rel="stylesheet" href="../../plugins/paginationjs/pagination.css" type="text/css" />
   <!--Jvector MAP -->
   <link rel="stylesheet" href="../../plugins/jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <!--Leftlet map style-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
 </head>
 <body class="hold-transition layout-navbar-fixed sidebar-collapse">
 <div class="wrapper">
@@ -87,7 +95,8 @@
         <!-- CONTENT GO HERE-->
         <div class="row">
           <div class="col-lg-12 col-12">
-            <div id="thaimapjvector" style="height: 775px; width: 100%;"></div>
+            <!-- <div id="thaimapjvector" style="height: 775px; width: 100%;"></div> -->
+            <div id="shipment_container" style="height: 775px;"></div>
           </div>
         </div>
         <div class="row">
@@ -95,13 +104,18 @@
             <div class="card">
               <div class="card-header border-0">
                 <h3 class="card-title">Total Shipment</h3>
+                <div class="card-tools" id="cardtool_div">
+                  <label class="form-check-label">ทั้งหมด</label>
+                  <input type="checkbox" value="all" checked/>
+                </div>
               </div>
               <div class="card-body table-responsive p-0">
-                <table class="table table-striped table-valign-middle">
+                <table id="shipment_table" class="table table-striped table-valign-middle">
                   <thead>
                     <th>ผู้ผลิต</th>
                     <th>ผู้รับ</th>
                     <th>Total Shipment</th>
+                    <th>Show</th>
                   </thead>
                   <tbody id="table_body"></tbody>
                 </table>
@@ -162,35 +176,158 @@
   $(function(){
 
     //=========ROW 1=======
-    var thaimap_value;
-    $.getJSON('./json/supply_chain_shipment_data2.json', function(data){
-      thaimap_value = data;
-      console.log(thaimap_value["TH-37"]);
-      map = new jvm.Map({
-      map: 'th_mill',
-      backgroundColor: '#9E9E9E',
-      container: $('#thaimapjvector'),
-      regionsSelectable: false,
-      zoomOnScroll: false,
-      series: {
-        regions: [{
-          values: thaimap_value,
-          scale: ['#ffffff', '#004d1a'],
-          normalizeFunction: 'linear',
-          attribute: 'fill',
-          legend: {
-            vertical: true,
-            title: 'Color'
-          }
-        }]
-      },
-      onRegionTipShow: function(e, el, code){
-        el.html(el.html()+' (total shipment - ' + thaimap_value[code]+ ' units.)');
-      },
+    // var thaimap_value;
+    // $.getJSON('./json/supply_chain_shipment_data2.json', function(data){
+    //   thaimap_value = data;
+    //   console.log(thaimap_value["TH-37"]);
+    //   map = new jvm.Map({
+    //   map: 'th_mill',
+    //   backgroundColor: '#9E9E9E',
+    //   container: $('#thaimapjvector'),
+    //   regionsSelectable: false,
+    //   zoomOnScroll: false,
+    //   series: {
+    //     regions: [{
+    //       values: thaimap_value,
+    //       scale: ['#ffffff', '#004d1a'],
+    //       normalizeFunction: 'linear',
+    //       attribute: 'fill',
+    //       legend: {
+    //         vertical: true,
+    //         title: 'Color'
+    //       }
+    //     }]
+    //   },
+    //   onRegionTipShow: function(e, el, code){
+    //     el.html(el.html()+' (total shipment - ' + thaimap_value[code]+ ' units.)');
+    //   },
+    // });
+    // })
+
+    //Leaflet Map
+    $(function(){
+    
+      var distributor_1 = [13.846728, 100.5294];//กองพัฒนายาแผนไทย
+      var distributor_2 = [14.0543455, 101.3936]; //รพ.เจ้าพระยาอภัยภูเบศร
+      var distributor_3 = [17.3528538, 103.8539]; //รพ.พระอาจารย์ฝั้น อาจาโร
+      var distributor_4 = [13.8464147, 100.5253]; //สำนักงานคณะกรรมการอาหารและยา
+      var distributor_5 = [13.7668463, 100.5262]; //องค์การเภสัชกรรม
+
+      var shipment_
+
+      $.getJSON('../json/supplychain_index_shipment.json', function(data){
+        console.log(data.Sheet1[0]);
+        $.getJSON('../json/supplychain_index_province.json', function(data2){
+          console.log(data2.Sheet1[0]);
+
+          //Add map
+          var latlngs_polyline=[
+            [13.753,100.500],
+            [16.712,105.500],
+          ];
+          var latlngs_polyline2=[
+            [13.753,100.500],
+            [19.712,98.500],
+          ];
+          var LeafIcon = L.Icon.extend({
+            options: {
+              iconUrl: '../../dist/img/cannabis_logo.png',
+              iconSize: [65,65],
+              iconAnchor: [30,45],
+              popupAnchor: [-3, -76]
+            }
+          });
+          var CannabisIcon = new LeafIcon();
+          
+          var shipment_map = L.map('shipment_container', {
+            minZoom: 5.5,
+            // maxZoom: 10,
+          }).setView([13.753,100.500], 5);
+
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+            opacity:0.5
+          }).addTo(shipment_map);
+          
+          L.marker(distributor_1).bindPopup("กองพัฒนายาแผนไทย").addTo(shipment_map);
+          L.marker(distributor_2).bindPopup("รพ.เจ้าพระยาอภัยภูเบศร").addTo(shipment_map);
+          L.marker(distributor_3).bindPopup("รพ.พระอาจารย์ฝั้น อาจาโร").addTo(shipment_map);
+          L.marker(distributor_4).bindPopup("สำนักงานคณะกรรมการอาหารและยา").addTo(shipment_map);
+          L.marker(distributor_5).bindPopup("องค์การเภสัชกรรม").addTo(shipment_map);
+
+          var check_marker = [];// check if marker already added to map
+          //loop to add polyline
+          $.each(data.Sheet1, function(index1, value1){
+            var found = data2.Sheet1.some(el => {
+              if(el["CHANGWAT_T"] === value1["province"]){
+
+                //Add marker of destination 
+                if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
+                  L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])]).bindPopup(value1["rec_hospital"]).addTo(shipment_map);
+                  check_marker.push(value1["rec_hospital"]);
+                }
+                //Add polyline
+                if(value1["manu_code"] == "1"){
+                  L.polyline([distributor_1, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4D8FAC'}).addTo(shipment_map);
+                }
+                if(value1["manu_code"] == "2"){
+                  L.polyline([distributor_2, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#044F67'}).addTo(shipment_map);
+                  
+                }
+                if(value1["manu_code"] == "3"){
+                  L.polyline([distributor_3, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#D9B611'}).addTo(shipment_map);
+                  
+                }
+                if(value1["manu_code"] == "4"){
+                  L.polyline([distributor_4, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4DAF7C'}).addTo(shipment_map);
+                  console.log(value1["province"])
+                  console.log(el["CHANGWAT_E"])
+                }
+                if(value1["manu_code"] == "5"){
+                  L.polyline([distributor_5, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#F62459'}).addTo(shipment_map);
+                  
+                }
+              }
+            })
+          })
+          console.log(check_marker);
+        })
+      })
     });
+
+    $('#cardtool_div :checkbox').on('change', function(){
+      if($(this).is(':checked')){
+        alert("showing all");
+        $('#table_body input[type="checkbox"]').each(function(){
+          $(this).prop("checked", true);
+        })
+        return 0;
+      }
+      else{
+        alert("hiding all");
+        $('#table_body input[type="checkbox"]:checked').each(function(){
+          $(this).prop("checked", false);
+        })
+        return 0;
+      }
+    })
+    
+    //use this format as element in table are dynamically generated
+    $(document).on('change','#table_body input[type="checkbox"]', function(){
+      if($(this).is(':checked')){
+        var message = "sender         reciever\n"
+        var row = $(this).closest("tr")[0];
+        message += row.cells[0].innerHTML;
+        message += "   " + row.cells[1].innerHTML;
+        message += "\n";
+        alert(message);
+        return 0;
+      }
+      else{
+        alert("Hiding label");
+        return 0;
+      }
     })
 
-    
     //=========ROW 2========
     //GET JSON data
     var shipment_data;
@@ -209,17 +346,21 @@
         callback: function(data, pagination){
           var html = simpleTemplating(data, "all");
           $("#table_body").html(html);
+          console.log($('#table_body'));
         }
       })
     });
 
     function simpleTemplating(data, sort_sel){
+      const check_flag = $('#cardtool_div :checkbox').is(":checked");
+      console.log('check_flag: ', check_flag);
       var html ="";
       $.each(data, function(index, item){
         html += "<tr>";
         html += "<td>" + item["manufacter"] + "</td>";
         html += "<td>" + item["rec_hospital   "] + "</td>";
         html += "<td>" + (item["SUM(quantity)"]? parseInt(item["SUM(quantity)"]): 0) + "</td>";
+        html += check_flag?'<td><input type="checkbox" checked/></td>':'<td><input type="checkbox" /></td>';
         html += "</tr>";
       })
       return html;

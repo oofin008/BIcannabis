@@ -31,6 +31,9 @@
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
   <!--PAGINATION-->
   <link rel="stylesheet" href="../../plugins/paginationjs/pagination.css" type="text/css" />
+  <!--BOOTSTRAP-->
+
+
 </head>
 <body class="hold-transition layout-navbar-fixed sidebar-collapse">
 <div class="wrapper">
@@ -88,6 +91,19 @@
             <div class="card">
               <div class="card-header border-0">
                 <h3 class="card-title">Number of cases by condition</h3>
+                <div class="card-tools">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-bars"></i></button>
+                    <div id="hospitalSelect" class="dropdown-menu float-right" role="menu">
+                      <div class="dropdown-item">
+                        <input type="checkbox"/>
+                        <label class="form-check-label">ทั้งหมด</label>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="card-body table-responsive p-0">
                 <canvas id="chartjs_bar"></canvas>
@@ -164,6 +180,12 @@
 <script src="../../plugins/paginationjs/pagination.js"></script>
 <script>
   $(function(){
+
+    //Test select hospital
+    // $('#hospitalSelect div input').click(function(){
+    //   var select
+    // })
+
     //GET 1st JSON data hospital_name, AUR, SAS
     var hospital_data;
     var chart_label = [];
@@ -194,10 +216,12 @@
       console.log(data.Sheet1[0]);
       hospital_data = data.Sheet1;
       $.each(hospital_data, function(index, value){
-        chart_label.push(value["hospital_name"]);
-        AUR_data.data.push(parseInt(value["AUR"]));
-        SAS_data.data.push(parseInt(value["SAS"]));
-        DEJA_data.data.push(parseInt(value["DEJA"]));
+        if(parseInt(value["AUR"])>0 || parseInt(value["SAS"])>0 || parseInt(value["DEJA"])>0 ){
+          chart_label.push(value["hospital_name"]);
+          AUR_data.data.push(parseInt(value["AUR"]));
+          SAS_data.data.push(parseInt(value["SAS"]));
+          DEJA_data.data.push(parseInt(value["DEJA"]));
+        }
       })
       console.log(chart_label);
       console.log(AUR_data);
