@@ -95,7 +95,6 @@
         <!-- CONTENT GO HERE-->
         <div class="row">
           <div class="col-lg-12 col-12">
-            <!-- <div id="thaimapjvector" style="height: 775px; width: 100%;"></div> -->
             <div id="shipment_container" style="height: 775px;"></div>
           </div>
         </div>
@@ -176,33 +175,6 @@
   $(function(){
 
     //=========ROW 1=======
-    // var thaimap_value;
-    // $.getJSON('./json/supply_chain_shipment_data2.json', function(data){
-    //   thaimap_value = data;
-    //   console.log(thaimap_value["TH-37"]);
-    //   map = new jvm.Map({
-    //   map: 'th_mill',
-    //   backgroundColor: '#9E9E9E',
-    //   container: $('#thaimapjvector'),
-    //   regionsSelectable: false,
-    //   zoomOnScroll: false,
-    //   series: {
-    //     regions: [{
-    //       values: thaimap_value,
-    //       scale: ['#ffffff', '#004d1a'],
-    //       normalizeFunction: 'linear',
-    //       attribute: 'fill',
-    //       legend: {
-    //         vertical: true,
-    //         title: 'Color'
-    //       }
-    //     }]
-    //   },
-    //   onRegionTipShow: function(e, el, code){
-    //     el.html(el.html()+' (total shipment - ' + thaimap_value[code]+ ' units.)');
-    //   },
-    // });
-    // })
 
     //Leaflet Map
     $(function(){
@@ -213,31 +185,16 @@
       var distributor_4 = [13.8464147, 100.5253]; //สำนักงานคณะกรรมการอาหารและยา
       var distributor_5 = [13.7668463, 100.5262]; //องค์การเภสัชกรรม
 
-      var shipment_
+      var shipment_map_data
+      var shipment_map_prov
 
       $.getJSON('../json/supplychain_index_shipment.json', function(data){
-        console.log(data.Sheet1[0]);
-        $.getJSON('../json/supplychain_index_province.json', function(data2){
-          console.log(data2.Sheet1[0]);
+        shipment_map_data = data.Sheet1;
+        console.log("Shipment ======>>>>>>",data.Sheet1[0]);
 
-          //Add map
-          var latlngs_polyline=[
-            [13.753,100.500],
-            [16.712,105.500],
-          ];
-          var latlngs_polyline2=[
-            [13.753,100.500],
-            [19.712,98.500],
-          ];
-          var LeafIcon = L.Icon.extend({
-            options: {
-              iconUrl: '../../dist/img/cannabis_logo.png',
-              iconSize: [65,65],
-              iconAnchor: [30,45],
-              popupAnchor: [-3, -76]
-            }
-          });
-          var CannabisIcon = new LeafIcon();
+        $.getJSON('../json/supplychain_index_province.json', function(data2){
+          shipment_map_prov = data2.Sheet1;
+          console.log("Province ========>>>>>>>",data2.Sheet1[0]);
           
           var shipment_map = L.map('shipment_container', {
             minZoom: 5.5,
@@ -259,51 +216,70 @@
           $.each(data.Sheet1, function(index1, value1){
             var found = data2.Sheet1.some(el => {
               if(el["CHANGWAT_T"] === value1["province"]){
-
+                let class_hospital = value1["rec_hospital"].split('.').join('');
                 //Add marker of destination 
                 if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
-                  L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])]).bindPopup(value1["rec_hospital"]).addTo(shipment_map);
+                  test_marker = L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])])
+                  test_marker.bindPopup(value1["rec_hospital"]).addTo(shipment_map);
+                  
+                  $(test_marker._icon).addClass('all_marker');
+                  $(test_marker._shadow).addClass('all_marker');
+                  $(test_marker._icon).addClass(class_hospital);
+                  $(test_marker._shadow).addClass(class_hospital);
+
                   check_marker.push(value1["rec_hospital"]);
                 }
                 //Add polyline
+                var polyline_obj
                 if(value1["manu_code"] == "1"){
-                  L.polyline([distributor_1, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4D8FAC'}).addTo(shipment_map);
+                  polyline_obj = L.polyline([distributor_1, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4D8FAC'})
+                  polyline_obj.addTo(shipment_map);
+                  $(polyline_obj._path).addClass('all_marker');
+                  $(polyline_obj._path).addClass(class_hospital);
                 }
                 if(value1["manu_code"] == "2"){
-                  L.polyline([distributor_2, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#044F67'}).addTo(shipment_map);
-                  
+                  polyline_obj= L.polyline([distributor_2, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#044F67'});
+                  polyline_obj.addTo(shipment_map);
+                  $(polyline_obj._path).addClass('all_marker');
+                  $(polyline_obj._path).addClass(class_hospital);
                 }
                 if(value1["manu_code"] == "3"){
-                  L.polyline([distributor_3, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#D9B611'}).addTo(shipment_map);
-                  
+                  polyline_obj=L.polyline([distributor_3, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#D9B611'});
+                  polyline_obj.addTo(shipment_map);
+                  $(polyline_obj._path).addClass('all_marker');
+                  $(polyline_obj._path).addClass(class_hospital);
                 }
                 if(value1["manu_code"] == "4"){
-                  L.polyline([distributor_4, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4DAF7C'}).addTo(shipment_map);
-                  console.log(value1["province"])
-                  console.log(el["CHANGWAT_E"])
+                  polyline_obj=L.polyline([distributor_4, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4DAF7C'});
+                  polyline_obj.addTo(shipment_map);
+                  $(polyline_obj._path).addClass('all_marker');
+                  $(polyline_obj._path).addClass(class_hospital);
                 }
                 if(value1["manu_code"] == "5"){
-                  L.polyline([distributor_5, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#F62459'}).addTo(shipment_map);
-                  
+                  polyline_obj=L.polyline([distributor_5, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#F62459'});
+                  polyline_obj.addTo(shipment_map);
+                  $(polyline_obj._path).addClass('all_marker');
+                  $(polyline_obj._path).addClass(class_hospital);
                 }
               }
             })
           })
-          console.log(check_marker);
+          console.log("Check_marker =====>>>>>>",check_marker);
         })
       })
     });
 
+    //All checkbox
     $('#cardtool_div :checkbox').on('change', function(){
       if($(this).is(':checked')){
-        alert("showing all");
+        $('.all_marker').fadeIn('slow');
         $('#table_body input[type="checkbox"]').each(function(){
           $(this).prop("checked", true);
         })
         return 0;
       }
       else{
-        alert("hiding all");
+        $('.all_marker').fadeOut('slow');
         $('#table_body input[type="checkbox"]:checked').each(function(){
           $(this).prop("checked", false);
         })
@@ -312,29 +288,28 @@
     })
     
     //use this format as element in table are dynamically generated
+    //Table checkbox
     $(document).on('change','#table_body input[type="checkbox"]', function(){
+      var row = $(this).closest("tr")[0];
+      let rec_hospital = '.'+(row.cells[1].innerHTML.split('.').join(''));
+
+      console.log('Rec_hospital ====>>>>>>', rec_hospital);
       if($(this).is(':checked')){
-        var message = "sender         reciever\n"
-        var row = $(this).closest("tr")[0];
-        message += row.cells[0].innerHTML;
-        message += "   " + row.cells[1].innerHTML;
-        message += "\n";
-        alert(message);
-        return 0;
+        $(rec_hospital).fadeIn('slow');
       }
       else{
-        alert("Hiding label");
-        return 0;
+        $(rec_hospital).fadeOut('slow');
       }
     })
 
     //=========ROW 2========
     //GET JSON data
-    var shipment_data;
+    var shipment_table_data;
     var total_shipment = 0;
+
     $.getJSON('./json/supply_chain_shipment_data.json', function(data){
       console.log(data.Sheet1[0]);
-      shipment_data = data.Sheet1;
+      shipment_table_data = data.Sheet1;
       $.each(data.Sheet1, function(index, value){
         total_shipment += (value["SUM(quantity)"]? parseFloat(value["SUM(quantity)"]): 0);
       })
