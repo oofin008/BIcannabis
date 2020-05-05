@@ -808,6 +808,18 @@
       intersect: true,
     },
     responsive: true,
+    onClick: function(evt){
+      var activePoints = this.getElementsAtEvent(evt);
+      console.log("Actives points =====>>>>",activePoints);
+      window.location.href = "./pages/patient.html";
+      // var select_id = activePoints[0]['_chart'].id;
+      // if(select_id == 0){
+      //   window.location.href = "./pages/production.html#id_0";
+      // }
+      // else{
+      //   window.location.href = "./pages/production.html#id_1";
+      // }
+    },
   }
 
   //chart_patient1
@@ -878,7 +890,18 @@
         text: 'Patient count by condition',
       },
       aspectRatio: 1,
-      
+      onClick: function(evt){
+        var activePoints = this.getElementsAtEvent(evt);
+        console.log("Actives points =====>>>>",activePoints);
+        window.location.href = "./pages/patient.html";
+        // var select_id = activePoints[0]['_chart'].id;
+        // if(select_id == 0){
+        //   window.location.href = "./pages/production.html#id_0";
+        // }
+        // else{
+        //   window.location.href = "./pages/production.html#id_1";
+        // }
+      },
       scales: {
         xAxes: [{
           display: true,

@@ -248,6 +248,8 @@
 <script src="./dist/js/jquery-javectormap-th_mill.js"></script>
 <script src="plugins/paginationjs/pagination.min.js"></script>
 <script src="plugins/paginationjs/pagination.js"></script>
+<script src="dist/js/jsondata/certData_sas2.json"></script>
+<script src="dist/js/jsondata/certData_aur2.json"></script>
 <script>
   $(function(){
 
@@ -404,6 +406,7 @@
       $("#loading_state").show();
       $.getJSON('./dist/js/jsondata/certData_sas2.json', function(data){
         cert_data = data.Sheet1;
+        console.log('finish getJson');
         $("#main_content").show(function(){
           $("#table_title").text("รายละเอียดผู้ผ่านการอบรม: แผนปัจจุบัน");
           $("#sort_sel").empty();

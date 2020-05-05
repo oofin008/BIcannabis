@@ -142,7 +142,7 @@
                   พื้นที่ปลูกที่ได้รับอนุญาต
                 </h3>
               </div>
-              <div class="card-body table-responsive p-0" style="height: 350px; overflow: auto;">
+              <div class="card-body table-responsive p-0" style="height: 100%; overflow: auto;">
                 <table class="table table-striped table-valign-middle">
                   <thead>
                     <tr>
@@ -157,21 +157,31 @@
               </div>
               <div id="pagination-container" class="card-footer float-right"></div>
             </div>
+            <!-- /.card -->
+          </section>
+        </div>
+        <!-- /.row (main row) -->
 
+        <div class="row">
+          <div class="col-6">
             <div class="card bg-gradient-dark">
-              <div class="card-header border-0">
-                <h3 class="card-title">
+              <div class="card-header">
+                <h5 class="card-title">
                   <i class="fas fa-map-marker-alt mr-1"></i>
                   ผลผลิต
-                </h3>
-              </div>
-              <div class="card-body table-responsive" style="height: 350px;">
-                <div class="chart-container">
-                  <canvas id="plant_pieChart"></canvas>
+                </h5>
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
                 </div>
               </div>
+              <div class="card-body">
+                <canvas id="plant_pieChart"></canvas>
+              </div>
             </div><!--./END CARD-->
-
+          </div>
+          <div class="col-6">
             <div class="card bg-gradient-dark">
               <div class="card-header">
                 <h5 class="card-title">จำหน่ายพืชแยกตามชิ้นส่วน</h5>
@@ -202,10 +212,8 @@
               </div>
               <!-- ./card-body -->
             </div>
-            <!-- /.card -->
-          </section>
+          </div>
         </div>
-        <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->

@@ -73,7 +73,7 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="row">
           <div class="col-md-12">
@@ -201,7 +201,7 @@
     maintainAspectRatio: false,
     responsive: true,
     legend: {
-      display: false,
+      display: true,
       labels: {
         fontColor: "white",
       }
@@ -339,62 +339,90 @@
 
   //Sell Purpose Chart
   var sell3PurposeCanvas = $('#sell3_purpose').get(0).getContext('2d')
-    var sell3PurposeData = {
-      labels  : ['คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร','มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร','วิสาหกิจชุมชนกลุ่มปลูกและแปรรูปบุกเกษตรอินทรีย์บ้านทุ่งแพม',' องค์การเภสัชกรรม',],
-      datasets: [
-        {
-          label: "จ่ายเพื่อผลิตตำรับ/สกัด",
-          backgroundColor: '#8db255',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0,0,0,40617.2,]
-        },
-        {
-          label: 'จ่ายเพื่อขาย',
-          backgroundColor: '#66ccff',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [1605370,682090,0,0,]
-        },
-        {
-          label: 'จ่ายเพื่อผลิตปลูก',
-          backgroundColor: '#f47983',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0,0,240,0,]
-        },
-      ]
-    }
+  var sell3PurposeData = {
+    labels  : [
+      'คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร',
+      'คณะนวัตกรรมการเกษตร วิทยาลัยนวัตกรรมการเกษตร เทคโนโลยีชีวภาพและอาหาร มหาวิทยาลัยรังสิต',
+      'มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร',
+      'โรงพยาบาล เจ้าพระยาอภัยภูเบศร',
+      'วิสาหกิจชุมชนกลุ่มปลูกและแปรรูปบุกเกษตรอินทรีย์บ้านทุ่งแพม',
+      ' สถาบันวิชาการและตรวจพิสูจน์ยาเสพติด  สำนักงาน ป.ป.ส.',
+      ' องค์การเภสัชกรรม',
+      'อาคารเรียนรู้การเกษตรและอุตสาหกรรม คณะเทคโนโลยี มหาวิทยาลัยมหาสารคาม',
+      'อาคารวิทยาศาสตร์ชีวภาพ คณะวิทยาศาสตร์ มหาวิทยามหาสารคาม',
+    ],
+    datasets: [
+      {
+        label: "จ่ายเพื่อผลิตตำรับ/สกัด",
+        backgroundColor: '#8db255',
+        borderColor: '#1a53ff',
+        barPercentage: 0.5,
+        data                : [0,0,0,0,0,0,40617.2,0,0]
+      },
+      {
+        label: 'จ่ายเพื่อขาย',
+        backgroundColor: '#66ccff',
+        borderColor: '#1a53ff',
+        barPercentage: 0.5,
+        data                : [1605370,0,682090,0,0,0,0,0,0]
+      },
+      {
+        label: 'จ่ายเพื่อผลิตปลูก',
+        backgroundColor: '#f47983',
+        borderColor: '#1a53ff',
+        barPercentage: 0.5,
+        data                : [0,0,0,0,240,0,0,0,0]
+      },
+      {
+        label: 'ไม่ระบุ',
+        backgroundColor: '#f1f1f1',
+        borderColor: '#1a53ff',
+        barPercentage: 0.5,
+        data                : [0,1161197,0,8.26,0,0,0,0,12]
+      },
+    ]
+  }
 
-    var sell3PurposeChart = new Chart(sell3PurposeCanvas, {
-      type: 'bar', 
-      data: sell3PurposeData,
-      options: {
-        responsive: true,
-        legend:{
-          display: true,
-          labels: { fontColor: 'white'}
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: false,
-        },
-        scales:{
-          xAxes: [{
-            stacked: true,
-            ticks:{
-              fontColor: 'white'
+  var sell3PurposeChart = new Chart(sell3PurposeCanvas, {
+    type: 'bar', 
+    data: sell3PurposeData,
+    options: {
+      responsive: true,
+      legend:{
+        display: true,
+        labels: { fontColor: 'white'}
+      },
+      tooltips: {
+        mode: 'index',
+        intersect: false,
+      },
+      scales:{
+        xAxes: [{
+          stacked: true,
+          ticks:{
+            fontColor: 'white',
+            callback: function(value, index, values){
+              console.log(value);
+              if(value.length > 15){
+                var tmp_val = value.split("",15);
+                value = tmp_val.join('') + "...";
+                return value;
+              }
+              else{
+                return value;
+              }
             }
-          }],
-          yAxes: [{
-            stacked: true,
-            ticks: {
-              fontColor: 'white'
-            }
-          }]
-        }
+          }
+        }],
+        yAxes: [{
+          stacked: true,
+          ticks: {
+            fontColor: 'white'
+          }
+        }]
       }
-    })
+    }
+  })
 
 </script>
 </body>

@@ -251,7 +251,7 @@
                     <div class="info-box bg-warning" >
                       <span class="info-box-icon"><i class="fas fa-money-check-alt"></i></span>
                       <a href="#thaimapjvector" value="own_study" class="info-box-content">
-                        <span class="info-box-number"> 55 ใบ</span>
+                        <span class="info-box-number"> 55 ฉบับ</span>
                         <span class="info-box-text">
                           ครอบครอง
                         </span>
@@ -260,7 +260,7 @@
                     <div class="info-box bg-pink">
                       <span class="info-box-icon"><i class="fas fa-money-check-alt"></i></span>
                       <a href="#thaimapjvector" value="sell_old" class="info-box-content">
-                        <span class="info-box-number"> 474 ใบ</span>
+                        <span class="info-box-number"> 474 ฉบับ</span>
                         <span class="info-box-text">
                           จำหน่าย
                         </span>
@@ -269,7 +269,7 @@
                     <div class="info-box bg-purple">
                       <span class="info-box-icon"><i class="fas fa-money-check-alt"></i></span>
                       <a href="#thaimapjvector" value="import" class="info-box-content">
-                        <span class="info-box-number"> 3 ใบ</span>
+                        <span class="info-box-number"> 3 ฉบับ</span>
                         <span class="info-box-text">
                           นำเข้ายาเสพติดประเภท5
                         </span>
@@ -278,7 +278,7 @@
                     <div class="info-box bg-teal">
                       <span class="info-box-icon"><i class="fas fa-money-check-alt"></i></span>
                       <a href="#thaimapjvector" value="plant" class="info-box-content">
-                        <span class="info-box-number"> 17 ใบ</span>
+                        <span class="info-box-number"> 17 ฉบับ</span>
                         <span class="info-box-text">
                           ผลิตปลูก
                         </span>
@@ -287,7 +287,7 @@
                     <div class="info-box bg-danger">
                       <span class="info-box-icon"><i class="fas fa-money-check-alt"></i></span>
                       <a href="#thaimapjvector" value="convert" class="info-box-content">
-                        <span class="info-box-number"> 19 ใบ</span>
+                        <span class="info-box-number"> 19 ฉบับ</span>
                         <span class="info-box-text">
                           ผลิตแปรรูปหรือสกัด
                         </span>
@@ -690,11 +690,11 @@
     //ใบอนุญาตผลิตแปรรูปหรือสกัด
     cannabisConvert = {
       "TH-81" : 0,
-      "TH-10" : 1,
+      "TH-10" : 5,
       "TH-71" : 0,
       "TH-46" : 0,
       "TH-62" : 0,
-      "TH-40" : 0,
+      "TH-40" : 2,
       "TH-22" : 0,
       "TH-24" : 0,
       "TH-20" : 0,
@@ -702,31 +702,31 @@
       "TH-36" : 0,
       "TH-86" : 0,
       "TH-57" : 0,
-      "TH-50" : 0,
+      "TH-50" : 1,
       "TH-92" : 0,
       "TH-23" : 0,
       "TH-63" : 0,
       "TH-26" : 0,
-      "TH-73" : 0,
+      "TH-73" : 2,
       "TH-48" : 0,
-      "TH-30" : 0,
+      "TH-30" : 1,
       "TH-80" : 0,
       "TH-60" : 0,
-      "TH-12" : 0,
+      "TH-12" : 2,
       "TH-96" : 0,
       "TH-55" : 0,
       "TH-38" : 0,
-      "TH-31" : 0,
-      "TH-13" : 0,
+      "TH-31" : 1,
+      "TH-13" : 1,
       "TH-77" : 0,
-      "TH-25" : 0,
+      "TH-25" : 1,
       "TH-94" : 0,
       "TH-14" : 0,
       "TH-56" : 0,
       "TH-82" : 0,
       "TH-93" : 0,
       "TH-66" : 0,
-      "TH-65" : 0,
+      "TH-65" : 1,
       "TH-76" : 0,
       "TH-67" : 0,
       "TH-54" : 0,
@@ -745,8 +745,8 @@
       "TH-51" : 0,
       "TH-42" : 0,
       "TH-33" : 0,
-      "TH-47" : 0,
-      "TH-90" : 0,
+      "TH-47" : 1,
+      "TH-90" : 1,
       "TH-91" : 0,
       "TH-11" : 0,
       "TH-75" : 0,
@@ -1174,7 +1174,7 @@
       map: 'th_mill',
       backgroundColor: '',
       container: $('#thaimapjvector'),
-      regionsSelectable: true,
+      regionsSelectable: false,
       zoomOnScroll: false,
       series: {
         regions: [{
@@ -1187,7 +1187,7 @@
         }]
       },
       onRegionTipShow: function(e, el, code){
-        el.html(el.html()+' (ใบอนุญาต - ' + cannabisFake[code]+ ' ใบ)');
+        el.html(el.html()+' (ใบอนุญาต - ' + cannabisFake[code]+ ' ฉบับ)');
         console.log(code + el.html());
       },
       onRegionSelected: function(){
