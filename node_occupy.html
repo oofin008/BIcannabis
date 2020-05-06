@@ -72,7 +72,7 @@
     <!-- /.content-header -->
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="row">
           <div class="col-md-12">
@@ -391,13 +391,35 @@
         tooltips: {
           mode: 'index',
           intersect: false,
+          callbacks: {
+            label: function(tooltipItem, barChartData){
+              var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
+              if (label){
+                label += ': ';
+              }
+              label += Math.round(tooltipItem.yLabel * 100) / 100;
+              label += ' unit';
+              return label;
+            }
+          }
         },
         responsive: true,
         scales:{
           xAxes: [{
             stacked: true,
             ticks:{
-              fontColor: 'white'
+              fontColor: 'white',
+              callback: function(value, index, values){
+              console.log(value);
+              if(value.length > 15){
+                var tmp_val = value.split("",15);
+                value = tmp_val.join('') + "...";
+                return value;
+              }
+              else{
+                return value;
+              }
+            }
             }
           }],
           yAxes: [{

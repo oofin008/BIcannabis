@@ -73,7 +73,7 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class=" card bg-gradient-dark">
           <div class="card-header">
@@ -406,7 +406,10 @@
     //Add a title 
     //all_Convert_chart.title("Hello world");
     all_Convert_chart.container("all_Convert");
+    all_Convert_chart.labels().fontSize(20);
     all_Convert_chart.draw();
+    console.log("Anychart =====>>>>>>", all_Convert_chart.labels());
+    
   });//End AnyChart ready function
 
   //-------------
