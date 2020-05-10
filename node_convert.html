@@ -85,6 +85,7 @@
 
           <div class="card-body">
             <!-- Main row -->
+            <!-- USELESS ROWWWWWWWW-->
             <div class="row" style="display: none;">
               <!-- Left col -->
               <div class="col-md-6">
@@ -168,6 +169,7 @@
               </div>
               <!-- /.col -->
             </div>
+            <!-- END OF USELESS ROWWWWWW -->
             <!-- /.row -->
 
             <div class="row">
@@ -404,9 +406,14 @@
     //Create treemap chart visualizing the data tree
     var all_Convert_chart =  anychart.treeMap(treeData);
     //Add a title 
-    //all_Convert_chart.title("Hello world");
-    all_Convert_chart.container("all_Convert");
+    all_Convert_chart.labels().useHtml(true);
+    all_Convert_chart.labels().format(
+      `<span style='font-weight:bold' >{%name}</span><br>{%value} units`
+    );
     all_Convert_chart.labels().fontSize(20);
+
+    all_Convert_chart.container("all_Convert");
+
     all_Convert_chart.draw();
     console.log("Anychart =====>>>>>>", all_Convert_chart.labels());
     

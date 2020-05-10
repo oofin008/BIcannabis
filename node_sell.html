@@ -691,7 +691,11 @@
     //Create treemap chart visualizing the data tree
     var cannabisUsage_anychart_chart =  anychart.treeMap(treeData);
     //Add a title 
-    //all_Convert_chart.title("Hello world");
+    cannabisUsage_anychart_chart.labels().useHtml(true);
+    cannabisUsage_anychart_chart.labels().format(
+      `<span style='font-weight:bold' >{%name}</span><br>{%value} units`
+    );
+    cannabisUsage_anychart_chart.labels().fontSize(20);
     cannabisUsage_anychart_chart.container("cannabisUsage_anychart");
     cannabisUsage_anychart_chart.draw();
   });//End AnyChart ready function
