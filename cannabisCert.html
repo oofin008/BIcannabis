@@ -468,7 +468,7 @@
       //$("#initial_sel_sas").hide();
       $("#initial_sel_sas").attr("href", "#");
       $("#loading_state").show();
-      $.getJSON('./dist/js/jsondata/certData_aur2.json', function(data){
+      var get_json_p = $.getJSON('./dist/js/jsondata/certData_aur2.json', function(data){
         cert_data = data.Sheet1;
       })
       .done(function(){
@@ -528,6 +528,8 @@
           $("#loading_state").hide();
         });
       })
+
+      //setTimeout(function(){ get_json_p.abort();}, 5000);
       //.always(function(){ $("#loading_state").hide(); });
     });
 

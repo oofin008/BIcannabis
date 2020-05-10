@@ -113,7 +113,8 @@
                   <thead>
                     <th>ผู้ผลิต</th>
                     <th>ผู้รับ</th>
-                    <th>Total Shipment</th>
+                    <th>สิ่งที่ส่ง</th>
+                    <th>Total Shipment (units)</th>
                     <th>Show</th>
                   </thead>
                   <tbody id="table_body"></tbody>
@@ -334,6 +335,7 @@
         html += "<tr>";
         html += "<td>" + item["manufacter"] + "</td>";
         html += "<td>" + item["rec_hospital   "] + "</td>";
+        html += "<td> - </td>";
         html += "<td>" + (item["SUM(quantity)"]? parseInt(item["SUM(quantity)"]): 0) + "</td>";
         html += check_flag?'<td><input type="checkbox" checked/></td>':'<td><input type="checkbox" /></td>';
         html += "</tr>";

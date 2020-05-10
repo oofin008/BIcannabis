@@ -92,16 +92,16 @@
               <div class="card-header border-0">
                 <h3 class="card-title">Number of cases by hospital</h3>
                 <div class="card-tools">
-                  <!-- <div class="btn-group">
+                  <div class="btn-group ">
                     <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                       <i class="fas fa-bars"></i></button>
-                    <div id="hospitalSelect" class="dropdown-menu float-right" role="menu">
+                    <div id="hospitalSelect" class="dropdown-menu float-right pre-scrollable" role="menu" >
                       <div class="dropdown-item">
-                        <input type="checkbox" checked> ทั้งหมด </input>
+                        <input type="checkbox" value="all" checked> ทั้งหมด </input>
                       </div>
                       
                     </div>
-                  </div> -->
+                  </div>
                 </div>
               </div>
               <div class="card-body table-responsive p-0">
@@ -179,13 +179,6 @@
 <script src="../../plugins/paginationjs/pagination.js"></script>
 <script>
   $(function(){
-
-    //Test select hospital
-    // $('#hospitalSelect div input').click(function(){
-    //   var select
-    // })
-
-    //GET 1st JSON data hospital_name, AUR, SAS
     var hospital_data;
     var chart_label = [];
     var AUR_data = {
@@ -211,8 +204,64 @@
     }
     var chartjs_canvas = $("#chartjs_bar").get(0).getContext('2d');
     var chartjs_chart;
+    
+    //Test select hospital
+    $(document).on('change', '#hospitalSelect input[type="checkbox"]', function(){
+      const sel_val =  $(this).attr("value");
+      const index = hospital_data.findIndex(data => data.hospital_name === sel_val);
+
+      //Select box
+      if($(this).is(':checked')){
+        if(sel_val == "all"){
+          $('#hospitalSelect input[type="checkbox"').each(function(){
+            $(this).prop("checked", true);
+          });
+          chart_label.splice(0,chart_label.length);
+          AUR_data.data.splice(0, AUR_data.data.length);
+          SAS_data.data.splice(0,SAS_data.data.length);
+          DEJA_data.data.splice(0,DEJA_data.data.length);
+          $.each(hospital_data, function(index, value){
+            if(parseInt(value["AUR"])>0 || parseInt(value["SAS"])>0 || parseInt(value["DEJA"])>0 ){
+              chart_label.push(value["hospital_name"]);
+              AUR_data.data.push(parseInt(value["AUR"]));
+              SAS_data.data.push(parseInt(value["SAS"]));
+              DEJA_data.data.push(parseInt(value["DEJA"]));
+            }
+          });
+        }
+        else{
+          chart_label.splice(index, 0, hospital_data[index].hospital_name);
+          AUR_data.data.splice(index, 0, parseInt(hospital_data[index]["AUR"]));
+          SAS_data.data.splice(index, 0, parseInt(hospital_data[index]["SAS"]));
+          DEJA_data.data.splice(index,0, parseInt(hospital_data[index]["DEJA"]));
+        }
+        chartjs_chart.update();
+      }
+      //Unselect box
+      else{
+        if(sel_val == "all"){
+          $('#hospitalSelect input[type="checkbox"').each(function(){
+            $(this).prop("checked", false);
+          });
+          chart_label.splice(0,chart_label.length);
+          AUR_data.data.splice(0, AUR_data.data.length);
+          SAS_data.data.splice(0,SAS_data.data.length);
+          DEJA_data.data.splice(0,DEJA_data.data.length);
+          console.log("DEJA data: ", DEJA_data);
+        }
+        else{
+          chart_label.splice(index, 1);
+          AUR_data.data.splice(index, 1);
+          SAS_data.data.splice(index,1);
+          DEJA_data.data.splice(index,1);
+        }
+        chartjs_chart.update();
+      }
+    })
+
+    //GET 1st JSON data hospital_name, AUR, SAS
     $.getJSON('./json/supply_chain_patient_data_1.json', function(data){
-      console.log(data.Sheet1[0]);
+      console.log("hospital data ===>>>>",data.Sheet1[0]);
       hospital_data = data.Sheet1;
       $.each(hospital_data, function(index, value){
         if(parseInt(value["AUR"])>0 || parseInt(value["SAS"])>0 || parseInt(value["DEJA"])>0 ){
@@ -220,12 +269,15 @@
           AUR_data.data.push(parseInt(value["AUR"]));
           SAS_data.data.push(parseInt(value["SAS"]));
           DEJA_data.data.push(parseInt(value["DEJA"]));
+          $('#hospitalSelect').append(
+            `<div class="dropdown-item">
+              <input type="checkbox" value="${value.hospital_name}" checked> ${value.hospital_name} </input>
+            </div>`
+          )
         }
       })
-      console.log(chart_label);
-      console.log(AUR_data);
-      console.log(SAS_data)
-
+      console.log("Chart label====>>>>>",chart_label);
+      
       chartjs_chart = new Chart(chartjs_canvas, {
         type: 'bar',
         data: {
@@ -277,14 +329,15 @@
           }
         }
       })
-
+      console.log("Chart_js ======>>>>>", chartjs_chart);
     });
 
+    //=================ROW2==========================
     //GET 2nd JSON data
     var patient_data;
     var total_patient = 0;
     $.getJSON('./json/supply_chain_patient_data_2.json', function(data){
-      console.log(data.Sheet1[0]);
+      
       patient_data = data.Sheet1;
       $.each(data.Sheet1, function(index, value){
         total_patient += (value["Number"]? parseFloat(value["Number"]): 0);
