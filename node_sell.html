@@ -602,6 +602,7 @@
   $('#loading_state').show();
   $.getJSON('./dist/js/jsondata/node_sell_data.json', function(data){
     node_sell_data = data.Sheet1;
+    //console.log('node sell data ===>>>', node_sell_data);
 
     //Sum PAY value for duplicate LICENSE_PLACE name
     for(var i=0,c; c=node_sell_data[i]; i++){
@@ -650,6 +651,7 @@
     getReq = "SAS";
     console.log(getReq);
   }
+
   var pageTitle = document.getElementById('pageTitle');
   if(getReq == "SAS"){
     pageTitle.innerText += " แผนปัจจุบัน";
@@ -708,7 +710,7 @@
         
         {
           label               : 'จำนวนจ่าย',
-          backgroundColor     : '#ff4d4d',
+          backgroundColor     : '#f0ad4e',
           data                : [340,257,220,138,108]
         }
       ]
@@ -743,15 +745,17 @@
           'แผนปัจจุบัน: โรคลมชัก (G40-41) ที่รักษายากหรือดื้อต่อการรักษา',
           'แผนปัจจุบัน: โรคอัลไซเมอร์  (G309)',
           'แผนปัจจุบัน: โรค/อาการอื่นๆ',
-          'แผนไทย: รวม',
+          'แผนไทย: - F510 Nonorganic sleep disorders - Nonorganic insomnia',
+          'แผนไทย: - M7912 ความผิดปกติของเนื้อเยื่อแบบอื่น ที่มิได้มีรหัสระบุไว้ที่อื่น - Myalgia - แขนท่อนบน',
+          'แผนไทย: ...',
           'น้ำมันเดชา: รวม',
           ],
           backgroundColor     : ['#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e',
-          '#5bc0de',
+          '#5bc0de','#5bc0de','#5bc0de',
           '#f4f4f4',],
           data                : [
             145,68,8,8,55,34,12,1,35,
-            309,
+            18,18,273,
             995,
           ]
         },
@@ -919,17 +923,14 @@
     
     document.getElementById("sortChart5_card").style.display = "none";
   }//END 
+
   else if(getReq == "AUR"){
     var patientChartData = {
       labels  : ['โรงพยาบาล สมเด็จพระยุพราชเด่นชัย', 'โรงพยาบาลพระอาจารย์ฝั้น อาจาโร', 'โรงพระยาบาล ลำปาง', 'โรงพยาบาล เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา', 'โรงพยาบาลมหาราชนครราชสีมา',],
       datasets: [
-        
         {
-          type                : 'bar',
           label               : 'จำนวนจ่าย',
-          yAxesID: 'B',
-          backgroundColor     : '#ff4d4d',
-          fill                : false,
+          backgroundColor     : '#5bc0de',
           data                : [1833,1805,1771,1049,841]
         }
       ]
@@ -1128,11 +1129,8 @@
       datasets: [
         
         {
-          type                : 'bar',
           label               : 'จำนวนจ่าย',
-          yAxesID: 'B',
-          backgroundColor     : '#ff4d4d',
-          fill                : false,
+          backgroundColor     : '#f7f7f7',
           data                : [29239,4341,3629,1733,1356]
         }
       ]
@@ -1228,7 +1226,7 @@
   // This will get the first returned node in the jQuery collection.
   var patientChartCanvas = $('#paChart').get(0).getContext('2d');
   var patientChart = new Chart(patientChartCanvas, { 
-      type: 'bar', 
+      type: 'horizontalBar', 
       data: patientChartData, 
       options: patientChartOptions
     }
