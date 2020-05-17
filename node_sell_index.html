@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Cannabis</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- overlayScrollbars -->
+    <link
+      rel="stylesheet"
+      href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"
+    />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="hold-transition layout-top-nav">
+    <!--LOADING STATE OVERLAY-->
+    <div class="overlay-wrapper" id="loading_state" style="display: none;">
+      <!--Loading state-->
+      <div class="overlay">
+        <i class="fa fa-refresh fa-spin"></i>
+        <h3>Loading...</h3>
+      </div>
+      <!--Loading state-->
+    </div>
+
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand navbar-dark">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="index.html" class="nav-link">หน้าแรก</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_import.html" class="nav-link">นำเข้ากัญชา</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell3.html" class="nav-link">จำหน่ายพืช</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell_index.html?" class="nav-link bg-info"
+              >การจำหน่ายบำบัด</a
+            >
+          </li>
+
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper sidebar-dark-primary">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 id="pageTitle" class="m-0 text-white">
+                  ข้อมูลการจำหน่ายบำบัด ภาพรวม
+                </h1>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-6">
+                <div class="btn-group-lg float-right">
+                  <button
+                    style="width: 200px;"
+                    type="button"
+                    class="btn btn-tool dropdown-toggle"
+                    data-toggle="dropdown"
+                  >
+                    <i class="fas fa-cannabis"></i>
+                    Sort select
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-md-right" role="menu">
+                    <a href="./node_sell.html?sortselected=SAS" class="dropdown-item"
+                      >แผนปัจจุบัน</a
+                    >
+                    <a href="./node_sell.html?sortselected=AUR" class="dropdown-item">แผนไทย</a>
+                    <a href="./node_sell.html?sortselected=DEJA" class="dropdown-item"
+                      >ผลิตภัณฑ์กัญชาน้ำมันเดชา</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content">
+          <div class="container-fluid">
+            <!--ROW 0: รายงานจาก สปสช SECTION-->
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">รายงานจาก สปสช</h3>
+                <div class="card-tools">
+                  <button
+                    type="button"
+                    class="btn btn-tool"
+                    data-card-widget="collapse"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+              <!--./end card header-->
+
+              <div class="card-body">
+                <div class="row">
+                  <!--Left row-->
+                  <div class="col-md-6">
+                    <div class="card bg-gradient-dark">
+                      <div class="card-header">
+                        <h5 class="card-title">
+                          ผู้ผลิต 5 อันดับแรกที่มีการกระจายยามากที่สุด
+                        </h5>
+                        <div class="card-tools">
+                          <button
+                            id="paChart_button"
+                            type="button"
+                            class="btn bg-olive margin"
+                          >
+                            รายละเอียด
+                          </button>
+                        </div>
+                      </div>
+                      <!--./end card header-->
+
+                      <div class="card-body">
+                        <div id="pachart_legend"></div>
+                        <div class="chart">
+                          <!-- Sales Chart Canvas -->
+                          <canvas id="paChart" style="height: 400px;"></canvas>
+                        </div>
+                        <!-- /.chart-responsive -->
+                      </div>
+                      <!-- ./card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <!--Right row-->
+                  <div class="col-md-6">
+                    <div class="card bg-gradient-dark">
+                      <div class="card-header" style="height: 60px;">
+                        <h5 class="card-title">ปริมาณการใช้ยาตามตำรับ</h5>
+                      </div>
+                      <div class="card-body">
+                        <div class="chart">
+                          <div
+                            id="cannabisUsage_anychart"
+                            style="
+                              height: 400px;
+                              width: 100%;
+                              margin: 0;
+                              padding: 0;
+                            "
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--./end row-->
+              </div>
+              <!--./end card-body -->
+            </div>
+            <!--./ End ROW0 รายงานจาก สปสช-->
+
+            <!--ROW 1: รายงานความปลอดภัย section-->
+            <div class="card bg-gradient-dark">
+              <div class="card-header">
+                <h3 class="card-title">รายงานความปลอดภัย</h3>
+                <div class="card-tools">
+                  <button
+                    type="button"
+                    class="btn btn-tool"
+                    data-card-widget="collapse"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+              <!--ROW1: card body-->
+              <div class="card-body">
+                <!--row 2-->
+                <div class="row">
+                  <div class="col-md-6"></div>
+                  <!--End Left Col-->
+
+                  <div class="col-md-6">
+                    <div class="card bg-gradient-dark" id="sortChart1_card">
+                      <div class="card-header">
+                        <h3 class="card-title" id="sortChart1_title">
+                          จำนวนผู้ป่วยทั้งหมดแยกตามโรค
+                        </h3>
+
+                        <div class="card-tools">
+                          <button
+                            type="button"
+                            class="btn btn-tool"
+                            data-card-widget="collapse"
+                          >
+                            <i class="fas fa-minus"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body p-0">
+                        <div class="d-md-flex">
+                          <div class="p-1 flex-fill" style="overflow: hidden;">
+                            <p class="text-center">
+                              <strong id="sortChart1_header"
+                                >กุมภาพันธ์ - 2563</strong
+                              >
+                            </p>
+                            <div class="chart-responsive">
+                              <canvas
+                                id="sortChart1"
+                                style="height: 400px; overflow: hidden;"
+                              ></canvas>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.d-md-flex -->
+                      </div>
+                      <!-- /.card-body -->
+                      <div class="card-footer">
+                        <div id="sortChart1_legend"></div>
+                      </div>
+                    </div>
+                    <!-- /. End sortChart1 Usage card -->
+                  </div>
+                  <!--End Right Col-->
+                </div>
+              </div>
+            </div>
+            <!--End ROW1: Usage section-->
+          </div>
+          <!--/. container-fluid -->
+        </section>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        ข้อมูลอ้างอิงจากไฟล์ รายงานกัญชา20200221_V2.xlsx และ
+        รายงานความปลอดภัย(ข้อมูลกัญชา_AUR_19-02-2020,
+        ข้อมูลกัญชา_SAS_19-02-2020) และ สูตรPB_EQ5D5L-final-for-web,
+        Copy-of-Thai5LCalculator_17.06.2559
+        <div class="float-right d-none d-sm-inline-block"></div>
+      </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+
+    <!--AnyChart for Treemap chart-->
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-treemap.min.js"></script>
+    <!-- PAGE PLUGINS -->
+    <!-- jQuery Mapael -->
+    <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="plugins/raphael/raphael.min.js"></script>
+    <script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
+
+    <!-- PAGE SCRIPTS -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!--Script Tag Begin-->
+    <script>
+      var node_sell_data = new Array();
+      var hospital_sell_sum = {},
+        hospital_result;
+      var top_5_hospital;
+
+      $("#loading_state").show();
+      $.getJSON("./dist/js/jsondata/node_sell_data.json", function (data) {
+        node_sell_data = data.Sheet1;
+        //console.log('node sell data ===>>>', node_sell_data);
+
+        //Sum PAY value for duplicate LICENSE_PLACE name
+        for (var i = 0, c; (c = node_sell_data[i]); i++) {
+          if (undefined === hospital_sell_sum[c["LICENSE_PLACE"]]) {
+            hospital_sell_sum[c["LICENSE_PLACE"]] = c;
+            hospital_sell_sum[c["LICENSE_PLACE"]]["PAY"] = parseInt(
+              hospital_sell_sum[c["LICENSE_PLACE"]]["PAY"]
+            );
+          } else {
+            hospital_sell_sum[c["LICENSE_PLACE"]]["PAY"] += parseInt(c["PAY"]);
+          }
+        }
+        hospital_result = Object.keys(hospital_sell_sum).map(function (val) {
+          return hospital_sell_sum[val];
+        });
+
+        //END Sum Duplicate
+
+        //Find top 5 hospital
+        top_5_hospital = hospital_result.sort((a, b) => b["PAY"] - a["PAY"]);
+
+        //Sort SAS, AUR, DEJA
+        var top_5_sas = new Array();
+        var top_5_aur = new Array();
+        var top_5_deja = new Array();
+        for (var i = 0; i < top_5_hospital.length; i++) {
+          if (
+            ["SAS1", "SAS2", "SAS3", "SAS4"].includes(
+              top_5_hospital[i]["REGISTER_CODE"]
+            )
+          ) {
+            top_5_sas.push(top_5_hospital[i]);
+          }
+          if (
+            ["TP2", "TP6", "TP9", "TP10", "TP11", "TP14", "TP15"].includes(
+              top_5_hospital[i]["REGISTER_CODE"]
+            )
+          ) {
+            top_5_aur.push(top_5_hospital[i]);
+          }
+          if (["RES1"].includes(top_5_hospital[i]["REGISTER_CODE"])) {
+            top_5_deja.push(top_5_hospital[i]);
+          }
+        }
+        console.log("TOP5 SAS: ");
+        console.log(top_5_sas.slice(0, 5));
+        console.log("TOP5 AUR: ");
+        console.log(top_5_aur.slice(0, 5));
+        console.log("TOP5 DEJA: ");
+        console.log(top_5_deja.slice(0, 5));
+        //END sorting TOP5
+
+        $("#loading_state").hide();
+      });
+
+      //------------
+      //--Tree Map--
+      //------------
+      anychart.onDocumentReady(function () {
+        var cannabisUsage_anychart_data = [
+          {
+            name: "ภาพรวม",
+            children: [
+              {
+                name: "แผนไทย",
+                children: [
+                  { name: "ยาศุขไสยาศน์", value: 22970 },
+                  { name: "ยาทำลายพระสุเมรุ", value: 22740 },
+                  { name: "ยาไฟอาวุธ", value: 17100 },
+                  { name: "ยาอัมฤตย์โอสถ", value: 1650 },
+                  { name: "ยาอไกยสาลี", value: 4230 },
+                  { name: "ยาแก้ลมแก้เส้น", value: 11250 },
+                  { name: "ยาทาริดสีดวงทวารหนักและโรคผิวหนัง", value: 8310 },
+                ],
+              },
+              {
+                name: "แผนปัจจุบัน",
+                children: [
+                  { name: "GPO THC", value: 7796 },
+                  { name: "GPO THC:CBD(1:1)", value: 2599 },
+                  { name: "GPO CBD", value: 282 },
+                  { name: "น้ำมันกัญชาหยอดใต้ลิ้น", value: 24090 },
+                ],
+              },
+              {
+                name: "ผลิตภัณฑ์กัญชาน้ำมันเดชา",
+                children: [{ name: "น้ำมันกัญชาตำรับหมอเดชา", value: 48150 }],
+              },
+            ],
+          },
+        ];
+
+        //Create Data tree
+        var treeData = anychart.data.tree(
+          cannabisUsage_anychart_data,
+          "as-tree"
+        );
+        //Create treemap chart visualizing the data tree
+        var cannabisUsage_anychart_chart = anychart.treeMap(treeData);
+        //Add a title
+        cannabisUsage_anychart_chart.labels().useHtml(true);
+        cannabisUsage_anychart_chart
+          .labels()
+          .format(
+            `<span style='font-weight:bold' >{%name}</span><br>{%value} units`
+          );
+        cannabisUsage_anychart_chart.labels().fontSize(20);
+        cannabisUsage_anychart_chart.container("cannabisUsage_anychart");
+        cannabisUsage_anychart_chart.draw();
+      }); //End AnyChart ready function
+
+      var patientChartData = {
+        labels: [
+          "อันดับ 1",
+          "อันดับ 2",
+          "อันดับ 3",
+          "อันดับ 4",
+          "อันดับ 5",
+        ],
+        datasets: [
+          {
+            label: ["แผนปัจจุบัน",
+              "โรงพยาบาล พุทธชินราช พิษณุโลก",
+              "โรงพยาบาล สวรรค์ประชารักษ์",
+              "โรงพยาบาล ขอนแก่น",
+              "โรงพยาบาล พระนั่งเกล้า",
+              "โรงพยาบาล สระบุรี",
+            ],
+            backgroundColor: "#f0ad4e",
+            data: [340, 257, 220, 138, 108],
+          },
+          {
+            label: ["แผนไทย",
+              'โรงพยาบาล สมเด็จพระยุพราชเด่นชัย', 
+              'โรงพยาบาลพระอาจารย์ฝั้น อาจาโร', 
+              'โรงพระยาบาล ลำปาง', 
+              'โรงพยาบาล เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา', 
+              'โรงพยาบาลมหาราชนครราชสีมา',
+            ],
+            backgroundColor: "#5bc0de",
+            data: [1833,1805,1771,1049,841],
+          },
+          {
+            label: ["น้ามันเดชา",
+              'โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน',
+              'โรงพยาบาล ศรีประจันต์',
+              'โรงพยาบาล ดอนตูม',
+              'โรงพยาบาลป่าบอน',
+              'โรงพยาบาลหนองฉาง'
+            ],
+            backgroundColor: "#f7f7f7",
+            data: [29239,4341,3629,1733,1356],
+          },
+
+        ],
+      }; //End top5 chart
+
+      var sortChart1_title = document.getElementById("sortChart1_title");
+      sortChart1_title.innerText = "จำนวนผู้ป่วยทั้งหมดแยกตามโรค";
+      var sortChart1Data = {
+        labels: ["แผนปัจจุบัน", "แผนไทย", "น้ำมันเดชา"],
+        datasets: [
+          {
+            label: [
+              "แผนปัจจุบัน: ผู้ป่วยที่ดูแลแบบประคับประคอง/ระยะสุดท้ายเพื่อใช้ในการบรรเทาอาการปวด",
+              "แผนปัจจุบัน: ผู้ป่วยมะเร็ง (C00-97) เพื่อใช้บรรเทาอาการปวด",
+              "แผนปัจจุบัน: ภาวะกล้ามเนื้อหดเกร็งในผู้ป่วยโรคปลอกประสาทเสื่อมแข็ง (G35,629)",
+              "แผนปัจจุบัน: ภาวะคลื่นไส้อาเจียนจากเคมีบำบัด",
+              "แผนปัจจุบัน: ภาวะปวดประสาท(M792,G60-64)ที่ดื้อต่อการรักษา",
+              "แผนปัจจุบัน: โรคพาร์กินสัน  (G20)",
+              "แผนปัจจุบัน: โรคลมชัก (G40-41) ที่รักษายากหรือดื้อต่อการรักษา",
+              "แผนปัจจุบัน: โรคอัลไซเมอร์  (G309)",
+              "แผนปัจจุบัน: โรค/อาการอื่นๆ",
+              "แผนไทย: - DISORDERS OF INITIATING AND MAINTAINING SLEEP [INSOMNIAS]",
+              "แผนไทย: - ชา",
+              "แผนไทย: นอนไม่หลับ",
+              "แผนไทย: เบื่ออาหาร",
+              "แผนไทย: ปวดขา หรือ ปวดเข่า หรือ ปวดเท้า",
+              "แผนไทย: ลมปลายปัตฆาตแขน",
+              "แผนไทย: ลมปลายปัตฆาตแขนขา  ไม่ระบุรายละเอียด",
+              "แผนไทย: ลมปลายปัตฆาตสัญญาณ 1 หลัง",
+              "แผนไทย: ไม่ระบุ",
+              "น้ำมันเดชา: ALZHEIMER DISEASE, UNSPECIFIED",
+              "น้ำมันเดชา: BLADDER, UNSPECIFIED",
+              "น้ำมันเดชา: BRAIN, UNSPECIFIED",
+              "น้ำมันเดชา: BREAST, UNSPECIFIED",
+              "น้ำมันเดชา: BRONCHUS OR LUNG, UNSPECIFIED",
+              "น้ำมันเดชา: COLON, UNSPECIFIED",
+              "น้ำมันเดชา: CORPUS UTERI, UNSPECIFIED",
+              "น้ำมันเดชา: DISORDER OF TRIGEMINAL NERVE, UNSPECIFIED",
+              "น้ำมันเดชา: DORSALGIA, UNSPECIFIED",
+              "น้ำมันเดชา: EPILEPSY, UNSPECIFIED",
+              "น้ำมันเดชา: FLOOR OF MOUTH, UNSPECIFIED",
+              "น้ำมันเดชา: GOUT, UNSPECIFIED",
+              "น้ำมันเดชา: INTRAHEPATIC BILE DUCT CARCINOMA",
+              "น้ำมันเดชา: LARYNX, UNSPECIFIED",
+              "น้ำมันเดชา: LIVER, UNSPECIFIED",
+              "น้ำมันเดชา: LYMPH NODE, UNSPECIFIED",
+              "น้ำมันเดชา: MALIGNANT NEOPLASM ",
+              "น้ำมันเดชา: MIGRAINE, UNSPECIFIED",
+              "น้ำมันเดชา: NASOPHARYNX, UNSPECIFIED",
+              "น้ำมันเดชา: NONORGANIC INSOMNIA",
+              "น้ำมันเดชา: OESOPHAGUS, UNSPECIFIED",
+              "น้ำมันเดชา: OTHER PERIPHERAL VERTIGO",
+              "น้ำมันเดชา: PANCREAS, UNSPECIFIED",
+              "น้ำมันเดชา: PANIC DISORDER [EPISODIC PAROXYSMAL ANXIETY]",
+              "น้ำมันเดชา: PARKINSON DISEASE",
+              "น้ำมันเดชา: SEQUELAE OF STROKE, NOT SPECIFIED AS HAEMORRHAGE OR INFARCTION",
+              "น้ำมันเดชา: STOMACH, UNSPECIFIED",
+              "น้ำมันเดชา: SYSTEMIC LUPUS ERYTHEMATOSUS, UNSPECIFIED",
+              "น้ำมันเดชา: TONSIL, UNSPECIFIED",
+              "น้ำมันเดชา: UNSPECIFIED CHRONIC BRONCHITIS",
+              "น้ำมันเดชา: ZOSTER WITHOUT COMPLICATION",
+              "น้ำมันเดชา: กษัยลิ้นกระบือ",
+              "น้ำมันเดชา: ความผิดปกติของกล้ามเนื้อ  กระดูก  และข้อ  ไม่ระบุรายละเอียด",
+              "น้ำมันเดชา: ชา",
+              "น้ำมันเดชา: นอนไม่หลับ",
+              "น้ำมันเดชา: ปวดตามร่างกาย",
+              "น้ำมันเดชา: เรื้อนมูลนก",
+              "น้ำมันเดชา: โรคและอาการของศีรษะ  สมอง  และระบบประสาท  ไม่ระบุรายละเอียด",
+              "น้ำมันเดชา: ลมปะกัง หรือ ลมตะกัง",
+              "น้ำมันเดชา: สะเก็ดเงิน",
+              "น้ำมันเดชา: สันนิบาตข้อมือตก หรือ สันนิบาตข้อมือ",
+              "น้ำมันเดชา: สันนิบาตลูกนก",
+              "น้ำมันเดชา: ไม่ระบุ",
+            ],
+            backgroundColor: [
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#f0ad4e",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#5bc0de",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+              "#BDC3C7",
+            ],
+            data: [
+              145,
+              68,
+              8,
+              8,
+              55,
+              34,
+              12,
+              1,
+              35,
+              2,
+              1,
+              47,
+              24,
+              1,
+              1,
+              6,
+              1,
+              244,
+              3,
+              1,
+              1,
+              5,
+              6,
+              4,
+              1,
+              1,
+              2,
+              3,
+              1,
+              1,
+              1,
+              2,
+              3,
+              2,
+              4,
+              5,
+              2,
+              3,
+              1,
+              1,
+              1,
+              8,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              49,
+              2,
+              1,
+              6,
+              3,
+              1,
+              5,
+              1,
+              1,
+              886,
+            ],
+          },
+          {
+            label: ["แผนปัจจุบัน", "แผนไทย", "น้ำมันเดชา"],
+            backgroundColor: ["#f0ad4e", "#5bc0de", "#BDC3C7"],
+            data: [364, 327, 1025],
+          },
+        ],
+      }; //End chart1 Usage Data
+
+      /////////////////////////////
+      //End Check sortSelect//////
+      ////////////////////////////
+
+      var patientChartOptions = {
+        maintainAspectRatio: false,
+        responsive: true,
+        legend: {
+          display: false,
+          labels: {
+            fontColor: "#faf7f7",
+          },
+        },
+        legendCallback: function (chart) {
+          var text = [];
+          text.push("<center>");
+          for (var i = 0; i < chart.data.datasets.length; i++) {
+            text.push(
+              '<span class="chart-legend-label-text">' +
+                '<i class="fas fa-square" style="color:' +
+                chart.data.datasets[i].backgroundColor +
+                '"></i> ' +
+                chart.data.datasets[i].label[0] +
+                "</span> "
+            );
+          }
+          text.push("</center>");
+          return text.join("");
+        },
+        tooltips: {
+          callbacks: {
+            label: function(item, data){
+              console.log(data, item);
+              return `${data.datasets[item.datasetIndex].label[0]} (${data.datasets[item.datasetIndex].label[item.index+1]}) : ${data.datasets[item.datasetIndex].data[item.index]} Unit`;
+            }
+          }
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                fontColor: "#faf7f7",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                fontColor: "#faf7f7",
+              },
+            },
+          ],
+        },
+      }; //End patient Chart options
+
+
+      ////////////////////////////////////////
+      /// CREATE CHART FIRST TIME ////////////
+      ////////////////////////////////////////
+
+      // This will get the first returned node in the jQuery collection.
+      var patientChartCanvas = $("#paChart").get(0).getContext("2d");
+      var patientChart = new Chart(patientChartCanvas, {
+        type: "horizontalBar",
+        data: patientChartData,
+        options: patientChartOptions,
+      });
+      console.log('Chart ====>>>>', patientChart);
+      $('#pachart_legend').html(patientChart.generateLegend());
+
+
+      //SortChart1-5
+      var sortChart1Canvas = $("#sortChart1").get(0).getContext("2d");
+      var sortChart1 = new Chart(sortChart1Canvas, {
+        type: "doughnut",
+        data: sortChart1Data,
+        options: {
+          responsive: true,
+          legend: {
+            display: false,
+            position: "top",
+            labels: {
+              fontColor: "white",
+            },
+          },
+          legendCallback: function (chart) {
+            var text = [];
+            text.push("<center>");
+            for (var i = 0; i < chart.data.labels.length; i++) {
+              text.push(
+                '<span class="chart-legend-label-text">' +
+                  '<i class="fas fa-square" style="color:' +
+                  chart.data.datasets[1].backgroundColor[i] +
+                  '"></i> ' +
+                  chart.data.labels[i] +
+                  "</span> "
+              );
+            }
+            text.push("</center>");
+            return text.join("");
+          },
+          animation: {
+            animateScale: true,
+            animateRotate: true,
+          },
+          tooltips: {
+            callbacks: {
+              label: function (item, data) {
+                console.log(data, item);
+                return (
+                  data.datasets[item.datasetIndex].label[item.index] +
+                  ": " +
+                  data.datasets[item.datasetIndex].data[item.index] +
+                  " Unit"
+                );
+              },
+            },
+          },
+        },
+      });
+      $("#sortChart1_legend").html(sortChart1.generateLegend());
+      console.log(document.getElementById("sortChart1_legend"));
+
+      $("#paChart_button").on("click", function () {
+        window.location.href =
+          "./node_sell_details.html?sortselected=" + getReq;
+      });
+
+      //Get Param from url function
+      function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split("&");
+        var sParameterName;
+        for (var i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split("=");
+          if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined
+              ? true
+              : decodeURIComponent(sParameterName[1]);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
