@@ -218,6 +218,7 @@
             var found = data2.Sheet1.some(el => {
               if(el["CHANGWAT_T"] === value1["province"]){
                 let class_hospital = value1["rec_hospital"].split('.').join('');
+                //let class_hospital = value1["shipment_id"]
                 //Add marker of destination 
                 if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
                   test_marker = L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])])
@@ -293,7 +294,8 @@
     $(document).on('change','#table_body input[type="checkbox"]', function(){
       var row = $(this).closest("tr")[0];
       let rec_hospital = '.'+(row.cells[1].innerHTML.split('.').join(''));
-
+      
+      console.log('row=====>', row)
       console.log('Rec_hospital ====>>>>>>', rec_hospital);
       if($(this).is(':checked')){
         $(rec_hospital).fadeIn('slow');
@@ -337,7 +339,7 @@
         html += "<td>" + item["rec_hospital   "] + "</td>";
         html += "<td> - </td>";
         html += "<td>" + (item["SUM(quantity)"]? parseInt(item["SUM(quantity)"]): 0) + "</td>";
-        html += check_flag?'<td><input type="checkbox" checked/></td>':'<td><input type="checkbox" /></td>';
+        html += check_flag?`<td><input value="${item["shipment_id"]}" type="checkbox" checked/></td>`:`<td><input value="${item["shipment_id"]}" type="checkbox" /></td>`;
         html += "</tr>";
       })
       return html;

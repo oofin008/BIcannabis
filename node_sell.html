@@ -717,7 +717,7 @@
     }//End top5 chart
 
     var cannabisUsageChartData = {
-      labels  : ['GPO THCm','น้ำมันกัญชาหยอดใต้ลิ้น','น้ำมันกัญชา LOVE HEMP','GPO THC:CBD(1:1)','ยาน้ำมันกัญชาหยอดใต้ลิ้น สูตร THC 1.7%W/V','GPO CBD'],
+      labels  : ['GPO THC','น้ำมันกัญชาหยอดใต้ลิ้น','น้ำมันกัญชา LOVE HEMP','GPO THC:CBD(1:1)','ยาน้ำมันกัญชาหยอดใต้ลิ้น สูตร THC 1.7%W/V','GPO CBD'],
       datasets: [
         {
           type                : 'bar',
@@ -1238,7 +1238,10 @@
           fontColor: "#faf7f7",
         }
       }]
-    }
+    },
+    onClick: function(evt){
+      window.location.href = ("./node_sell_details.html?sortselected=" + getReq);
+    },
   }//End patient Chart options
 
   var sortChartOptions = {
