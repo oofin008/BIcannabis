@@ -137,7 +137,7 @@
                     <div class="card bg-gradient-dark">
                       <div class="card-header">
                         <h5 class="card-title">
-                          ผู้ผลิต 5 อันดับแรกที่มีการกระจายยามากที่สุด
+                          โรงพยาบาล 5 อันดับแรกที่มีการกระจายยามากที่สุด
                         </h5>
                         <div class="card-tools">
                           <button
@@ -210,7 +210,27 @@
               <div class="card-body">
                 <!--row 2-->
                 <div class="row">
-                  <div class="col-md-6"></div>
+                  <div class="col-md-6">
+                    <div class="card bg-gradient-dark">
+                      <div class="card-header">
+                        <h5 class="card-title">
+                          สถานะกัญชาที่คงเหลืออยู่ในโรงพยาบาล 5 อันดับ
+                        </h5>
+                      </div>
+                      <!--./end card header-->
+
+                      <div class="card-body">
+                        <div id="cannabisLeft_legend"></div>
+                        <div class="chart">
+                          <!-- Sales Chart Canvas -->
+                          <canvas id="cannabisLeft" style="height: 400px;"></canvas>
+                        </div>
+                        <!-- /.chart-responsive -->
+                      </div>
+                      <!-- ./card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
                   <!--End Left Col-->
 
                   <div class="col-md-6">
@@ -471,6 +491,67 @@
 
         ],
       }; //End top5 chart
+
+      // กราฟ สถานะกัญชาที่เหลืออยู่ในโรงพยาบาล 5 อันดับ แผนไทย ปัจจุบัน หมอเดชา โดยใช้ไฟล์ รายงานกัญชา 20200221_v2. คอมลัมน์ E,H
+      /*
+      เดชา [น้ำมันกัญชา ตำรับหมอเดชา: 13947]
+      แผนไทย [
+        ยาแก้ลมแก้เส้น อาจาโรเฮิร์บ: 5924,
+        ยาทาริดสีดวงทวารหนักและโรคผิวหนัง อาจาโร เฮิร์บ 150
+        ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ 17384
+        ยาไฟอาวุธ อาจาโร เฮิร์บ 1360
+        ยาศุขไสยาศน์ อาจาโร เฮิร์บ 20590
+        ยาอไภยสาลี อาจาโร เฮิร์บ 760
+        ยาอัมฤตย์โอสถ อาจาโร เฮิร์บ 720
+      ]
+      แผนปัจจุบัน [
+        GPO CBD 165
+        GPO THC 3155
+        GPO THC:CBD(1:1) 2012
+        น้ำมันกัญชาหยอดใต้ลิ้น 18261
+      ]
+      */
+      var cannabisLeft_data = {
+        labels: [
+          "อันดับ 1",
+          "อันดับ 2",
+          "อันดับ 3",
+          "อันดับ 4",
+          "อันดับ 5",
+        ],
+        datasets: [
+          {
+            label: ["แผนปัจจุบัน",
+              "น้ำมันกัญชาหยอดใต้ลิ้น",
+              "GPO THC",
+              "GPO THC:CBD (1:1)",
+              "GPO CBD",
+              
+            ],
+            backgroundColor: "#f0ad4e",
+            data: [18261, 3155, 2012, 165],
+          },
+          {
+            label: ["แผนไทย",
+              'ยาศุขไสยาศน์ อาจาโร เฮิร์บ', 
+              'ยาทำลายพระสุเมรุ อาจาโร เฮิร์บ', 
+              'ยาแก้ลมแก้เส้น อาจาโรเฮิร์บ', 
+              'ยาไฟอาวุธ อาจาโร เฮิร์บ', 
+              'ยาอไภยสาลี อาจาโร เฮิร์บ',
+            ],
+            backgroundColor: "#5bc0de",
+            data: [29590, 17384, 5924, 1360, 760],
+          },
+          {
+            label: ["น้ามันเดชา",
+              'น้ำมันกัญชา ตำรับหมอเดชา',
+            ],
+            backgroundColor: "#f7f7f7",
+            data: [13947],
+          },
+
+        ],
+      };
 
       var sortChart1_title = document.getElementById("sortChart1_title");
       sortChart1_title.innerText = "จำนวนผู้ป่วยทั้งหมดแยกตามโรค";
@@ -736,6 +817,59 @@
         },
       }; //End patient Chart options
 
+      var cannabisLeft_options = {
+        maintainAspectRatio: false,
+        responsive: true,
+        legend: {
+          display: false,
+          labels: {
+            fontColor: "#faf7f7",
+          },
+        },
+        legendCallback: function (chart) {
+          var text = [];
+          text.push("<center>");
+          for (var i = 0; i < chart.data.datasets.length; i++) {
+            text.push(
+              '<span class="chart-legend-label-text">' +
+                '<i class="fas fa-square" style="color:' +
+                chart.data.datasets[i].backgroundColor +
+                '"></i> ' +
+                chart.data.datasets[i].label[0] +
+                "</span> "
+            );
+          }
+          text.push("</center>");
+          return text.join("");
+        },
+        tooltips: {
+          callbacks: {
+            label: function(item, data){
+              console.log(data, item);
+              return `${data.datasets[item.datasetIndex].label[0]} (${data.datasets[item.datasetIndex].label[item.index+1]}) : ${data.datasets[item.datasetIndex].data[item.index]} Unit`;
+            }
+          }
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                fontColor: "#faf7f7",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              ticks: {
+                fontColor: "#faf7f7",
+              },
+            },
+          ],
+        },
+      }; //End cannabisLeft Chart options
 
       ////////////////////////////////////////
       /// CREATE CHART FIRST TIME ////////////
@@ -750,6 +884,15 @@
       });
       console.log('Chart ====>>>>', patientChart);
       $('#pachart_legend').html(patientChart.generateLegend());
+
+      var cannabisLeft_canvas = $("#cannabisLeft").get(0).getContext("2d");
+      var cannabisLeft_chart = new Chart(cannabisLeft_canvas, {
+        type: "horizontalBar",
+        data: cannabisLeft_data,
+        options: cannabisLeft_options,
+      });
+      
+      $('#cannabisLeft_legend').html(cannabisLeft_chart.generateLegend());
 
 
       //SortChart1-5
