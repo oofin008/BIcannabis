@@ -189,7 +189,18 @@
       var shipment_map_data
       var shipment_map_prov
 
-      $.getJSON('../json/supplychain_index_shipment.json', function(data){
+      //Manufacture marker
+      const LeafIcon = L.Icon.extend({
+        options: {
+          iconUrl: '../../dist/img/cannabis_logo.png',
+          iconSize: [40, 40],
+          iconAnchor: [22, 40],
+          popupAnchor: [-3, -40]
+        }
+      });
+      const CannabisIcon = new LeafIcon(); 
+
+      $.getJSON('./json/supply_chain_shipment_ver2.json', function(data){
         shipment_map_data = data.Sheet1;
         console.log("Shipment ======>>>>>>",data.Sheet1[0]);
 
@@ -206,19 +217,19 @@
             opacity:0.5
           }).addTo(shipment_map);
           
-          L.marker(distributor_1).bindPopup("กองพัฒนายาแผนไทย").addTo(shipment_map);
-          L.marker(distributor_2).bindPopup("รพ.เจ้าพระยาอภัยภูเบศร").addTo(shipment_map);
-          L.marker(distributor_3).bindPopup("รพ.พระอาจารย์ฝั้น อาจาโร").addTo(shipment_map);
-          L.marker(distributor_4).bindPopup("สำนักงานคณะกรรมการอาหารและยา").addTo(shipment_map);
-          L.marker(distributor_5).bindPopup("องค์การเภสัชกรรม").addTo(shipment_map);
+          L.marker(distributor_1, {icon: CannabisIcon}).bindPopup("กองพัฒนายาแผนไทย").addTo(shipment_map);
+          L.marker(distributor_2, {icon: CannabisIcon}).bindPopup("รพ.เจ้าพระยาอภัยภูเบศร").addTo(shipment_map);
+          L.marker(distributor_3, {icon: CannabisIcon}).bindPopup("รพ.พระอาจารย์ฝั้น อาจาโร").addTo(shipment_map);
+          L.marker(distributor_4, {icon: CannabisIcon}).bindPopup("สำนักงานคณะกรรมการอาหารและยา").addTo(shipment_map);
+          L.marker(distributor_5, {icon: CannabisIcon}).bindPopup("องค์การเภสัชกรรม").addTo(shipment_map);
 
           var check_marker = [];// check if marker already added to map
           //loop to add polyline
           $.each(data.Sheet1, function(index1, value1){
             var found = data2.Sheet1.some(el => {
               if(el["CHANGWAT_T"] === value1["province"]){
-                let class_hospital = value1["rec_hospital"].split('.').join('');
-                //let class_hospital = value1["shipment_id"]
+                //let class_hospital = value1["rec_hospital"].split('.').join('');
+                let class_hospital = value1["ship_id"]
                 //Add marker of destination 
                 if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
                   test_marker = L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])])
@@ -293,7 +304,8 @@
     //Table checkbox
     $(document).on('change','#table_body input[type="checkbox"]', function(){
       var row = $(this).closest("tr")[0];
-      let rec_hospital = '.'+(row.cells[1].innerHTML.split('.').join(''));
+      //let rec_hospital = '.'+(row.cells[1].innerHTML.split('.').join(''));
+      let rec_hospital = '.'+ $(this).attr("value");
       
       console.log('row=====>', row)
       console.log('Rec_hospital ====>>>>>>', rec_hospital);
@@ -310,7 +322,7 @@
     var shipment_table_data;
     var total_shipment = 0;
 
-    $.getJSON('./json/supply_chain_shipment_data.json', function(data){
+    $.getJSON('./json/supply_chain_shipment_ver2.json', function(data){
       console.log(data.Sheet1[0]);
       shipment_table_data = data.Sheet1;
       $.each(data.Sheet1, function(index, value){
@@ -336,10 +348,10 @@
       $.each(data, function(index, item){
         html += "<tr>";
         html += "<td>" + item["manufacter"] + "</td>";
-        html += "<td>" + item["rec_hospital   "] + "</td>";
-        html += "<td> - </td>";
-        html += "<td>" + (item["SUM(quantity)"]? parseInt(item["SUM(quantity)"]): 0) + "</td>";
-        html += check_flag?`<td><input value="${item["shipment_id"]}" type="checkbox" checked/></td>`:`<td><input value="${item["shipment_id"]}" type="checkbox" /></td>`;
+        html += "<td>" + item["rec_hospital"] + "</td>";
+        html += "<td> " + item["receipt"] +"</td>";
+        html += "<td>" + (item["quantity"]? parseInt(item["quantity"]): 0) + "</td>";
+        html += check_flag?`<td><input value="${item["ship_id"]}" type="checkbox" checked/></td>`:`<td><input value="${item["ship_id"]}" type="checkbox" /></td>`;
         html += "</tr>";
       })
       return html;
