@@ -992,7 +992,8 @@
                   min: 0,
                   legend:{
                     vertical:true,
-                    title: 'จำนวน(ฉบับ)'
+                    title: 'จำนวน(ฉบับ)',
+                    labelRender: (val)=>{ return Math.round(val*2)}
                   }
                 }
               ]
@@ -1027,7 +1028,11 @@
                   min: 0,
                   legend:{
                     vertical:true,
-                    title: 'จำนวน(ฉบับ)'
+                    title: 'จำนวน(ฉบับ)',
+                    labelRender: (val)=>{ 
+                      console.log("labelRender =>",val)
+                      return Math.floor(val*2)
+                    }
                   }
                 }
               ]

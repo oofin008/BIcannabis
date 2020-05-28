@@ -139,7 +139,7 @@
                         <h5 class="card-title">
                           โรงพยาบาล 5 อันดับแรกที่มีการกระจายยามากที่สุด
                         </h5>
-                        <div class="card-tools">
+                        <!-- <div class="card-tools">
                           <button
                             id="paChart_button"
                             type="button"
@@ -147,7 +147,7 @@
                           >
                             รายละเอียด
                           </button>
-                        </div>
+                        </div> -->
                       </div>
                       <!--./end card header-->
 
@@ -947,10 +947,10 @@
       $("#sortChart1_legend").html(sortChart1.generateLegend());
       console.log(document.getElementById("sortChart1_legend"));
 
-      $("#paChart_button").on("click", function () {
-        window.location.href =
-          "./node_sell_details.html?sortselected=" + getReq;
-      });
+      // $("#paChart_button").on("click", function () {
+      //   window.location.href =
+      //     "./node_sell_details.html?sortselected=" + getReq;
+      // });
 
       //Get Param from url function
       function getUrlParameter(sParam) {

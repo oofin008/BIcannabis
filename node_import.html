@@ -1,560 +1,821 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-  <title>Cannabis</title>
+    <title>Cannabis</title>
 
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  
-</head>
-<body class="hold-transition layout-top-nav">
-<div class="wrapper">
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-dark ">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="index.html" class="nav-link">หน้าแรก</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_import.html" class="nav-link bg-info">นำเข้ากัญชา</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_sell3.html" class="nav-link ">จำหน่ายพืช</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_sell_index.html" class="nav-link">การจำหน่ายบำบัด</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
-      </li>
-      
-    </ul>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- overlayScrollbars -->
+    <link
+      rel="stylesheet"
+      href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"
+    />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand navbar-dark">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="index.html" class="nav-link">หน้าแรก</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_import.html" class="nav-link bg-info">นำเข้ากัญชา</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_plant.html" class="nav-link">การผลิตปลูก</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell3.html" class="nav-link">จำหน่ายพืช</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_convert.html" class="nav-link">การผลิตแปรรูป</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_sell_index.html" class="nav-link">การจำหน่ายบำบัด</a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="node_occupy.html" class="nav-link">การครอบครอง</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.navbar -->
 
-  </nav>
-  <!-- /.navbar -->
-
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper sidebar-dark-primary">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-white">นำเข้ากัญชา</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item">
-                <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: 4 มีนาคม 2563</h3>
-              </li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-
-        <!-- Main row -->
-        <div class="row">
-          <!-- Left col -->
-          <div class="col-md-6">
-            <!-- MAP & BOX PANE -->
-            <div class="card bg-gradient-dark">
-              <div class="card-header">
-                <h3 class="card-title">การนำเข้าแบ่งตามประเทศ</h3>
-                <div class="card-tools">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                      <i class="fas fa-calendar-alt"></i>
-                      Time Frame select
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" role="menu">
-                      <a href="#" class="dropdown-item">Jan/2020</a>
-                      <a href="#" class="dropdown-item">Dec/2019</a>
-                      <a href="#" class="dropdown-item">Nov/2019</a>
-                      <a class="dropdown-divider"></a>
-                      <a href="#" class="dropdown-item">Oct/2019</a>
-                    </div>
-                  </div>
-                </div>
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper sidebar-dark-primary">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-white">นำเข้ากัญชา</h1>
               </div>
-              <!-- /.card-header -->
-              <div class="card-body p-0">
-                <div class="d-md-flex">
-                  <div class="p-1 flex-fill" style="overflow: hidden">
-                    <p class="text-center">
-                      <strong>Jauary - 2020</strong>
-                    </p>
-                    <!-- Map will be created here -->
-                    <div class="chart">
-                      <canvas id="importCountry" style="height: 400px; overflow: hidden"></canvas>
-                    </div>
-                  </div>
-                </div><!-- /.d-md-flex -->
+              <!-- /.col -->
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item">
+                    <h3 class="m-0 text-white" id="header_date">
+                      ข้อมูลถึงวันที่: 4 มีนาคม 2563
+                    </h3>
+                  </li>
+                </ol>
               </div>
-              <!-- /.card-body -->
+              <!-- /.col -->
             </div>
-  
-
-            <!-- /.card -->
+            <!-- /.row -->
           </div>
-          <!-- /.col -->
-
-          <div class="col-md-6">
-            <div class="card bg-gradient-dark">
-              <div class="card-header">
-                <h3 class="card-title">การนำเข้าแบ่งตามสายพันธุ์</h3>
-                <div class="card-tools">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                      <i class="fas fa-calendar-alt"></i>
-                      Time Frame select
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" role="menu">
-                      <a href="#" class="dropdown-item">Jan/2020</a>
-                      <a href="#" class="dropdown-item">Dec/2019</a>
-                      <a href="#" class="dropdown-item">Nov/2019</a>
-                      <a class="dropdown-divider"></a>
-                      <a href="#" class="dropdown-item">Oct/2019</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body p-0">
-                <div class="d-md-flex">
-                    <div class="p-1 flex-fill" style="overflow: hidden">
-                      <p class="text-center">
-                        <strong>Jauary - 2020</strong>
-                      </p>
-                      <!-- Map will be created here -->
-                      <div class="chart">
-                        <canvas id="importSpecy" style="height: 400px; overflow: hidden"></canvas>
-                      </div>
-                    </div>
-                </div><!-- /.d-md-flex -->
-              </div>
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
+          <!-- /.container-fluid -->
         </div>
-        <!-- /.row -->
+        <!-- /.content-header -->
 
-        <!--Second ROW-->
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card bg-gradient-dark">
-              <div class="card-header">
-                <h3 class="card-title">การนำเข้าแบ่งตามประเภทชิ้นส่วน</h3>
-                <div class="card-tools">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                      <i class="fas fa-calendar-alt"></i>
-                      Time Frame select
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" role="menu">
-                      <a href="#" class="dropdown-item">Jan/2020</a>
-                      <a href="#" class="dropdown-item">Dec/2019</a>
-                      <a href="#" class="dropdown-item">Nov/2019</a>
-                      <a class="dropdown-divider"></a>
-                      <a href="#" class="dropdown-item">Oct/2019</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body p-0">
-                <div class="d-md-flex">
-                    <div class="p-1 flex-fill" style="overflow: hidden">
-                      <p class="text-center">
-                        <strong>Jauary - 2020</strong>
-                      </p>
-                      <!-- Map will be created here -->
-                      <div class="chart">
-                        <canvas id="importPart" style="height: 400px; overflow: hidden"></canvas>
+        <!-- Main content -->
+        <section class="content">
+          <div class="container-fluid">
+            <!-- Main row -->
+            <div class="row">
+              <!-- Left col -->
+              <div class="col-md-6">
+                <!-- MAP & BOX PANE -->
+                <div class="card bg-gradient-dark">
+                  <div class="card-header">
+                    <h3 class="card-title">การนำเข้าแบ่งตามประเทศ</h3>
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-tool dropdown-toggle"
+                          data-toggle="dropdown"
+                        >
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div
+                          id="tf_sel_importbycountry"
+                          class="dropdown-menu dropdown-menu-right"
+                          role="menu"
+                        >
+                          <a href="#" class="dropdown-item" value="all"
+                            >ข้อมูลสะสมถึง Jan/2020</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          
+                          <a href="#" class="dropdown-item" value="201909"
+                            >Sep/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201907"
+                            >Jul/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201902"
+                            >Feb/2019</a
+                          >
+                        </div>
                       </div>
                     </div>
-                </div><!-- /.d-md-flex -->
-              </div>
-            </div>
-            <!-- /.card -->
-          </div>
-          <div class="col-md-6">
-            <div class="card bg-gradient-dark">
-              <div class="card-header">
-                <h3 class="card-title">ปริมาณคงคลังของผู้นำเข้า</h3>
-                <div class="card-tools">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                      <i class="fas fa-calendar-alt"></i>
-                      Time Frame select
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" role="menu">
-                      <a href="#" class="dropdown-item">Jan/2020</a>
-                      <a href="#" class="dropdown-item">Dec/2019</a>
-                      <a href="#" class="dropdown-item">Nov/2019</a>
-                      <a class="dropdown-divider"></a>
-                      <a href="#" class="dropdown-item">Oct/2019</a>
-                    </div>
                   </div>
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body p-0">
-                <div class="d-md-flex">
-                    <div class="p-1 flex-fill" style="overflow: hidden">
-                      <p class="text-center">
-                        <strong>Jauary - 2020</strong>
-                      </p>
-                      <!-- Map will be created here -->
-                      <div class="chart">
-                        <canvas id="importStore" style="height: 400px; overflow: hidden"></canvas>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden;">
+                        <p id="importCountry_date" class="text-center">
+                          <strong>ข้อมูลสะสมถึง January - 2020</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas
+                            id="importCountry"
+                            style="height: 400px; overflow: hidden;"
+                          ></canvas>
+                        </div>
                       </div>
                     </div>
-                </div><!-- /.d-md-flex -->
+                    <!-- /.d-md-flex -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header">
+                    <h3 class="card-title">การนำเข้าแบ่งตามสายพันธุ์</h3>
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-tool dropdown-toggle"
+                          data-toggle="dropdown"
+                        >
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div
+                          id="tf_sel_importbyspecy"
+                          class="dropdown-menu dropdown-menu-right"
+                          role="menu"
+                        >
+                          <a href="#" class="dropdown-item" value="all"
+                            >ข้อมูลสะสมถึง Jan/2020</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          
+                          <a href="#" class="dropdown-item" value="201909"
+                            >Sep/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201907"
+                            >Jul/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201902"
+                            >Feb/2019</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden;">
+                        <p id="importSpecy_date" class="text-center">
+                          <strong>ข้อมูลสะสมถึง January - 2020</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas
+                            id="importSpecy"
+                            style="height: 400px; overflow: hidden;"
+                          ></canvas>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.d-md-flex -->
+                  </div>
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+            <!--Second ROW-->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header">
+                    <h3 class="card-title">การนำเข้าแบ่งตามประเภทชิ้นส่วน</h3>
+                    <div class="card-tools">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-tool dropdown-toggle"
+                          data-toggle="dropdown"
+                        >
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div
+                          id="tf_sel_importbypart"
+                          class="dropdown-menu dropdown-menu-right"
+                          role="menu"
+                        >
+                          <a href="#" class="dropdown-item" value="all"
+                            >ข้อมูลสะสมถึง Jan/2020</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          
+                          <a href="#" class="dropdown-item" value="201909"
+                            >Sep/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201907"
+                            >Jul/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201902"
+                            >Feb/2019</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden;">
+                        <p id="importPart_date" class="text-center">
+                          <strong>ข้อมูลสะสมถึง January - 2020</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas
+                            id="importPart"
+                            style="height: 400px; overflow: hidden;"
+                          ></canvas>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.d-md-flex -->
+                  </div>
+                </div>
+                <!-- /.card -->
+              </div>
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header">
+                    <h3 class="card-title">ปริมาณคงคลังของผู้นำเข้า</h3>
+                    <!-- <div class="card-tools">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-tool dropdown-toggle"
+                          data-toggle="dropdown"
+                        >
+                          <i class="fas fa-calendar-alt"></i>
+                          Time Frame select
+                        </button>
+                        <div
+                          id="tf_sel_importbystore"
+                          class="dropdown-menu dropdown-menu-right"
+                          role="menu"
+                        >
+                          <a href="#" class="dropdown-item" value="all"
+                            >ข้อมูลสะสมถึง Jan/2020</a
+                          >
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          
+                          <a href="#" class="dropdown-item" value="201909"
+                            >Sep/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201907"
+                            >Jul/2019</a
+                          >
+                          <a href="#" class="dropdown-item" value="201902"
+                            >Feb/2019</a
+                          >
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <div class="d-md-flex">
+                      <div class="p-1 flex-fill" style="overflow: hidden;">
+                        <p id="importStore_date" class="text-center">
+                          <strong>ข้อมูลสะสมถึง January - 2020</strong>
+                        </p>
+                        <!-- Map will be created here -->
+                        <div class="chart">
+                          <canvas
+                            id="importStore"
+                            style="height: 400px; overflow: hidden;"
+                          ></canvas>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.d-md-flex -->
+                  </div>
+                </div>
+                <!-- /.card -->
               </div>
             </div>
-            <!-- /.card -->
           </div>
-        </div>
-      </div><!--/. container-fluid -->
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+          <!--/. container-fluid -->
+        </section>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+      <!-- Control Sidebar -->
+      <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+      </aside>
+      <!-- /.control-sidebar -->
 
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    ข้อมูลอ้างอิงจากไฟล์ ข้อมูลรายงานกัญชา_4 มี.ค.63 Sheet:น Column: E,I,J
-    <div class="float-right d-none d-sm-inline-block">
-      
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        ข้อมูลอ้างอิงจากไฟล์ ข้อมูลรายงานกัญชา_4 มี.ค.63 Sheet:น Column: E,I,J
+        <div class="float-right d-none d-sm-inline-block"></div>
+      </footer>
     </div>
-  </footer>
-</div>
-<!-- ./wrapper -->
+    <!-- ./wrapper -->
 
-<!-- REQUIRED SCRIPTS -->
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
 
+    <!-- PAGE PLUGINS -->
+    <!-- jQuery Mapael -->
+    <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="plugins/raphael/raphael.min.js"></script>
+    <script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
 
-<!-- PAGE PLUGINS -->
-<!-- jQuery Mapael -->
-<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
-<script src="plugins/raphael/raphael.min.js"></script>
-<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
-<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
-<!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+    <!-- PAGE SCRIPTS -->
 
-<!-- PAGE SCRIPTS -->
+    <script>
+      //Document Ready
+      $(function () {
+        let myDate = new Date();
+        month_arr = [
+          "มกราคม",
+          "กุมภาพันธ์",
+          "มีนาคม",
+          "เมษายน",
+          "พฤษภาคม",
+          "มิถุนายน",
+          "กรกฎาคม",
+          "สิงหาคม",
+          "กันยายน",
+          "ตุลาคม",
+          "พฤศจิกายน",
+          "ธันวาคม",
+        ];
+        //document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+      });
 
+      var medDistributeCanvas = $("#importCountry").get(0).getContext("2d");
 
-<script>
-  //Document Ready
-  $(function(){
-    let myDate = new Date();
-    month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
-    //document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
-
-  });
-
-var medDistributeCanvas = $('#importCountry').get(0).getContext('2d');
-
-var medDistributeData = {
-  labels: ['Kingdom of Spain', 'Netherlands Antilles, NLD', 'United Kingdom of Great Britain and Northern Ireland'],
-  datasets: [
-    {
-      label: 'จำนวน (unit)',
-      backgroundColor: '#33ccff',
-      borderColor: '#33ccff',
-      data: [540, 2500, 2000]
-    },
-  ]
-}
-var ticksStyle = {
-    fontColor: 'white',
-    fontStyle: 'bold'
-  };
-
-var mode      = 'index';
-var intersect = true;
-var medDistributeChart = new Chart(medDistributeCanvas, {
-  type: 'bar',
-  data: medDistributeData,
-  options: {
-    maintainAspectRatio: false,
-    responsive: true,
-    legend: {
-      display: true,
-      labels: {
-        fontColor: "white",
-      }
-    },
-    tooltips  : {
-      mode      : mode,
-      intersect : intersect
-    },
-    hover     :{
-      mode      : mode,
-      intersect : intersect
-    },
-    scales:{
-      yAxes: [{
-        gridLines:{
-          display: true,
-          lineWidth: '4px',
-          color: 'rgba(0, 0, 0, .2',
-          zeroLineColor: 'transparent'
-        },
-        ticks    : $.extend({
-            beginAtZero: true,
-
-            // Include a dollar sign in the ticks
-            // callback: function (value, index, values) {
-            //   if (value >= 1000) {
-            //     value /= 1000
-            //     value += 'k'
-            //   }
-            //   return value + 'ราย'
-            // }
-          }, ticksStyle)
-      }],
-      xAxes: [{
-        display  : true,
-          gridLines: {
-            display: false
+      var medDistributeData = {
+        labels: [
+          "Kingdom of Spain",
+          "Netherlands Antilles, NLD",
+          "United Kingdom of Great Britain and Northern Ireland",
+        ],
+        datasets: [
+          {
+            label: "จำนวน (unit)",
+            backgroundColor: "#33ccff",
+            borderColor: "#33ccff",
+            data: [540, 2500, 2000],
           },
-          ticks    : ticksStyle
-      }]
-    },
-    tooltips: {
-      callbacks: {
-        label: function(tooltipItem, barChartData){
-          var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
-          if (label){
-            label += ': ';
-          }
-          label += Math.round(tooltipItem.yLabel * 100) / 100;
-          label += ' unit';
-          return label;
-        }
-      }
-    }
-  }
-})
+        ],
+      };
+      var ticksStyle = {
+        fontColor: "white",
+        fontStyle: "bold",
+      };
 
-  var barChartCanvas = $('#importSpecy').get(0).getContext('2d')
-  var barChartData = {
-  labels  : ['High THC', 'High CBD', 'High THC:CBD 1:1', 'High THC:CBD', 'CBD Auto Charlotte\'s Angle','ไม่ระบุ'],
-  datasets: [
-    {
-      label: 'จำนวน (unit)',
-      backgroundColor: '#1a53ff',
-      borderColor: '#1a53ff',
-      barPercentage: 0.5,
-      data                : [ 160,260,60,60,2500,2000]
-    },
-  ]
-  }
-  var barChartOptions = {
-    legend: {
-      display: true,
-      labels:{
-          fontColor: 'white'
-      }
-    },
-    responsive              : true,
-    maintainAspectRatio     : false,
-    datasetFill             : true,
-    scales: {
-      yAxes: [{
-        ticks:{
-          fontColor: "white",
-        }
-      }],
-      xAxes: [{
-        ticks:{
-          fontColor: "white",
-        }
-      }]
-    },
-    tooltips: {
-      callbacks: {
-        label: function(tooltipItem, barChartData){
-          var label = barChartData.datasets[tooltipItem.datasetIndex].label || '';
-          if (label){
-            label += ': ';
-          }
-          label += Math.round(tooltipItem.yLabel * 100) / 100;
-          label += ' unit';
-          return label;
-        }
-      }
-    }
-  }
+      var mode = "index";
+      var intersect = true;
+      var medDistributeChart = new Chart(medDistributeCanvas, {
+        type: "bar",
+        data: medDistributeData,
+        options: {
+          maintainAspectRatio: false,
+          responsive: true,
+          legend: {
+            display: true,
+            labels: {
+              fontColor: "white",
+            },
+          },
+          tooltips: {
+            mode: mode,
+            intersect: intersect,
+          },
+          hover: {
+            mode: mode,
+            intersect: intersect,
+          },
+          scales: {
+            yAxes: [
+              {
+                gridLines: {
+                  display: true,
+                  lineWidth: "4px",
+                  color: "rgba(0, 0, 0, .2",
+                  zeroLineColor: "transparent",
+                },
+                ticks: $.extend(
+                  {
+                    beginAtZero: true,
 
-    var barChart = new Chart(barChartCanvas, {
-      type: 'bar', 
-      data: barChartData,
-      options: barChartOptions
-    })
-
-    //Import Part Chart
-    var importPartCanvas = $('#importPart').get(0).getContext('2d')
-    var importPartData = {
-      labels  : ['โรงพยาบาลเจ้าพระยาอภัยภูเบศร', 'องค์การเภสัชกรรม'],
-      datasets: [
-        {
-          label: "เมล็ด CBD Auto Charlotte\'s Angle",
-          backgroundColor: '#8db255',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [2500, 0]
+                    // Include a dollar sign in the ticks
+                    // callback: function (value, index, values) {
+                    //   if (value >= 1000) {
+                    //     value /= 1000
+                    //     value += 'k'
+                    //   }
+                    //   return value + 'ราย'
+                    // }
+                  },
+                  ticksStyle
+                ),
+              },
+            ],
+            xAxes: [
+              {
+                display: true,
+                gridLines: {
+                  display: false,
+                },
+                ticks: ticksStyle,
+              },
+            ],
+          },
+          tooltips: {
+            callbacks: {
+              label: function (tooltipItem, barChartData) {
+                var label =
+                  barChartData.datasets[tooltipItem.datasetIndex].label || "";
+                if (label) {
+                  label += ": ";
+                }
+                label += Math.round(tooltipItem.yLabel * 100) / 100;
+                label += " unit";
+                return label;
+              },
+            },
+          },
         },
-        {
-          label: 'เมล็ด',
-          backgroundColor: '#66ccff',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0, 540]
-        },
-        {
-          label: 'cannabis extract',
-          backgroundColor: '#f47983',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0,2000]
-        },
-      ]
-    }
+      });
 
-    var importPartChart = new Chart(importPartCanvas, {
-      type: 'bar', 
-      data: importPartData,
-      options: {
-        legend:{
+      //select options
+      $("#tf_sel_importbycountry a").click(function () {
+        var select_opt = $(this).attr("value");
+        if(select_opt == "201902"){
+          medDistributeData.labels = ["Kingdom of Spain"];
+          medDistributeData.datasets[0].data = [320];
+          $("#importCountry_date").html("<strong>Febuary - 2019</strong>");
+        }
+        if(select_opt == "201907"){
+          medDistributeData.labels = ["Kingdom of Spain", "United Kingdom of Great Britain and Northern Ireland"];
+          medDistributeData.datasets[0].data = [220,2000];
+          $("#importCountry_date").html("<strong>July - 2019</strong>");
+        }
+        if(select_opt == "201909"){
+          medDistributeData.labels = ["Netherlands Antilles, NLD"];
+          medDistributeData.datasets[0].data = [2500];
+          $("#importCountry_date").html("<strong>September - 2019</strong>");
+        }
+        if(select_opt == "all"){
+          medDistributeData.labels = ["Kingdom of Spain",
+          "Netherlands Antilles, NLD",
+          "United Kingdom of Great Britain and Northern Ireland"];
+          medDistributeData.datasets[0].data = [540, 2500, 2000];
+          $("#importCountry_date").html("<strong>ข้อมูลสะสมถึง January - 2020</strong>");
+        }
+        
+        console.log(select_opt);
+        medDistributeChart.update();
+      });
+      //End import by country graph
+
+      //Import by Species
+      var barChartCanvas = $("#importSpecy").get(0).getContext("2d");
+      var barChartData = {
+        labels: [
+          "High THC",
+          "High CBD",
+          "High THC:CBD 1:1",
+          "High THC:CBD",
+          "CBD Auto Charlotte's Angle",
+          "ไม่ระบุ",
+        ],
+        datasets: [
+          {
+            label: "จำนวน (unit)",
+            backgroundColor: "#1a53ff",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [160, 260, 60, 60, 2500, 2000],
+          },
+        ],
+      };
+      var barChartOptions = {
+        legend: {
           display: true,
-          labels: { fontColor: 'white'}
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: false,
+          labels: {
+            fontColor: "white",
+          },
         },
         responsive: true,
-        scales:{
-          xAxes: [{
-            stacked: true,
-            ticks:{
-              fontColor: 'white'
-            }
-          }],
-          yAxes: [{
-            stacked: true,
-            ticks: {
-              fontColor: 'white'
-            }
-          }]
-        }
-      }
-    })
-
-    //Import Store Chart
-    var importStoreCanvas = $('#importStore').get(0).getContext('2d')
-    var importStoreData = {
-      labels  : ['โรงพยาบาลเจ้าพระยาอภัยภูเบศร', 'องค์การเภสัชกรรม'],
-      datasets: [
-        {
-          label: "เมล็ด CBD Auto Charlotte\'s Angle",
-          backgroundColor: '#8db255',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [210, 0]
-        },
-        {
-          label: 'เมล็ด',
-          backgroundColor: '#66ccff',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0, 0]
-        },
-        {
-          label: 'cannabis extract',
-          backgroundColor: '#f47983',
-          borderColor: '#1a53ff',
-          barPercentage: 0.5,
-          data                : [0,0]
-        },
-      ]
-    }
-
-    var importStoreChart = new Chart(importStoreCanvas, {
-      type: 'bar', 
-      data: importStoreData,
-      options: {
-        legend:{
-          display: true,
-          labels: { fontColor: 'white'}
+        maintainAspectRatio: false,
+        datasetFill: true,
+        scales: {
+          yAxes: [
+            {
+              ticks: {
+                fontColor: "white",
+              },
+            },
+          ],
+          xAxes: [
+            {
+              ticks: {
+                fontColor: "white",
+              },
+            },
+          ],
         },
         tooltips: {
-          mode: 'index',
-          intersect: false,
+          callbacks: {
+            label: function (tooltipItem, barChartData) {
+              var label =
+                barChartData.datasets[tooltipItem.datasetIndex].label || "";
+              if (label) {
+                label += ": ";
+              }
+              label += Math.round(tooltipItem.yLabel * 100) / 100;
+              label += " unit";
+              return label;
+            },
+          },
         },
-        responsive: true,
-        scales:{
-          xAxes: [{
-            stacked: true,
-            ticks:{
-              fontColor: 'white'
-            }
-          }],
-          yAxes: [{
-            stacked: true,
-            ticks: {
-              fontColor: 'white'
-            }
-          }]
+      };
+      var barChart = new Chart(barChartCanvas, {
+        type: "bar",
+        data: barChartData,
+        options: barChartOptions,
+      });
+      //select options
+      $("#tf_sel_importbyspecy a").click(function () {
+        var select_opt = $(this).attr("value");
+        if(select_opt == "201902"){
+          barChartData.labels = ["High THC", "High CBD", "High THC:CBD 1:1"];
+          barChartData.datasets[0].data = [100,160,60];
+          $("#importSpecy_date").html("<strong>Febuary - 2019</strong>");
         }
-      }
-    })
-    
-</script>
-</body>
+        if(select_opt == "201907"){
+          barChartData.labels = ["High THC", "High CBD", "High THC:CBD 1:1","ไม่ระบุ"];
+          barChartData.datasets[0].data = [60,100,60,2000];
+          $("#importSpecy_date").html("<strong>July - 2019</strong>");
+        }
+        if(select_opt == "201909"){
+          barChartData.labels = ["CBD Auto Charlotte's Angle"];
+          barChartData.datasets[0].data = [2500];
+          $("#importSpecy_date").html("<strong>September - 2019</strong>");
+        }
+        if(select_opt == "all"){
+          barChartData.labels = ["High THC",
+          "High CBD",
+          "High THC:CBD 1:1",
+          "High THC:CBD",
+          "CBD Auto Charlotte's Angle",
+          "ไม่ระบุ",];
+          barChartData.datasets[0].data = [160, 260, 60, 60, 2500, 2000];
+          $("#importSpecy_date").html("<strong>ข้อมูลสะสมถึง January - 2020</strong>");
+        }
+        
+        console.log(select_opt);
+        barChart.update();
+      });
+      //End import by specy
+
+      //Import Part Chart
+      var importPartCanvas = $("#importPart").get(0).getContext("2d");
+      var importPartData = {
+        labels: ["โรงพยาบาลเจ้าพระยาอภัยภูเบศร", "องค์การเภสัชกรรม"],
+        datasets: [
+          {
+            label: "เมล็ด CBD Auto Charlotte's Angle",
+            backgroundColor: "#8db255",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [2500, 0],
+          },
+          {
+            label: "เมล็ด",
+            backgroundColor: "#66ccff",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [0, 540],
+          },
+          {
+            label: "cannabis extract",
+            backgroundColor: "#f47983",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [0, 2000],
+          },
+        ],
+      };
+      var importPartChart = new Chart(importPartCanvas, {
+        type: "bar",
+        data: importPartData,
+        options: {
+          legend: {
+            display: true,
+            labels: { fontColor: "white" },
+          },
+          tooltips: {
+            mode: "index",
+            intersect: false,
+          },
+          responsive: true,
+          scales: {
+            xAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "white",
+                },
+              },
+            ],
+            yAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "white",
+                },
+              },
+            ],
+          },
+        },
+      });
+      //select options
+      $("#tf_sel_importbypart a").click(function () {
+        var select_opt = $(this).attr("value");
+        if(select_opt == "201902"){          
+          importPartData.datasets[0].data = [0,0];
+          importPartData.datasets[1].data = [0,320];
+          importPartData.datasets[2].data = [0,0];
+          $("#importPart_date").html("<strong>Febuary - 2019</strong>");
+        }
+        if(select_opt == "201907"){          
+          importPartData.datasets[0].data = [0,0];
+          importPartData.datasets[1].data = [0,220];
+          importPartData.datasets[2].data = [0,2000];
+          $("#importPart_date").html("<strong>July - 2019</strong>");
+        }
+        if(select_opt == "201909"){          
+          importPartData.datasets[0].data = [2500,0];
+          importPartData.datasets[1].data = [0,0];
+          importPartData.datasets[2].data = [0,0];
+          $("#importPart_date").html("<strong>September - 2019</strong>");
+        }
+        if(select_opt == "all"){
+          importPartData.datasets[0].data = [2500,0];
+          importPartData.datasets[1].data = [0,540];
+          importPartData.datasets[2].data = [0,2000];
+          $("#importPart_date").html("<strong>ข้อมูลสะสมถึง January - 2020</strong>");
+        }
+        
+        console.log(select_opt);
+        importPartChart.update();
+      });
+      //End import by part
+
+      //Import Store Chart
+      var importStoreCanvas = $("#importStore").get(0).getContext("2d");
+      var importStoreData = {
+        labels: ["โรงพยาบาลเจ้าพระยาอภัยภูเบศร", "องค์การเภสัชกรรม"],
+        datasets: [
+          {
+            label: "เมล็ด CBD Auto Charlotte's Angle",
+            backgroundColor: "#8db255",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [210, 0],
+          },
+          {
+            label: "เมล็ด",
+            backgroundColor: "#66ccff",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [0, 0],
+          },
+          {
+            label: "cannabis extract",
+            backgroundColor: "#f47983",
+            borderColor: "#1a53ff",
+            barPercentage: 0.5,
+            data: [0, 0],
+          },
+        ],
+      };
+      var importStoreChart = new Chart(importStoreCanvas, {
+        type: "bar",
+        data: importStoreData,
+        options: {
+          legend: {
+            display: true,
+            labels: { fontColor: "white" },
+          },
+          tooltips: {
+            mode: "index",
+            intersect: false,
+          },
+          responsive: true,
+          scales: {
+            xAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "white",
+                },
+              },
+            ],
+            yAxes: [
+              {
+                stacked: true,
+                ticks: {
+                  fontColor: "white",
+                },
+              },
+            ],
+          },
+        },
+      });
+      //select options
+      // $("#tf_sel_importbystore a").click(function () {
+      //   var select_opt = $(this).attr("value");
+      //   if(select_opt == "201902"){          
+      //     importStoreData.datasets[0].data = [0,0];
+      //     importStoreData.datasets[1].data = [0,320];
+      //     importStoreData.datasets[2].data = [0,0];
+      //     $("#importStore_date").html("<strong>Febuary - 2019</strong>");
+      //   }
+      //   if(select_opt == "201907"){          
+      //     importStoreData.datasets[0].data = [0,0];
+      //     importStoreData.datasets[1].data = [0,220];
+      //     importStoreData.datasets[2].data = [0,2000];
+      //     $("#importStore_date").html("<strong>July - 2019</strong>");
+      //   }
+      //   if(select_opt == "201909"){          
+      //     importStoreData.datasets[0].data = [2500,0];
+      //     importStoreData.datasets[1].data = [0,0];
+      //     importStoreData.datasets[2].data = [0,0];
+      //     $("#importStore_date").html("<strong>September - 2019</strong>");
+      //   }
+      //   if(select_opt == "all"){
+      //     importStoreData.datasets[0].data = [2500,0];
+      //     importStoreData.datasets[1].data = [0,540];
+      //     importStoreData.datasets[2].data = [0,2000];
+      //     $("#importStore_date").html("<strong>ข้อมูลสะสมถึง January - 2020</strong>");
+      //   }
+        
+      //   console.log(select_opt);
+      //   importStoreChart.update();
+      // });
+      //End import store
+    </script>
+  </body>
 </html>
