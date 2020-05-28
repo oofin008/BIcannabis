@@ -945,12 +945,33 @@
           {
             values: cannabisOwn_study,
             scale: ['#ffffff', '#ffc107'],
-            normalizeFunction: 'linear',
+            // normalizeFunction: 'linear',
+            normalizeFunction: function(val){
+              console.log("val=>",val)
+              return val
+            },
             attribute: 'fill',
             min: 0,
+            max: 30,
             legend:{
               vertical:true,
-              title: 'จำนวน(ฉบับ)'
+              title: 'จำนวน(ฉบับ)',
+              labelRender: (val)=>{
+                var label = ""
+                console.log("label Render =>",val)
+                //return Math.floor(val*2)
+                if(val == 0){
+                  return val
+                }
+                return {
+                  5: "1-5",
+                  10: "6-10",
+                  15: "11-15",
+                  20: '16-20',
+                  25: '21-25',
+                  30: '26+'
+                }[val]
+              }
             }
           }
         ]
@@ -1030,7 +1051,7 @@
                     vertical:true,
                     title: 'จำนวน(ฉบับ)',
                     labelRender: (val)=>{ 
-                      console.log("labelRender =>",val)
+                      console.log("label Render =>",val)
                       return Math.floor(val*2)
                     }
                   }
@@ -1102,7 +1123,21 @@
                   min: 0,
                   legend:{
                     vertical:true,
-                    title: 'จำนวน(ฉบับ)'
+                    title: 'จำนวน(ฉบับ)',
+                    labelRender: (val)=>{
+                      console.log("label Render =>",val)
+                      
+                      return {
+                        0: "0",
+                        5: "1-5",
+                        10: "6-10",
+                        15: "11-15",
+                        20: '16-20',
+                        25: '21-25',
+                        30: '26-30',
+                        35: '31+'
+                      }[val]
+                    }
                   }
                 }
               ]
@@ -1135,9 +1170,29 @@
                   normalizeFunction: 'linear',
                   attribute: 'fill',
                   min: 0,
+                  max: 30,
                   legend:{
                     vertical:true,
-                    title: 'จำนวน(ฉบับ)'
+                    title: 'จำนวน(ฉบับ)',
+                    labelRender: (val)=>{
+                      var label = ""
+                      console.log("label Render =>",val)
+                      //return Math.floor(val*2)
+                      if(val == 0){
+                        return val
+                      }
+                      var val_low = Math.floor((val%2))
+                      var val_hi  = Math.ceil((val*2)-1)
+                      label = val_low + "-" + val_hi
+                      return {
+                        5: "1-5",
+                        10: "6-10",
+                        15: "11-15",
+                        20: '16-20',
+                        25: '21-25',
+                        30: '26+'
+                      }[val]
+                    }
                   }
                 }
               ]
