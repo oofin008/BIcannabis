@@ -291,7 +291,7 @@
                 <div class="card bg-gradient-dark">
                   <div class="card-header">
                     <h3 class="card-title">การจ่ายยาให้ผู้ป่วยแบ่งตามเพศ</h3>
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <div class="btn-group">
                         <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                           <i class="fas fa-calendar-alt"></i>
@@ -308,7 +308,7 @@
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body p-0">
@@ -334,7 +334,7 @@
                   <div class="card-header">
                     <h3 class="card-title">จำนวนผู้ป่วยในแต่ละช่วงอายุ</h3>
     
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <div class="btn-group">
                         <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                           <i class="fas fa-calendar-alt"></i>
@@ -351,7 +351,7 @@
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body">
@@ -391,12 +391,19 @@
                           <i class="fas fa-calendar-alt"></i>
                           Time Frame select
                         </button>
-                        <div class="dropdown-menu dropdown-menu-right" role="menu">
-                          <a href="#" class="dropdown-item">Jan/2020</a>
-                          <a href="#" class="dropdown-item">Dec/2019</a>
-                          <a href="#" class="dropdown-item">Nov/2019</a>
-                          <a class="dropdown-divider"></a>
-                          <a href="#" class="dropdown-item">Oct/2019</a>
+                        <div id="tf_sel_sortChart2" class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a href="#" class="dropdown-item" value="all">ข้อมูลสะสมถึง Feb/2020</a>
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          <a href="#" class="dropdown-item" value="202002">Feb/2020</a>
+                          <a href="#" class="dropdown-item" value="202001">Jan/2020</a>
+                          <a href="#" class="dropdown-item" value="201912">Dec/2019</a>
+                          <a href="#" class="dropdown-item" value="201911">Nov/2019</a>
+                          <a href="#" class="dropdown-item" value="201910">Oct/2019</a>
+                          <a href="#" class="dropdown-item" value="201909">Sep/2019</a>
+                          <a href="#" class="dropdown-item" value="201908">Aug/2019</a>
+                          <a href="#" class="dropdown-item" value="201907">Jul/2019</a>
+                          <a href="#" class="dropdown-item" value="201906">Jun/2019</a>
                         </div>
                       </div>
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -702,6 +709,8 @@
     cannabisUsage_anychart_chart.draw();
   });//End AnyChart ready function
 
+
+  //getReq check start here ============================================
   if(getReq == "SAS"){
 
     var patientChartData = {
@@ -821,6 +830,7 @@
       ]
     }//End chart1 Usage Data
 
+    //SAS
     var sortChart2_title = document.getElementById("sortChart2_title");
     sortChart2_title.innerText = "ข้อมูลการรักษา";
     var sortChart2Data = {
@@ -976,7 +986,7 @@
     }//End chart4 Usage Data
     
     document.getElementById("sortChart5_card").style.display = "none";
-  }//END 
+  }//END ========SAS============ getReq check
 
   else if(getReq == "AUR"){
     var patientChartData = {
@@ -1175,7 +1185,8 @@
 
     document.getElementById('sortChart1_card').style.display = "none";
 
-  }
+  }//END =======AUR==========
+
   //DEJA check
   else if(getReq=="DEJA"){
     var patientChartData = {
@@ -1670,9 +1681,35 @@
     }//ตำรับยาศุขไสยาศน์
   
   });
-
   //End sortChart5 javascript function
-    
+  
+  //sortChart2 select
+  // $('#tf_sel_sortChart2 a').click(function(){
+  //   var select_opt = $(this).attr("value");
+  //   if(getReq == "SAS"){
+  //     switch(select_opt){
+  //       case "all":
+  //         sortChart2Data.labels = ['GPO THC', 'GPO THC:CBD', 'GPO CBD', 'น้ำมันกัญชา'];
+  //         sortChart2Data.datasets[0].data = [50,4,0,68]; //pariative care
+  //         sortChart2Data.datasets[1].data = [47,1,0,7]; //ปวดจากมะเร็ง
+  //         sortChart2Data.datasets[2].data = [27,1,0,15];//ปวดประสาท
+  //         sortChart2Data.datasets[3].data = [2,1,0,2]; //parginson
+  //         sortChart2Data.datasets[4].data = [0,0,2,0]; //ชัก
+  //         sortChart2Data.datasets[5].data = [0,5,1,0]; //กล้ามเนื้อหดเกร็ง
+  //         sortChart2.update();
+  //         break;
+  //       case "202002":
+  //         /// not finish yetttttttt//////////////////////////////////
+  //     }
+  //   }
+  //   if(getReq == "AUR"){
+
+  //   }
+  //   if(getReq == "DEJA"){
+
+  //   }
+  // })
+
   //Get Param from url function
   function getUrlParameter(sParam){
     var sPageURL = window.location.search.substring(1);
