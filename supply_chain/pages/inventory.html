@@ -84,7 +84,7 @@
         <div class="row" id="import_row1">
           <div class="col-lg-12 col-12">
             <div class="card">
-              <div class="card-body">
+              <div class="card-body" style="height: 582px;">
                 <canvas id="inventory_import_canvas"></canvas>
               </div>
             </div>
@@ -94,17 +94,17 @@
         <div id="import_row2" class="row">
           <div class="col-lg-12 col-12">
             <div class="card">
-              <div class="card-body">
+              <div class="card-body" style="height: 582px;">
                 <canvas id="inventory_plant_canvas"></canvas>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row">
+        <div id="import_row3" class="row">
           <div class="col-lg-12 col-12">
             <div class="card">
-              <div class="card-body">
+              <div class="card-body" style="height: 582px;">
                 <canvas id="inventory_convert_canvas"></canvas>
               </div>
             </div>
@@ -114,7 +114,7 @@
         <div class="row">
           <div class="col-lg-12 col-12">
             <div class="card">
-              <div class="card-body">
+              <div id="import_row4" class="card-body" style="height: 582px;">
                 <canvas id="inventory_stock_canvas"></canvas>
               </div>
             </div>
@@ -596,6 +596,10 @@
   };
   //Main script to run put in here
   $(function(){
+    //jump to anchor
+    var anchor_div = getUrlParameter("anchor");
+    anchor_div?(document).scrollTop( $(`#${anchor_div}`).offset().top ):''; 
+
     var inventory_import_canvas = $('#inventory_import_canvas').get(0).getContext('2d');
     var inventory_import_chart = new Chart(inventory_import_canvas, config_1);
 
@@ -630,6 +634,18 @@
     })
 
   });//END MAIN SCRIPT
+  //Get Param from url function
+  function getUrlParameter(sParam){
+      var sPageURL = window.location.search.substring(1);
+      var sURLVariables = sPageURL.split('&');
+      var sParameterName;
+      for(var i=0; i< sURLVariables.length; i++){
+        sParameterName = sURLVariables[i].split('=');
+        if(sParameterName[0] === sParam){
+          return sParameterName[1] === undefined? true : decodeURIComponent(sParameterName[1]);
+        }
+      }
+    }
 </script>
 </body>
 </html>
