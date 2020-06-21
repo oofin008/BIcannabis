@@ -57,7 +57,7 @@
   <body class="hold-transition layout-top-nav">
     <div class="wrapper">
       <!-- Content Wrapper. Contains page content -->
-      <div class="content-wrapper sidebar-dark-primary">
+      <div class="content-wrapper ">
         <!-- Content Header (Page header) -->
         <div class="content-header">
           <div class="container-fluid">
@@ -65,7 +65,7 @@
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-left">
                   <li class="breadcrumb-item">
-                    <h3 class="m-0 text-white">การขออนุญาตเกี่ยวกับกัญชา</h3>
+                    <h3 class="m-0 text-dark">การขออนุญาตเกี่ยวกับกัญชา</h3>
                   </li>
                   <li class="breadcrumb-item">
                     <button
@@ -81,7 +81,7 @@
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item">
-                    <h3 class="m-0 text-white" id="header_date">
+                    <h3 class="m-0 text-dark" id="header_date">
                       ข้อมูลถึงวันที่: 27 กุมภาพันธ์ 2563
                     </h3>
                   </li>
@@ -103,7 +103,7 @@
               <!-- right col (We are only adding the ID to make the widgets sortable)-->
               <section class="col-lg-6">
                 <!--Test Map-->
-                <div class="card bg-gradient-dark">
+                <div class="card ">
                   <div class="card-header border-0">
                     <h3 class="card-title">
                       <i class="fas fa-map-marker-alt mr-1"></i>
@@ -847,7 +847,7 @@
         //build new map to display overall data
         map = new jvm.Map({
           map: "th_mill",
-          backgroundColor: "",
+          backgroundColor: "#BDC3C7",
           container: $("#thaimapjvector"),
           regionsSelectable: false,
           zoomOnScroll: false,
@@ -910,7 +910,7 @@
             renderTableData("import", "table_body", request_data);
             map = new jvm.Map({
               map: "th_mill",
-              backgroundColor: "",
+              backgroundColor: "#BDC3C7",
               container: $("#thaimapjvector"),
               regionsSelectable: false,
               zoomOnScroll: false,
@@ -954,7 +954,7 @@
             renderTableData("plant", "table_body", request_data);
             map = new jvm.Map({
               map: 'th_mill',
-              backgroundColor: '',
+              backgroundColor: '#BDC3C7',
               container: $('#thaimapjvector'),
               regionsSelectable: false,
               zoomOnScroll: false,
@@ -999,7 +999,7 @@
             renderTableData("convert", "table_body", request_data);
             map = new jvm.Map({
               map: 'th_mill',
-              backgroundColor: '',
+              backgroundColor: '#BDC3C7',
               container: $('#thaimapjvector'),
               regionsSelectable: false,
               zoomOnScroll: false,
@@ -1037,7 +1037,7 @@
             renderTableData("sell", "table_body", request_data);
             map = new jvm.Map({
               map: 'th_mill',
-              backgroundColor: '',
+              backgroundColor: '#BDC3C7',
               container: $('#thaimapjvector'),
               regionsSelectable: false,
               zoomOnScroll: false,
@@ -1089,7 +1089,7 @@
             renderTableData("own", "table_body", request_data);
             map = new jvm.Map({
               map: 'th_mill',
-              backgroundColor: '',
+              backgroundColor: '#BDC3C7',
               container: $('#thaimapjvector'),
               regionsSelectable: false,
               zoomOnScroll: false,

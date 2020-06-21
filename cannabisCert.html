@@ -36,14 +36,15 @@
   <!--Loading state-->
   <div class="overlay">
     <i class="fa fa-refresh fa-spin"></i>
-    <h3>Loading...</h3>
+    <h3>Loading </h3>
+    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
   </div>
   <!--Loading state-->
 </div>
 <div class="wrapper">
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper sidebar-dark-primary">
+  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
@@ -51,7 +52,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-left">
                 <li class="breadcrumb-item">
-                    <h3 class="m-0 text-white">ผู้ประกอบวิชาชีพที่ผ่านการอบรมกัญชา</h3>
+                    <h3 class="m-0 text-dark">ผู้ประกอบวิชาชีพที่ผ่านการอบรมกัญชา</h3>
                 </li>
                 <li class="breadcrumb-item">
                     <button onclick="location.href='./index.html';" class="btn btn-info">
@@ -63,7 +64,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item">
-                    <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: 18 มีนาคม 2563</h3>
+                    <h3 class="m-0 text-dark" id="header_date">ข้อมูลถึงวันที่: 18 มีนาคม 2563</h3>
                 </li>
             </ol>
           </div><!-- /.col -->
@@ -381,7 +382,7 @@
         display: true,
         position: 'right',
         labels: {
-          fontColor: "#faf7f7",
+          fontColor: "black",
         }
       }
     }
