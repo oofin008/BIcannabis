@@ -1,0 +1,956 @@
+﻿{
+    "Sheet1": [
+        {
+            "hospital_name": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "SAS": "0",
+            "AUR": "2580",
+            "DEJA": "21650",
+            "TOTAL": "24230"
+        },
+        {
+            "hospital_name": "รพ.ศรีประจันต์",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "5000",
+            "TOTAL": "5000"
+        },
+        {
+            "hospital_name": "รพ.ดอนตูม",
+            "SAS": "0",
+            "AUR": "2010",
+            "DEJA": "2950",
+            "TOTAL": "4960"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "SAS": "0",
+            "AUR": "1710",
+            "DEJA": "950",
+            "TOTAL": "2660"
+        },
+        {
+            "hospital_name": "รพ.ราชบุรี",
+            "SAS": "345",
+            "AUR": "1110",
+            "DEJA": "950",
+            "TOTAL": "2405"
+        },
+        {
+            "hospital_name": "รพ.หนองฉาง",
+            "SAS": "0",
+            "AUR": "810",
+            "DEJA": "1450",
+            "TOTAL": "2260"
+        },
+        {
+            "hospital_name": "รพ.มหาราชนคราชสีมา",
+            "SAS": "11",
+            "AUR": "1860",
+            "DEJA": "0",
+            "TOTAL": "1871"
+        },
+        {
+            "hospital_name": "รพ.ท่าฉาง",
+            "SAS": "0",
+            "AUR": "720",
+            "DEJA": "950",
+            "TOTAL": "1670"
+        },
+        {
+            "hospital_name": "รพ.ป่าบอน",
+            "SAS": "0",
+            "AUR": "720",
+            "DEJA": "950",
+            "TOTAL": "1670"
+        },
+        {
+            "hospital_name": "รพ.บางกระทุ่ม",
+            "SAS": "0",
+            "AUR": "690",
+            "DEJA": "950",
+            "TOTAL": "1640"
+        },
+        {
+            "hospital_name": "รพ.คูเมือง",
+            "SAS": "0",
+            "AUR": "510",
+            "DEJA": "950",
+            "TOTAL": "1460"
+        },
+        {
+            "hospital_name": "รพ.พนา",
+            "SAS": "0",
+            "AUR": "510",
+            "DEJA": "950",
+            "TOTAL": "1460"
+        },
+        {
+            "hospital_name": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "SAS": "400",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "1350"
+        },
+        {
+            "hospital_name": "รพ.เลย",
+            "SAS": "0",
+            "AUR": "1200",
+            "DEJA": "0",
+            "TOTAL": "1200"
+        },
+        {
+            "hospital_name": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "SAS": "0",
+            "AUR": "1110",
+            "DEJA": "0",
+            "TOTAL": "1110"
+        },
+        {
+            "hospital_name": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "SAS": "293",
+            "AUR": "810",
+            "DEJA": "0",
+            "TOTAL": "1103"
+        },
+        {
+            "hospital_name": "รพ.บุรีรัมย์",
+            "SAS": "315",
+            "AUR": "750",
+            "DEJA": "0",
+            "TOTAL": "1065"
+        },
+        {
+            "hospital_name": "รพ.ลำปาง",
+            "SAS": "315",
+            "AUR": "750",
+            "DEJA": "0",
+            "TOTAL": "1065"
+        },
+        {
+            "hospital_name": "รพ.สวรรค์ประชารักษ์",
+            "SAS": "515",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "1025"
+        },
+        {
+            "hospital_name": "รพ.หาดใหญ่",
+            "SAS": "315",
+            "AUR": "660",
+            "DEJA": "0",
+            "TOTAL": "975"
+        },
+        {
+            "hospital_name": "รพ.ตากฟ้า",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.เถิน",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.วานรนิวาส",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชเดชอุดม",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชนครไทย",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชสว่างแดนดิน",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.หนองบัวลำพู",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.ห้วยเกิ้ง",
+            "SAS": "0",
+            "AUR": "0",
+            "DEJA": "950",
+            "TOTAL": "950"
+        },
+        {
+            "hospital_name": "รพ.สตูล",
+            "SAS": "40",
+            "AUR": "900",
+            "DEJA": "0",
+            "TOTAL": "940"
+        },
+        {
+            "hospital_name": "รพ.ปากชม",
+            "SAS": "0",
+            "AUR": "900",
+            "DEJA": "0",
+            "TOTAL": "900"
+        },
+        {
+            "hospital_name": "รพ.พุทธชินราช",
+            "SAS": "375",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "885"
+        },
+        {
+            "hospital_name": "รพ.ขอนแก่น",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.ระยอง",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.สรรพสิทธิประสงค์",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.สระบุรี",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.สุราษฎร์ธานี",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.อุดรธานี",
+            "SAS": "315",
+            "AUR": "510",
+            "DEJA": "0",
+            "TOTAL": "825"
+        },
+        {
+            "hospital_name": "รพ.พระนั่งเกล้า ",
+            "SAS": "214",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "664"
+        },
+        {
+            "hospital_name": "รพ.แกลง",
+            "SAS": "200",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "650"
+        },
+        {
+            "hospital_name": "รพ.เพชรบูรณ์",
+            "SAS": "200",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "650"
+        },
+        {
+            "hospital_name": "รพ.อรัญประเทศ",
+            "SAS": "200",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "650"
+        },
+        {
+            "hospital_name": "รพ.พุทธโสธร",
+            "SAS": "300",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "600"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "SAS": "300",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "600"
+        },
+        {
+            "hospital_name": "สถาบันประสาท",
+            "SAS": "530",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "530"
+        },
+        {
+            "hospital_name": "รพ.สุโขทัย",
+            "SAS": "205",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "505"
+        },
+        {
+            "hospital_name": "รพ.สมุทรสาคร",
+            "SAS": "200",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "500"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "SAS": "4",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "454"
+        },
+        {
+            "hospital_name": "รพ.บึงสามพัน",
+            "SAS": "0",
+            "AUR": "450",
+            "DEJA": "0",
+            "TOTAL": "450"
+        },
+        {
+            "hospital_name": "สถาบันมะเร็งแห่งชาติ",
+            "SAS": "434",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "434"
+        },
+        {
+            "hospital_name": "รพ.กระบี่",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.ทุ่งสง",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.มหาสารคาม",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.ร้อยเอ็ด",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.ระนอง",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.เสนา",
+            "SAS": "200",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "350"
+        },
+        {
+            "hospital_name": "รพ.หนองคาย",
+            "SAS": "30",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "330"
+        },
+        {
+            "hospital_name": "รพ.พหลพยุหเสนา",
+            "SAS": "5",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "305"
+        },
+        {
+            "hospital_name": "รพ.ชลบุรี",
+            "SAS": "300",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.ตราด",
+            "SAS": "300",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.เทพรัตน์นครราชสีมา",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.บางซ้าย",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.บางละมุง",
+            "SAS": "300",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.พระปกเกล้า",
+            "SAS": "300",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.โพนพิสัย",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.ราชสาส์น",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.ละงู",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระยุพราชสายบุรี ",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.สมุทรปราการ",
+            "SAS": "300",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.ห้วยพลู ",
+            "SAS": "0",
+            "AUR": "300",
+            "DEJA": "0",
+            "TOTAL": "300"
+        },
+        {
+            "hospital_name": "รพ.พิจิตร",
+            "SAS": "207",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "207"
+        },
+        {
+            "hospital_name": "รพ.กบินทร์บุรี",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.กระสัง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.กำแพงเพชร",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.แคนดง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ชัยนาทนเรนทร",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ชำนิ",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ชุมพรเขตรอุดมศักดิ์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.เชียงรายประชานุเคราะห์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ตรัง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ตะกั่วป่า",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.นครนายก",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.นครพิงค์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.นางรอง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.น่าน",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.นาโพธิ์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.โนนดินแดง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.โนนสุวรรณ",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.บางพลี",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.บ้านกรวด",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.บ้านด่าน",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.บ้านใหม่ไชยพจน์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ปทุมธานี",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ประโคนชัย",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ปะคำ",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.พระนครศรีอยุธยา",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.พลับพลาชัย",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.พังงา",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.พุทไธสง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.แพร่",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.โพธาราม",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.มหาราชนครราชสีมา",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.มหาราชนครศรีธรรมราช",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.มุกดาหาร",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.แม่สอด",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ยโสธร",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ละหานทราย",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ลำปลายมาศ",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ลำพูน",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.วชิระภูเก็ต",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ศรีสะเกษ",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ศรีสังวรสุโขทัย",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.สตึก",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.สมเด็จพระเจ้าตากสินมหาราช",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.สุรินทร์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.หนองกี่",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.หนองหงส์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.ห้วยราช",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.อ่างทอง",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.อุตรดิตถ์",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "รพ.อุทัยธานี",
+            "SAS": "200",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "200"
+        },
+        {
+            "hospital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+            "SAS": "170",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "170"
+        },
+        {
+            "hospital_name": "รพ.ตากสิน",
+            "SAS": "0",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "150"
+        },
+        {
+            "hospital_name": "รพ.ลาดบัวหลวง",
+            "SAS": "0",
+            "AUR": "150",
+            "DEJA": "0",
+            "TOTAL": "150"
+        },
+        {
+            "hospital_name": "รพ.ปราสาท",
+            "SAS": "140",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "140"
+        },
+        {
+            "hospital_name": "รพ.สกลนคร",
+            "SAS": "100",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "100"
+        },
+        {
+            "hospital_name": "กรมการแพทย์แผนไทยและแพทย์ทางเลือก",
+            "SAS": "70",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "70"
+        },
+        {
+            "hospital_name": "รพ.จุฬารัตน์ 3 อินเตอร์",
+            "SAS": "50",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "50"
+        },
+        {
+            "hospital_name": "สถาบันบำราศนราดูร ",
+            "SAS": "45",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "45"
+        },
+        {
+            "hospital_name": "รพ.พระจอมเกล้า",
+            "SAS": "40",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "40"
+        },
+        {
+            "hospital_name": "กวีคลินิคเวชกรรม",
+            "SAS": "32",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "32"
+        },
+        {
+            "hospital_name": "รพ.สงฆ์ ",
+            "SAS": "20",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "20"
+        },
+        {
+            "hospital_name": "รพ.มะการักษ์",
+            "SAS": "15",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "15"
+        },
+        {
+            "hospital_name": "รพ.ปากช่องนานา",
+            "SAS": "10",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "10"
+        },
+        {
+            "hospital_name": "รพ.ศีขรภูมิ",
+            "SAS": "10",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "10"
+        },
+        {
+            "hospital_name": "รพ.ชัยภูมิ",
+            "SAS": "6",
+            "AUR": "0",
+            "DEJA": "0",
+            "TOTAL": "6"
+        }
+    ]
+}

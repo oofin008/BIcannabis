@@ -1,0 +1,1074 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Supply Chain | Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--Leftlet map style-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+  <!--CANNABIS CSS-->
+  <link rel="stylesheet" href="./css/index.css">
+  <!--ADMIN LTE-->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body class="hold-transition layout-navbar-fixed sidebar-collapse">
+<div class="wrapper">
+
+	<!-- Navbar -->
+	<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+		<!-- Left navbar links -->
+		<ul class="nav navbar-nav">
+			<li class="navbar-item d-none d-sm-inline-block">
+				<a href="./index.html" class="nav-link"><b>Supply Chain </b><i class="fas fa-caret-right "></i></a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./pages/order.html" class="nav-link">Order</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./pages/production.html" class="nav-link">Production</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./pages/inventory.html" class="nav-link">Inventory</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./pages/shipment.html" class="nav-link">Shipment</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./pages/patient.html" class="nav-link">Patients</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            
+            <h1 class="m-0 text-dark">Dashboard
+              <button onclick="goIndex()" class="btn btn-secondary">
+                BI Cannabis
+              </button>
+            </h1>
+            
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item">
+                  <h3 class="m-0 " id="header_date">ข้อมูลถึงวันที่: 18 กุมภาพันธ์ 2563</h3>
+              </li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <!-- ROW 1 -->
+        <div class="row">
+          <!--card 1 Order-->
+          <div class="col-lg-2 col-12">
+            <div class="row">
+              <ul><li><h4 class="m-0 text-dark">Order (Hospital/Clinic)</h4></li></ul>
+            </div>
+            
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>820</h3>
+
+                <p>Total of orders</p>
+              </div>
+              <div class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </div>
+              <a href="./pages/order.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>    
+          
+            <div class="small-box bg-green">
+              <div class="inner">
+                <h3>142461</h3>
+
+                <p>Total of quantity</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-cannabis"></i>
+              </div>
+              <a href="./pages/order.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./card 1 order -->
+
+          <!--Card 2 Production-->
+          <div class="col-lg-10 col-12">
+            <div class="row">
+              <ul><li><h4 class="m-0 text-dark">Production</h4></li></ul>
+            </div>
+
+            <div class="row">
+              <!--Left col-->
+              <div class="col-lg-6 col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <a href="./pages/production.html" title="Production details"><h5 style="text-align: center; color: black">ปลูก</h5></a>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chart_prod1"></canvas>
+                  </div> 
+                  <!-- <div class="card-footer">
+                    <div id="chart_prod1_legend"></div>
+                  </div>                  -->
+                </div>
+              </div><!--./ col-->
+
+              <!--Right col-->
+              <div class="col-lg-6 col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <a href="pages/production.html#id_1" title="Production details"><h5 style="text-align: center; color: black;">ผลิตแปรรูป(FG)</h5></a>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chart_prod2"></canvas>
+                  </div>
+                </div>
+              </div><!--./ col-->
+            </div><!--./row-->
+          </div>
+          <!-- ./card 2 production -->
+        </div>
+        <!-- /.row 1 -->
+
+        <!-- ROW 2 -->
+        <div class="row">
+          <!--Card 3 Inventory-->
+          <div class="col-lg-12 col-12">
+            <ul><li><h4 class="m-0 text-dark">Inventory On-hand Inventory</h4></li></ul>
+          
+            <div class="row">
+              <!--Left col-->
+              <div class="col-lg-9 col-12">
+                <div class="row">
+                  <div class="col-lg-3 col-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <a href="./pages/inventory.html#import_row1" title="Inventory details"><h5 style="text-align: center; color: black;">ผู้นำเข้า</h5></a>
+                      </div>
+                      <div class="card-body">
+                        <div id="inventory_carousel1" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#inventory_carousel1" data-slide-to="0"></li>
+                            <li data-target="#inventory_carousel1" data-slide-to="1"></li>
+                            <li data-target="#inventory_carousel1" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" style="height: 208px;">
+                            <div class="carousel-item active">
+                              <img src="../dist/img/supply_chain_demo/cannabis_seed.jpg" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: aliceblue;">เมล็ด</div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/supply_chain_demo/cannabis_extract.jpg" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: aliceblue;">cannabis extract</div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/supply_chain_demo/cannabis_cbd.jpg" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: aliceblue;">Cannabis CBD</div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#inventory_carousel1" data-slide="prev" role="button"><span class="fa fa-angle-left"></span></a>
+                          <a class="carousel-control-next" href="#inventory_carousel1" data-slide="next" role="button"><span class="fa fa-angle-right"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <a href="./pages/inventory.html#import_row4" title="Inventory details"><h5 style="text-align: center; color:black;">ผู้ปลูก</h5></a>
+                      </div>
+                      <div class="card-body">
+                        <div id="inventory_carousel2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#inventory_carousel2" data-slide-to="0"></li>
+                            <li data-target="#inventory_carousel2" data-slide-to="1"></li>
+                            <li data-target="#inventory_carousel2" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" style="height: 208px;">
+                            <div class="carousel-item active">
+                              <img src="../dist/img/supply_chain_demo/plant_1.jpg" class="inventory_carousel">
+                              <div class="carousel-caption"></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/supply_chain_demo/plant_2.jpg" class="inventory_carousel">
+                              <div class="carousel-caption"></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/supply_chain_demo/plant_3.jpg" class="inventory_carousel">
+                              <div class="carousel-caption"></div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#inventory_carousel2" data-slide="prev" role="button"><span class="fa fa-angle-left"></span></a>
+                          <a class="carousel-control-next" href="#inventory_carousel2" data-slide="next" role="button"><span class="fa fa-angle-right"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color:black;">ผู้ผลิต</h5></a>
+                      </div>
+                      <div class="card-body">
+                        <div id="inventory_carousel3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#inventory_carousel3" data-slide-to="0"></li>
+                            <li data-target="#inventory_carousel3" data-slide-to="1"></li>
+                            <li data-target="#inventory_carousel3" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" style="height: 208px;">
+                            <div class="carousel-item active">
+                              <img src="../dist/img/cannabis_product/deja.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>น้ำมันกัญชา เดชา</h6><p>จำนวน 48150 ขวด</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/gpo_cbd.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO CBD</h6><p>จำนวน 282 ขวด</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/gpo_thc_cbd.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO CBD:THC(1:1)</h6><p>จำนวน 2599 ขวด</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/gpo_thc.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO THC</h6><p>จำนวน 7796 ขวด</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/tongue.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>น้ำมันกัญชาหยอดใต้ลิ้น</h6><p>จำนวน 24090 ขวด</p></div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#inventory_carousel3" data-slide="prev" role="button"><span class="fa fa-angle-left"></span></a>
+                          <a class="carousel-control-next" href="#inventory_carousel3" data-slide="next" role="button"><span class="fa fa-angle-right"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <a href="./pages/inventory.html" title="Inventory details"><h5 style="text-align: center; color: black;">โรงพยาบาล/คลินิค</h5></a>
+                      </div>
+                      <div class="card-body">
+                        <div id="inventory_carousel4" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#inventory_carousel4" data-slide-to="0"></li>
+                            <li data-target="#inventory_carousel4" data-slide-to="1"></li>
+                            <li data-target="#inventory_carousel4" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" style="height: 208px;">
+                            <div class="carousel-item active">
+                              <img src="../dist/img/cannabis_product/deja.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>น้ำมันกัญชาเดชา</h6><p>ปริมาณ 48150 units</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist//img/cannabis_product/gpo_cbd.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO CBD</h6><p>ปริมาณ 253 units</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/gpo_thc_cbd.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO THC:CBD(1:1)</h6><p>ปริมาณ 1950 units</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/gpo_thc.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>GPO THC</h6><p>ปริมาณ 4345 units</p></div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../dist/img/cannabis_product/tongue.png" class="inventory_carousel">
+                              <div class="carousel-caption" style="color: red; background-color: rgb(255, 255, 255,0.7);"><h6>น้ำมันกัญชาหยอดใต้ลิ้น</h6><p>ปริมาณ 18793 units</p></div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#inventory_carousel4" data-slide="prev" role="button"><span class="fa fa-angle-left"></span></a>
+                          <a class="carousel-control-next" href="#inventory_carousel4" data-slide="next" role="button"><span class="fa fa-angle-right"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--./col-->
+
+              <!--Right col-->
+              <div class="col-lg-3 col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="text-align: center;">% Expire stock within 1 month</h3>
+                  </div>
+                  <div class="card-body text-center" >
+                    <div style="display:inline;">
+                      <input class="knob" value="35"/>
+                    </div>
+                  </div>
+                </div>
+              </div><!--./col-->
+            </div><!--./row-->
+          </div>
+          <!--./card 3 inventory-->
+        </div>
+        <!-- /.row 2 -->
+
+        <!-- ROW 3-->
+        <div class="row">
+          <!--Card 4 Shipment-->
+          <div class="col-lg-3 col-12">
+            <ul><li><h4 class="m-0 text-dark">Shipment</h4></li></ul>
+
+            <div class="card">
+              <div class="card-body">
+                <div id="shipment_container" style="height: 500px;"></div>
+              </div>
+            </div>
+          </div>
+          <!--./card 4 shipment-->
+
+          <!--Card 5 Patients-->
+          <div class="col-lg-9 col-12">
+            <ul><li><h4 class="m-0 text-dark">Patients</h4></li></ul>
+
+            <div class="row">
+              <div class="col-lg-2 col-12">
+                <a href="./pages/patient.html" title="Patients details">
+                  <div class="small-box bg-info">                  
+                    <div class="inner">
+                      <h3>1791 </h3>
+      
+                      <p>Total of patients</p>
+                    </div>
+                    <div class="icon">
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <canvas id="chart_patient1"></canvas>
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <canvas id="chart_patient2"></canvas>
+                    <!-- <div id="D3_bubblepack"></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--./card 5 patients-->
+        </div>
+        <!--./row 3-->
+
+        <!-- ROW 4-->
+        <div class="row">
+          <!--Card 6 Production and Usage -->
+          <div class="col-lg-4 col-12">
+            <ul><li><h4 class="m-0 text-dark">Production and Usage rate</h4></li></ul>
+            
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>New Orders</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!--./card 6 Production and Usage-->
+
+          <!--Card 7 Trend-->
+          <div class="col-lg-8 col-12">
+            <ul><li><h4 class="m-0 text-dark">Trend</h4></li></ul>
+
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>New Orders</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!--./card 7 trend-->
+        </div>
+        <!--./row 4-->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="../plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="../plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+<script>
+  $(function($) {
+      $(".knob").knob({
+          min: 0,
+          max: 100,
+          readOnly: true,
+          fgColor: '#48929B',
+          angleOffset: -90,
+          angleArc: 180,
+          rotation: 'clockwise',
+          skin: 'tron',
+          change : function (value) {
+              //console.log("change : " + value);
+          },
+          release : function (value) {
+              //console.log(this.$.attr('value'));
+              console.log("release : " + value);
+          },
+          cancel : function () {
+              console.log("cancel : ", this);
+          },
+          format : function (value) {
+           return value + '%';
+           },
+          draw : function () {
+
+              // "tron" case
+              if(this.$.data('skin') == 'tron') {
+                  this.cursorExt = 0.3;
+
+                  var a = this.arc(this.cv)  // Arc
+                          , pa                   // Previous arc
+                          , r = 1;
+
+                  this.g.lineWidth = this.lineWidth;
+
+                  if (this.o.displayPrevious) {
+                      pa = this.arc(this.v);
+                      this.g.beginPath();
+                      this.g.strokeStyle = this.pColor;
+                      this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                      this.g.stroke();
+                  }
+
+                  this.g.beginPath();
+                  this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                  this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                  this.g.stroke();
+
+                  this.g.lineWidth = 2;
+                  this.g.beginPath();
+                  this.g.strokeStyle = this.o.fgColor;
+                  this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                  this.g.stroke();
+
+                  return false;
+              }
+          }
+      });
+  });
+</script>
+<!-- daterangepicker -->
+<script src="../plugins/moment/moment.min.js"></script>
+<script src="../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="../plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.js"></script>
+
+<script>
+
+  let myDate = new Date();
+  month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+  //document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+  
+  function goIndex(){
+    window.location.href = "../index.html";
+  }
+  //-----------------//
+  //-----PRODUCTION-------//
+
+  //production chart options
+  var prod_options = {
+    legend:{
+      display: false,
+      labels: { fontColor: 'black'},
+    },
+    legendCallback: function(chart){
+      var text = [];
+      text.push('<ul class="'+chart.id+'-legend">');
+      for(var i=0; i<chart.data.datasets.length; i++){
+        text.push('<li title="'+ chart.data.datasets[i].label+ '"><span style="background-color:' + chart.data.datasets[i].backgroundColor +'"></span>');
+        if(chart.data.datasets[i].label){
+          if(chart.data.datasets[i].label.length > 15){
+            text.push((chart.data.datasets[i].label).slice(0,15) + '...');
+          }
+          else{
+            text.push(chart.data.datasets[i].label);
+          }
+        }
+        text.push('</li>');
+      }
+      text.push('</ul>');
+      return text.join('');
+    },
+    onClick: function(evt){
+      var activePoints = this.getElementsAtEvent(evt);
+      var select_id = activePoints[0]['_chart'].id;
+      if(select_id == 0){
+        window.location.href = "./pages/production.html#id_0";
+      }
+      else{
+        window.location.href = "./pages/production.html#id_1";
+      }
+    },
+    tooltips: {
+      mode: 'index',
+      intersect: false,
+    },
+    responsive: true,
+    scales:{
+      xAxes: [{
+        stacked: true,
+        ticks:{
+          fontColor: 'black'
+        }
+      }],
+      yAxes: [{
+        stacked: true,
+        ticks: {
+          fontColor: 'black'
+        }
+      }]
+    }
+  }
+
+  //chart_prod1
+  var prod1_canvas = $('#chart_prod1').get(0).getContext('2d');
+  
+  var prod1_data = {
+    labels  : ['ปลูก', 'ตาย'],
+      datasets: [
+        {
+          label: 'คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร',
+          backgroundColor: '#1a53ff',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [500, 0]
+        },
+        {
+          label: 'คณะนวัตกรรมการเกษตร วิทยาลัยนวัตกรรมการเกษตร เทคโนโลยีชีวภาพและอาหาร มหาวิทยาลัยรังสิต',
+          backgroundColor: '#D9B611',
+          borderColor: '#D9B611',
+          barPercentage: 0.5,
+          data                : [69, 4]
+        },
+        {
+          label: 'มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร',
+          backgroundColor: '#F58F84',
+          borderColor: '#F58F84',
+          barPercentage: 0.5,
+          data                : [1030,930]
+        },
+        {
+          label: 'โรงพยาบาล เจ้าพระยาอภัยภูเบศร',
+          backgroundColor: '#7A942E',
+          borderColor: '#7A942E',
+          barPercentage: 0.5,
+          data                : [303,40]
+        },
+        {
+          label: 'วิสาหกิจชุมชนกลุ่มเกษตรอินทรีย์เพชรลานนา',
+          backgroundColor: '#89C4F4',
+          borderColor: '#89C4F4',
+          barPercentage: 0.5,
+          data                : [12147, 1370]
+        },
+      ]
+  }
+  //end prod1_data
+  var prod1_chart = new Chart(prod1_canvas,{
+    type: 'bar',
+    data: prod1_data,
+    options: prod_options
+  })
+  // $("#chart_prod1_legend").html(prod1_chart.generateLegend());
+
+  ///////// ผลิตแปรรูป /////////
+  //chart_prod2
+  var prod2_canvas = $('#chart_prod2').get(0).getContext('2d');
+  
+  var prod2_data = {
+    labels  : ['แผนไทย', 'ผลิตภัณฑ์กัญชาน้ำมันเดชา','แผนปัจจุบัน'],
+      datasets: [
+        {
+          label: "องค์การเภสัชกรรม",
+          backgroundColor: '#8db255',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,0,10677]
+        },
+        {
+          label: 'รพ.เจ้าพระยาอภัยภูเบศร',
+          backgroundColor: '#66ccff',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,0,24090]
+        },
+        {
+          label: 'รพ.พระอาจารย์ฝั้น อาจาโร',
+          backgroundColor: '#f47983',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [95250,0,0]
+        },
+        {
+          label: 'กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก',
+          backgroundColor: '#f4a922',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [0,48150,0]
+        },
+      ]
+  }
+  //end prod2_data
+  var prod2_chart = new Chart(prod2_canvas,{
+    type: 'bar',
+    data: prod2_data,
+    options: prod_options
+  })
+
+  //-----PRODUCTION END-------//
+  //---------------------//
+  //-----ROW 2 ----------//
+
+
+  //-----ROW 2 END-------//
+  //---------------------//
+  //-----SHIPMENT ----------//
+  $(function(){
+    
+    var distributor_1 = [13.846728, 100.5294];//กองพัฒนายาแผนไทย
+    var distributor_2 = [14.0543455, 101.3936]; //รพ.เจ้าพระยาอภัยภูเบศร
+    var distributor_3 = [17.3528538, 103.8539]; //รพ.พระอาจารย์ฝั้น อาจาโร
+    var distributor_4 = [13.8464147, 100.5253]; //สำนักงานคณะกรรมการอาหารและยา
+    var distributor_5 = [13.7668463, 100.5262]; //องค์การเภสัชกรรม
+    $.getJSON('./json/supplychain_index_shipment.json', function(data){
+      console.log(data.Sheet1[0]);
+      $.getJSON('./json/supplychain_index_province.json', function(data2){
+        console.log(data2.Sheet1[0]);
+
+        //Add map
+        var latlngs_polyline=[
+          [13.753,100.500],
+          [16.712,105.500],
+        ];
+        var latlngs_polyline2=[
+          [13.753,100.500],
+          [19.712,98.500],
+        ];
+        var LeafIcon = L.Icon.extend({
+          options: {
+            iconUrl: '../dist/img/cannabis_logo.png',
+            iconSize: [65,65],
+            iconAnchor: [30,45],
+            popupAnchor: [-3, -76]
+          }
+        });
+        var CannabisIcon = new LeafIcon();
+        
+        var shipment_map = L.map('shipment_container', {
+          minZoom: 5.5,
+          // maxZoom: 10,
+        }).setView([13.753,100.500], 5);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          opacity:0.5
+        }).addTo(shipment_map);
+        
+        L.marker(distributor_1).bindPopup("กองพัฒนายาแผนไทย").addTo(shipment_map);
+        L.marker(distributor_2).bindPopup("รพ.เจ้าพระยาอภัยภูเบศร").addTo(shipment_map);
+        L.marker(distributor_3).bindPopup("รพ.พระอาจารย์ฝั้น อาจาโร").addTo(shipment_map);
+        L.marker(distributor_4).bindPopup("สำนักงานคณะกรรมการอาหารและยา").addTo(shipment_map);
+        L.marker(distributor_5).bindPopup("องค์การเภสัชกรรม").addTo(shipment_map);
+
+        var check_marker = [];// check if marker already added to map
+        //loop to add polyline
+        $.each(data.Sheet1, function(index1, value1){
+          var found = data2.Sheet1.some(el => {
+            if(el["CHANGWAT_T"] === value1["province"]){
+
+              //Add marker of destination 
+              if(!check_marker.some(el_check => el_check === value1["rec_hospital"])){
+                L.marker([parseFloat(el["LAT"]), parseFloat(el["LONG"])]).bindPopup(value1["rec_hospital"]).addTo(shipment_map);
+                check_marker.push(value1["rec_hospital"]);
+              }
+              //Add polyline
+              if(value1["manu_code"] == "1"){
+                L.polyline([distributor_1, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4D8FAC'}).addTo(shipment_map);
+              }
+              if(value1["manu_code"] == "2"){
+                L.polyline([distributor_2, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#044F67'}).addTo(shipment_map);
+                
+              }
+              if(value1["manu_code"] == "3"){
+                L.polyline([distributor_3, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#D9B611'}).addTo(shipment_map);
+                
+              }
+              if(value1["manu_code"] == "4"){
+                L.polyline([distributor_4, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#4DAF7C'}).addTo(shipment_map);
+                console.log(value1["province"])
+                console.log(el["CHANGWAT_E"])
+              }
+              if(value1["manu_code"] == "5"){
+                L.polyline([distributor_5, [parseFloat(el["LAT"]), parseFloat(el["LONG"])]], {color: '#F62459'}).addTo(shipment_map);
+                
+              }
+            }
+          })
+        })
+        console.log(check_marker);
+        shipment_map.on('click', function(evt){
+          window.location.href = "./pages/shipment.html";
+        });
+        
+      })
+    })
+  });
+
+  //-----SHIPMENT END-------//
+  //---------------------//
+  //-----PATIENTS ----------//
+
+  //patients chart options
+  var patients_options = {
+    title: {
+      display: true,
+      text: 'Patient counts by month'
+    },
+    tooltips: {
+      mode: 'index',
+      intersect: true,
+    },
+    responsive: true,
+    onClick: function(evt){
+      var activePoints = this.getElementsAtEvent(evt);
+      console.log("Actives points =====>>>>",activePoints);
+      window.location.href = "./pages/patient.html";
+      // var select_id = activePoints[0]['_chart'].id;
+      // if(select_id == 0){
+      //   window.location.href = "./pages/production.html#id_0";
+      // }
+      // else{
+      //   window.location.href = "./pages/production.html#id_1";
+      // }
+    },
+  }
+
+  //chart_patient1
+  var patient1_canvas = $('#chart_patient1').get(0).getContext('2d');
+  var patient1_data = {
+    labels  : ['มิ.ย. 2562', 'ก.ค. 2562', 'ส.ค. 2562', 'ก.ย. 2562', 'ต.ค. 2562', 'พ.ย. 2562', 'ธ.ค. 2622', 'ม.ค. 2563', 'ก.พ. 2563'],
+      datasets: [
+        {
+          type: 'line',
+          label: "",
+          borderColor: '#8db255',
+          borderWidth: 2,
+          fill: false,
+          data                : [3,4,15,149,440,737,704,593,100]
+        },
+        {
+          label: '',
+          backgroundColor: '#66ccff',
+          borderColor: '#1a53ff',
+          barPercentage: 0.5,
+          data                : [3,4,15,149,440,737,704,593,100]
+        },
+      ]
+  }//end patient1_data
+  var patient1_chart = new Chart(patient1_canvas,{
+    type: 'bar',
+    data: patient1_data,
+    options: patients_options
+  })
+
+  //patient2 data
+  var patient2_data = {
+    datasets: [
+      {
+        label: 'นอนไม่หลับ',
+        data: [{x: 210, y: 200, r: 31.92}],
+        backgroundColor: '#66ccff',
+      },
+      {
+        label: 'BREAST, UNSPECIFIED',
+        data: [{x: 200, y: 110, r: 10.73}],
+        backgroundColor: '#4B77BE',
+      },
+      {
+        label: 'เบื่ออาหาร',
+        data: [{x: 150, y: 250, r: 10.17}],
+        backgroundColor: '#48929B',
+      },
+      {
+        label: 'BROUNCHUS OR LUNG, UNSPECIFIED',
+        data: [{x: 130, y: 180, r: 7.06}],
+        backgroundColor: '#C93756',
+      },
+      {
+        label: 'PARKINSON DISEASE',
+        data: [{x: 300, y: 200, r: 5.93}],
+        backgroundColor: '#8DB255',
+      },
+    ]
+  }
+
+  var patient2_chart = new Chart('chart_patient2', {
+    type: 'bubble',
+    data: patient2_data,
+    options: {
+      title:{
+        display: true,
+        text: 'Patient count by condition',
+      },
+      aspectRatio: 1,
+      onClick: function(evt){
+        var activePoints = this.getElementsAtEvent(evt);
+        console.log("Actives points =====>>>>",activePoints);
+        window.location.href = "./pages/patient.html";
+      },
+      scales: {
+        xAxes: [{
+          display: true,
+          ticks:{
+            suggestedMin:0,
+            suggestedMax:400,
+          }
+        }],
+        yAxes:[{
+          display: true,
+          ticks:{
+            suggestedMin:0,
+            suggestedMax: 350,
+          }
+        }]
+      },
+    }
+  })
+  //-----PATIENTS END-------//
+  //------------------------//
+  //-----D3_bubblepack------//
+  
+  // set the dimensions and margins of the graph
+  // var D3_bubblepack_width = 300
+  // var D3_bubblepack_height = 450
+  // // append the svg object to the body of the page
+  // var D3_bubblepack_svg = d3.select("#D3_bubblepack")
+  //   .append("svg")
+  //   .attr("width", "100%")
+  //   .attr("height", 450)
+  //   .style("background-color", "black")
+  //   .append("text")
+  //     .attr("x", 0)   
+  //     .attr("y", 0 )
+  //     .attr("dy", "3.5em" )
+  //     .attr("text-anchor", "start")  
+  //     .style("font-size", "15px")  
+  //     .style("font-weight", "bold")
+  //     .style("fill", "white")
+  //     .text("Patient count by condition")
+  
+  // //D3_data
+  // var D3_bubblepack_data = [
+  //   { "name": "นอนไม่หลับ", value: 31.92, backgroundColor: '#66ccff'}, 
+  //   { "name": "BREAST, UNSPECIFIED", value: 10.73, backgroundColor: '#4B77BE',}, 
+  //   { "name": "เบื่ออาหาร", value: 10.16, backgroundColor: '#48929B'}, 
+  //   { "name": "BROUNCHUS OR LUNG, UNSPECIFIED", value: 7, backgroundColor: '#C93756'}, 
+  //   { "name": "PARKINSON DISEASE", value: 6, backgroundColor: '#8DB255'}, 
+  // ]
+
+  // // -1- Create a tooltip div that is hidden by default:
+  // var D3_bubblepack_tooltip = d3.select("#D3_bubblepack")
+  //   .append("div")
+  //     .style("opacity", 0)
+  //     .attr("class", "tooltip")
+  //     .style("background-color", "black")
+  //     .style("border-radius", "5px")
+  //     .style("padding", "10px")
+  //     .style("color", "white")
+
+  // // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
+  // var D3_bubblepack_showTooltip = function(d) {
+  //   D3_bubblepack_tooltip
+  //     .transition()
+  //     .duration(200)
+  //     D3_bubblepack_tooltip
+  //     .style("opacity", 1)
+  //     .html("โรค: " + d.name + "<br>เปอร์เซ็น: " + d.value +"%")
+  //     .style("left", (d3.mouse(this)[0]+30) + "px")
+  //     .style("top", (d3.mouse(this)[1]+30) + "px")
+  // }
+  // var D3_bubblepack_moveTooltip = function(d) {
+  //   D3_bubblepack_tooltip
+  //     .style("left", (d3.mouse(this)[0]+30) + "px")
+  //     .style("top", (d3.mouse(this)[1]+30) + "px")
+  // }
+  // var D3_bubblepack_hideTooltip = function(d) {
+  //   D3_bubblepack_tooltip
+  //     .transition()
+  //     .duration(200)
+  //     .style("opacity", 0)
+  // }
+
+  // // Initialize the circle: all located at the center of the svg area
+  // var D3_bubblepack_node = d3.select('#D3_bubblepack svg')
+  // //D3_bubblepack_svg.append("g")
+  //   .selectAll("circle")
+  //   .data(D3_bubblepack_data)
+  //   .enter()
+  //   .append("circle")
+  //     .attr("r", (d)=> {return d.value})
+  //     .attr("cx", D3_bubblepack_width / 2)
+  //     .attr("cy", D3_bubblepack_height / 2)
+  //     .style("fill", (d)=>{return d.backgroundColor})
+  //     .style("fill-opacity", 0.8)
+  //     .attr("stroke", (d)=>{return d.backgroundColor})
+  //     .style("stroke-width", 2)
+  //   .on("mouseover", D3_bubblepack_showTooltip)
+  //   .on("mousemove", D3_bubblepack_moveTooltip)
+  //   .on("mouseleave", D3_bubblepack_hideTooltip)
+
+  // D3_bubblepack_node.append("text")
+  //   .text(function(d) {
+  //     if (d.value > 10){
+  //       return d.name;
+  //     }
+  //     return "";})
+
+  // //legend
+  // var legend = d3.select('#D3_bubblepack svg')
+  //   .selectAll(".legend")
+  //   .data(D3_bubblepack_data).enter()
+  //   .append("g")
+  //   .attr("class","legend")
+  //   .attr("transform", "translate(" + 780 + "," + 120+ ")");
+      
+  
+  //   legend.append("rect")
+  //     .attr("x", 0) 
+  //     .attr("y", function(d, i) { return 20 * i; })
+  //     .attr("width", 15)
+  //     .attr("height", 15)
+  //     .style("fill", function(d) { return d.backgroundColor});
+    
+
+  //     legend.append("text")
+  //     .attr("x", 25) 
+  //       .attr("text-anchor", "start")
+  //     .attr("dy", "1em") 
+  //     .attr("y", function(d, i) { return 20 * i; })
+  //     .text(function(d) {return d.name;})
+  //     .attr("font-size", "12px"); 
+    
+        
+  //     legend.append("text")
+  //     .attr("x",31) 
+  //     .attr("dy", "-.2em")
+  //     .attr("y",-10)
+  //     .text("ประเภทโรค")
+  //     .attr("font-size", "17px");
+
+  // // Features of the forces applied to the nodes:
+  // var D3_bubblepack_simulation = d3.forceSimulation()
+  //     .force("center", d3.forceCenter().x(D3_bubblepack_width / 2).y(D3_bubblepack_height / 2)) // Attraction to the center of the svg area
+  //     .force("charge", d3.forceManyBody().strength(0)) // Nodes are attracted one each other of value is > 0
+  //     .force("collide", d3.forceCollide().radius((d)=>{return d.value})) // Force that avoids circle overlapping
+
+  // // Apply these forces to the nodes and update their positions.
+  // // Once the force algorithm is happy with positions ('alpha' value is low enough), simulations will stop.
+  // D3_bubblepack_simulation
+  //     .nodes(D3_bubblepack_data)
+  //     .on("tick", function(d){
+  //       D3_bubblepack_node
+  //           .attr("cx", function(d){ return d.x; })
+  //           .attr("cy", function(d){ return d.y; })
+  //     });
+</script>
+</body>
+</html>

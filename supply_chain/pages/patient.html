@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Supply Chain | Patient</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="../../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="../../plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="../../plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!--ADMIN LTE-->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!--PAGINATION-->
+  <link rel="stylesheet" href="../../plugins/paginationjs/pagination.css" type="text/css" />
+  <!--BOOTSTRAP-->
+
+
+</head>
+<body class="hold-transition layout-navbar-fixed sidebar-collapse">
+<div class="wrapper">
+
+	<!-- Navbar -->
+	<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+		<!-- Left navbar links -->
+		<ul class="nav navbar-nav">
+			<li class="navbar-item d-none d-sm-inline-block">
+				<a href="../index.html" class="nav-link"><b>Supply Chain </b><i class="fas fa-caret-right "></i></a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./order.html" class="nav-link">Order</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./production.html" class="nav-link">Production</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./inventory.html" class="nav-link">Inventory</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./shipment.html" class="nav-link">Shipment</a>
+			</li>
+			<li class="nav-item d-none d-sm-inline-block">
+				<a href="./patient.html" class="nav-link bg-secondary">Patients</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Patient</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container">
+
+        <!-- CONTENT GO HERE-->
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="card">
+              <div class="card-header border-0">
+                <h3 class="card-title">Number of cases by hospital</h3>
+                <div class="card-tools">
+                  <div class="btn-group ">
+                    <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-bars"></i></button>
+                    <div id="hospitalSelect" class="dropdown-menu float-right pre-scrollable" role="menu" >
+                      <div class="dropdown-item">
+                        <input type="checkbox" value="all" checked> ทั้งหมด </input>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body table-responsive p-0">
+                <canvas id="chartjs_bar"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <div class="card">
+              <div class="card-header border-0">
+                <h3 class="card-title">Number of cases by condition</h3>
+              </div>
+              <div class="card-body table-responsive p-0">
+                <table class="table table-striped table-valign-middle">
+                  <thead>
+                    <th>Symptom or condition</th>
+                    <th>Cases</th>
+                    <th>Percent of total</th>
+                  </thead>
+                  <tbody id="table_body"></tbody>
+                </table>
+              </div>
+              <div id="pagination-container" class="card-footer float-right"></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!--./container-fluid-->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer" id="footer_id">
+    
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.1
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="../../plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../../plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="../../plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="../../plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+<!-- daterangepicker -->
+<script src="../../plugins/moment/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="../../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.js"></script>
+<script src="../../plugins/paginationjs/pagination.min.js"></script>
+<script src="../../plugins/paginationjs/pagination.js"></script>
+<script>
+  $(function(){
+    var hospital_data;
+    var chart_label = [];
+    var AUR_data = {
+      label: "AUR",
+      backgroundColor: '#5bc0de',
+      borderColor: '#5bc0de',
+      borderWidth: 1,
+      data: [],
+    };
+    var SAS_data = {
+      label: "SAS",
+      backgroundColor: '#f0ad4e',
+      borderColor: '#f0ad4e',
+      borderWidth: 1,
+      data: [],
+    }
+    var DEJA_data = {
+      label: "DEJA",
+      backgroundColor: '#bdc3c7',
+      borderColor: '#bdc3c7',
+      borderWidth: 1,
+      data: [],
+    }
+    var chartjs_canvas = $("#chartjs_bar").get(0).getContext('2d');
+    var chartjs_chart;
+    
+    //Test select hospital
+    $(document).on('change', '#hospitalSelect input[type="checkbox"]', function(){
+      const sel_val =  $(this).attr("value");
+      const index = hospital_data.findIndex(data => data.hospital_name === sel_val);
+
+      //Select box
+      if($(this).is(':checked')){
+        if(sel_val == "all"){
+          $('#hospitalSelect input[type="checkbox"').each(function(){
+            $(this).prop("checked", true);
+          });
+          chart_label.splice(0,chart_label.length);
+          AUR_data.data.splice(0, AUR_data.data.length);
+          SAS_data.data.splice(0,SAS_data.data.length);
+          DEJA_data.data.splice(0,DEJA_data.data.length);
+          $.each(hospital_data, function(index, value){
+            if(parseInt(value["AUR"])>0 || parseInt(value["SAS"])>0 || parseInt(value["DEJA"])>0 ){
+              chart_label.push(value["hospital_name"]);
+              AUR_data.data.push(parseInt(value["AUR"]));
+              SAS_data.data.push(parseInt(value["SAS"]));
+              DEJA_data.data.push(parseInt(value["DEJA"]));
+            }
+          });
+        }
+        else{
+          chart_label.splice(index, 0, hospital_data[index].hospital_name);
+          AUR_data.data.splice(index, 0, parseInt(hospital_data[index]["AUR"]));
+          SAS_data.data.splice(index, 0, parseInt(hospital_data[index]["SAS"]));
+          DEJA_data.data.splice(index,0, parseInt(hospital_data[index]["DEJA"]));
+        }
+        chartjs_chart.update();
+      }
+      //Unselect box
+      else{
+        if(sel_val == "all"){
+          $('#hospitalSelect input[type="checkbox"').each(function(){
+            $(this).prop("checked", false);
+          });
+          chart_label.splice(0,chart_label.length);
+          AUR_data.data.splice(0, AUR_data.data.length);
+          SAS_data.data.splice(0,SAS_data.data.length);
+          DEJA_data.data.splice(0,DEJA_data.data.length);
+          console.log("DEJA data: ", DEJA_data);
+        }
+        else{
+          chart_label.splice(index, 1);
+          AUR_data.data.splice(index, 1);
+          SAS_data.data.splice(index,1);
+          DEJA_data.data.splice(index,1);
+        }
+        chartjs_chart.update();
+      }
+    })
+
+    //GET 1st JSON data hospital_name, AUR, SAS
+    $.getJSON('./json/supply_chain_patient_data_1.json', function(data){
+      console.log("hospital data ===>>>>",data.Sheet1[0]);
+      hospital_data = data.Sheet1;
+      $.each(hospital_data, function(index, value){
+        if(parseInt(value["AUR"])>0 || parseInt(value["SAS"])>0 || parseInt(value["DEJA"])>0 ){
+          chart_label.push(value["hospital_name"]);
+          AUR_data.data.push(parseInt(value["AUR"]));
+          SAS_data.data.push(parseInt(value["SAS"]));
+          DEJA_data.data.push(parseInt(value["DEJA"]));
+          $('#hospitalSelect').append(
+            `<div class="dropdown-item">
+              <input type="checkbox" value="${value.hospital_name}" checked> ${value.hospital_name} </input>
+            </div>`
+          )
+        }
+      })
+      console.log("Chart label====>>>>>",chart_label);
+      
+      chartjs_chart = new Chart(chartjs_canvas, {
+        type: 'bar',
+        data: {
+          labels: chart_label,
+          datasets: [AUR_data, SAS_data, DEJA_data],
+        },
+        options: {
+          responsive: true,
+          legend: {
+            position: 'top',
+          },
+          tooltips:{
+            mode: 'index',
+            intersect: false
+          },
+          hover: {
+            mode: 'nearest',
+            intersect: true,
+          },
+          scales:{
+            xAxes: [{
+              display: true,
+              stacked:true,
+              scaleLabel: {
+                display: true,
+                labelString: 'สถานที่แปรรูป'
+              },
+              ticks: {
+                callback: function(value, index, values){
+                  if(value.length > 15){
+                    var temp_val = value.split("",15);
+                    value = temp_val.join("") + "...";
+                    return value;
+                  }
+                  else{
+                    return value;
+                  }
+                }
+              }
+            }],
+            yAxes: [{
+              display: true,
+              stacked: true,
+              scaleLabel: {
+                display: true,
+                labelString: 'ปริมาณ'
+              }
+            }]
+          }
+        }
+      })
+      console.log("Chart_js ======>>>>>", chartjs_chart);
+    });
+
+    //=================ROW2==========================
+    //GET 2nd JSON data
+    var patient_data;
+    var total_patient = 0;
+    $.getJSON('./json/supply_chain_patient_data_2.json', function(data){
+      
+      patient_data = data.Sheet1;
+      $.each(data.Sheet1, function(index, value){
+        total_patient += (value["Number"]? parseFloat(value["Number"]): 0);
+      })
+      console.log('total patient:' + total_patient);
+      $("#pagination-container").pagination({
+        dataSource: data.Sheet1,
+        pageSize: 10,
+        ulClassName: "pagination float-right",
+        callback: function(data, pagination){
+          var html = simpleTemplating(data, "all");
+          $("#table_body").html(html);
+        }
+      })
+    });
+
+    function simpleTemplating(data, sort_sel){
+      var html ="";
+      $.each(data, function(index, item){
+        html += "<tr>";
+        html += "<td>" + item["ICD_name"] + "</td>";
+        html += "<td>" + item["Number"] + "</td>";
+        html += "<td>" + (item["Percentile"]? parseFloat(item["Percentile"]): 0) + "</td>";
+        html += "</tr>";
+      })
+      return html;
+    }
+  })
+</script>
+</body>
+</html>

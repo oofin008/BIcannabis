@@ -25,7 +25,7 @@
 <div class="wrapper">
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper sidebar-dark-primary">
+    <div class="content-wrapper ">
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="container-fluid">
@@ -33,7 +33,7 @@
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-left">
                             <li class="breadcrumb-item">
-                                <h3 class="m-0 text-white">รายละเอียดผลิตภัณฑ์จากกัญชา</h3>
+                                <h3 class="m-0 text-dark">รายละเอียดผลิตภัณฑ์จากกัญชา</h3>
                             </li>
                             <li class="breadcrumb-item">
                                 <button onclick="window.history.back();" class="btn btn-info">
@@ -46,12 +46,12 @@
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                           <li class="breadcrumb-item">
-                            <h3 class="m-0 text-white" id="header_date">ข้อมูลถึงวันที่: </h3>
+                            <h3 class="m-0 text-dark" id="header_date">ข้อมูลถึงวันที่: 18 กุมภาพันธ์ 2563</h3>
                           </li>
                         </ol>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
-                <div class="row mb-2 text-white">
+                <div class="row mb-2 text-dark">
                   <div class="col-sm-12">
                     <h5 style="text-align: center;">จำนวนตำรับทั้งหมด 12 ตำรับ</h5>
                   </div>
@@ -69,11 +69,11 @@
           <!-- Left col -->
           <div class="col-md-6">
             <!-- MAP & BOX PANE -->
-            <div class="card bg-gradient-dark">
+            <div class="card ">
               <div class="card-header">
                 <h3 class="card-title">สัดส่วนการแปรรูป</h3>
 
-                <div class="card-tools">
+                <!-- <div class="card-tools">
                   <div class="btn-group">
                     <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                       <i class="fas fa-calendar-alt"></i>
@@ -87,7 +87,7 @@
                       <a href="#" class="dropdown-item">Oct/2019</a>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
@@ -712,7 +712,7 @@
   $(function(){
     let myDate = new Date();
     month_arr = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
-    document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+    //document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
 
   });
 
@@ -793,7 +793,7 @@
     datasets: [
       {
         data: [19.51, 53.46, 27],
-        backgroundColor : ['#f39c12', '#00c0ef', '#ffffff', '#cc66ff','#00ffcc','#99ff33'],
+        backgroundColor : ['#f39c12', '#00c0ef', '#BDC3C7', '#cc66ff','#00ffcc','#99ff33'],
       }
     ]
   }
@@ -802,7 +802,7 @@
       display: true,
       position: 'right',
       labels: {
-        fontColor: "#faf7f7",
+        fontColor: "black",
       }
     },
     tooltips: {

@@ -1,0 +1,214 @@
+﻿{
+    "Sheet1": [
+        {
+            "ICD_name": "นอนไม่หลับ",
+            "Number": "113",
+            "Percentile": "31.92090395"
+        },
+        {
+            "ICD_name": "BREAST, UNSPECIFIED",
+            "Number": "38",
+            "Percentile": "10.73446328"
+        },
+        {
+            "ICD_name": "เบื่ออาหาร",
+            "Number": "36",
+            "Percentile": "10.16949153"
+        },
+        {
+            "ICD_name": "BRONCHUS OR LUNG, UNSPECIFIED",
+            "Number": "25",
+            "Percentile": "7.062146893"
+        },
+        {
+            "ICD_name": "PARKINSON'S DISEASE",
+            "Number": "21",
+            "Percentile": "5.93220339"
+        },
+        {
+            "ICD_name": "COLON, UNSPECIFIED",
+            "Number": "19",
+            "Percentile": "5.367231638"
+        },
+        {
+            "ICD_name": "EPILEPSY, UNSPECIFIED",
+            "Number": "13",
+            "Percentile": "3.672316384"
+        },
+        {
+            "ICD_name": "ALZHEIMER'S DISEASE, UNSPECIFIED",
+            "Number": "10",
+            "Percentile": "2.824858757"
+        },
+        {
+            "ICD_name": "LIVER, UNSPECIFIED",
+            "Number": "9",
+            "Percentile": "2.542372881"
+        },
+        {
+            "ICD_name": "CERVIX UTERI, UNSPECIFIED",
+            "Number": "6",
+            "Percentile": "1.694915254"
+        },
+        {
+            "ICD_name": "BRAIN, UNSPECIFIED",
+            "Number": "4",
+            "Percentile": "1.129943503"
+        },
+        {
+            "ICD_name": "CORPUS UTERI, UNSPECIFIED",
+            "Number": "4",
+            "Percentile": "1.129943503"
+        },
+        {
+            "ICD_name": "DISORDERS OF INITIATING AND MAINTAINING SLEEP [INSOMNIAS]",
+            "Number": "4",
+            "Percentile": "1.129943503"
+        },
+        {
+            "ICD_name": "LARYNX, UNSPECIFIED",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "LYMPH NODE, UNSPECIFIED",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "MALIGNANT NEOPLASM OF OVARY",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "MALIGNANT NEOPLASM OF PROSTATE",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "MALIGNANT NEOPLASM OF THYROID GLAND",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "NASOPHARYNX, UNSPECIFIED",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "NONORGANIC INSOMNIA",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "ลมปลายปัตฆาตแขน",
+            "Number": "3",
+            "Percentile": "0.847457627"
+        },
+        {
+            "ICD_name": "ACUTE LEUKAEMIA OF UNSPECIFIED CELL TYPE",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "ACUTE STRESS REACTION",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "BONE AND ARTICULAR CARTILAGE, UNSPECIFIED",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "DORSALGIA, UNSPECIFIED",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "FLOOR OF MOUTH, UNSPECIFIED",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "STOMACH, UNSPECIFIED",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "ชา",
+            "Number": "2",
+            "Percentile": "0.564971751"
+        },
+        {
+            "ICD_name": "BLADDER, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "CHRONIC RENAL FAILURE, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "DISORDER OF TRIGEMINAL NERVE, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "HODGKIN'S DISEASE, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "INTRAHEPATIC BILE DUCT CARCINOMA",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "MALIGNANT NEOPLASM OF RECTUM",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "OESOPHAGUS, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "OTHER SPECIFIED CRYSTAL ARTHROPATHIES",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "PANIC DISORDER [EPISODIC PARAOXYSMAL ANXIETY]",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "SPINAL CORD",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "STROKE, NOT SPECIFIED AS HAEMORRHAGE OR INFARCTION",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "SYSTEMIC LUPIS ERYTHEMATOSUS, UNSPECIFIED",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "กษัยลิ้นกระบือ",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        },
+        {
+            "ICD_name": "ทันตะบุปผา",
+            "Number": "1",
+            "Percentile": "0.282485876"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+﻿{
+    "Sheet1": [
+        {
+            "nameplace": "คณะทรัพยากรธรรมชาติ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสกลนคร",
+            "plant_area": "500",
+            "leaf_part": "177410",
+            "flower_part": "181750",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "359160"
+        },
+        {
+            "nameplace": "คณะนวัตกรรมการเกษตร วิทยาลัยนวัตกรรมการเกษตร เทคโนโลยีชีวภาพและอาหาร มหาวิทยาลัยรังสิต",
+            "plant_area": "32",
+            "leaf_part": "198415",
+            "flower_part": "31500",
+            "seed_part": "646",
+            "tree_part": "30970",
+            "root_part": "0",
+            "total_part": "261531"
+        },
+        {
+            "nameplace": "มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร",
+            "plant_area": "600",
+            "leaf_part": "67510",
+            "flower_part": "91350",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "16580",
+            "total_part": "175440"
+        },
+        {
+            "nameplace": "โรงพยาบาล เจ้าพระยาอภัยภูเบศร",
+            "plant_area": "811.24",
+            "leaf_part": "0",
+            "flower_part": "8",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "8"
+        },
+        {
+            "nameplace": "วิสาหกิจชุมชนกลุ่มเกษตรอินทรีย์เพชรลานนา",
+            "plant_area": "11724",
+            "leaf_part": "0",
+            "flower_part": "0",
+            "seed_part": "12147",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "12147"
+        },
+        {
+            "nameplace": "วิสาหกิจชุมชนกลุ่มปลูกและแปรรูปบุกเกษตรอินทรีย์บ้านทุ่งแพม",
+            "plant_area": "70.4",
+            "leaf_part": "0",
+            "flower_part": "0",
+            "seed_part": "0",
+            "tree_part": "240",
+            "root_part": "0",
+            "total_part": "240"
+        },
+        {
+            "nameplace": "วิสาหกิจชุมชนศูนย์กลางการพัฒนาสมุนไพร เพ ลา เพลิน เพื่อชุมชน",
+            "plant_area": "85",
+            "leaf_part": "0",
+            "flower_part": "72180",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "72180"
+        },
+        {
+            "nameplace": "องค์การเภสัชกรรม",
+            "plant_area": "344.81",
+            "leaf_part": "0",
+            "flower_part": "57670",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "57670"
+        },
+        {
+            "nameplace": "อาคารเรียนรู้การเกษตรและอุตสาหกรรม คณะเทคโนโลยี มหาวิทยาลัยมหาสารคาม",
+            "plant_area": "400",
+            "leaf_part": "24",
+            "flower_part": "22",
+            "seed_part": "0",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "46"
+        },
+        {
+            "nameplace": "อาคารวิทยาศาสตร์ชีวภาพ คณะวิทยาศาสตร์ มหาวิทยามหาสารคาม",
+            "plant_area": "42",
+            "leaf_part": "0",
+            "flower_part": "17407",
+            "seed_part": "17138",
+            "tree_part": "0",
+            "root_part": "0",
+            "total_part": "34545"
+        }
+    ]
+}

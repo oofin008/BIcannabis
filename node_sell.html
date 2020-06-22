@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  
 </head>
 <body class="hold-transition layout-top-nav">
 
@@ -23,8 +22,8 @@
   <div class="overlay-wrapper" id="loading_state" style="display: none;">
     <!--Loading state-->
     <div class="overlay">
-      <i class="fa fa-refresh fa-spin"></i>
-      <h3>Loading...</h3>
+      <h3>Loading </h3>
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
     </div>
     <!--Loading state-->
   </div>
@@ -53,7 +52,7 @@
         <a href="node_sell_2.html" class="nav-link">จำหน่ายผลิตภัณฑ์</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="node_sell.html?sortselected=SAS" class="nav-link bg-info">การจำหน่ายบำบัด</a>
+        <a href="node_sell_index.html" class="nav-link bg-info">การจำหน่ายบำบัด</a>
       </li>
       
       <li class="nav-item d-none d-sm-inline-block">
@@ -96,45 +95,57 @@
     <section class="content">
       <div class="container-fluid">
 
-        <!--ROW 0: Top 5 Cannabis distribute SECTION-->
-        <div class="card bg-gradient-dark" >
-          <div class="card-header">
-            <h5 class="card-title">ผู้ผลิต 5 อันดับแรกที่มีการกระจายยามากที่สุด</h5>
-
-            <div class="card-tools">
-              <button id = "paChart_button" type="button" class="btn bg-olive margin">รายละเอียด</button>
-              
-              <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                <i class="fas fa-minus"></i>
-              </button>
-            </div>
-          </div>
-          <!-- /.card-header -->
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-12">
-                <p class="text-center">
-                  <strong id="paChart_header">ข้อมูลสะสมถึง กุมภาพันธ์ - 2563</strong>
-                </p>
-
-                <div class="chart">
-                  <!-- Sales Chart Canvas -->
-                  <canvas id="paChart" style="height: 500px;"></canvas>
-                </div>
-                <!-- /.chart-responsive -->
-              </div>
-              <!-- /.col -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- ./card-body -->
-        </div>
-        <!-- /.card -->
-
-        <!--ROW 1: Usage section-->
+        <!--ROW 0: รายงานจาก สปสช SECTION-->
         <div class="card bg-gradient-dark">
           <div class="card-header">
-            <h3 class="card-title">ข้อมูลการใช้</h3>
+            <h3 class="card-title">รายงานจาก สปสช</h3>
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+            </div>
+          </div><!--./end card header-->
+
+          <div class="card-body">
+            <div class="row">
+              <!--Left row-->
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark" >
+                  <div class="card-header">
+                    <h5 class="card-title">โรงพยาบาล 5 อันดับแรกที่มีการกระจายยามากที่สุด</h5>
+                    <div class="card-tools">
+                      <button id = "paChart_button" type="button" class="btn bg-olive margin">รายละเอียด</button>
+                    </div>
+                  </div><!--./end card header-->
+        
+                  <div class="card-body">
+                    <div class="chart">
+                      <!-- Sales Chart Canvas -->
+                      <canvas id="paChart" style="height: 400px;"></canvas>
+                    </div><!-- /.chart-responsive -->
+                  </div><!-- ./card-body -->
+                </div><!-- /.card -->
+              </div>
+
+              <!--Right row-->
+              <div class="col-md-6">
+                <div class="card bg-gradient-dark">
+                  <div class="card-header" style="height: 60px;">
+                    <h5 class="card-title">ปริมาณการใช้ยาตามตำรับ</h5>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart">
+                      <div id="cannabisUsage_anychart" style="height: 400px; width: 100%; margin: 0; padding: 0;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!--./end row-->
+          </div><!--./end card-body -->
+        </div><!--./ End ROW0 รายงานจาก สปสช-->
+
+        <!--ROW 1: รายงานความปลอดภัย section-->
+        <div class="card bg-gradient-dark">
+          <div class="card-header">
+            <h3 class="card-title">รายงานความปลอดภัย</h3>
             <div class="card-tools">
               <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
             </div>
@@ -150,38 +161,6 @@
                     <h3 class="card-title">Cannabis Usage</h3>
 
                     <div class="card-tools">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-calendar-alt"></i>
-                          เดือน
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right" role="menu">
-                          <a href="#" class="dropdown-item">มกราคม</a>
-                          <a href="#" class="dropdown-item">กุมภาพันธ์</a>
-                          <a href="#" class="dropdown-item">มีนาคม</a>
-                          <a href="#" class="dropdown-item">เมษายน</a>
-                          <a href="#" class="dropdown-item">พฤษภาคม</a>
-                          <a href="#" class="dropdown-item">มิถุนายน</a>
-                          <a href="#" class="dropdown-item">กรกฎาคม</a>
-                          <a href="#" class="dropdown-item">สิงหาคม</a>
-                          <a href="#" class="dropdown-item">กันยายน</a>
-                          <a href="#" class="dropdown-item">ตุลาคม</a>
-                          <a href="#" class="dropdown-item">พฤศจิกายน</a>
-                          <a href="#" class="dropdown-item">ธันวาคม</a>
-                        </div>
-                      </div>
-
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-calendar-alt"></i>
-                          ปี
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right" role="menu">  
-                          <a href="#" class="dropdown-item">2562</a>
-                          <a href="#" class="dropdown-item">2563</a>
-                        </div>
-                      </div>
-
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
@@ -209,54 +188,9 @@
               <div class="col-md-6">
                 <div class="card bg-gradient-dark" id="sortChart1_card">
                   <div class="card-header">
-                    <h3 class="card-title" id="sortChart1_title">Chart1</h3>
-    
+                    <h3 class="card-title" id="sortChart1_title">จำนวนผู้ป่วยทั้งหมดแยกตามโรค</h3>
+                    
                     <div class="card-tools">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-cannabis"></i>
-                          ตำรับ
-                        </button>
-                        <div id="sortChart1_type_sel" class="dropdown-menu dropdown-menu-right" role="menu">
-                          <a href= "#sortChart1_title" value="01" class="dropdown-item">GPO THC</a>
-                          <a href="#sortChart1_title" value="02" class="dropdown-item">น้ำมันกัญชา LOVE HEMP</a>
-                          <a href="#sortChart1_title" value="03" class="dropdown-item">GPO THC:CBD (1:1)</a>
-                          <a href="#sortChart1_title" value="04" class="dropdown-item">น้ำมันกัญชาหยอดใต้ลิ้น</a>
-                          <a href="#sortChart1_title" value="05" class="dropdown-item">น้ำมันกัญชาหยอดใต้ลิ้น สูตร THC 1.7% W/V</a>
-                        </div>
-                      </div>
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-calendar-alt"></i>
-                          เดือน
-                        </button>
-                        <div id="sortChart1_month_sel" class="dropdown-menu dropdown-menu-right" role="menu">
-                          <a href= "#sortChart1_title" value="01" class="dropdown-item">มกราคม</a>
-                          <a href="#sortChart1_title" value="02" class="dropdown-item">กุมภาพันธ์</a>
-                          <a href="#sortChart1_title" value="03" class="dropdown-item">มีนาคม</a>
-                          <a href="#sortChart1_title" value="04" class="dropdown-item">เมษายน</a>
-                          <a href= "#sortChart1_title" value="05" class="dropdown-item">พฤษภาคม</a>
-                          <a href="#sortChart1_title" value="06" class="dropdown-item">มิถุนายน</a>
-                          <a href="#sortChart1_title" value="07" class="dropdown-item">กรกฎาคม</a>
-                          <a href="#sortChart1_title" value="08" class="dropdown-item">สิงหาคม</a>
-                          <a href= "#sortChart1_title" value="09" class="dropdown-item">กันยายน</a>
-                          <a href="#sortChart1_title" value="10" class="dropdown-item">ตุลาคม</a>
-                          <a href="#sortChart1_title" value="11" class="dropdown-item">พฤศจิกายน</a>
-                          <a href="#sortChart1_title" value="12" class="dropdown-item">ธันวาคม</a>
-                        </div>
-                      </div>
-    
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-calendar-alt"></i>
-                          ปี
-                        </button>
-                        <div id="sortChart1_year_sel" class="dropdown-menu dropdown-menu-right" role="menu">  
-                          <a href="#sortChart1_title" value="2562" class="dropdown-item">2562</a>
-                          <a href="#sortChart1_title" value="2563" class="dropdown-item">2563</a>
-                        </div>
-                      </div>
-    
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
@@ -270,13 +204,17 @@
                         <p class="text-center">
                           <strong  id="sortChart1_header">กุมภาพันธ์ - 2563</strong>
                         </p>
-                        <div class="chart">
+                        <div class="chart-responsive">
                           <canvas id="sortChart1" style="height: 400px; overflow: hidden"></canvas>
+                          
                         </div>
                       </div>
                     </div><!-- /.d-md-flex -->
                   </div>
                   <!-- /.card-body -->
+                  <div class="card-footer">
+                    <div id="sortChart1_legend"></div>
+                  </div>
                 </div>
                 <!-- /. End sortChart1 Usage card -->
 
@@ -353,7 +291,7 @@
                 <div class="card bg-gradient-dark">
                   <div class="card-header">
                     <h3 class="card-title">การจ่ายยาให้ผู้ป่วยแบ่งตามเพศ</h3>
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <div class="btn-group">
                         <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                           <i class="fas fa-calendar-alt"></i>
@@ -370,7 +308,7 @@
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body p-0">
@@ -396,7 +334,7 @@
                   <div class="card-header">
                     <h3 class="card-title">จำนวนผู้ป่วยในแต่ละช่วงอายุ</h3>
     
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <div class="btn-group">
                         <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                           <i class="fas fa-calendar-alt"></i>
@@ -413,7 +351,7 @@
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body">
@@ -453,12 +391,19 @@
                           <i class="fas fa-calendar-alt"></i>
                           Time Frame select
                         </button>
-                        <div class="dropdown-menu dropdown-menu-right" role="menu">
-                          <a href="#" class="dropdown-item">Jan/2020</a>
-                          <a href="#" class="dropdown-item">Dec/2019</a>
-                          <a href="#" class="dropdown-item">Nov/2019</a>
-                          <a class="dropdown-divider"></a>
-                          <a href="#" class="dropdown-item">Oct/2019</a>
+                        <div id="tf_sel_sortChart2" class="dropdown-menu dropdown-menu-right" role="menu">
+                          <a href="#" class="dropdown-item" value="all">ข้อมูลสะสมถึง Feb/2020</a>
+                          <div class="dropdown-divider"></div>
+                          <p class="dropdown-header">ข้อมูลรายเดือน</p>
+                          <a href="#" class="dropdown-item" value="202002">Feb/2020</a>
+                          <a href="#" class="dropdown-item" value="202001">Jan/2020</a>
+                          <a href="#" class="dropdown-item" value="201912">Dec/2019</a>
+                          <a href="#" class="dropdown-item" value="201911">Nov/2019</a>
+                          <a href="#" class="dropdown-item" value="201910">Oct/2019</a>
+                          <a href="#" class="dropdown-item" value="201909">Sep/2019</a>
+                          <a href="#" class="dropdown-item" value="201908">Aug/2019</a>
+                          <a href="#" class="dropdown-item" value="201907">Jul/2019</a>
+                          <a href="#" class="dropdown-item" value="201906">Jun/2019</a>
                         </div>
                       </div>
                       <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -638,7 +583,9 @@
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
 
-
+<!--AnyChart for Treemap chart-->
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-treemap.min.js"></script>
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
 <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
@@ -662,6 +609,7 @@
   $('#loading_state').show();
   $.getJSON('./dist/js/jsondata/node_sell_data.json', function(data){
     node_sell_data = data.Sheet1;
+    //console.log('node sell data ===>>>', node_sell_data);
 
     //Sum PAY value for duplicate LICENSE_PLACE name
     for(var i=0,c; c=node_sell_data[i]; i++){
@@ -710,6 +658,7 @@
     getReq = "SAS";
     console.log(getReq);
   }
+
   var pageTitle = document.getElementById('pageTitle');
   if(getReq == "SAS"){
     pageTitle.innerText += " แผนปัจจุบัน";
@@ -719,6 +668,49 @@
     pageTitle.innerText += " ผลิตภัณฑ์กัญชาน้ำมันเดชา"
   }
 
+  //------------
+  //--Tree Map--
+  //------------
+  anychart.onDocumentReady(function(){
+    var cannabisUsage_anychart_data= [
+      {name: "ภาพรวม", children: [
+        {name: "แผนไทย", children: [
+          {name: "ยาศุขไสยาศน์", value: 22970},
+          {name: "ยาทำลายพระสุเมรุ", value: 22740},
+          {name: "ยาไฟอาวุธ", value: 17100},
+          {name: "ยาอัมฤตย์โอสถ", value: 1650},
+          {name: "ยาอไกยสาลี", value: 4230},
+          {name: "ยาแก้ลมแก้เส้น", value: 11250},
+          {name: "ยาทาริดสีดวงทวารหนักและโรคผิวหนัง", value: 8310},
+        ]},
+        {name: "แผนปัจจุบัน", children: [
+          {name: "GPO THC", value: 7796},
+          {name: "GPO THC:CBD(1:1)", value: 2599},
+          {name: "GPO CBD", value: 282},
+          {name: "น้ำมันกัญชาหยอดใต้ลิ้น", value: 24090}
+        ]},
+        {name: "ผลิตภัณฑ์กัญชาน้ำมันเดชา", children: [
+          {name: "น้ำมันกัญชาตำรับหมอเดชา", value: 48150},
+        ]}
+      ]}
+    ];
+
+    //Create Data tree
+    var treeData = anychart.data.tree(cannabisUsage_anychart_data, "as-tree");
+    //Create treemap chart visualizing the data tree
+    var cannabisUsage_anychart_chart =  anychart.treeMap(treeData);
+    //Add a title 
+    cannabisUsage_anychart_chart.labels().useHtml(true);
+    cannabisUsage_anychart_chart.labels().format(
+      `<span style='font-weight:bold' >{%name}</span><br>{%value} units`
+    );
+    cannabisUsage_anychart_chart.labels().fontSize(20);
+    cannabisUsage_anychart_chart.container("cannabisUsage_anychart");
+    cannabisUsage_anychart_chart.draw();
+  });//End AnyChart ready function
+
+
+  //getReq check start here ============================================
   if(getReq == "SAS"){
 
     var patientChartData = {
@@ -727,14 +719,14 @@
         
         {
           label               : 'จำนวนจ่าย',
-          backgroundColor     : '#ff4d4d',
+          backgroundColor     : '#f0ad4e',
           data                : [340,257,220,138,108]
         }
       ]
     }//End top5 chart
 
     var cannabisUsageChartData = {
-      labels  : ['GPO THCm','น้ำมันกัญชาหยอดใต้ลิ้น','น้ำมันกัญชา LOVE HEMP','GPO THC:CBD(1:1)','ยาน้ำมันกัญชาหยอดใต้ลิ้น สูตร THC 1.7%W/V','GPO CBD'],
+      labels  : ['GPO THC','น้ำมันกัญชาหยอดใต้ลิ้น','น้ำมันกัญชา LOVE HEMP','GPO THC:CBD(1:1)','ยาน้ำมันกัญชาหยอดใต้ลิ้น สูตร THC 1.7%W/V','GPO CBD'],
       datasets: [
         {
           type                : 'bar',
@@ -748,21 +740,97 @@
     }//End Cannabis Usage Data
 
     var sortChart1_title = document.getElementById("sortChart1_title");
-    sortChart1_title.innerText = "GPO THC Usage";
+    sortChart1_title.innerText = "จำนวนผู้ป่วยทั้งหมดแยกตามโรค";
     var sortChart1Data = {
-      labels  : ['Palliative care', 'CA', 'Other','Neuralgia','Epilepsy','Spasticity','Parkinson','Alzheimer','Nausea'],
+      labels  : ['แผนปัจจุบัน','แผนไทย','น้ำมันเดชา'],
       datasets: [
         {
-          type                : 'bar',
-          label               : 'Total Usage',
-          yAxesID: 'B',
-          backgroundColor     : '#03fcf4',
-          fill                : false,
-          data                : [62,43,11,18,0,1,1,0,1]
-        }
+          label               : ['แผนปัจจุบัน: ผู้ป่วยที่ดูแลแบบประคับประคอง/ระยะสุดท้ายเพื่อใช้ในการบรรเทาอาการปวด',
+          'แผนปัจจุบัน: ผู้ป่วยมะเร็ง (C00-97) เพื่อใช้บรรเทาอาการปวด',
+          'แผนปัจจุบัน: ภาวะกล้ามเนื้อหดเกร็งในผู้ป่วยโรคปลอกประสาทเสื่อมแข็ง (G35,629)',
+          'แผนปัจจุบัน: ภาวะคลื่นไส้อาเจียนจากเคมีบำบัด',
+          'แผนปัจจุบัน: ภาวะปวดประสาท(M792,G60-64)ที่ดื้อต่อการรักษา',
+          'แผนปัจจุบัน: โรคพาร์กินสัน  (G20)',
+          'แผนปัจจุบัน: โรคลมชัก (G40-41) ที่รักษายากหรือดื้อต่อการรักษา',
+          'แผนปัจจุบัน: โรคอัลไซเมอร์  (G309)',
+          'แผนปัจจุบัน: โรค/อาการอื่นๆ',
+          'แผนไทย: - DISORDERS OF INITIATING AND MAINTAINING SLEEP [INSOMNIAS]',
+          'แผนไทย: - ชา',
+          'แผนไทย: นอนไม่หลับ',
+          'แผนไทย: เบื่ออาหาร',
+          'แผนไทย: ปวดขา หรือ ปวดเข่า หรือ ปวดเท้า',
+          'แผนไทย: ลมปลายปัตฆาตแขน',
+          'แผนไทย: ลมปลายปัตฆาตแขนขา  ไม่ระบุรายละเอียด',
+          'แผนไทย: ลมปลายปัตฆาตสัญญาณ 1 หลัง',
+          'แผนไทย: ไม่ระบุ',
+          'น้ำมันเดชา: ALZHEIMER DISEASE, UNSPECIFIED',
+          'น้ำมันเดชา: BLADDER, UNSPECIFIED',
+          'น้ำมันเดชา: BRAIN, UNSPECIFIED',
+          'น้ำมันเดชา: BREAST, UNSPECIFIED',
+          'น้ำมันเดชา: BRONCHUS OR LUNG, UNSPECIFIED',
+          'น้ำมันเดชา: COLON, UNSPECIFIED',
+          'น้ำมันเดชา: CORPUS UTERI, UNSPECIFIED',
+          'น้ำมันเดชา: DISORDER OF TRIGEMINAL NERVE, UNSPECIFIED',
+          'น้ำมันเดชา: DORSALGIA, UNSPECIFIED',
+          'น้ำมันเดชา: EPILEPSY, UNSPECIFIED',
+          'น้ำมันเดชา: FLOOR OF MOUTH, UNSPECIFIED',
+          'น้ำมันเดชา: GOUT, UNSPECIFIED',
+          'น้ำมันเดชา: INTRAHEPATIC BILE DUCT CARCINOMA',
+          'น้ำมันเดชา: LARYNX, UNSPECIFIED',
+          'น้ำมันเดชา: LIVER, UNSPECIFIED',
+          'น้ำมันเดชา: LYMPH NODE, UNSPECIFIED',
+          'น้ำมันเดชา: MALIGNANT NEOPLASM ',
+          'น้ำมันเดชา: MIGRAINE, UNSPECIFIED',
+          'น้ำมันเดชา: NASOPHARYNX, UNSPECIFIED',
+          'น้ำมันเดชา: NONORGANIC INSOMNIA',
+          'น้ำมันเดชา: OESOPHAGUS, UNSPECIFIED',
+          'น้ำมันเดชา: OTHER PERIPHERAL VERTIGO',
+          'น้ำมันเดชา: PANCREAS, UNSPECIFIED',
+          'น้ำมันเดชา: PANIC DISORDER [EPISODIC PAROXYSMAL ANXIETY]',
+          'น้ำมันเดชา: PARKINSON DISEASE',
+          'น้ำมันเดชา: SEQUELAE OF STROKE, NOT SPECIFIED AS HAEMORRHAGE OR INFARCTION',
+          'น้ำมันเดชา: STOMACH, UNSPECIFIED',
+          'น้ำมันเดชา: SYSTEMIC LUPUS ERYTHEMATOSUS, UNSPECIFIED',
+          'น้ำมันเดชา: TONSIL, UNSPECIFIED',
+          'น้ำมันเดชา: UNSPECIFIED CHRONIC BRONCHITIS',
+          'น้ำมันเดชา: ZOSTER WITHOUT COMPLICATION',
+          'น้ำมันเดชา: กษัยลิ้นกระบือ',
+          'น้ำมันเดชา: ความผิดปกติของกล้ามเนื้อ  กระดูก  และข้อ  ไม่ระบุรายละเอียด',
+          'น้ำมันเดชา: ชา',
+          'น้ำมันเดชา: นอนไม่หลับ',
+          'น้ำมันเดชา: ปวดตามร่างกาย',
+          'น้ำมันเดชา: เรื้อนมูลนก',
+          'น้ำมันเดชา: โรคและอาการของศีรษะ  สมอง  และระบบประสาท  ไม่ระบุรายละเอียด',
+          'น้ำมันเดชา: ลมปะกัง หรือ ลมตะกัง',
+          'น้ำมันเดชา: สะเก็ดเงิน',
+          'น้ำมันเดชา: สันนิบาตข้อมือตก หรือ สันนิบาตข้อมือ',
+          'น้ำมันเดชา: สันนิบาตลูกนก',
+          'น้ำมันเดชา: ไม่ระบุ',
+          
+          ],
+          backgroundColor     : ['#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e','#f0ad4e',
+          '#5bc0de','#5bc0de','#5bc0de','#5bc0de','#5bc0de','#5bc0de','#5bc0de','#5bc0de','#5bc0de',
+          '#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7',
+          '#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7',
+          '#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7',
+          '#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7',
+          '#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7','#BDC3C7',
+        ],
+          data                : [
+            145,68,8,8,55,34,12,1,35,
+            2,1,47,24,1,1,6,1,244,
+            3,1,1,5,6,4,1,1,2,3,1,1,1,2,3,2,4,5,2,3,1,1,1,8,1,1,1,1,1,1,1,2,1,49,2,1,6,3,1,5,1,1,886
+          ]
+        },
+        {
+          label               : ['แผนปัจจุบัน','แผนไทย','น้ำมันเดชา'],
+          backgroundColor     : ['#f0ad4e','#5bc0de','#BDC3C7',],
+          data                : [364,327,1025]
+        },
       ]
     }//End chart1 Usage Data
 
+    //SAS
     var sortChart2_title = document.getElementById("sortChart2_title");
     sortChart2_title.innerText = "ข้อมูลการรักษา";
     var sortChart2Data = {
@@ -918,18 +986,15 @@
     }//End chart4 Usage Data
     
     document.getElementById("sortChart5_card").style.display = "none";
-  }//END 
+  }//END ========SAS============ getReq check
+
   else if(getReq == "AUR"){
     var patientChartData = {
       labels  : ['โรงพยาบาล สมเด็จพระยุพราชเด่นชัย', 'โรงพยาบาลพระอาจารย์ฝั้น อาจาโร', 'โรงพระยาบาล ลำปาง', 'โรงพยาบาล เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา', 'โรงพยาบาลมหาราชนครราชสีมา',],
       datasets: [
-        
         {
-          type                : 'bar',
           label               : 'จำนวนจ่าย',
-          yAxesID: 'B',
-          backgroundColor     : '#ff4d4d',
-          fill                : false,
+          backgroundColor     : '#5bc0de',
           data                : [1833,1805,1771,1049,841]
         }
       ]
@@ -1120,7 +1185,8 @@
 
     document.getElementById('sortChart1_card').style.display = "none";
 
-  }
+  }//END =======AUR==========
+
   //DEJA check
   else if(getReq=="DEJA"){
     var patientChartData = {
@@ -1128,11 +1194,8 @@
       datasets: [
         
         {
-          type                : 'bar',
           label               : 'จำนวนจ่าย',
-          yAxesID: 'B',
-          backgroundColor     : '#ff4d4d',
-          fill                : false,
+          backgroundColor     : '#f7f7f7',
           data                : [29239,4341,3629,1733,1356]
         }
       ]
@@ -1186,7 +1249,10 @@
           fontColor: "#faf7f7",
         }
       }]
-    }
+    },
+    onClick: function(evt){
+      window.location.href = ("./node_sell_details.html?sortselected=" + getReq);
+    },
   }//End patient Chart options
 
   var sortChartOptions = {
@@ -1228,7 +1294,7 @@
   // This will get the first returned node in the jQuery collection.
   var patientChartCanvas = $('#paChart').get(0).getContext('2d');
   var patientChart = new Chart(patientChartCanvas, { 
-      type: 'bar', 
+      type: 'horizontalBar', 
       data: patientChartData, 
       options: patientChartOptions
     }
@@ -1244,10 +1310,45 @@
   //SortChart1-5
   var sortChart1Canvas = $('#sortChart1').get(0).getContext('2d');
   var sortChart1 = new Chart(sortChart1Canvas, {
-    type: 'bar',
+    type: 'doughnut',
     data: sortChart1Data,
-    options: sortChartOptions,
+    options: {
+      responsive: true,
+      legend: {
+        display: false,
+        position: 'top',
+        labels: {
+          fontColor: "white",
+        },
+      },
+      legendCallback: function(chart) {
+        
+        var text = [];
+        text.push('<center>');
+        for (var i = 0; i < chart.data.labels.length; i++) {
+                 
+          text.push('<span class="chart-legend-label-text">'+'<i class="fas fa-square" style="color:' + chart.data.datasets[1].backgroundColor[i] + '"></i> ' + chart.data.labels[i] + '</span> ');
+          
+        }
+        text.push('</center>');
+        return text.join("");
+      },
+      animation: {
+        animateScale: true,
+        animateRotate: true,
+      },
+      tooltips:{
+        callbacks: {
+          label: function(item, data){
+            console.log(data, item);
+            return data.datasets[item.datasetIndex].label[item.index] + ": "+ data.datasets[item.datasetIndex].data[item.index] + " Unit";
+          }
+        }
+      }
+    }
   });
+  $("#sortChart1_legend").html(sortChart1.generateLegend());
+  console.log(document.getElementById('sortChart1_legend'));
 
   var sortChart2Canvas = $('#sortChart2').get(0).getContext('2d');
   var sortChart2 = new Chart(sortChart2Canvas, {
@@ -1498,104 +1599,6 @@
     paChart_data_update();
   });
 
-  function paChart_data_update(){
-    if(getReq == "SAS"){
-      console.log('paChart_month_sel: ' + paChart_month_sel);
-      console.log('paChart_year_sel: ' + paChart_year_sel);
-      if(paChart_month_sel == "06" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [3];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "07" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [4];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "08" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","โรงพยาบาลลำปาง","โรงพยาบาลสระบุรี","โรงพยาบาลหาดใหญ่","โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [1,1,1,1,11];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "09" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","สถาบันมะเร็งแห่งชาติ","สถาบันสุขภาพเด็กแห่งชาติ","โรงพยาบาลบุรีรัมย์","โรงพยาบาลระยอง","โรงพยาบาลลำปาง","โรงพยาบาลสรรพสิทธิประสงค์","โรงพยาบาลสระบุรี","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลหาดใหญ่","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [3,1,1,1,9,7,1,2,9,2,20,33];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "10" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","สถาบันมะเร็งแห่งชาติ","สถาบันสุขภาพเด็กแห่งชาติมหาราชินี","โรงพยาบาลตรัง","โรงพยาบาลตราด","โรงพยาบาลบุรีรัมย์","โรงพยาบาลพุทธชินราช","โรงพยาบาลลำปาง","โรงพยาบาลสระบุรี","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [3,1,2,12,1,21,18,4,11,6,43];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "11" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","สถาบันมะเร็งแห่งชาติ","สถาบันสุขภาพเด็กแห่งชาติมหาราชินี","โรงพยาบาลตรัง","โรงพยาบาลตราด","โรงพยาบาลพุทธชินราช","โรงพยาบาลพุทธโสธร","โรงพยาบาลลำปาง","โรงพยาบาลลำพูน","โรงพยาบาลวชิระภูเก็ต","โรงพยาบาลสระบุรี","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศ","โรงพยาบาลแพร่","โรงพยาบาลเม่สอด"];
-        patientChartData.datasets[0].data = [3,2,1,9,6,1,9,2,5,14,9,14,17,1,1];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "12" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","สถาบันสุขภาพเด็กแห่งชาติมหาราชินี","โรงพยาบาลชัยนาทนเรศวร","โรงพยาบาลตรัง","โรงพยาบาลตราด","โรงพยาบาลนครนายก","โรงพยาบาลนางรอง","โรงพยาบาลบ้านด่านลานหอย","โรงพยาบาลพุทธชินราช","โรงพยาบาลพุทธโสธร","โรงพยาบาลระยอง","โรงพยาบาลลำปาง","โรงพยาบาลวชิระภูเก็ต","โรงพยาบาลสมุทรปราการ","โรงพยาบาลสระบุรี","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศ"];
-        patientChartData.datasets[0].data = [3,1,1,5,3,1,1,1,8,2,4,15,6,2,1,9,3,34];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "01" & paChart_year_sel == "2563"){
-        patientChartData.labels = ["สถาบันประสาทวิทยา","โรงพยาบาลตรัง","โรงพยาบาลทุ่งสง","โรงพยาบาลนครพิงค์","โรงพยาบาลนาโพธิ์","โรงพยาบาลปากช่องนานา","โรงพยาบาลพุทธชินราช","โรงพยาบาลพุทธโสธร","โรงพยาบาลนครราชสีมา","โรงพยาบาลระยอง","โรงพยาบาลลำปาง","โรงพยาบาลวชิระภูเก็ต","โรงพยาบาลสมุทรปราการ","โรงพยาบาลสมเด็จพระสังฆราชองค์ที่17","โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศ","โรงพยาบาลโนนสุวรรณ","โรงพยาบาลโพธาราม"];
-        patientChartData.datasets[0].data = [2,3,1,2,2,1,4,1,9,1,15,1,1,1,1,15,11,27,1,1];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "02" & paChart_year_sel == "2563"){
-        patientChartData.labels = ["สำนักงานคณะกรรมการอาหารและยา","โรงพยาบาลตรัง","โรงพยาบาลนาโพธิ์","โรงพยาบาลพระพุทธบาท","โรงพยาบาลพุทธชินราช","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลมหาราชนครศรีธรรมราช","โรงพยาบาลลำปาง","โรงพยาบาลศรีสังวรสุโขทัย","โรงพยาบาลเจ้าพระยาอภัยภูเบศ","โรงพยาบาลเชียงรายประชานุเคราะห์","โรงพยาบาลโพธาราม"];
-        patientChartData.datasets[0].data = [2,1,3,1,5,5,1,12,3,9,1,6];
-        patientChart.update();
-      }
-      else{
-        patientChartData.labels = [];
-        patientChartData.datasets[0].data = [];
-        patientChart.update();
-        alert("No Data on this period");
-      }
-    }
-    else if(getReq == "AUR"){
-      console.log('paChart_month_sel: ' + paChart_month_sel);
-      console.log('paChart_year_sel: ' + paChart_year_sel);
-      if(paChart_month_sel == "09" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน","โรงพยาบาลคูเมือง","โรงพยาบาลดอนตูม","โรงพยาบาลบางกระทุ่ม","โรงพยาบาลพนา","โรงพยาบาลพระอาจารย์ผั้นอาจาโร","โรงพยาบาลระยอง","โรงพยาบาลสมเด็จพระยุทราชเด่นชัย","โรงพยาบาลหนองฉาง","โรงพยาบาลเจ้าพระยาอภัยภูเบศร","โรงพยาบาลเสาไห้"];
-        patientChartData.datasets[0].data = [13,2,15,1,3,4,6,3,8,4,1];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "10" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน","โรงพยาบาลคูเมือง","โรงพยาบาลดอนตูม","โรงพยาบาลท่าฉาง","โรงพยาบาลป่าบอน","โรงพยาบาลพนา","โรงพยาบาลพล","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลลำปาง","โรงพยาบาลสมเด็จพระยุทราชเด่นชัย","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลหนองฉาง","โรงพยาบาลเจ้าพระยาอภัยภูเบศร","โรงพยาบาลเสาไห้"];
-        patientChartData.datasets[0].data = [11,34,147,22,24,6,1,2,10,32,1,18,9,1];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "11" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน","โรงพยาบาลคูเมือง","โรงพยาบาลดอนตูม","โรงพยาบาลท่าฉาง","โรงพยาบาลป่าบอน","โรงพยาบาลพนา","โรงพยาบาลพุทธชินราช","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลลำปาง","โรงพยาบาลสมเด็จพระยุทธราชเด่นชัย","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลหนองฉาง","โรงพยาบาลหนองบัวลำภู","โรงพยาบาลห้วยเกิ้ง","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศร","โรงพยาบาลเถิน","โรงพยาบาลเสาไห้"];
-        patientChartData.datasets[0].data = [1,3,317,17,87,23,1,8,5,56,2,83,2,1,1,7,13,16];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "12" & paChart_year_sel == "2562"){
-        patientChartData.labels = ["โรงพยาบาลคูเมือง","โรงพยาบาลดอนตูม","โรงพยาบาลป่าบอน","โรงพยาบาลพนา","โรงพยาบาลพุทธชินราช","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลลำปาง","โรงพยาบาลสมเด็จพระยุทธราชเด่นชัย","โรงพยาบาลหนองฉาง","โรงพยาบาลหนองบัวลำภู","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศร","โรงพยาบาลเถิน","โรงพยาบาลเสาไห้"];
-        patientChartData.datasets[0].data = [1,272,103,20,1,7,6,78,72,1,1,10,18,14];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "01" & paChart_year_sel == "2563"){
-        patientChartData.labels = ["โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน","โรงพยาบาลดอนตูม","โรงพยาบาลนางรอง","โรงพยาบาลป่าบอน","โรงพยาบาลพหลพลพยุหเสนา","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลลำปาง","โรงพยาบาลสวรรค์ประชารักษ์","โรงพยาบาลหนองฉาง","โรงพยาบาลอุดรธานี","โรงพยาบาลเจ้าพระยาอภัยภูเบศร","โรงพยาบาลเถิน","โรงพยาบาลเสาไห้"];
-        patientChartData.datasets[0].data = [28,185,1,189,1,13,12,4,27,1,12,14,6];
-        patientChart.update();
-      }
-      else if(paChart_month_sel == "02" & paChart_year_sel == "2563"){
-        patientChartData.labels = ["โรงพยาบาลป่าบอน","โรงพยาบาลมหาราชนครราชสีมา","โรงพยาบาลลำปาง","โรงพยาบาลเถิน","โรงพยาบาลเสนา"];
-        patientChartData.datasets[0].data = [34,9,4,1,3];
-        patientChart.update();
-      }
-      else{
-        patientChartData.labels = [];
-        patientChartData.datasets[0].data = [];
-        patientChart.update();
-        alert("No Data on this period");
-      }
-    }
-  };//End paChart data update function
-
   //set default value for sortChart1 tools
   var sortChart1_type_sel = "01";
   var sortChart1_month_val = "02";
@@ -1678,9 +1681,35 @@
     }//ตำรับยาศุขไสยาศน์
   
   });
-
   //End sortChart5 javascript function
-    
+  
+  //sortChart2 select
+  // $('#tf_sel_sortChart2 a').click(function(){
+  //   var select_opt = $(this).attr("value");
+  //   if(getReq == "SAS"){
+  //     switch(select_opt){
+  //       case "all":
+  //         sortChart2Data.labels = ['GPO THC', 'GPO THC:CBD', 'GPO CBD', 'น้ำมันกัญชา'];
+  //         sortChart2Data.datasets[0].data = [50,4,0,68]; //pariative care
+  //         sortChart2Data.datasets[1].data = [47,1,0,7]; //ปวดจากมะเร็ง
+  //         sortChart2Data.datasets[2].data = [27,1,0,15];//ปวดประสาท
+  //         sortChart2Data.datasets[3].data = [2,1,0,2]; //parginson
+  //         sortChart2Data.datasets[4].data = [0,0,2,0]; //ชัก
+  //         sortChart2Data.datasets[5].data = [0,5,1,0]; //กล้ามเนื้อหดเกร็ง
+  //         sortChart2.update();
+  //         break;
+  //       case "202002":
+  //         /// not finish yetttttttt//////////////////////////////////
+  //     }
+  //   }
+  //   if(getReq == "AUR"){
+
+  //   }
+  //   if(getReq == "DEJA"){
+
+  //   }
+  // })
+
   //Get Param from url function
   function getUrlParameter(sParam){
     var sPageURL = window.location.search.substring(1);

@@ -1,0 +1,1475 @@
+﻿[
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "กวีคลินิคเวชากรรม",
+		"drug_recipe": "GPO THC",
+		"quantity": "22",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "กวีคลินิคเวชากรรม",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "12",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "กวีคลินิคเวชากรรม",
+		"drug_recipe": "GPO CBD",
+		"quantity": "2",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "กวีคลินิคเวชากรรม",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "กวีคลินิคเวชากรรม",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "คณิตาคลินิกเวชกรรม",
+		"drug_recipe": "GPO THC",
+		"quantity": "35",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "คณิตาคลินิกเวชกรรม",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "เดอะริชสหคลินิก",
+		"drug_recipe": "GPO THC",
+		"quantity": "4",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "เดอะริชสหคลินิก",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "2",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "บริษัท ออรีจีน เซ็นเคอร์ แคร์",
+		"drug_recipe": "GPO THC",
+		"quantity": "60",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "บริษัท ออรีจีน เซ็นเคอร์ แคร์",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "บริษัท ออรีจีน เซ็นเคอร์ แคร์",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "40",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "บริษัท ออรีจีน เซ็นเคอร์ แคร์",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น",
+		"drug_recipe": "GPO THC",
+		"quantity": "300",
+		"order": "4",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาล ศรีนครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "100",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลกล้วยน้ำไท",
+		"drug_recipe": "GPO THC",
+		"quantity": "1",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลกล้วยน้ำไท",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "1",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Mar",
+		"hostpital_name": "โรงพยาบาลกล้วยน้ำไท",
+		"drug_recipe": "GPO CBD",
+		"quantity": "1",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+		"drug_recipe": "GPO THC",
+		"quantity": "70",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลการแพทย์แผนไทยและการแพทย์ผสมผสาน",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลขอนแก่น",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลเจ้าพระยายมราช",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลเจ้าพระยายมราช",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลชัยภูมิ",
+		"drug_recipe": "GPO THC",
+		"quantity": "6",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลชัยภูมิ",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "3",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลดอนตาล",
+		"drug_recipe": "GPO THC",
+		"quantity": "5",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลดอนตาล",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโข",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลทั่วไปขนาดเล็กศรีสุโขทัย",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลทั่วไปขนาดใหญ่จุฬารัตน์ 3 อินเตอร์",
+		"drug_recipe": "GPO THC",
+		"quantity": "50",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลนพรัตนราชนี",
+		"drug_recipe": "GPO THC",
+		"quantity": "25",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลนพรัตนราชนี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "25",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลประสาทเชียงใหม่",
+		"drug_recipe": "GPO THC",
+		"quantity": "40",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลประสาทเชียงใหม่",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "40",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลปากช่องนานา",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลพระจอมเกล้า",
+		"drug_recipe": "GPO THC",
+		"quantity": "40",
+		"order": "4",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลพระจอมเกล้า",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC",
+		"quantity": "4",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC",
+		"quantity": "22",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "2",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพระนั่งเกล้า",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพระพุทธบาท",
+		"drug_recipe": "GPO THC",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพระพุทธบาท",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลพหลพลพยุหเสนา",
+		"drug_recipe": "GPO THC",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพหลพลพยุหเสนา",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพหลพลพยุหเสนา",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพังงา",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพังงา",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพัทลุง",
+		"drug_recipe": "GPO THC",
+		"quantity": "25",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพัทลุง",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลพิจิตร",
+		"drug_recipe": "GPO THC",
+		"quantity": "7",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลพิจิตร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "7",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลพิจิตร",
+		"drug_recipe": "GPO CBD",
+		"quantity": "2",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC",
+		"quantity": "60",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC",
+		"quantity": "40",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "60",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "40",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "โรงพยาบาลพุทธชินราช",
+		"drug_recipe": "GPO CBD",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมหาชิราลงกรณ์ธัญบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลมหาราชนครราชสีมา",
+		"drug_recipe": "GPO THC",
+		"quantity": "11",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลมหาราชนครราชสีมา",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "8",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมหาราชนครราชสีมา",
+		"drug_recipe": "GPO CBD",
+		"quantity": "3",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมหาวชิราลงกรณธัญบุรี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลมะการักษ์",
+		"drug_recipe": "GPO THC",
+		"quantity": "15",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลมะการักษ์",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งชลบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งชลบุรี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งลพบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งลพบุรี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งลำปาง",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งลำปาง",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมะเร็งสุราษฎร์ธานี",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมะเร็งสุราษฎร์ธานี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมะเร็งอุบลราชธานี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งอุบลราชธานี",
+		"drug_recipe": "GPO THC",
+		"quantity": "80",
+		"order": "4",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลมะเร็งอุบลราชธานี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลมะเร็งอุบลราชธานี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "50",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลระยอง",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลราชบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลราชบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลราชบุรี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "feb",
+		"hostpital_name": "โรงพยาบาลราชวิถี",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลราชวิถี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลลำปาง",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลลำปาง",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลลำปาง",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลเลิดสิน",
+		"drug_recipe": "GPO THC",
+		"quantity": "34",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลเลิดสิน",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "34",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลวชิระภูเก็ต",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลวชิระภูเก็ต",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลศรรพสิทธิประสงค์",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลศีขรภมู",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลศีขรภูมิ",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสกลนคร",
+		"drug_recipe": "GPO THC",
+		"quantity": "100",
+		"order": "4",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสกลนคร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "60",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสงฆ์ กรมการแพทย์",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสงฆ์ กรมการแพทย์",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลสตูล",
+		"drug_recipe": "GPO THC",
+		"quantity": "40",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลสตูล",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลสมเด็จพระยุพราชหล่มเก่า",
+		"drug_recipe": "GPO THC",
+		"quantity": "4",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลสมเด็จพระยุพราชหล่มเก่า",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "4",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลสระบุรี",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลสวรรค์ประชารักษ์",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลสวรรค์ประชารักษ์",
+		"drug_recipe": "GPO THC",
+		"quantity": "200",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "โรงพยาบาลสวรรค์ประชารักษ์ ",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "200",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสุโขทัย",
+		"drug_recipe": "GPO THC",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "โรงพยาบาลสุโขทัย",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลสุราษฎร์ธานี",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลหนองคาย",
+		"drug_recipe": "GPO THC",
+		"quantity": "40",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลหนองคาย",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "โรงพยาบาลหนองคาย",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "40",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Feb",
+		"hostpital_name": "โรงพยาบาลหนองคาย",
+		"drug_recipe": "GPO CBD",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลหาดใหญ่",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Aug",
+		"hostpital_name": "โรงพยาบาลอุดรธานี",
+		"drug_recipe": "GPO THC",
+		"quantity": "315",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถานบันบำราศนราดูร",
+		"drug_recipe": "GPO THC",
+		"quantity": "15",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Sep",
+		"hostpital_name": "สถานบันมะเร็งแห่งชาติ",
+		"drug_recipe": "GPO THC",
+		"quantity": "75",
+		"order": "13",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC",
+		"quantity": "70",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Dec",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "70",
+		"order": "3",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถาบันบำราศนราดูร",
+		"drug_recipe": "GPO CBD",
+		"quantity": "5",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันประสาทวิทยา",
+		"drug_recipe": "GPO THC",
+		"quantity": "530",
+		"order": "8",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันประสาทวิทยา",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "530",
+		"order": "8",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันประสาทวิทยา",
+		"drug_recipe": "GPO CBD",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สถาบันมะเร็งแห่งชาติ",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "10",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Sep",
+		"hostpital_name": "สถาบันมะเร็งแห่งชาติ",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "75",
+		"order": "13",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สถาบันมะเร็งแห่งชาติ",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "10",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "สถาบันโรคผิวหนัง",
+		"drug_recipe": "GPO THC",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "สถาบันโรคผิวหนัง",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "30",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC",
+		"quantity": "150",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "150",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Feb",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Oct",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO CBD",
+		"quantity": "150",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2562",
+		"month": "Nov",
+		"hostpital_name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
+		"drug_recipe": "GPO CBD",
+		"quantity": "20",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สวัสดีคลินิกเวชกรรม",
+		"drug_recipe": "GPO THC",
+		"quantity": "13",
+		"order": "2",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": "2563",
+		"month": "Jan",
+		"hostpital_name": "สวัสดีคลินิกเวชกรรม",
+		"drug_recipe": "GPO THC:CBD (1:1)",
+		"quantity": "10",
+		"order": "1",
+		"distributor_name": "องค์การเภสัชกรรม",
+		"type": "sas"
+	},
+	{
+		"year": ""
+	}
+]

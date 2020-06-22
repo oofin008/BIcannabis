@@ -1,0 +1,919 @@
+﻿{
+    "Sheet1": [
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชนครไทย ",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชเดชอุดม ",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "กรมการแพทย์แผนไทยและแพทย์ทางเลือก",
+            "SUM(quantity)": "70"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "กวีคลินิคเวชกรรม",
+            "SUM(quantity)": "32"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.กบินทร์บุรี",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.กระบี่",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.กระบี่",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.กระสัง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.กล้วยน้ำไทย  (สำนักงาน) ",
+            "SUM(quantity)": "1"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "SUM(quantity)": "21650"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.การแพทย์แผนไทยและการแพทย์ผสมผสาน",
+            "SUM(quantity)": "2580"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.กำแพงเพชร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ขอนแก่น",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ขอนแก่น",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.คูเมือง",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.คูเมือง",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.จุฬารัตน์ 3 อินเตอร์",
+            "SUM(quantity)": "50"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ชลบุรี",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ชัยนาทนเรนทร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ชัยภูมิ",
+            "SUM(quantity)": "6"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ชำนิ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ชุมพรเขตรอุดมศักดิ์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ดอนตูม",
+            "SUM(quantity)": "2950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ดอนตูม",
+            "SUM(quantity)": "2010"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ตรัง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ตราด",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ตะกั่วป่า",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ตากฟ้า",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ตากสิน",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ทุ่งสง",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ทุ่งสง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ท่าฉาง",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ท่าฉาง",
+            "SUM(quantity)": "720"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.นครนายก",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.นครพิงค์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.นางรอง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.นาโพธิ์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.น่าน",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.บางกระทุ่ม",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.บางกระทุ่ม",
+            "SUM(quantity)": "690"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.บางซ้าย",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.บางพลี",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.บางละมุง",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.บึงสามพัน",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.บุรีรัมย์",
+            "SUM(quantity)": "750"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.บุรีรัมย์",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.บ้านกรวด",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.บ้านด่าน",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.บ้านใหม่ไชยพจน์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ปทุมธานี",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ประโคนชัย",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ปราสาท",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ปะคำ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ปากชม",
+            "SUM(quantity)": "900"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ปากช่องนานา",
+            "SUM(quantity)": "10"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ป่าบอน",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ป่าบอน",
+            "SUM(quantity)": "720"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.พนา",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พนา",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.พระจอมเกล้า",
+            "SUM(quantity)": "40"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พระนครศรีอยุธยา",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พระนั่งเกล้า ",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พระนั่งเกล้า",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.พระนั่งเกล้า ",
+            "SUM(quantity)": "14"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พระปกเกล้า",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "SUM(quantity)": "960"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.พล",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พล",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พลับพลาชัย",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พหลพยุหเสนา",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.พหลพยุหเสนา",
+            "SUM(quantity)": "5"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พังงา",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พิจิตร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.พิจิตร",
+            "SUM(quantity)": "7"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พุทธชินราช",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.พุทธชินราช",
+            "SUM(quantity)": "375"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.พุทธโสธร",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พุทธโสธร",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.พุทไธสง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.มหาราชนครราชสีมา",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.มหาราชนครศรีธรรมราช",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.มหาราชนคราชสีมา",
+            "SUM(quantity)": "1860"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.มหาราชนคราชสีมา",
+            "SUM(quantity)": "11"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.มหาสารคาม",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.มหาสารคาม",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.มะการักษ์",
+            "SUM(quantity)": "15"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.มุกดาหาร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ยโสธร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ระนอง",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ระนอง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ระยอง",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ระยอง",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ราชบุรี",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ราชบุรี",
+            "SUM(quantity)": "1110"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ราชบุรี",
+            "SUM(quantity)": "345"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ราชสาส์น",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ร้อยเอ็ด",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ร้อยเอ็ด",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ละงู",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ละหานทราย",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ลาดบัวหลวง",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ลำปลายมาศ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ลำปาง",
+            "SUM(quantity)": "750"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ลำปาง",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ลำพูน",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.วชิระภูเก็ต",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.วานรนิวาส",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ศรีประจันต์",
+            "SUM(quantity)": "5000"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ศรีสะเกษ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ศรีสังวรสุโขทัย",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.ศีขรภูมิ",
+            "SUM(quantity)": "10"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สกลนคร",
+            "SUM(quantity)": "100"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สงฆ์ ",
+            "SUM(quantity)": "20"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สตึก",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สตูล",
+            "SUM(quantity)": "900"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สตูล",
+            "SUM(quantity)": "40"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สมุทรปราการ",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมุทรสาคร",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สมุทรสาคร",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สมเด็จพระพุทธเลิศหล้า",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชสระแก้ว",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชสว่างแดนดิน",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชสายบุรี ",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชหล่มเก่า",
+            "SUM(quantity)": "4"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สมเด็จพระยุพราชเด่นชัย",
+            "SUM(quantity)": "1710"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สมเด็จพระเจ้าตากสินมหาราช",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สรรพสิทธิประสงค์",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สรรพสิทธิประสงค์",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สระบุรี",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สระบุรี",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สวรรค์ประชารักษ์",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สวรรค์ประชารักษ์",
+            "SUM(quantity)": "515"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สุราษฎร์ธานี",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สุราษฎร์ธานี",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สุรินทร์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.สุโขทัย",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.สุโขทัย",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.สุโขทัย",
+            "SUM(quantity)": "5"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.หนองกี่",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.หนองคาย",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.หนองคาย",
+            "SUM(quantity)": "30"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.หนองฉาง",
+            "SUM(quantity)": "1450"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.หนองฉาง",
+            "SUM(quantity)": "810"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.หนองบัวลำพู",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.หนองหงส์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.หาดใหญ่",
+            "SUM(quantity)": "660"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.หาดใหญ่",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.ห้วยพลู",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.ห้วยราช",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.ห้วยเกิ้ง",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.อรัญประเทศ",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.อรัญประเทศ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.อุดรธานี",
+            "SUM(quantity)": "510"
+        },
+        {
+            "manufacter": "องค์การเภสัชกรรม",
+            "rec_hospital   ": "รพ.อุดรธานี",
+            "SUM(quantity)": "315"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.อุตรดิตถ์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.อุทัยธานี",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.อ่างทอง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "SUM(quantity)": "810"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "SUM(quantity)": "293"
+        },
+        {
+            "manufacter": "สำนักงานคณะกรรมการอาหารและยา",
+            "rec_hospital   ": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "SUM(quantity)": "100"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.เฉลิมพระเกียรติสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี",
+            "SUM(quantity)": "400"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.เชียงรายประชานุเคราะห์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "กองพัฒนายาแผนไทยและสมุนไพร กรมการแพทย์แผนไทยและการแพทย์ทางเลือก",
+            "rec_hospital   ": "รพ.เถิน",
+            "SUM(quantity)": "950"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เทพรัตน์นครราชสีมา",
+            "SUM(quantity)": "300"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เพชรบูรณ์ ",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.เพชรบูรณ์",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เลย",
+            "SUM(quantity)": "1200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เสนา",
+            "SUM(quantity)": "150"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.เสนา ",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.เสาไห้เฉลิมพระเกียรติ ๘๐ พรรษา ",
+            "SUM(quantity)": "1110"
+        },
+        {
+            "manufacter": "รพ.พระอาจารย์ฝั้น อาจาโร",
+            "rec_hospital   ": "รพ.แกลง",
+            "SUM(quantity)": "450"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.แกลง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.แคนดง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.แพร่",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.แม่สอด",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.โนนดินแดง",
+            "SUM(quantity)": "200"
+        },
+        {
+            "manufacter": "รพ.เจ้าพระยาอภัยภูเบศร",
+            "rec_hospital   ": "รพ.โนนสุวรรณ",
+            "SUM(quantity)": "200"
+        }
+    ]
+}
