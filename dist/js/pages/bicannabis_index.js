@@ -17,6 +17,7 @@ function bicannabisindex() {
     "ธันวาคม",
   ];
   //document.getElementById("header_date").innerText += (myDate.getDate() + ' ' + month_arr[(myDate.getMonth())] + ' ' + (myDate.getFullYear()+543));
+  //test
   cannabisFake = {
     "TH-57": 150, //Comment
     "TH-56": 178,
