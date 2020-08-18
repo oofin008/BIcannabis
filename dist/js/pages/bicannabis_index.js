@@ -1,3 +1,5 @@
+const { default: Axios } = require("axios");
+
 function bicannabisindex() {
   //cannibisFake should get data from API
   //This is for mockup purpose
@@ -503,6 +505,10 @@ function bicannabisindex() {
 
   var map;
   // cannabisFake = cannabisOwn_study;
+  Axios.get('http://127.0.0.1:8000/fda_api/fda_cannabis_license/count')
+    .then(function(response){
+      console.log(response);
+    });
 
   //build new map to display overall data
   var palette = ["#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854"];
